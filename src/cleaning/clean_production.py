@@ -2,25 +2,7 @@ import os
 import pandas as pd
 import numpy as np
 
-# Canonical State Name Dictionary
-STATE_CANONICAL_MAP = {
-    "Andaman And Nicobar Islands": "Andaman & Nicobar Islands",
-    "Andaman and Nicobar Islands": "Andaman & Nicobar Islands",
-    "Dadra And Nagar Haveli": "Dadra & Nagar Haveli and Daman & Diu",
-    "Daman And Diu": "Dadra & Nagar Haveli and Daman & Diu",
-    "Gujrat": "Gujarat",
-    "Maharastra": "Maharashtra",
-    "West Bangal": "West Bengal",
-    "West Bengal": "West Bengal",
-    "Orissa": "Odisha"
-}
-
-def standardize_state(state_name: str) -> str:
-    """Map raw state name to standardized canonical state name."""
-    if not isinstance(state_name, str):
-        return "Unknown"
-    cleaned = state_name.strip()
-    return STATE_CANONICAL_MAP.get(cleaned, cleaned)
+from src.utils.geo import standardize_state, STATE_CANONICAL_MAP
 
 def clean_production_dataset(input_parquet: str = "data/processed/cleaned_rice_apy_production.parquet",
                              output_parquet: str = "data/processed/rice_production.parquet") -> pd.DataFrame:

@@ -5,6 +5,8 @@ from fastapi import APIRouter, Query, HTTPException
 from pydantic import BaseModel
 from src.models.lightgbm_model import LightGBMForecaster
 
+from src.utils.geo import standardize_state
+
 router = APIRouter(prefix="/api", tags=["Price Forecast"])
 
 class PricePoint(BaseModel):
@@ -36,20 +38,23 @@ def get_price_forecast(
     live_csv_path = "data/processed/live_market_latest.csv"
     ew_path = "data/processed/early_warning.csv"
 
-    st_val = state if state and state != "All States" else "All States"
+    norm_state = standardize_state(state) if state and state != "All States" else None
+    st_val = norm_state or "All States"
     dist_val = district if district and district != "All Districts" else "All Districts"
     mkt_val = market if market and market != "All Markets" else "All Markets"
 
     hist_points = []
     fc_points = []
 
-    # 1. Check feature engineered historical dataset for exact location series
+    # 1. Check feature engineered historical dataset for location series
     if os.path.exists(fe_path):
         try:
             df_fe = pd.read_parquet(fe_path)
+            if "state" in df_fe.columns:
+                df_fe["state_norm"] = df_fe["state"].apply(lambda x: standardize_state(str(x)))
             sub_fe = df_fe.copy()
-            if state and state != "All States":
-                sub_fe = sub_fe[sub_fe["state"].astype(str).str.lower() == state.lower()]
+            if norm_state and "state_norm" in sub_fe.columns:
+                sub_fe = sub_fe[sub_fe["state_norm"].str.lower() == norm_state.lower()]
             if district and district != "All Districts":
                 sub_fe = sub_fe[sub_fe["district"].astype(str).str.lower() == district.lower()]
             if market and market != "All Markets":

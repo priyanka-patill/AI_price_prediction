@@ -8,6 +8,7 @@ from datetime import datetime
 
 from src.config import get_api_key, AGMARKNET_BASE_URL, AGMARKNET_RESOURCE_ID, AGMARKNET_COMMODITIES
 from src.ingestion.data_status import status_tracker
+from src.utils.geo import standardize_state
 
 class AgmarknetClient:
     """
@@ -24,27 +25,16 @@ class AgmarknetClient:
         }
 
     def normalize_record(self, raw_rec: Dict[str, Any], data_source_status: str = "LIVE") -> Dict[str, Any]:
-        """
-        Normalization Layer mapping raw data.gov.in API keys to canonical schema:
-        state, district, market, commodity, arrival_date, min_price, max_price, modal_price.
-        """
-        rec = {k.lower().strip(): v for k, v in raw_rec.items()}
-        
-        # State
-        state_val = rec.get("state") or rec.get("state_name") or rec.get("state_title") or "Unknown State"
-        # District
-        dist_val = rec.get("district") or rec.get("district_name") or rec.get("district_title") or "Unknown District"
-        # Market
-        mkt_val = rec.get("market") or rec.get("market_name") or rec.get("mandi") or "Unknown Mandi"
-        # Commodity
+        """Map raw API record keys to standardized system schema."""
+        rec = {str(k).lower().strip(): v for k, v in raw_rec.items()} if isinstance(raw_rec, dict) else {}
+        state_val = rec.get("state") or rec.get("state_name") or rec.get("state_title") or "Unknown"
+        dist_val = rec.get("district") or rec.get("district_name") or rec.get("district_title") or "Unknown"
+        mkt_val = rec.get("market") or rec.get("market_name") or rec.get("mandi") or "Unknown"
         comm_val = rec.get("commodity") or rec.get("commodity_name") or "Rice"
-        # Variety
         var_val = rec.get("variety") or rec.get("variety_name") or "Other"
-        # Arrival Date
-        date_val = rec.get("arrival_date") or rec.get("date") or rec.get("created_date") or datetime.now().strftime("%Y-%m-%d")
-        
-        # Helper for numeric price fields
-        def to_float(val, default=0.0):
+        date_val = rec.get("arrival_date") or rec.get("arrival_date") or rec.get("date") or datetime.now().strftime("%d/%m/%Y")
+
+        def to_float(val: Any, default: float = 0.0) -> float:
             try:
                 if val is None or str(val).strip() == "":
                     return default
@@ -58,7 +48,7 @@ class AgmarknetClient:
         arrivals_v = to_float(rec.get("arrivals") or rec.get("arrival"), 150.0)
 
         return {
-            "state": str(state_val).strip(),
+            "state": standardize_state(str(state_val).strip()),
             "district": str(dist_val).strip(),
             "market": str(mkt_val).strip(),
             "commodity": str(comm_val).strip(),

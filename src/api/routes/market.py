@@ -5,6 +5,7 @@ from fastapi import APIRouter, Query
 from pydantic import BaseModel
 from src.ingestion.data_status import status_tracker
 from src.models.lightgbm_model import LightGBMForecaster
+from src.utils.geo import standardize_state
 
 router = APIRouter(prefix="/api", tags=["Market Overview"])
 
@@ -37,11 +38,13 @@ def get_market_overview(
     ew_path = "data/processed/early_warning.csv"
     data_path = "data/processed/feature_engineered_modelling_dataset.parquet"
 
+    norm_state = standardize_state(state) if state and state != "All States" else None
+
     forecaster = LightGBMForecaster()
-    lgb_pred_res = forecaster.predict_location_prices(state=state, district=district, market=market)
+    lgb_pred_res = forecaster.predict_location_prices(state=norm_state, district=district, market=market)
 
     pred_status = "AVAILABLE" if lgb_pred_res.get("is_available") else "UNAVAILABLE"
-    pred_msg = None if lgb_pred_res.get("is_available") else lgb_pred_res.get("reason", "Prediction unavailable for this location.")
+    pred_msg = lgb_pred_res.get("prediction_message") or lgb_pred_res.get("reason", "Prediction unavailable for this location.")
 
     p7d = lgb_pred_res.get("predicted_price_7d")
     p15d = lgb_pred_res.get("predicted_price_15d")
@@ -54,9 +57,10 @@ def get_market_overview(
         try:
             df_live = pd.read_csv(live_csv_path)
             if not df_live.empty and "modal_price" in df_live.columns:
+                df_live["state_norm"] = df_live["state"].apply(lambda x: standardize_state(str(x)))
                 sub_live = df_live.copy()
-                if state and state != "All States":
-                    sub_live = sub_live[sub_live["state"].astype(str).str.lower() == state.lower()]
+                if norm_state:
+                    sub_live = sub_live[sub_live["state_norm"].str.lower() == norm_state.lower()]
                 if district and district != "All Districts":
                     sub_live = sub_live[sub_live["district"].astype(str).str.lower() == district.lower()]
                 if market and market != "All Markets":

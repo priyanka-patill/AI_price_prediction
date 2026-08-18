@@ -109,8 +109,10 @@ class LightGBMForecaster:
 
     def predict_location_prices(self, state: str = None, district: str = None, market: str = None, dataset_path: str = "data/processed/feature_engineered_modelling_dataset.parquet") -> Dict[str, Any]:
         """
-        Run inference on trained LightGBM models (7D, 15D, 30D) for a given location using actual feature vectors.
-        Returns dictionary with predicted_7d, predicted_15d, predicted_30d, or is_available: False if historical data is insufficient.
+        Run inference on trained LightGBM models (7D, 15D, 30D) using a 3-level geographic hierarchy:
+        - Level 1 (DISTRICT): Exact match on State + District
+        - Level 2 (STATE): State-level aggregated historical feature vector
+        - Level 3 (NATIONAL): National-level aggregated historical feature vector
         """
         if not os.path.exists(dataset_path):
             return {"is_available": False, "reason": "Feature engineered dataset not found"}
@@ -123,24 +125,59 @@ class LightGBMForecaster:
             feature_cols = json.load(f)
             
         df_fe = pd.read_parquet(dataset_path)
-        sub = df_fe.copy()
         
-        if state and state != "All States":
-            sub = sub[sub["state"].astype(str).str.lower() == state.lower()]
-        if district and district != "All Districts":
-            sub = sub[sub["district"].astype(str).str.lower() == district.lower()]
-        if market and market != "All Markets":
-            sub = sub[sub["market"].astype(str).str.lower() == market.lower()]
-            
+        # Standardize state names in dataset for exact matching
+        from src.utils.geo import standardize_state
+        if "state" in df_fe.columns:
+            df_fe["state"] = df_fe["state"].apply(standardize_state)
+        
+        norm_state = standardize_state(state) if state and state != "All States" else None
+        norm_dist = district.strip() if district and district != "All Districts" else None
+        norm_mkt = market.strip() if market and market != "All Markets" else None
+
+        pred_level = "NATIONAL"
+        pred_msg = "Prediction based on national-level historical data"
+        
+        # Level 1: Try District / Market filter
+        sub = df_fe.copy()
+        if norm_state:
+            sub = sub[sub["state"].astype(str).str.lower() == norm_state.lower()]
+        if norm_dist and not sub.empty:
+            sub_dist = sub[sub["district"].astype(str).str.lower() == norm_dist.lower()]
+            if not sub_dist.empty:
+                sub = sub_dist
+                pred_level = "DISTRICT"
+                pred_msg = "Prediction based on district-level historical data"
+        if norm_mkt and pred_level == "DISTRICT" and not sub.empty:
+            sub_mkt = sub[sub["market"].astype(str).str.lower() == norm_mkt.lower()]
+            if not sub_mkt.empty:
+                sub = sub_mkt
+
+        # Level 2: Try State filter if Level 1 was empty or district wasn't specified
+        if (sub.empty or pred_level == "NATIONAL") and norm_state:
+            sub_st = df_fe[df_fe["state"].astype(str).str.lower() == norm_state.lower()] if "state" in df_fe.columns else pd.DataFrame()
+            if not sub_st.empty:
+                sub = sub_st
+                pred_level = "STATE"
+                pred_msg = "Prediction based on state-level historical data"
+
+        # Level 3: Fall back to National dataset if Level 1 & 2 are empty
+        if sub.empty:
+            sub = df_fe.copy()
+            pred_level = "NATIONAL"
+            pred_msg = "Prediction based on national-level historical data"
+
         if sub.empty:
             return {
                 "is_available": False,
-                "reason": "Prediction unavailable: insufficient historical Rice price data for this location."
+                "reason": "Prediction unavailable: no feature vectors found in historical dataset."
             }
-            
-        latest_row = sub.sort_values(by="date").iloc[-1:]
-        X = latest_row[feature_cols]
-        
+
+        # Take latest date row(s) and compute feature vector mean across matching records
+        latest_dt = sub["date"].max()
+        latest_rows = sub[sub["date"] == latest_dt]
+        X = latest_rows[feature_cols].mean(axis=0).to_frame().T
+
         preds = {}
         for h in [7, 15, 30]:
             model_path = os.path.join(self.model_dir, f"lightgbm_{h}d.pkl")
@@ -150,9 +187,11 @@ class LightGBMForecaster:
                 preds[f"predicted_price_{h}d"] = round(pred_val, 2)
             else:
                 return {"is_available": False, "reason": f"Model for horizon {h}D not found"}
-                
+
         return {
             "is_available": True,
+            "prediction_level": pred_level,
+            "prediction_message": pred_msg,
             "predicted_price_7d": preds.get("predicted_price_7d"),
             "predicted_price_15d": preds.get("predicted_price_15d"),
             "predicted_price_30d": preds.get("predicted_price_30d")

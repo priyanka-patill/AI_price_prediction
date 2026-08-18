@@ -13,6 +13,7 @@ import numpy as np
 import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
+from src.utils.geo import standardize_state, get_state_center, STATE_COORDINATES
 
 # Configurable Backend Connections (Supports Port 8000 and 8001 automatically)
 DEFAULT_BACKEND_URLS = [
@@ -39,72 +40,80 @@ st.markdown("""
         border: 1px solid #2e3545;
         text-align: center;
     }
+    .stApp {
+        background-color: #0e1117;
+    }
 </style>
 """, unsafe_allow_html=True)
 
-from src.config import BACKEND_URL
-
-# Single Source Backend Connection (Strict single-port connection)
-BACKEND_ENDPOINT = BACKEND_URL.rstrip("/")
-
-def fetch_api(endpoint: str, params: dict = None):
-    try:
-        url = f"{BACKEND_ENDPOINT}{endpoint}"
-        resp = requests.get(url, params=params, timeout=5)
-        if resp.status_code == 200:
-            return resp.json()
-    except Exception as e:
-        print(f"[Dashboard] Connection error to backend {BACKEND_ENDPOINT}: {e}")
+# -------------------------------------------------------------
+# HELPER FUNCTIONS & API INTEGRATION
+# -------------------------------------------------------------
+def fetch_api(endpoint: str, params: dict = None) -> any:
+    """Fetch JSON response from backend with fallback discovery."""
+    for base in DEFAULT_BACKEND_URLS:
+        try:
+            url = f"{base}{endpoint}"
+            resp = requests.get(url, params=params, timeout=4)
+            if resp.status_code == 200:
+                return resp.json()
+        except Exception:
+            continue
     return None
 
-def trigger_realtime_sync(commodity: str = "Rice"):
-    payload = {"commodity": commodity, "limit": 100}
-    try:
-        url = f"{BACKEND_ENDPOINT}/api/sync-realtime-data"
-        resp = requests.post(url, json=payload, timeout=15)
-        if resp.status_code == 200:
-            return resp.json()
-    except Exception as e:
-        print(f"[Dashboard] Connection error triggering sync to {BACKEND_ENDPOINT}: {e}")
+def trigger_realtime_sync(commodity: str = "Rice") -> any:
+    """Trigger on-demand API fetch."""
+    for base in DEFAULT_BACKEND_URLS:
+        try:
+            url = f"{base}/api/sync-realtime-data"
+            resp = requests.post(url, params={"commodity": commodity}, timeout=15)
+            if resp.status_code == 200:
+                return resp.json()
+        except Exception:
+            continue
     return None
 
 def normalize_geo_columns(df: pd.DataFrame) -> pd.DataFrame:
-    """Standardize DataFrame column names to lowercase and clean string values for geo matching."""
+    """Normalize DataFrame geographic column headers."""
     if df.empty:
         return df
-    df = df.copy()
-    df.columns = [str(c).strip().lower() for c in df.columns]
-    
-    for col in ["state", "district", "market"]:
-        if col in df.columns:
-            df[col] = df[col].astype(str).str.strip()
-    return df
+    col_map = {}
+    for col in df.columns:
+        c_lower = col.lower().strip()
+        if c_lower in ["state", "state_name", "state_title"]:
+            col_map[col] = "state"
+        elif c_lower in ["district", "district_name", "district_title"]:
+            col_map[col] = "district"
+        elif c_lower in ["market", "mandi", "market_name"]:
+            col_map[col] = "market"
+    renamed = df.rename(columns=col_map)
+    if "state" in renamed.columns:
+        renamed["state"] = renamed["state"].apply(lambda s: standardize_state(str(s)))
+    return renamed
 
 def validate_risk_map_schema(ew_df: pd.DataFrame, coords_df: pd.DataFrame) -> bool:
-    """Validate that required state and district columns exist in both dataframes."""
     if ew_df.empty or coords_df.empty:
         return False
     ew_cols = set(ew_df.columns)
     coords_cols = set(coords_df.columns)
     return {"state", "district"}.issubset(ew_cols) and {"state", "district"}.issubset(coords_cols)
 
-# Load local fallback files with normalized schema
-@st.cache_data
+@st.cache_data(ttl=3600)
 def load_local_fallback():
     ew_path = "data/processed/early_warning.csv"
     fc_path = "data/processed/forecasts.csv"
-    shap_path = "data/processed/shap_local_explanations.csv"
-    prio_path = "data/processed/state_priority.csv"
-    rec_path = "data/processed/optimization_recommendations.csv"
+    shap_path = "data/processed/shap_feature_importance.csv"
+    prio_path = "data/processed/state_priority_rankings.csv"
+    rec_path = "data/processed/stock_release_recommendation.csv"
     coords_path = "data/metadata/location_coordinates.csv"
-    
+
     ew_df = normalize_geo_columns(pd.read_csv(ew_path)) if os.path.exists(ew_path) else pd.DataFrame()
-    fc_df = normalize_geo_columns(pd.read_csv(fc_path)) if os.path.exists(fc_path) else pd.DataFrame()
-    shap_df = normalize_geo_columns(pd.read_csv(shap_path)) if os.path.exists(shap_path) else pd.DataFrame()
+    fc_df = pd.read_csv(fc_path) if os.path.exists(fc_path) else pd.DataFrame()
+    shap_df = pd.read_csv(shap_path) if os.path.exists(shap_path) else pd.DataFrame()
     priority_df = normalize_geo_columns(pd.read_csv(prio_path)) if os.path.exists(prio_path) else pd.DataFrame()
     rec_df = normalize_geo_columns(pd.read_csv(rec_path)) if os.path.exists(rec_path) else pd.DataFrame()
     coords_df = normalize_geo_columns(pd.read_csv(coords_path)) if os.path.exists(coords_path) else pd.DataFrame()
-    
+
     return ew_df, fc_df, shap_df, priority_df, rec_df, coords_df
 
 ew_df, fc_df, shap_df, priority_df, rec_df, coords_df = load_local_fallback()
@@ -137,33 +146,49 @@ if os.path.exists(live_csv_path) and data_status.get("mandi_status") == "LIVE":
 else:
     df_loc = ew_df.copy()
 
-# State list
-state_list = sorted(df_loc["state"].dropna().unique()) if not df_loc.empty and "state" in df_loc.columns else []
+# Dynamic State Discovery from API
+states_res = fetch_api("/api/states")
+if states_res:
+    state_list = states_res
+else:
+    state_list = sorted(df_loc["state"].dropna().unique()) if not df_loc.empty and "state" in df_loc.columns else []
+
+if "prev_state" not in st.session_state:
+    st.session_state["prev_state"] = "All States"
+
 selected_state = st.sidebar.selectbox("State", ["All States"] + state_list)
 
+# Reset district & market on state change
+if selected_state != st.session_state["prev_state"]:
+    st.session_state["prev_state"] = selected_state
+    st.session_state["selected_dist_key"] = "All Districts"
+    st.session_state["selected_market_key"] = "All Markets"
+
 # District list (filtered by selected state)
-if selected_state != "All States" and not df_loc.empty and "state" in df_loc.columns:
-    df_state = df_loc[df_loc["state"].astype(str).str.lower() == selected_state.lower()]
-    dist_list = sorted(df_state["district"].dropna().unique())
+if selected_state != "All States":
+    d_res = fetch_api("/api/districts", params={"state": selected_state})
+    if d_res:
+        dist_list = d_res
+    else:
+        df_state = df_loc[df_loc["state"].astype(str).str.lower() == selected_state.lower()]
+        dist_list = sorted(df_state["district"].dropna().unique()) if not df_state.empty else []
 else:
     dist_list = sorted(df_loc["district"].dropna().unique()) if not df_loc.empty and "district" in df_loc.columns else []
 
-selected_dist = st.sidebar.selectbox("District", ["All Districts"] + dist_list)
+selected_dist = st.sidebar.selectbox("District", ["All Districts"] + dist_list, key="selected_dist_key")
 
 # Market list (filtered by selected district)
-if selected_dist != "All Districts" and not df_loc.empty and "district" in df_loc.columns:
-    if selected_state != "All States":
-        df_dist = df_state[df_state["district"].astype(str).str.lower() == selected_dist.lower()]
+if selected_state != "All States":
+    m_res = fetch_api("/api/markets", params={"state": selected_state, "district": selected_dist})
+    if m_res:
+        mkt_list = m_res
     else:
-        df_dist = df_loc[df_loc["district"].astype(str).str.lower() == selected_dist.lower()]
-    mkt_list = sorted(df_dist["market"].dropna().unique())
+        df_dist = df_loc[(df_loc["state"].astype(str).str.lower() == selected_state.lower()) & (df_loc["district"].astype(str).str.lower() == selected_dist.lower())] if selected_dist != "All Districts" else df_loc[df_loc["state"].astype(str).str.lower() == selected_state.lower()]
+        mkt_list = sorted(df_dist["market"].dropna().unique()) if not df_dist.empty else []
 else:
-    if selected_state != "All States" and not df_loc.empty and "state" in df_loc.columns:
-        mkt_list = sorted(df_state["market"].dropna().unique())
-    else:
-        mkt_list = sorted(df_loc["market"].dropna().unique()) if not df_loc.empty and "market" in df_loc.columns else []
+    mkt_list = sorted(df_loc["market"].dropna().unique()) if not df_loc.empty and "market" in df_loc.columns else []
 
-selected_market = st.sidebar.selectbox("Market", ["All Markets"] + mkt_list)
+selected_market = st.sidebar.selectbox("Market", ["All Markets"] + mkt_list, key="selected_market_key")
 
 selected_horizon = st.sidebar.radio("Forecast Horizon", [7, 15, 30], index=0, format_func=lambda h: f"{h} Days Ahead")
 
@@ -174,7 +199,7 @@ st.sidebar.markdown("### 📊 DATA SOURCE STATUS")
 is_live = (data_status.get("mandi_status") == "LIVE") and (data_status.get("weather_status") == "LIVE")
 
 if is_live:
-    st.sidebar.success("🟢 **LIVE AGMARKNET DATA**")
+    st.sidebar.success("🟢 **LIVE AGMARKNET DATA CONNECTED**")
 else:
     st.sidebar.error(f"🔴 **{data_status.get('mandi_status', 'FALLBACK')} MODE**")
     if data_status.get("mandi_error_reason"):
@@ -202,7 +227,9 @@ st.title("🌾 AI-Enabled Predictive Price Intelligence & Buffer Stock Decision 
 st.markdown("**Ministry of Consumer Affairs, Food & Public Distribution — Mandi Price Intelligence Engine**")
 
 # Data Source Status Alert Banner
-if not is_live:
+if is_live:
+    st.success("🟢 **DATA SOURCE STATUS**: Connected to **AGMARKNET Live API** (`9ef84268-d588-465a-a308-a864a43d0070`). Multi-State Live Mandi Prices are actively updating.")
+else:
     st.warning(
         f"⚠️ **DATA SOURCE STATUS**: Mandi API is currently in **FALLBACK MODE** (`{data_status.get('mandi_error_reason')}`).\n\n"
         f"👉 **Server Configuration**: Ensure `DATA_GOV_API_KEY` is configured in your project `.env` file.\n\n"
@@ -259,8 +286,8 @@ risk_emoji = "🟢 NORMAL" if risk_lbl == "NORMAL" else "🟡 WARNING" if risk_l
 col5.metric("Market Risk Level", risk_emoji)
 
 st.caption(f"📌 **Current Price Derivation**: {agg_method}")
-if pred_status == "UNAVAILABLE" and pred_msg:
-    st.info(f"ℹ️ **ML Prediction Status**: {pred_msg}")
+if pred_msg:
+    st.info(f"ℹ️ **ML Prediction Model**: {pred_msg}")
 
 st.markdown("---")
 
@@ -335,28 +362,24 @@ col_map, col_shap = st.columns([1, 1])
 with col_map:
     st.markdown("### 3. Regional Risk Map")
     
-    map_api_data = fetch_api("/api/risk-map")
+    map_params = {
+        "state": None if selected_state == "All States" else selected_state,
+        "district": None if selected_dist == "All Districts" else selected_dist,
+        "market": None if selected_market == "All Markets" else selected_market
+    }
+    map_api_data = fetch_api("/api/risk-map", params=map_params)
     
     if map_api_data:
         m_map = pd.DataFrame(map_api_data)
         m_map = normalize_geo_columns(m_map)
     else:
-        if validate_risk_map_schema(ew_df, coords_df):
-            latest_ew = ew_df.sort_values(by="date").groupby(["state", "district"]).last().reset_index()
-            m_map = pd.merge(latest_ew, coords_df, on=["state", "district"], how="inner")
-        else:
-            m_map = pd.DataFrame()
-            
+        m_map = pd.DataFrame()
+
+    center_coords = get_state_center(selected_state)
+    
     if not m_map.empty and "latitude" in m_map.columns and "longitude" in m_map.columns:
         m_map["warning_level"] = m_map.get("warning_level", m_map.get("risk_level", "NORMAL"))
-        m_map["risk_color"] = m_map["warning_level"].map({"HIGH RISK": "#d62728", "WARNING": "#ff7f0e", "NORMAL": "#2ca02c"})
-        
-        if "expected_change_percent" in m_map.columns:
-            m_map["size_metric"] = m_map["expected_change_percent"].abs() + 1.0
-        elif "price_pressure_score" in m_map.columns:
-            m_map["size_metric"] = m_map["price_pressure_score"].abs() + 1.0
-        else:
-            m_map["size_metric"] = 5.0
+        m_map["size_metric"] = 8.0
 
         fig_map = px.scatter_mapbox(
             m_map,
@@ -366,17 +389,17 @@ with col_map:
             color_discrete_map={"HIGH RISK": "#d62728", "WARNING": "#ff7f0e", "NORMAL": "#2ca02c"},
             size="size_metric",
             hover_name="market" if "market" in m_map.columns else "district",
-            hover_data=[c for c in ["state", "district", "current_price", "forecast_7d", "price_pressure_score"] if c in m_map.columns],
-            zoom=3.8,
-            center={"lat": 22.5937, "lon": 78.9629},
+            hover_data=[c for c in ["state", "district", "forecast_price", "price_pressure_score"] if c in m_map.columns],
+            zoom=center_coords["zoom"],
+            center={"lat": center_coords["lat"], "lon": center_coords["lon"]},
             mapbox_style="carto-darkmatter",
             height=420
         )
         fig_map.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
         st.plotly_chart(fig_map, use_container_width=True)
-        st.caption("Geographic Resolution: State & Mandi Center Coordinates")
+        st.caption(f"Geographic Resolution: Centered on {selected_state} ({center_coords['lat']:.2f}° N, {center_coords['lon']:.2f}° E)")
     else:
-        st.info("Regional risk map data is loading.")
+        st.info(f"Regional risk map data is loading for {selected_state}.")
 
 with col_shap:
     st.markdown("### 4. Why is the Price Changing? (SHAP)")

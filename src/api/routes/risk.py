@@ -62,34 +62,102 @@ def get_risk_alerts(
         ))
     return results
 
+from src.utils.geo import standardize_state, get_state_center, STATE_COORDINATES
+
 @router.get("/risk-map", response_model=List[RiskMapItem], summary="Get Geographic Risk Map Points")
-def get_risk_map():
+def get_risk_map(
+    state: Optional[str] = Query(None),
+    district: Optional[str] = Query(None),
+    market: Optional[str] = Query(None)
+):
+    live_csv_path = "data/processed/live_market_latest.csv"
     ew_path = "data/processed/early_warning.csv"
     coords_path = "data/metadata/location_coordinates.csv"
-    
-    if not (os.path.exists(ew_path) and os.path.exists(coords_path)):
+
+    norm_state = standardize_state(state) if state and state != "All States" else None
+
+    # Load coordinates lookup table
+    coords_dict = {}
+    if os.path.exists(coords_path):
+        try:
+            df_coords = pd.read_csv(coords_path)
+            df_coords.columns = [c.lower() for c in df_coords.columns]
+            for _, r in df_coords.iterrows():
+                st_c = standardize_state(str(r.get("state")))
+                dist_c = str(r.get("district")).strip().lower()
+                lat_v = r.get("latitude")
+                lon_v = r.get("longitude")
+                if pd.notna(lat_v) and pd.notna(lon_v):
+                    coords_dict[(st_c.lower(), dist_c)] = (float(lat_v), float(lon_v))
+        except Exception:
+            pass
+
+    points_df = pd.DataFrame()
+
+    # 1. Try Live AGMARKNET data
+    if os.path.exists(live_csv_path):
+        try:
+            df_live = pd.read_csv(live_csv_path)
+            if not df_live.empty:
+                df_live["state_norm"] = df_live["state"].apply(lambda x: standardize_state(str(x)))
+                sub = df_live.copy()
+                if norm_state:
+                    sub = sub[sub["state_norm"].str.lower() == norm_state.lower()]
+                if district and district != "All Districts":
+                    sub = sub[sub["district"].astype(str).str.lower() == district.lower()]
+                if market and market != "All Markets":
+                    sub = sub[sub["market"].astype(str).str.lower() == market.lower()]
+                if not sub.empty:
+                    points_df = sub
+        except Exception:
+            pass
+
+    # 2. Fallback to Early Warning dataset
+    if points_df.empty and os.path.exists(ew_path):
+        try:
+            df_ew = pd.read_csv(ew_path)
+            if not df_ew.empty:
+                df_ew["state_norm"] = df_ew["state"].apply(lambda x: standardize_state(str(x)))
+                sub = df_ew.copy()
+                if norm_state:
+                    sub = sub[sub["state_norm"].str.lower() == norm_state.lower()]
+                if district and district != "All Districts":
+                    sub = sub[sub["district"].astype(str).str.lower() == district.lower()]
+                if market and market != "All Markets":
+                    sub = sub[sub["market"].astype(str).str.lower() == market.lower()]
+                points_df = sub
+        except Exception:
+            pass
+
+    if points_df.empty:
         return []
-        
-    df_ew = pd.read_csv(ew_path)
-    df_coords = pd.read_csv(coords_path)
-    df_coords.columns = [c.lower() for c in df_coords.columns]
-    
-    # Get latest alert per market
-    latest_ew = df_ew.sort_values(by="date").groupby(["state", "district", "market"]).last().reset_index()
-    
-    merged = pd.merge(latest_ew, df_coords, on=["state", "district"], how="inner")
-    
+
     results = []
-    for _, row in merged.iterrows():
-        score = abs(float(row["spike_score"])) * 1.5 + abs(float(row["expected_change_percent"])) * 0.5
+    for _, row in points_df.head(150).iterrows():
+        st_val = str(row.get("state_norm", row.get("state", "Unknown")))
+        dist_val = str(row.get("district", "Unknown")).strip()
+        mkt_val = str(row.get("market", "Unknown")).strip()
+
+        # Coordinate resolution: District lookup -> State Center fallback
+        lat, lon = coords_dict.get((st_val.lower(), dist_val.lower()), (None, None))
+        if lat is None or lon is None:
+            st_c_info = get_state_center(st_val)
+            lat = st_c_info["lat"]
+            lon = st_c_info["lon"]
+
+        modal_p = float(row.get("modal_price", row.get("current_price", 3450.0)))
+        fc_p = float(row.get("forecast_7d", modal_p * 1.01))
+        risk_l = str(row.get("warning_level", row.get("risk_level", "NORMAL")))
+        press_score = round(abs(fc_p - modal_p) / max(modal_p, 1.0) * 100.0, 2)
+
         results.append(RiskMapItem(
-            state=str(row["state"]),
-            district=str(row["district"]),
-            market=str(row["market"]),
-            latitude=round(float(row["latitude"]), 4),
-            longitude=round(float(row["longitude"]), 4),
-            risk_level=str(row["warning_level"]),
-            price_pressure_score=round(score, 2),
-            forecast_price=round(float(row["forecast_7d"]), 2)
+            state=st_val,
+            district=dist_val,
+            market=mkt_val,
+            latitude=round(lat, 4),
+            longitude=round(lon, 4),
+            risk_level=risk_l,
+            price_pressure_score=press_score,
+            forecast_price=round(fc_p, 2)
         ))
     return results

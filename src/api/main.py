@@ -3,7 +3,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 # Import routes
-from src.api.routes import health, market, forecast, risk, explainability, optimization, sync, status
+from src.api.routes import health, market, forecast, risk, explainability, optimization, sync, status, states
 
 app = FastAPI(
     title="AI-Enabled Predictive Price Intelligence & Buffer Stock API",
@@ -24,6 +24,7 @@ app.add_middleware(
 
 # Include API Routers
 app.include_router(health.router)
+app.include_router(states.router)
 app.include_router(market.router)
 app.include_router(forecast.router)
 app.include_router(risk.router)
