@@ -88,3 +88,53 @@ def get_scenario_comparison():
         )
     ]
     return scenarios
+
+@router.get("/scenario-simulator", summary="Get Worst-Case Scenario Simulation & Buffer Stock Decision Support")
+def get_scenario_simulator(
+    base_price: float = Query(2829.23),
+    ceiling_price: float = Query(3300.0),
+    simulated_release_mt: float = Query(5000.0),
+    scenario: str = Query("worst_case")
+):
+    from src.optimization.scenario_analysis import (
+        compute_worst_case_price_trajectory,
+        compute_required_release_range,
+        simulate_price_mitigation,
+        calculate_section_wise_release
+    )
+    
+    trajectories = compute_worst_case_price_trajectory(
+        base_price=base_price,
+        predicted_7d=base_price * 1.05,
+        predicted_15d=base_price * 1.10,
+        predicted_30d=base_price * 1.15
+    )
+    
+    selected_trajectory = trajectories["worst_case"] if scenario == "worst_case" else trajectories["baseline"]
+    unmitigated_peak_price = selected_trajectory["30d"]
+    
+    release_range = compute_required_release_range(
+        unmitigated_price=unmitigated_peak_price,
+        ceiling_price=ceiling_price
+    )
+    
+    mitigated_trajectory = simulate_price_mitigation(
+        unmitigated_trajectory=selected_trajectory,
+        release_mt=simulated_release_mt
+    )
+    
+    section_breakdown = calculate_section_wise_release(
+        total_release_mt=simulated_release_mt
+    )
+    
+    return {
+        "scenario": scenario,
+        "base_price": base_price,
+        "ceiling_price": ceiling_price,
+        "simulated_release_mt": simulated_release_mt,
+        "unmitigated_trajectory": selected_trajectory,
+        "mitigated_trajectory": mitigated_trajectory,
+        "release_range": release_range,
+        "sections": section_breakdown
+    }
+

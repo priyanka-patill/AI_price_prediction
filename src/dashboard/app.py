@@ -467,35 +467,242 @@ with col_shap:
 st.markdown("---")
 
 # -------------------------------------------------------------
-# SECTION 5 & 6: BUFFER STOCK INTERVENTION SIMULATOR
+# SECTION 5: BUFFER STOCK DECISION SUPPORT & SCENARIO SIMULATOR
 # -------------------------------------------------------------
 st.markdown("### 5. Buffer Stock Decision Support & Scenario Simulator")
 
-col_opt_info, col_sim = st.columns([1, 1])
+from src.optimization.scenario_analysis import (
+    compute_worst_case_price_trajectory,
+    compute_required_release_range,
+    simulate_price_mitigation,
+    calculate_section_wise_release
+)
 
-with col_opt_info:
-    st.markdown("#### Recommended Stock Release for Consideration")
-    if not rec_df.empty:
-        rec_row = rec_df.iloc[0]
-        st.success(f"**Recommended Action**: Release **{rec_row['recommended_release_mt']:,.0f} MT** to **{rec_row['destination_state']}**")
-        st.write(f"• **Available Central Pool Stock**: {rec_row['available_stock_mt']:,.0f} MT")
-        st.write(f"• **Remaining Pool Reserve**: {rec_row['remaining_stock_mt']:,.0f} MT (Above 25% Reserve Limit)")
-        st.write(f"• **Estimated Transportation Cost**: ₹{rec_row['transportation_cost_rs']/1e5:,.2f} Lakhs")
-        st.caption(f"**Explanation**: {rec_row['recommendation_explanation']}")
+# Base price and forecast defaults
+base_p = curr_p if (curr_p is not None and curr_p > 0) else 2829.23
+pred_7 = p7d if (p7d is not None and p7d > 0) else base_p * 1.05
+pred_15 = p15d if (p15d is not None and p15d > 0) else base_p * 1.10
+pred_30 = p30d if (p30d is not None and p30d > 0) else base_p * 1.15
 
-with col_sim:
-    st.markdown("#### Interactive Scenario Simulator")
-    sim_release = st.slider("Simulate Buffer Stock Release (MT)", min_value=0, max_value=20000, value=5000, step=1000)
-    
-    avail_stock = 135000.0
-    rem_stock = avail_stock - sim_release
-    sim_cost = sim_release * 500 * 2.0 # ₹2.0 / MT-km over 500 km
-    
-    st.write(f"• **Simulated Stock Release**: {sim_release:,.0f} MT")
-    st.write(f"• **Simulated Remaining Reserve**: {rem_stock:,.0f} MT")
-    st.write(f"• **Simulated Transport Cost**: ₹{sim_cost/1e5:,.2f} Lakhs")
-    
-    st.info("ℹ️ **Scenario Simulation Disclaimer**: Projected price impact is model-simulated. This slider evaluates stock depletion and freight cost impact.")
+# Scenario Controls Column
+col_ctrl1, col_ctrl2 = st.columns([1, 1])
+
+with col_ctrl1:
+    selected_scenario_mode = st.radio(
+        "Select Market Scenario",
+        ["Worst-Case Scenario (Monsoon / Supply Shock)", "Baseline / Normal Market"],
+        index=0,
+        horizontal=True,
+        help="Worst-case models +18-25% price surge due to adverse weather or supply chain disruption."
+    )
+    is_worst_case = "Worst-Case" in selected_scenario_mode
+
+with col_ctrl2:
+    ceiling_price_input = st.number_input(
+        "Maximum Permissible Selling Price Ceiling (₹ / Quintal)",
+        min_value=2000.0,
+        max_value=5000.0,
+        value=3300.0,
+        step=50.0,
+        help="Price threshold above which market intervention is mandatory."
+    )
+
+# Compute trajectories
+trajectories = compute_worst_case_price_trajectory(
+    base_price=base_p,
+    predicted_7d=pred_7,
+    predicted_15d=pred_15,
+    predicted_30d=pred_30,
+    shock_factor=0.20 if is_worst_case else 0.05
+)
+
+unmitigated_traj = trajectories["worst_case"] if is_worst_case else trajectories["baseline"]
+peak_unmitigated_price = unmitigated_traj["30d"]
+
+# Compute release range requirements
+release_range = compute_required_release_range(
+    unmitigated_price=peak_unmitigated_price,
+    ceiling_price=ceiling_price_input,
+    available_stock_mt=135000.0
+)
+
+# ALERT BANNER
+if release_range["alert_triggered"]:
+    excess_rs = release_range["price_excess_rs"]
+    st.error(
+        f"🚨 **MAXIMUM SELLING PRICE EXCEEDED ALERT**: Projected 30D Unmitigated Price (**₹{peak_unmitigated_price:,.2f}/Qtl**) "
+        f"exceeds Maximum Permissible Ceiling (**₹{ceiling_price_input:,.2f}/Qtl**) by **+₹{excess_rs:,.2f}/Qtl**! "
+        f"Buffer stock release is mandatory to maintain price within permissible range."
+    )
+else:
+    st.success(
+        f"✅ **MARKET PRICE WITHIN PERMISSIBLE RANGE**: Projected 30D Price (**₹{peak_unmitigated_price:,.2f}/Qtl**) "
+        f"is below the Maximum Selling Price Ceiling (**₹{ceiling_price_input:,.2f}/Qtl**)."
+    )
+
+# RECOMMENDED BUFFER STOCK RELEASE RANGE CARDS
+st.markdown("#### Recommended Buffer Stock Release Range & Pool Capacity")
+r_col1, r_col2, r_col3, r_col4 = st.columns(4)
+
+r_col1.metric(
+    "Min Release Required",
+    f"{release_range['min_release_mt']:,.0f} MT",
+    f"To hit ₹{ceiling_price_input:,.0f} ceiling",
+    delta_color="inverse"
+)
+r_col2.metric(
+    "Optimal Release (Recommended)",
+    f"{release_range['optimal_release_mt']:,.0f} MT",
+    "For 5% safety margin",
+    delta_color="normal"
+)
+r_col3.metric(
+    "Max Safe Allocatable Release",
+    f"{release_range['max_safe_release_mt']:,.0f} MT",
+    "25% Pool Reserve Floor",
+    delta_color="normal"
+)
+r_col4.metric(
+    "Central Pool Stock Available",
+    f"{release_range['available_stock_mt']:,.0f} MT",
+    f"Reserve after optimal: {release_range['remaining_reserve_mt']:,.0f} MT"
+)
+
+# INTERACTIVE SLIDER & SIMULATION
+st.markdown("#### Interactive Buffer Stock Scenario Simulator & Price Impact")
+
+col_sim_controls, col_sim_info = st.columns([1, 1])
+
+with col_sim_controls:
+    default_sim = int(release_range['optimal_release_mt']) if release_range['optimal_release_mt'] > 0 else 5000
+    sim_release = st.slider(
+        "Simulate Buffer Stock Release Quantity (MT)",
+        min_value=0,
+        max_value=int(release_range['max_safe_release_mt']),
+        value=min(default_sim, int(release_range['max_safe_release_mt'])),
+        step=1000
+    )
+
+mitigated_traj = simulate_price_mitigation(
+    unmitigated_trajectory=unmitigated_traj,
+    release_mt=sim_release
+)
+
+mitigated_peak = mitigated_traj["30d"]
+price_cooling = peak_unmitigated_price - mitigated_peak
+sim_freight = (sim_release * 500 * 2.0) / 1e5
+
+with col_sim_info:
+    st.write(f"• **Simulated Stock Release**: **{sim_release:,.0f} MT**")
+    st.write(f"• **Price Cooling Reduction**: **-₹{price_cooling:,.2f} / Quintal**")
+    st.write(f"• **Mitigated 30D Forecast**: **₹{mitigated_peak:,.2f} / Quintal** " + ("🟢 (Under Ceiling)" if mitigated_peak <= ceiling_price_input else "🔴 (Above Ceiling)"))
+    st.write(f"• **Simulated Freight Cost**: **₹{sim_freight:,.2f} Lakhs**")
+    st.caption("ℹ️ **Scenario Simulation Disclaimer**: Price reduction is calculated based on market elasticity models.")
+
+# MULTI-HORIZON PRICE FORECAST GRAPH FOR SECTION 5
+st.markdown("#### Multi-Horizon Price Trajectory & Mitigation Impact Chart")
+
+horizons = ["Current", "7D Forecast", "15D Forecast", "30D Forecast"]
+unmit_values = [unmitigated_traj["current"], unmitigated_traj["7d"], unmitigated_traj["15d"], unmitigated_traj["30d"]]
+mit_values = [mitigated_traj["current"], mitigated_traj["7d"], mitigated_traj["15d"], mitigated_traj["30d"]]
+base_values = [trajectories["baseline"]["current"], trajectories["baseline"]["7d"], trajectories["baseline"]["15d"], trajectories["baseline"]["30d"]]
+
+fig_sim = go.Figure()
+
+# Unmitigated Trajectory Trace
+fig_sim.add_trace(go.Scatter(
+    x=horizons,
+    y=unmit_values,
+    mode="lines+markers+text",
+    text=[f"₹{v:,.0f}" for v in unmit_values],
+    textposition="top center",
+    name="Unmitigated Trajectory (No Release)",
+    line=dict(color="#d62728", width=3, dash="dash"),
+    marker=dict(size=10, color="#d62728", symbol="x")
+))
+
+# Mitigated Trajectory Trace
+fig_sim.add_trace(go.Scatter(
+    x=horizons,
+    y=mit_values,
+    mode="lines+markers+text",
+    text=[f"₹{v:,.0f}" for v in mit_values],
+    textposition="bottom center",
+    name=f"Mitigated Trajectory ({sim_release:,.0f} MT Released)",
+    line=dict(color="#2ca02c", width=3.5),
+    marker=dict(size=12, color="#2ca02c", symbol="star")
+))
+
+# Baseline Normal Trajectory Trace (if Worst-Case selected)
+if is_worst_case:
+    fig_sim.add_trace(go.Scatter(
+        x=horizons,
+        y=base_values,
+        mode="lines+markers",
+        name="Baseline Normal Trajectory",
+        line=dict(color="#1f77b4", width=2, dash="dot"),
+        marker=dict(size=7, color="#1f77b4")
+    ))
+
+# Maximum Permissible Selling Price Ceiling Threshold Line
+fig_sim.add_shape(
+    type="line",
+    x0=0, x1=len(horizons) - 1,
+    y0=ceiling_price_input, y1=ceiling_price_input,
+    line=dict(color="#ff7f0e", width=2.5, dash="dot")
+)
+
+fig_sim.add_annotation(
+    x=horizons[-1],
+    y=ceiling_price_input,
+    text=f"Max Selling Price Ceiling: ₹{ceiling_price_input:,.0f}/Qtl",
+    showarrow=False,
+    yshift=12,
+    font=dict(color="#ff7f0e", size=12, family="Arial-Bold")
+)
+
+fig_sim.update_layout(
+    title=f"Multi-Horizon Price Trajectory & Buffer Stock Impact — {selected_state} ({'Worst-Case' if is_worst_case else 'Baseline'} Scenario)",
+    xaxis_title="Forecast Horizon",
+    yaxis_title="Mandi Price (₹ / Quintal)",
+    template="plotly_dark",
+    height=440
+)
+
+st.plotly_chart(fig_sim, use_container_width=True)
+
+# SECTION / REGION-WISE STOCK RELEASE BREAKDOWN
+st.markdown("#### Section & Region-Wise Stock Release Breakdown")
+section_alloc = calculate_section_wise_release(sim_release)
+df_sec = pd.DataFrame(section_alloc)
+
+col_sec_tbl, col_sec_chart = st.columns([1.2, 1])
+
+with col_sec_tbl:
+    st.dataframe(
+        df_sec.rename(columns={
+            "section_id": "Section ID",
+            "section_name": "Section / Regional Hub",
+            "allocated_release_mt": "Allocated Release (MT)",
+            "share_percent": "Share (%)",
+            "estimated_freight_lakhs": "Est. Freight (₹ Lakhs)"
+        }),
+        hide_index=True,
+        use_container_width=True
+    )
+
+with col_sec_chart:
+    fig_sec = px.bar(
+        df_sec,
+        x="section_id",
+        y="allocated_release_mt",
+        color="section_name",
+        title="Stock Release Distribution by Section (MT)",
+        labels={"allocated_release_mt": "Release (MT)", "section_id": "Section"}
+    )
+    fig_sec.update_layout(template="plotly_dark", height=280, showlegend=False)
+    st.plotly_chart(fig_sec, use_container_width=True)
+
 
 st.markdown("---")
 

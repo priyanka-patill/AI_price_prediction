@@ -50,3 +50,14 @@ def test_api_optimization_endpoints():
     r2 = client.get("/api/scenarios")
     assert r2.status_code == 200
     assert isinstance(r2.json(), list)
+
+def test_api_scenario_simulator_endpoint():
+    res = client.get("/api/scenario-simulator?base_price=3000&ceiling_price=3300&simulated_release_mt=8000&scenario=worst_case")
+    assert res.status_code == 200
+    data = res.json()
+    assert data["scenario"] == "worst_case"
+    assert "release_range" in data
+    assert "mitigated_trajectory" in data
+    assert "sections" in data
+    assert len(data["sections"]) == 4
+
