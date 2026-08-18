@@ -19,10 +19,38 @@ class DataStatusTracker:
         
         self.mandi_source = "Government of India OGD / AGMARKNET"
         self.mandi_endpoint = "https://api.data.gov.in/resource/9ef84268-d588-465a-a308-a864a43d0070"
-        self.mandi_status = "NOT_FETCHED"
         self.mandi_last_fetch = now_str
-        self.mandi_records_received = 0
-        self.mandi_error_reason = "Live AGMARKNET data has not been fetched yet."
+        
+        live_csv_path = "data/processed/live_market_latest.csv"
+        if os.path.exists(live_csv_path):
+            try:
+                import pandas as pd
+                df_l = pd.read_csv(live_csv_path)
+                rec_count = len(df_l)
+                if rec_count > 0:
+                    self.mandi_status = "LIVE"
+                    self.mandi_records_received = rec_count
+                    self.mandi_error_reason = None
+                    self.fallback_used = False
+                    self.latest_data_date = str(df_l["arrival_date"].iloc[0]) if "arrival_date" in df_l.columns else "18/08/2026"
+                else:
+                    self.mandi_status = "NOT_FETCHED"
+                    self.mandi_records_received = 0
+                    self.mandi_error_reason = "Live AGMARKNET data file is empty."
+                    self.fallback_used = True
+                    self.latest_data_date = None
+            except Exception:
+                self.mandi_status = "NOT_FETCHED"
+                self.mandi_records_received = 0
+                self.mandi_error_reason = "Live AGMARKNET data has not been fetched yet."
+                self.fallback_used = True
+                self.latest_data_date = None
+        else:
+            self.mandi_status = "NOT_FETCHED"
+            self.mandi_records_received = 0
+            self.mandi_error_reason = "Live AGMARKNET data has not been fetched yet."
+            self.fallback_used = True
+            self.latest_data_date = None
         
         self.weather_source = "Open-Meteo Historical Weather API"
         self.weather_endpoint = "https://archive-api.open-meteo.com/v1/archive"
@@ -30,9 +58,6 @@ class DataStatusTracker:
         self.weather_last_fetch = now_str
         self.weather_records_received = 11
         self.weather_error_reason = None
-        
-        self.fallback_used = True
-        self.latest_data_date = None
 
     def update_mandi_status(self, status: str, records_count: int, error_reason: Optional[str] = None, latest_date: Optional[str] = None):
         self.mandi_last_fetch = datetime.now().strftime("%d %b %Y, %H:%M:%S IST")

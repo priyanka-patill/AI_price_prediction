@@ -41,7 +41,7 @@ def get_market_overview(
     norm_state = standardize_state(state) if state and state != "All States" else None
 
     # Determine live price first
-    is_live_ready = (status_tracker.mandi_status == "LIVE") and os.path.exists(live_csv_path)
+    is_live_ready = os.path.exists(live_csv_path)
     curr_p = None
     agg_desc = "Live National Mean AGMARKNET Price across All Mandis"
     sub_live = pd.DataFrame()
@@ -59,26 +59,29 @@ def get_market_overview(
                     sub_st = sub_live[sub_live["state_norm"].str.lower() == norm_state.lower()]
                     if not sub_st.empty:
                         sub_live = sub_st
-                        agg_desc = f"Live Mean AGMARKNET Price across Mandis in {norm_state}"
+                        agg_desc = f"Live AGMARKNET Rice Price across {norm_state} Mandis"
 
                 # Step 2: Filter by District
                 if district and district != "All Districts":
                     sub_dist = sub_live[sub_live["district"].astype(str).str.lower() == district.lower()]
                     if not sub_dist.empty:
                         sub_live = sub_dist
-                        agg_desc = f"Live Mean AGMARKNET Price across Mandis in {district}"
+                        agg_desc = f"Live AGMARKNET Rice Price across {district} District Mandis"
 
                 # Step 3: Filter by Market
                 if market and market != "All Markets":
                     sub_mkt = sub_live[sub_live["market"].astype(str).str.lower() == market.lower()]
                     if not sub_mkt.empty:
                         sub_live = sub_mkt
-                        agg_desc = f"Live AGMARKNET Mandi Price ({market})"
+                        agg_desc = f"Live AGMARKNET Rice Price at {market} Mandi"
 
                 if not sub_live.empty:
                     sub_live["modal_price"] = pd.to_numeric(sub_live["modal_price"], errors="coerce")
                     curr_p = float(sub_live["modal_price"].dropna().mean()) if not sub_live["modal_price"].dropna().empty else None
                     data_src_status = "LIVE"
+
+                print(f"[MarketOverviewRoute] Filter Request: State='{norm_state}', District='{district}', Market='{market}'")
+                print(f"[MarketOverviewRoute] Live Records Matched: {len(sub_live)} | Computed Price: Rs.{curr_p} | Desc: {agg_desc}")
         except Exception as e:
             print(f"[MarketOverviewRoute] Notice querying live market dataset: {e}")
 

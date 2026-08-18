@@ -13,7 +13,35 @@
       "arrivals": 150.0,
       "arrival_unit": "Tonnes",
       "data_source_status": "LIVE"
+    },
+    {
+      "state": "Punjab",
+      "district": "Ludhiana",
+      "market": "Ludhiana Mandi",
+      "commodity": "Rice",
+      "variety": "Other",
+      "arrival_date": "2026-08-18",
+      "min_price": 3000.0,
+      "max_price": 3500.0,
+      "modal_price": 3600.0,
+      "arrivals": 150.0,
+      "arrival_unit": "Tonnes",
+      "data_source_status": "LIVE"
+    },
+    {
+      "state": "Punjab",
+      "district": "Ludhiana",
+      "market": "Ludhiana Mandi",
+      "commodity": "Rice",
+      "variety": "Other",
+      "arrival_date": "2026-08-18",
+      "min_price": 3000.0,
+      "max_price": 3500.0,
+      "modal_price": 3600.0,
+      "arrivals": 150.0,
+      "arrival_unit": "Tonnes",
+      "data_source_status": "LIVE"
     }
   ],
-  "total": 1
+  "total": 3
 }

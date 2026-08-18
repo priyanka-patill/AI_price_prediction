@@ -1,2 +1,4 @@
 state,district,market,commodity,variety,arrival_date,min_price,max_price,modal_price,arrivals,arrival_unit,data_source_status
 Punjab,Ludhiana,Ludhiana Mandi,Rice,Other,2026-08-18,3000.0,3500.0,3600.0,150.0,Tonnes,LIVE
+Punjab,Ludhiana,Ludhiana Mandi,Rice,Other,2026-08-18,3000.0,3500.0,3600.0,150.0,Tonnes,LIVE
+Punjab,Ludhiana,Ludhiana Mandi,Rice,Other,2026-08-18,3000.0,3500.0,3600.0,150.0,Tonnes,LIVE

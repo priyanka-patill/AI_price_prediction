@@ -92,50 +92,45 @@ class AgmarknetClient:
         try:
             start_time = time.time()
             all_raw_records = []
-            current_offset = offset
-            batch_limit = min(limit, 1000)
-            total_expected = None
             last_error_msg = None
 
-            while True:
-                params = {
-                    "api-key": api_key,
-                    "format": "json",
-                    "limit": batch_limit,
-                    "offset": current_offset,
-                    "filters[commodity]": norm_comm
-                }
-                resp = requests.get(self.actual_endpoint, params=params, headers=self.headers, timeout=12)
-                if resp.status_code != 200:
-                    if resp.status_code in [401, 403]:
-                        last_error_msg = f"HTTP {resp.status_code}: API key unauthorized or quota forbidden on data.gov.in"
-                    elif resp.status_code == 404:
-                        last_error_msg = "HTTP 404: AGMARKNET API endpoint or resource ID not found"
-                    elif resp.status_code == 429:
-                        last_error_msg = "HTTP 429: Rate limit exceeded on data.gov.in"
-                    else:
-                        last_error_msg = f"HTTP {resp.status_code}: Server error from data.gov.in"
-                    break
-                try:
-                    payload = resp.json()
-                except Exception:
-                    last_error_msg = "HTTP 200: Invalid JSON payload returned by data.gov.in"
-                    break
+            # Fetch commodity variations for max coverage across Indian States
+            if commodity == "Paddy":
+                target_commodities = ["Paddy(Common)", "Paddy(Dhan)"]
+            elif "Rice" in commodity or commodity == "all":
+                target_commodities = ["Rice", "Paddy(Common)", "Paddy(Dhan)"]
+            else:
+                target_commodities = [norm_comm]
 
-                records = payload.get("records", [])
-                if not records:
-                    break
-
-                all_raw_records.extend(records)
-                if total_expected is None:
+            for comm_filter in target_commodities:
+                current_offset = 0
+                while True:
+                    params = {
+                        "api-key": api_key,
+                        "format": "json",
+                        "limit": 500,
+                        "offset": current_offset,
+                        "filters[commodity]": comm_filter
+                    }
+                    resp = requests.get(self.actual_endpoint, params=params, headers=self.headers, timeout=12)
+                    if resp.status_code != 200:
+                        last_error_msg = f"HTTP {resp.status_code} on data.gov.in"
+                        break
                     try:
-                        total_expected = int(payload.get("total", 0))
+                        payload = resp.json()
                     except Exception:
-                        total_expected = len(records)
+                        last_error_msg = "HTTP 200: Invalid JSON payload from data.gov.in"
+                        break
 
-                current_offset += len(records)
-                if len(all_raw_records) >= limit or current_offset >= total_expected or len(all_raw_records) >= 10000:
-                    break
+                    records = payload.get("records", [])
+                    if not records:
+                        break
+
+                    all_raw_records.extend(records)
+                    tot_exp = int(payload.get("total", len(records)))
+                    current_offset += len(records)
+                    if current_offset >= tot_exp or len(records) < 500:
+                        break
 
             elapsed = round(time.time() - start_time, 2)
 
@@ -144,7 +139,7 @@ class AgmarknetClient:
                 status_tracker.update_mandi_status("FALLBACK", 0, last_error_msg)
                 return self._generate_official_market_dataset(norm_comm, limit, offset)
 
-            print(f"[AGMARKNET] Fetch Completed: {len(all_raw_records)} records retrieved in {elapsed}s (Total reported by API: {total_expected})")
+            print(f"[AGMARKNET] Fetch Completed: {len(all_raw_records)} records retrieved in {elapsed}s")
 
             data = {"records": all_raw_records, "total": len(all_raw_records)}
             raw_records = all_raw_records
