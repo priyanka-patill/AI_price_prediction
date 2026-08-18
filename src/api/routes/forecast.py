@@ -3,6 +3,7 @@ import pandas as pd
 from typing import Optional, List, Dict, Any
 from fastapi import APIRouter, Query, HTTPException
 from pydantic import BaseModel
+from src.models.lightgbm_model import LightGBMForecaster
 
 router = APIRouter(prefix="/api", tags=["Price Forecast"])
 
@@ -30,84 +31,98 @@ def get_price_forecast(
 ):
     if horizon not in [7, 15, 30]:
         raise HTTPException(status_code=400, detail="Horizon must be 7, 15, or 30 days.")
-        
-    fc_path = "data/processed/forecasts.csv"
+
+    fe_path = "data/processed/feature_engineered_modelling_dataset.parquet"
+    live_csv_path = "data/processed/live_market_latest.csv"
     ew_path = "data/processed/early_warning.csv"
-    
-    if not (os.path.exists(fc_path) or os.path.exists(ew_path)):
-        raise HTTPException(status_code=404, detail="Forecast datasets not found.")
-        
-    df_fc = pd.read_csv(fc_path) if os.path.exists(fc_path) else pd.DataFrame()
-    
-    if state and not df_fc.empty:
-        sub_fc = df_fc[df_fc["location"].str.contains(state, case=False, na=False)]
-    else:
-        sub_fc = df_fc
-        
-    if district and not sub_fc.empty:
-        sub_fc = sub_fc[sub_fc["location"].str.contains(district, case=False, na=False)]
-    if market and not sub_fc.empty:
-        sub_fc = sub_fc[sub_fc["location"].str.contains(market, case=False, na=False)]
-        
-    sub_lgb = sub_fc[(sub_fc["forecast_horizon"] == f"{horizon}D") & (sub_fc["model"] == "LightGBM")].sort_values(by="forecast_date") if not sub_fc.empty else pd.DataFrame()
+
+    st_val = state if state and state != "All States" else "All States"
+    dist_val = district if district and district != "All Districts" else "All Districts"
+    mkt_val = market if market and market != "All Markets" else "All Markets"
 
     hist_points = []
     fc_points = []
 
-    if not sub_lgb.empty:
-        for idx, row in sub_lgb.iterrows():
-            dt = str(row["forecast_date"])
-            act = row["actual_price"]
-            pred = row["predicted_price"]
-            
-            if not pd.isna(act):
-                hist_points.append(PricePoint(date=dt, price=round(float(act), 2)))
-            if not pd.isna(pred):
-                fc_points.append(PricePoint(date=dt, price=round(float(pred), 2)))
+    # 1. Check feature engineered historical dataset for exact location series
+    if os.path.exists(fe_path):
+        try:
+            df_fe = pd.read_parquet(fe_path)
+            sub_fe = df_fe.copy()
+            if state and state != "All States":
+                sub_fe = sub_fe[sub_fe["state"].astype(str).str.lower() == state.lower()]
+            if district and district != "All Districts":
+                sub_fe = sub_fe[sub_fe["district"].astype(str).str.lower() == district.lower()]
+            if market and market != "All Markets":
+                sub_fe = sub_fe[sub_fe["market"].astype(str).str.lower() == market.lower()]
 
-        loc_str = str(sub_lgb["location"].iloc[0])
-        parts = loc_str.split("|")
-        st_val = parts[0] if len(parts) > 0 else (state or "Overall")
-        dist_val = parts[1] if len(parts) > 1 else (district or "Overall")
-        mkt_val = parts[2] if len(parts) > 2 else (market or "Overall")
-    elif os.path.exists(ew_path):
-        # Fallback to early_warning dataset which contains full state/market coverage
-        df_ew = pd.read_csv(ew_path)
-        if state:
-            df_ew = df_ew[df_ew["state"].str.lower() == state.lower()]
-        if district:
-            df_ew = df_ew[df_ew["district"].str.lower() == district.lower()]
-        if market:
-            df_ew = df_ew[df_ew["market"].str.lower() == market.lower()]
+            if not sub_fe.empty:
+                sub_fe = sub_fe.sort_values(by="date")
+                for _, row in sub_fe.iterrows():
+                    dt = str(row["date"])
+                    p = row.get("price_rs_per_qtl")
+                    if not pd.isna(p):
+                        hist_points.append(PricePoint(date=dt, price=round(float(p), 2)))
 
-        if df_ew.empty:
-            df_ew = pd.read_csv(ew_path)
+                # Run real LightGBM prediction for future points
+                forecaster = LightGBMForecaster()
+                lgb_res = forecaster.predict_location_prices(state=state, district=district, market=market)
+                p_val = lgb_res.get(f"predicted_price_{horizon}d")
+                if p_val is not None:
+                    last_dt = pd.to_datetime(sub_fe["date"].max())
+                    future_dt = (last_dt + pd.Timedelta(days=horizon)).strftime("%Y-%m-%d")
+                    fc_points.append(PricePoint(date=future_dt, price=p_val))
 
-        forecast_col = f"forecast_{horizon}d"
-        df_ew = df_ew.sort_values(by="date")
-        
-        for _, row in df_ew.iterrows():
-            dt = str(row["date"])
-            cp = row["current_price"]
-            fc_val = row.get(forecast_col, cp)
-            if not pd.isna(cp):
-                hist_points.append(PricePoint(date=dt, price=round(float(cp), 2)))
-            if not pd.isna(fc_val):
-                fc_points.append(PricePoint(date=dt, price=round(float(fc_val), 2)))
+                return ForecastResponse(
+                    horizon=horizon,
+                    state=st_val,
+                    district=dist_val,
+                    market=mkt_val,
+                    historical=hist_points[-60:],
+                    forecast=fc_points,
+                    confidence_interval_available=False
+                )
+        except Exception as e:
+            print(f"[ForecastRoute] Notice querying feature engineered dataset: {e}")
 
-        row_last = df_ew.iloc[-1]
-        st_val = str(row_last.get("state", state or "Overall"))
-        dist_val = str(row_last.get("district", district or "Overall"))
-        mkt_val = str(row_last.get("market", market or "Overall"))
-    else:
-        st_val, dist_val, mkt_val = state or "Overall", district or "Overall", market or "Overall"
+    # 2. Check live market dataset for recent prices if historical dataset was not matched
+    if os.path.exists(live_csv_path):
+        try:
+            df_live = pd.read_csv(live_csv_path)
+            sub_live = df_live.copy()
+            if state and state != "All States":
+                sub_live = sub_live[sub_live["state"].astype(str).str.lower() == state.lower()]
+            if district and district != "All Districts":
+                sub_live = sub_live[sub_live["district"].astype(str).str.lower() == district.lower()]
+            if market and market != "All Markets":
+                sub_live = sub_live[sub_live["market"].astype(str).str.lower() == market.lower()]
 
+            if not sub_live.empty:
+                sub_live["modal_price"] = pd.to_numeric(sub_live["modal_price"], errors="coerce")
+                for _, row in sub_live.iterrows():
+                    dt = str(row.get("arrival_date", "18/08/2026"))
+                    p = row.get("modal_price")
+                    if not pd.isna(p):
+                        hist_points.append(PricePoint(date=dt, price=round(float(p), 2)))
+
+                return ForecastResponse(
+                    horizon=horizon,
+                    state=st_val,
+                    district=dist_val,
+                    market=mkt_val,
+                    historical=hist_points[-30:],
+                    forecast=[],
+                    confidence_interval_available=False
+                )
+        except Exception as e:
+            print(f"[ForecastRoute] Notice querying live market dataset: {e}")
+
+    # 3. STRICT LOCATION RESPONSE: If requested location has no data, return empty points (NO Punjab cross-fallback)
     return ForecastResponse(
         horizon=horizon,
         state=st_val,
         district=dist_val,
         market=mkt_val,
-        historical=hist_points[-60:],
-        forecast=fc_points[-30:],
+        historical=[],
+        forecast=[],
         confidence_interval_available=False
     )

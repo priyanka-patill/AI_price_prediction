@@ -75,15 +75,22 @@ class AgmarknetClient:
     def fetch(self, commodity: str = "Rice", limit: int = 1000, offset: int = 0) -> Dict[str, Any]:
         """
         Fetch records from official AGMARKNET API on data.gov.in.
-        Distinguishes LIVE vs FALLBACK responses with safe diagnostic logging.
+        Distinguishes LIVE vs FALLBACK responses with safe pagination and diagnostic logging.
         """
         api_key = get_api_key()
         key_loaded = "YES" if bool(api_key) else "NO"
         key_len = len(api_key) if api_key else 0
-        norm_comm = AGMARKNET_COMMODITIES.get("rice", "Rice") if "Rice" in commodity else AGMARKNET_COMMODITIES.get("paddy", "Paddy(Dhan)") if "Paddy" in commodity else commodity
+        
+        # Explicit Commodity Mapping
+        if "Rice" in commodity:
+            norm_comm = AGMARKNET_COMMODITIES.get("rice", "Rice")
+        elif "Paddy" in commodity:
+            norm_comm = AGMARKNET_COMMODITIES.get("paddy", "Paddy(Common)")
+        else:
+            norm_comm = commodity
 
         print(f"[AGMARKNET] API key loaded: {key_loaded} (Length: {key_len})")
-        print(f"[AGMARKNET] Endpoint: {self.actual_endpoint}")
+        print(f"[AGMARKNET] Endpoint: {self.actual_endpoint} (Commodity: '{norm_comm}')")
 
         # Check for missing API Key
         if not api_key:
@@ -92,104 +99,96 @@ class AgmarknetClient:
             status_tracker.update_mandi_status("FALLBACK", 0, err_msg)
             return self._generate_official_market_dataset(norm_comm, limit, offset)
 
-        params = {
-            "api-key": api_key,
-            "format": "json",
-            "limit": limit,
-            "offset": offset,
-            "filters[commodity]": norm_comm
-        }
-
         try:
             start_time = time.time()
-            resp = requests.get(self.actual_endpoint, params=params, headers=self.headers, timeout=12)
-            elapsed = round(time.time() - start_time, 2)
-            
-            print(f"[AGMARKNET] HTTP Status: {resp.status_code} (Response Time: {elapsed}s)")
+            all_raw_records = []
+            current_offset = offset
+            batch_limit = min(limit, 1000)
+            total_expected = None
+            last_error_msg = None
 
-            if resp.status_code == 200:
+            while True:
+                params = {
+                    "api-key": api_key,
+                    "format": "json",
+                    "limit": batch_limit,
+                    "offset": current_offset,
+                    "filters[commodity]": norm_comm
+                }
+                resp = requests.get(self.actual_endpoint, params=params, headers=self.headers, timeout=12)
+                if resp.status_code != 200:
+                    if resp.status_code in [401, 403]:
+                        last_error_msg = f"HTTP {resp.status_code}: API key unauthorized or quota forbidden on data.gov.in"
+                    elif resp.status_code == 404:
+                        last_error_msg = "HTTP 404: AGMARKNET API endpoint or resource ID not found"
+                    elif resp.status_code == 429:
+                        last_error_msg = "HTTP 429: Rate limit exceeded on data.gov.in"
+                    else:
+                        last_error_msg = f"HTTP {resp.status_code}: Server error from data.gov.in"
+                    break
                 try:
-                    data = resp.json()
+                    payload = resp.json()
                 except Exception:
-                    err_msg = "HTTP 200: Invalid JSON payload returned by data.gov.in"
-                    print(f"[AGMARKNET] Status: FALLBACK ({err_msg})")
-                    status_tracker.update_mandi_status("FALLBACK", 0, err_msg)
-                    return self._generate_official_market_dataset(norm_comm, limit, offset)
+                    last_error_msg = "HTTP 200: Invalid JSON payload returned by data.gov.in"
+                    break
 
-                raw_records = data.get("records", [])
+                records = payload.get("records", [])
+                if not records:
+                    break
+
+                all_raw_records.extend(records)
+                if total_expected is None:
+                    try:
+                        total_expected = int(payload.get("total", 0))
+                    except Exception:
+                        total_expected = len(records)
+
+                current_offset += len(records)
+                if len(all_raw_records) >= limit or current_offset >= total_expected or len(all_raw_records) >= 10000:
+                    break
+
+            elapsed = round(time.time() - start_time, 2)
+
+            if last_error_msg and not all_raw_records:
+                print(f"[AGMARKNET] Status: FALLBACK ({last_error_msg})")
+                status_tracker.update_mandi_status("FALLBACK", 0, last_error_msg)
+                return self._generate_official_market_dataset(norm_comm, limit, offset)
+
+            print(f"[AGMARKNET] Fetch Completed: {len(all_raw_records)} records retrieved in {elapsed}s (Total reported by API: {total_expected})")
+
+            data = {"records": all_raw_records, "total": len(all_raw_records)}
+            raw_records = all_raw_records
+
+            if raw_records:
+                # Apply Normalization Layer
+                normalized_records = [self.normalize_record(r, data_source_status="LIVE") for r in raw_records]
+                data["records"] = normalized_records
+                data["total"] = len(normalized_records)
+
+                # Extract latest arrival date robustly
+                parsed_dates = []
+                for r in normalized_records:
+                    d_str = r.get("arrival_date")
+                    if d_str:
+                        try:
+                            dt_obj = pd.to_datetime(d_str, dayfirst=True, errors="coerce")
+                            if not pd.isna(dt_obj):
+                                parsed_dates.append((dt_obj, d_str))
+                        except Exception:
+                            pass
+                latest_dt = max(parsed_dates, key=lambda x: x[0])[1] if parsed_dates else datetime.now().strftime("%d/%m/%Y")
+
+                print(f"[AGMARKNET] Live Records Persisted: {len(normalized_records)}")
+                print(f"[AGMARKNET] Latest Date: {latest_dt}")
+                print(f"[AGMARKNET] Status: LIVE")
+
+                status_tracker.update_mandi_status("LIVE", len(normalized_records), None, latest_date=latest_dt)
                 
-                # If filtered query returned 0 records, execute broad diagnostic query
-                if not raw_records:
-                    print(f"[AGMARKNET] Commodity filter '{norm_comm}' returned 0 records. Running broad diagnostic request...")
-                    broad_params = {
-                        "api-key": api_key,
-                        "format": "json",
-                        "limit": 1000,
-                        "offset": 0
-                    }
-                    broad_resp = requests.get(self.actual_endpoint, params=broad_params, headers=self.headers, timeout=12)
-                    if broad_resp.status_code == 200:
-                        broad_data = broad_resp.json()
-                        all_raw = broad_data.get("records", [])
-                        target = "rice" if "rice" in commodity.lower() else "paddy" if "paddy" in commodity.lower() else commodity.lower()
-                        filtered = [
-                            r for r in all_raw 
-                            if target in str(r.get("commodity") or r.get("Commodity") or "").lower()
-                        ]
-                        raw_records = filtered if filtered else all_raw[:limit]
-                        data["records"] = raw_records
-
-                if raw_records:
-                    # Apply Normalization Layer
-                    normalized_records = [self.normalize_record(r, data_source_status="LIVE") for r in raw_records]
-                    data["records"] = normalized_records
-                    data["total"] = len(normalized_records)
-
-                    # Extract latest arrival date robustly
-                    parsed_dates = []
-                    for r in normalized_records:
-                        d_str = r.get("arrival_date")
-                        if d_str:
-                            try:
-                                dt_obj = pd.to_datetime(d_str, dayfirst=True, errors="coerce")
-                                if not pd.isna(dt_obj):
-                                    parsed_dates.append((dt_obj, d_str))
-                            except Exception:
-                                pass
-                    latest_dt = max(parsed_dates, key=lambda x: x[0])[1] if parsed_dates else datetime.now().strftime("%Y-%m-%d")
-
-                    print(f"[AGMARKNET] Records Received: {len(normalized_records)}")
-                    print(f"[AGMARKNET] Latest Date: {latest_dt}")
-                    print(f"[AGMARKNET] Status: LIVE")
-
-                    status_tracker.update_mandi_status("LIVE", len(normalized_records), None, latest_date=latest_dt)
-                    
-                    # Persist raw response and live market dataset
-                    self._persist_live_data(data, normalized_records)
-                    return data
-                else:
-                    err_msg = f"AGMARKNET API is reachable, but no records matched commodity filter '{commodity}'."
-                    print(f"[AGMARKNET] Status: FALLBACK ({err_msg})")
-                    status_tracker.update_mandi_status("FALLBACK", 0, err_msg)
-                    return self._generate_official_market_dataset(norm_comm, limit, offset)
-
-            elif resp.status_code in [401, 403]:
-                err_msg = f"HTTP {resp.status_code}: API key unauthorized or quota forbidden on data.gov.in"
-                print(f"[AGMARKNET] Status: FALLBACK ({err_msg})")
-                status_tracker.update_mandi_status("FALLBACK", 0, err_msg)
-                return self._generate_official_market_dataset(norm_comm, limit, offset)
-            elif resp.status_code == 404:
-                err_msg = "HTTP 404: AGMARKNET API endpoint or resource ID not found"
-                print(f"[AGMARKNET] Status: FALLBACK ({err_msg})")
-                status_tracker.update_mandi_status("FALLBACK", 0, err_msg)
-                return self._generate_official_market_dataset(norm_comm, limit, offset)
-            elif resp.status_code == 429:
-                err_msg = "HTTP 429: Rate limit exceeded on data.gov.in"
-                print(f"[AGMARKNET] Status: FALLBACK ({err_msg})")
-                status_tracker.update_mandi_status("FALLBACK", 0, err_msg)
-                return self._generate_official_market_dataset(norm_comm, limit, offset)
+                # Persist raw response and live market dataset
+                self._persist_live_data(data, normalized_records)
+                return data
             else:
-                err_msg = f"HTTP {resp.status_code}: Server error from data.gov.in"
+                err_msg = f"AGMARKNET API is reachable, but 0 records matched commodity filter '{norm_comm}' for the current date."
                 print(f"[AGMARKNET] Status: FALLBACK ({err_msg})")
                 status_tracker.update_mandi_status("FALLBACK", 0, err_msg)
                 return self._generate_official_market_dataset(norm_comm, limit, offset)
@@ -203,6 +202,7 @@ class AgmarknetClient:
             err_msg = f"Connection error connecting to data.gov.in: {e}"
             print(f"[AGMARKNET] Status: FALLBACK ({err_msg})")
             status_tracker.update_mandi_status("FALLBACK", 0, err_msg)
+            return self._generate_official_market_dataset(norm_comm, limit, offset)
             return self._generate_official_market_dataset(norm_comm, limit, offset)
 
     def _persist_live_data(self, raw_data: Dict[str, Any], normalized_records: List[Dict[str, Any]]) -> None:

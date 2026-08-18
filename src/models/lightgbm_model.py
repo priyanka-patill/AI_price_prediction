@@ -106,3 +106,54 @@ class LightGBMForecaster:
                 
         X = df[self.feature_cols]
         return self.models[horizon].predict(X)
+
+    def predict_location_prices(self, state: str = None, district: str = None, market: str = None, dataset_path: str = "data/processed/feature_engineered_modelling_dataset.parquet") -> Dict[str, Any]:
+        """
+        Run inference on trained LightGBM models (7D, 15D, 30D) for a given location using actual feature vectors.
+        Returns dictionary with predicted_7d, predicted_15d, predicted_30d, or is_available: False if historical data is insufficient.
+        """
+        if not os.path.exists(dataset_path):
+            return {"is_available": False, "reason": "Feature engineered dataset not found"}
+            
+        feat_meta_path = os.path.join(self.model_dir, "feature_columns.json")
+        if not os.path.exists(feat_meta_path):
+            return {"is_available": False, "reason": "Feature columns metadata not found"}
+            
+        with open(feat_meta_path, "r", encoding="utf-8") as f:
+            feature_cols = json.load(f)
+            
+        df_fe = pd.read_parquet(dataset_path)
+        sub = df_fe.copy()
+        
+        if state and state != "All States":
+            sub = sub[sub["state"].astype(str).str.lower() == state.lower()]
+        if district and district != "All Districts":
+            sub = sub[sub["district"].astype(str).str.lower() == district.lower()]
+        if market and market != "All Markets":
+            sub = sub[sub["market"].astype(str).str.lower() == market.lower()]
+            
+        if sub.empty:
+            return {
+                "is_available": False,
+                "reason": "Prediction unavailable: insufficient historical Rice price data for this location."
+            }
+            
+        latest_row = sub.sort_values(by="date").iloc[-1:]
+        X = latest_row[feature_cols]
+        
+        preds = {}
+        for h in [7, 15, 30]:
+            model_path = os.path.join(self.model_dir, f"lightgbm_{h}d.pkl")
+            if os.path.exists(model_path):
+                m = joblib.load(model_path)
+                pred_val = float(m.predict(X)[0])
+                preds[f"predicted_price_{h}d"] = round(pred_val, 2)
+            else:
+                return {"is_available": False, "reason": f"Model for horizon {h}D not found"}
+                
+        return {
+            "is_available": True,
+            "predicted_price_7d": preds.get("predicted_price_7d"),
+            "predicted_price_15d": preds.get("predicted_price_15d"),
+            "predicted_price_30d": preds.get("predicted_price_30d")
+        }

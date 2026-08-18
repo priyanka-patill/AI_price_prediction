@@ -130,20 +130,38 @@ st.sidebar.markdown("---")
 
 selected_commodity = st.sidebar.selectbox("Commodity", ["Rice (White/Parboiled)", "Paddy (Dhan)"], index=0)
 
-state_list = sorted(ew_df["state"].unique()) if not ew_df.empty and "state" in ew_df.columns else ["Punjab", "Maharashtra", "West Bengal", "Andhra Pradesh"]
+live_csv_path = "data/processed/live_market_latest.csv"
+if os.path.exists(live_csv_path) and data_status.get("mandi_status") == "LIVE":
+    df_loc = pd.read_csv(live_csv_path)
+    df_loc = normalize_geo_columns(df_loc)
+else:
+    df_loc = ew_df.copy()
+
+# State list
+state_list = sorted(df_loc["state"].dropna().unique()) if not df_loc.empty and "state" in df_loc.columns else []
 selected_state = st.sidebar.selectbox("State", ["All States"] + state_list)
 
-if selected_state != "All States" and not ew_df.empty and "state" in ew_df.columns:
-    dist_list = sorted(ew_df[ew_df["state"] == selected_state]["district"].unique())
+# District list (filtered by selected state)
+if selected_state != "All States" and not df_loc.empty and "state" in df_loc.columns:
+    df_state = df_loc[df_loc["state"].astype(str).str.lower() == selected_state.lower()]
+    dist_list = sorted(df_state["district"].dropna().unique())
 else:
-    dist_list = sorted(ew_df["district"].unique()) if not ew_df.empty and "district" in ew_df.columns else ["Ludhiana", "Nashik", "Burdwan"]
+    dist_list = sorted(df_loc["district"].dropna().unique()) if not df_loc.empty and "district" in df_loc.columns else []
 
 selected_dist = st.sidebar.selectbox("District", ["All Districts"] + dist_list)
 
-if selected_dist != "All Districts" and not ew_df.empty and "district" in ew_df.columns:
-    mkt_list = sorted(ew_df[ew_df["district"] == selected_dist]["market"].unique())
+# Market list (filtered by selected district)
+if selected_dist != "All Districts" and not df_loc.empty and "district" in df_loc.columns:
+    if selected_state != "All States":
+        df_dist = df_state[df_state["district"].astype(str).str.lower() == selected_dist.lower()]
+    else:
+        df_dist = df_loc[df_loc["district"].astype(str).str.lower() == selected_dist.lower()]
+    mkt_list = sorted(df_dist["market"].dropna().unique())
 else:
-    mkt_list = sorted(ew_df["market"].unique()) if not ew_df.empty and "market" in ew_df.columns else ["Ludhiana Mandi", "Nashik Mandi"]
+    if selected_state != "All States" and not df_loc.empty and "state" in df_loc.columns:
+        mkt_list = sorted(df_state["market"].dropna().unique())
+    else:
+        mkt_list = sorted(df_loc["market"].dropna().unique()) if not df_loc.empty and "market" in df_loc.columns else []
 
 selected_market = st.sidebar.selectbox("Market", ["All Markets"] + mkt_list)
 
@@ -156,7 +174,7 @@ st.sidebar.markdown("### 📊 DATA SOURCE STATUS")
 is_live = (data_status.get("mandi_status") == "LIVE") and (data_status.get("weather_status") == "LIVE")
 
 if is_live:
-    st.sidebar.success("🟢 **LIVE API ACTIVE**")
+    st.sidebar.success("🟢 **LIVE AGMARKNET DATA**")
 else:
     st.sidebar.error(f"🔴 **{data_status.get('mandi_status', 'FALLBACK')} MODE**")
     if data_status.get("mandi_error_reason"):
@@ -164,7 +182,7 @@ else:
 
 st.sidebar.write(f"• **Mandi Source**: {data_status.get('mandi_source')}")
 st.sidebar.write(f"• **Weather Source**: {data_status.get('weather_source')} (🟢 LIVE)")
-st.sidebar.write(f"• **Last Updated**: {data_status.get('mandi_last_fetch')}")
+st.sidebar.write(f"• **Latest Update**: {data_status.get('latest_data_date') or data_status.get('mandi_last_fetch')}")
 
 if st.sidebar.button("🔄 Fetch Live Mandi & Weather Data"):
     with st.spinner("Connecting to AGMARKNET (data.gov.in) & Open-Meteo APIs..."):
@@ -203,42 +221,46 @@ api_params = {
 }
 market_data = fetch_api("/api/market-overview", params=api_params)
 
-if not market_data:
-    sub_ew = ew_df.copy()
-    if selected_state != "All States" and "state" in sub_ew.columns:
-        sub_ew = sub_ew[sub_ew["state"] == selected_state]
-    if selected_dist != "All Districts" and "district" in sub_ew.columns:
-        sub_ew = sub_ew[sub_ew["district"] == selected_dist]
-    if selected_market != "All Markets" and "market" in sub_ew.columns:
-        sub_ew = sub_ew[sub_ew["market"] == selected_market]
-        
-    last_r = sub_ew.iloc[-1] if not sub_ew.empty else {}
-    curr_p = float(sub_ew["current_price"].mean()) if not sub_ew.empty else 3450.0
-    p7d = float(sub_ew["forecast_7d"].mean()) if not sub_ew.empty else 3520.0
-    p15d = float(sub_ew["forecast_15d"].mean()) if not sub_ew.empty else 3580.0
-    p30d = float(sub_ew["forecast_30d"].mean()) if not sub_ew.empty else 3640.0
-    risk_lbl = str(last_r.get("warning_level", "NORMAL"))
-    agg_method = f"Mean Modal Price ({selected_state})"
-else:
-    curr_p = market_data.get("current_price") or 3450.0
-    p7d = market_data.get("predicted_price_7d") or 3520.0
-    p15d = market_data.get("predicted_price_15d") or 3580.0
-    p30d = market_data.get("predicted_price_30d") or 3640.0
-    risk_lbl = market_data.get("risk_level") or "NORMAL"
-    agg_method = market_data.get("price_aggregation_method") or "Mandi Modal Price"
+curr_p = market_data.get("current_price") if market_data else None
+p7d = market_data.get("predicted_price_7d") if market_data else None
+p15d = market_data.get("predicted_price_15d") if market_data else None
+p30d = market_data.get("predicted_price_30d") if market_data else None
+risk_lbl = market_data.get("risk_level") if market_data else "NORMAL"
+agg_method = market_data.get("price_aggregation_method") if market_data else "Mandi Modal Price"
+pred_status = market_data.get("prediction_status", "AVAILABLE") if market_data else "AVAILABLE"
+pred_msg = market_data.get("prediction_message") if market_data else None
 
 col1, col2, col3, col4, col5 = st.columns(5)
 
-col1.metric("Current Price", f"₹{curr_p:,.2f} / Qtl")
-delta_p = p7d - curr_p
-col2.metric("Predicted 7D Price", f"₹{p7d:,.2f} / Qtl", f"{delta_p:+.2f} ₹")
-col3.metric("Predicted 15D Price", f"₹{p15d:,.2f} / Qtl")
-col4.metric("Predicted 30D Price", f"₹{p30d:,.2f} / Qtl")
+if curr_p is not None:
+    col1.metric("Current Mandi Price", f"₹{curr_p:,.2f} / Qtl")
+else:
+    col1.metric("Current Mandi Price", "No Live Data")
+
+if p7d is not None and curr_p is not None:
+    delta_p = p7d - curr_p
+    col2.metric("Predicted 7D Price", f"₹{p7d:,.2f} / Qtl", f"{delta_p:+.2f} ₹")
+elif p7d is not None:
+    col2.metric("Predicted 7D Price", f"₹{p7d:,.2f} / Qtl")
+else:
+    col2.metric("Predicted 7D Price", "N/A")
+
+if p15d is not None:
+    col3.metric("Predicted 15D Price", f"₹{p15d:,.2f} / Qtl")
+else:
+    col3.metric("Predicted 15D Price", "N/A")
+
+if p30d is not None:
+    col4.metric("Predicted 30D Price", f"₹{p30d:,.2f} / Qtl")
+else:
+    col4.metric("Predicted 30D Price", "N/A")
 
 risk_emoji = "🟢 NORMAL" if risk_lbl == "NORMAL" else "🟡 WARNING" if risk_lbl == "WARNING" else "🔴 HIGH RISK"
 col5.metric("Market Risk Level", risk_emoji)
 
 st.caption(f"📌 **Current Price Derivation**: {agg_method}")
+if pred_status == "UNAVAILABLE" and pred_msg:
+    st.info(f"ℹ️ **ML Prediction Status**: {pred_msg}")
 
 st.markdown("---")
 
@@ -260,48 +282,40 @@ pred_df = pd.DataFrame()
 
 if fc_api_res and fc_api_res.get("historical"):
     hist_df = pd.DataFrame(fc_api_res["historical"])
+if fc_api_res and fc_api_res.get("forecast"):
     pred_df = pd.DataFrame(fc_api_res["forecast"])
-else:
-    sub_ew = ew_df.copy()
-    if selected_state != "All States" and "state" in sub_ew.columns:
-        sub_ew = sub_ew[sub_ew["state"] == selected_state]
-    if selected_dist != "All Districts" and "district" in sub_ew.columns:
-        sub_ew = sub_ew[sub_ew["district"] == selected_dist]
-    if selected_market != "All Markets" and "market" in sub_ew.columns:
-        sub_ew = sub_ew[sub_ew["market"] == selected_market]
 
-    if sub_ew.empty:
-        sub_ew = ew_df.copy()
+loc_title_parts = [selected_commodity.split("(")[0].strip()]
+if selected_state != "All States":
+    loc_title_parts.append(selected_state)
+if selected_dist != "All Districts":
+    loc_title_parts.append(selected_dist)
+if selected_market != "All Markets":
+    loc_title_parts.append(selected_market)
+chart_loc_str = " / ".join(loc_title_parts)
 
-    sub_ew = sub_ew.sort_values(by="date")
-    hist_df = pd.DataFrame({
-        "date": sub_ew["date"],
-        "price": sub_ew["current_price"]
-    })
-    pred_df = pd.DataFrame({
-        "date": sub_ew["date"],
-        "price": sub_ew[f"forecast_{selected_horizon}d"]
-    })
-
-if not hist_df.empty:
+if not hist_df.empty or not pred_df.empty:
     fig_fc = go.Figure()
-    fig_fc.add_trace(go.Scatter(
-        x=pd.to_datetime(hist_df["date"]),
-        y=hist_df["price"],
-        mode="lines",
-        name="Historical Observed Price (₹/Qtl)",
-        line=dict(color="#1f77b4", width=2.5)
-    ))
+    if not hist_df.empty:
+        fig_fc.add_trace(go.Scatter(
+            x=pd.to_datetime(hist_df["date"]),
+            y=hist_df["price"],
+            mode="lines+markers",
+            name="Historical Observed Price (₹/Qtl)",
+            line=dict(color="#1f77b4", width=2.5)
+        ))
     if not pred_df.empty:
         fig_fc.add_trace(go.Scatter(
             x=pd.to_datetime(pred_df["date"]),
             y=pred_df["price"],
-            mode="lines+markers",
+            mode="markers+text",
+            text=[f"₹{p:,.2f}" for p in pred_df["price"]],
+            textposition="top center",
             name=f"LightGBM {selected_horizon}D Forecast",
-            line=dict(color="#ff7f0e", width=2, dash="dash")
+            marker=dict(size=12, color="#ff7f0e", symbol="star")
         ))
     fig_fc.update_layout(
-        title=f"Rice Mandi Price Trajectory — {selected_horizon}-Day Forecast Horizon ({selected_state})",
+        title=f"{selected_commodity.split('(')[0].strip()} Mandi Price Trajectory — {chart_loc_str} ({selected_horizon}-Day Horizon)",
         xaxis_title="Date",
         yaxis_title="Price (₹ / Quintal)",
         template="plotly_dark",
@@ -309,7 +323,7 @@ if not hist_df.empty:
     )
     st.plotly_chart(fig_fc, use_container_width=True)
 else:
-    st.info("Forecast data loading for selected filter combination.")
+    st.info(f"Historical trajectory loading for {chart_loc_str}.")
 
 st.markdown("---")
 

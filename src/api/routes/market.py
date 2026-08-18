@@ -4,6 +4,7 @@ from typing import Optional
 from fastapi import APIRouter, Query
 from pydantic import BaseModel
 from src.ingestion.data_status import status_tracker
+from src.models.lightgbm_model import LightGBMForecaster
 
 router = APIRouter(prefix="/api", tags=["Market Overview"])
 
@@ -12,16 +13,18 @@ class MarketOverviewResponse(BaseModel):
     district: str
     market: str
     date: str
-    current_price: float
-    predicted_price_7d: float
-    predicted_price_15d: float
-    predicted_price_30d: float
+    current_price: Optional[float] = None
+    predicted_price_7d: Optional[float] = None
+    predicted_price_15d: Optional[float] = None
+    predicted_price_30d: Optional[float] = None
     market_arrival_mt: Optional[float] = None
     production_mt: Optional[float] = None
     government_stock_mt: Optional[float] = None
     risk_level: str
     price_aggregation_method: str
     data_source_status: str
+    prediction_status: str = "AVAILABLE"
+    prediction_message: Optional[str] = None
 
 @router.get("/market-overview", response_model=MarketOverviewResponse, summary="Get Mandi & Supply Overview Metrics")
 def get_market_overview(
@@ -33,6 +36,16 @@ def get_market_overview(
     live_csv_path = "data/processed/live_market_latest.csv"
     ew_path = "data/processed/early_warning.csv"
     data_path = "data/processed/feature_engineered_modelling_dataset.parquet"
+
+    forecaster = LightGBMForecaster()
+    lgb_pred_res = forecaster.predict_location_prices(state=state, district=district, market=market)
+
+    pred_status = "AVAILABLE" if lgb_pred_res.get("is_available") else "UNAVAILABLE"
+    pred_msg = None if lgb_pred_res.get("is_available") else lgb_pred_res.get("reason", "Prediction unavailable for this location.")
+
+    p7d = lgb_pred_res.get("predicted_price_7d")
+    p15d = lgb_pred_res.get("predicted_price_15d")
+    p30d = lgb_pred_res.get("predicted_price_30d")
 
     # STRICT LIVE AGMARKNET DATA CRITERIA
     is_live_ready = (status_tracker.mandi_status == "LIVE") and os.path.exists(live_csv_path)
@@ -51,32 +64,64 @@ def get_market_overview(
                 if date:
                     sub_live = sub_live[sub_live["arrival_date"].astype(str) == date]
 
+                # STRICT: DO NOT fall back to all India if filtered location is empty!
                 if sub_live.empty:
-                    sub_live = df_live.copy()
+                    st_val = state or "Selected State"
+                    dist_val = district or "Selected District"
+                    mkt_val = market or "Selected Market"
+                    return MarketOverviewResponse(
+                        state=st_val,
+                        district=dist_val,
+                        market=mkt_val,
+                        date=status_tracker.latest_data_date or "18/08/2026",
+                        current_price=None,
+                        predicted_price_7d=p7d,
+                        predicted_price_15d=p15d,
+                        predicted_price_30d=p30d,
+                        market_arrival_mt=None,
+                        production_mt=0.0,
+                        government_stock_mt=135000.0,
+                        risk_level="NORMAL",
+                        price_aggregation_method=f"No live AGMARKNET records for {mkt_val}",
+                        data_source_status="NO_LIVE_DATA_FOR_LOCATION",
+                        prediction_status=pred_status,
+                        prediction_message=pred_msg
+                    )
 
-                sub_live["modal_price"] = pd.to_numeric(sub_live["modal_price"], errors="coerce").fillna(3450.0)
-                curr_p = float(sub_live["modal_price"].mean())
-                latest_dt = str(sub_live["arrival_date"].iloc[0]) if "arrival_date" in sub_live.columns else "2026-08-18"
+                sub_live["modal_price"] = pd.to_numeric(sub_live["modal_price"], errors="coerce")
+                curr_p = float(sub_live["modal_price"].dropna().mean()) if not sub_live["modal_price"].dropna().empty else None
+                latest_dt = str(sub_live["arrival_date"].iloc[0]) if "arrival_date" in sub_live.columns else (status_tracker.latest_data_date or "18/08/2026")
 
-                st_val = state if state and state != "All States" else str(sub_live["state"].iloc[0]) if "state" in sub_live.columns else "Andhra Pradesh"
-                dist_val = district if district and district != "All Districts" else str(sub_live["district"].iloc[0]) if "district" in sub_live.columns else "East Godavari"
-                mkt_val = market if market and market != "All Markets" else str(sub_live["market"].iloc[0]) if "market" in sub_live.columns else "Rajahmundry"
+                st_val = state if state and state != "All States" else str(sub_live["state"].iloc[0]) if "state" in sub_live.columns else "All States"
+                dist_val = district if district and district != "All Districts" else str(sub_live["district"].iloc[0]) if "district" in sub_live.columns else "All Districts"
+                mkt_val = market if market and market != "All Markets" else str(sub_live["market"].iloc[0]) if "market" in sub_live.columns else "All Markets"
+
+                if market and market != "All Markets":
+                    agg_desc = f"Live AGMARKNET Mandi Price ({mkt_val})"
+                elif district and district != "All Districts":
+                    agg_desc = f"Live Mean AGMARKNET Price across Mandis in {dist_val}"
+                elif state and state != "All States":
+                    agg_desc = f"Live Mean AGMARKNET Price across Mandis in {st_val}"
+                else:
+                    agg_desc = "Live National Mean AGMARKNET Price across All Mandis"
 
                 return MarketOverviewResponse(
                     state=st_val,
                     district=dist_val,
                     market=mkt_val,
                     date=latest_dt,
-                    current_price=round(curr_p, 2),
-                    predicted_price_7d=round(curr_p * 1.02, 2),
-                    predicted_price_15d=round(curr_p * 1.04, 2),
-                    predicted_price_30d=round(curr_p * 1.06, 2),
+                    current_price=round(curr_p, 2) if curr_p is not None else None,
+                    predicted_price_7d=p7d,
+                    predicted_price_15d=p15d,
+                    predicted_price_30d=p30d,
                     market_arrival_mt=150.0,
                     production_mt=0.0,
                     government_stock_mt=135000.0,
                     risk_level="NORMAL",
-                    price_aggregation_method=f"Live AGMARKNET Mandi Price ({mkt_val})",
-                    data_source_status="LIVE"
+                    price_aggregation_method=agg_desc,
+                    data_source_status="LIVE",
+                    prediction_status=pred_status,
+                    prediction_message=pred_msg
                 )
         except Exception as e:
             print(f"[MarketOverview] Notice reading live CSV: {e}")
@@ -91,62 +136,60 @@ def get_market_overview(
             sub_ew = sub_ew[sub_ew["district"].str.lower() == district.lower()]
         if market and market != "All Markets":
             sub_ew = sub_ew[sub_ew["market"].str.lower() == market.lower()]
-        if date:
-            sub_ew = sub_ew[sub_ew["date"] == date]
 
         if sub_ew.empty:
-            sub_ew = df_ew.copy()
-
-        if market and market != "All Markets":
-            agg_method = f"Exact Mandi Modal Price ({market})"
-        elif district and district != "All Districts":
-            agg_method = f"Mean Modal Price across Mandis in {district}"
-        elif state and state != "All States":
-            agg_method = f"Mean Modal Price across Mandis in {state}"
-        else:
-            agg_method = "National Mean Modal Price across Mandis"
+            return MarketOverviewResponse(
+                state=state or "Selected State",
+                district=district or "Selected District",
+                market=market or "Selected Market",
+                date="2026-07-31",
+                current_price=None,
+                predicted_price_7d=p7d,
+                predicted_price_15d=p15d,
+                predicted_price_30d=p30d,
+                risk_level="NORMAL",
+                price_aggregation_method="No historical data for selected location",
+                data_source_status="NO_DATA_FOR_LOCATION",
+                prediction_status=pred_status,
+                prediction_message=pred_msg
+            )
 
         latest_dt = sub_ew["date"].max()
         latest_sub = sub_ew[sub_ew["date"] == latest_dt]
-        
         curr_p = float(latest_sub["current_price"].mean())
-        p7d = float(latest_sub["forecast_7d"].mean())
-        p15d = float(latest_sub["forecast_15d"].mean())
-        p30d = float(latest_sub["forecast_30d"].mean())
-        
         risk_lbl = str(latest_sub["warning_level"].iloc[0]) if "warning_level" in latest_sub.columns else "NORMAL"
-        st_val = state if state else str(latest_sub["state"].iloc[0])
-        dist_val = district if district else str(latest_sub["district"].iloc[0])
-        mkt_val = market if market else str(latest_sub["market"].iloc[0])
         
         return MarketOverviewResponse(
-            state=st_val,
-            district=dist_val,
-            market=mkt_val,
+            state=state or str(latest_sub["state"].iloc[0]),
+            district=district or str(latest_sub["district"].iloc[0]),
+            market=market or str(latest_sub["market"].iloc[0]),
             date=str(latest_dt),
             current_price=round(curr_p, 2),
-            predicted_price_7d=round(p7d, 2),
-            predicted_price_15d=round(p15d, 2),
-            predicted_price_30d=round(p30d, 2),
+            predicted_price_7d=p7d,
+            predicted_price_15d=p15d,
+            predicted_price_30d=p30d,
             market_arrival_mt=150.0,
             production_mt=0.0,
             government_stock_mt=135000.0,
             risk_level=risk_lbl,
-            price_aggregation_method=agg_method,
-            data_source_status="FALLBACK DATA"
+            price_aggregation_method="Historical Market Baseline",
+            data_source_status="FALLBACK DATA",
+            prediction_status=pred_status,
+            prediction_message=pred_msg
         )
 
-    # BASELINE DEMO DEFAULT
     return MarketOverviewResponse(
         state=state or "All States",
         district=district or "All Districts",
         market=market or "All Markets",
         date="2026-07-31",
         current_price=3450.0,
-        predicted_price_7d=3520.0,
-        predicted_price_15d=3580.0,
-        predicted_price_30d=3640.0,
+        predicted_price_7d=p7d,
+        predicted_price_15d=p15d,
+        predicted_price_30d=p30d,
         risk_level="NORMAL",
         price_aggregation_method="Single Mandi Modal Price",
-        data_source_status="FALLBACK DATA"
+        data_source_status="FALLBACK DATA",
+        prediction_status=pred_status,
+        prediction_message=pred_msg
     )
