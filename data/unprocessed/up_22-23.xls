@@ -1,0 +1,1379 @@
+ <table border="2px" id="apyreport" class="table table-hover table-bordered text-center">
+<thead>
+
+<tr>
+  <th rowspan="2">S.No.</th>
+  <th rowspan="2">State</th>
+  <th rowspan="2">District</th>
+        <th colspan="3">2021 - 2022</th>
+            <th colspan="3">2022 - 2023</th>
+      </tr>
+<tr>
+      <th>Area( Ha. )</th>
+    <th>Production
+       (Tonnes)       </th>
+    <th>Yield
+ (Ton./Ha.)    </th>
+        <th>Area( Ha. )</th>
+    <th>Production
+       (Tonnes)       </th>
+    <th>Yield
+ (Ton./Ha.)    </th>
+    
+
+</tr>
+</thead>
+<tbody>
+        <tr>
+        <td>1</td>
+        <td>Uttar Pradesh</td>
+        <td>Agra</td>
+                    <td>
+              5,129            </td>
+            <td>
+              13,135            </td>
+            <td>
+              2.56            </td>
+                        <td>
+              6,842            </td>
+            <td>
+              18,391            </td>
+            <td>
+              2.69            </td>
+            
+      </tr>
+            <tr>
+        <td>2</td>
+        <td>Uttar Pradesh</td>
+        <td>Aligarh</td>
+                    <td>
+              88,227            </td>
+            <td>
+              220,038            </td>
+            <td>
+              2.49            </td>
+                        <td>
+              89,046            </td>
+            <td>
+              222,590            </td>
+            <td>
+              2.50            </td>
+            
+      </tr>
+            <tr>
+        <td>3</td>
+        <td>Uttar Pradesh</td>
+        <td>Allahabad</td>
+                    <td>
+              155,944            </td>
+            <td>
+              464,714            </td>
+            <td>
+              2.98            </td>
+                        <td>
+              155,753            </td>
+            <td>
+              469,972            </td>
+            <td>
+              3.02            </td>
+            
+      </tr>
+            <tr>
+        <td>4</td>
+        <td>Uttar Pradesh</td>
+        <td>Ambedkar nagar</td>
+                    <td>
+              127,900            </td>
+            <td>
+              351,469            </td>
+            <td>
+              2.75            </td>
+                        <td>
+              116,373            </td>
+            <td>
+              317,116            </td>
+            <td>
+              2.72            </td>
+            
+      </tr>
+            <tr>
+        <td>5</td>
+        <td>Uttar Pradesh</td>
+        <td>Amethi</td>
+                    <td>
+              119,900            </td>
+            <td>
+              288,839            </td>
+            <td>
+              2.41            </td>
+                        <td>
+              119,900            </td>
+            <td>
+              322,531            </td>
+            <td>
+              2.69            </td>
+            
+      </tr>
+            <tr>
+        <td>6</td>
+        <td>Uttar Pradesh</td>
+        <td>Amroha</td>
+                    <td>
+              26,894            </td>
+            <td>
+              74,227            </td>
+            <td>
+              2.76            </td>
+                        <td>
+              28,772            </td>
+            <td>
+              71,182            </td>
+            <td>
+              2.47            </td>
+            
+      </tr>
+            <tr>
+        <td>7</td>
+        <td>Uttar Pradesh</td>
+        <td>Auraiya</td>
+                    <td>
+              49,592            </td>
+            <td>
+              168,811            </td>
+            <td>
+              3.40            </td>
+                        <td>
+              58,154            </td>
+            <td>
+              215,102            </td>
+            <td>
+              3.70            </td>
+            
+      </tr>
+            <tr>
+        <td>8</td>
+        <td>Uttar Pradesh</td>
+        <td>Azamgarh</td>
+                    <td>
+              213,390            </td>
+            <td>
+              510,002            </td>
+            <td>
+              2.39            </td>
+                        <td>
+              212,382            </td>
+            <td>
+              519,988            </td>
+            <td>
+              2.45            </td>
+            
+      </tr>
+            <tr>
+        <td>9</td>
+        <td>Uttar Pradesh</td>
+        <td>Baghpat</td>
+                    <td>
+              5,052            </td>
+            <td>
+              14,590            </td>
+            <td>
+              2.89            </td>
+                        <td>
+              4,807            </td>
+            <td>
+              13,416            </td>
+            <td>
+              2.79            </td>
+            
+      </tr>
+            <tr>
+        <td>10</td>
+        <td>Uttar Pradesh</td>
+        <td>Bahraich</td>
+                    <td>
+              170,957            </td>
+            <td>
+              398,159            </td>
+            <td>
+              2.33            </td>
+                        <td>
+              170,957            </td>
+            <td>
+              397,988            </td>
+            <td>
+              2.33            </td>
+            
+      </tr>
+            <tr>
+        <td>11</td>
+        <td>Uttar Pradesh</td>
+        <td>Ballia</td>
+                    <td>
+              117,814            </td>
+            <td>
+              301,957            </td>
+            <td>
+              2.56            </td>
+                        <td>
+              115,736            </td>
+            <td>
+              284,649            </td>
+            <td>
+              2.46            </td>
+            
+      </tr>
+            <tr>
+        <td>12</td>
+        <td>Uttar Pradesh</td>
+        <td>Balrampur</td>
+                    <td>
+              134,699            </td>
+            <td>
+              341,731            </td>
+            <td>
+              2.54            </td>
+                        <td>
+              134,699            </td>
+            <td>
+              287,313            </td>
+            <td>
+              2.13            </td>
+            
+      </tr>
+            <tr>
+        <td>13</td>
+        <td>Uttar Pradesh</td>
+        <td>Banda</td>
+                    <td>
+              48,550            </td>
+            <td>
+              116,132            </td>
+            <td>
+              2.39            </td>
+                        <td>
+              55,063            </td>
+            <td>
+              127,801            </td>
+            <td>
+              2.32            </td>
+            
+      </tr>
+            <tr>
+        <td>14</td>
+        <td>Uttar Pradesh</td>
+        <td>Barabanki</td>
+                    <td>
+              188,580            </td>
+            <td>
+              457,684            </td>
+            <td>
+              2.43            </td>
+                        <td>
+              188,598            </td>
+            <td>
+              460,952            </td>
+            <td>
+              2.44            </td>
+            
+      </tr>
+            <tr>
+        <td>15</td>
+        <td>Uttar Pradesh</td>
+        <td>Bareilly</td>
+                    <td>
+              164,349            </td>
+            <td>
+              411,836            </td>
+            <td>
+              2.51            </td>
+                        <td>
+              163,260            </td>
+            <td>
+              489,849            </td>
+            <td>
+              3.00            </td>
+            
+      </tr>
+            <tr>
+        <td>16</td>
+        <td>Uttar Pradesh</td>
+        <td>Basti</td>
+                    <td>
+              145,811            </td>
+            <td>
+              370,360            </td>
+            <td>
+              2.54            </td>
+                        <td>
+              131,426            </td>
+            <td>
+              357,577            </td>
+            <td>
+              2.72            </td>
+            
+      </tr>
+            <tr>
+        <td>17</td>
+        <td>Uttar Pradesh</td>
+        <td>Bijnor</td>
+                    <td>
+              57,113            </td>
+            <td>
+              159,174            </td>
+            <td>
+              2.79            </td>
+                        <td>
+              56,790            </td>
+            <td>
+              143,395            </td>
+            <td>
+              2.53            </td>
+            
+      </tr>
+            <tr>
+        <td>18</td>
+        <td>Uttar Pradesh</td>
+        <td>Budaun</td>
+                    <td>
+              99,794            </td>
+            <td>
+              253,477            </td>
+            <td>
+              2.54            </td>
+                        <td>
+              82,204            </td>
+            <td>
+              210,031            </td>
+            <td>
+              2.55            </td>
+            
+      </tr>
+            <tr>
+        <td>19</td>
+        <td>Uttar Pradesh</td>
+        <td>Bulandshahr</td>
+                    <td>
+              93,136            </td>
+            <td>
+              261,622            </td>
+            <td>
+              2.81            </td>
+                        <td>
+              97,720            </td>
+            <td>
+              239,132            </td>
+            <td>
+              2.45            </td>
+            
+      </tr>
+            <tr>
+        <td>20</td>
+        <td>Uttar Pradesh</td>
+        <td>Chandauli</td>
+                    <td>
+              117,662            </td>
+            <td>
+              395,344            </td>
+            <td>
+              3.36            </td>
+                        <td>
+              114,672            </td>
+            <td>
+              380,826            </td>
+            <td>
+              3.32            </td>
+            
+      </tr>
+            <tr>
+        <td>21</td>
+        <td>Uttar Pradesh</td>
+        <td>Chitrakoot</td>
+                    <td>
+              10,425            </td>
+            <td>
+              23,300            </td>
+            <td>
+              2.24            </td>
+                        <td>
+              10,285            </td>
+            <td>
+              23,594            </td>
+            <td>
+              2.29            </td>
+            
+      </tr>
+            <tr>
+        <td>22</td>
+        <td>Uttar Pradesh</td>
+        <td>Deoria</td>
+                    <td>
+              136,095            </td>
+            <td>
+              316,844            </td>
+            <td>
+              2.33            </td>
+                        <td>
+              150,454            </td>
+            <td>
+              359,088            </td>
+            <td>
+              2.39            </td>
+            
+      </tr>
+            <tr>
+        <td>23</td>
+        <td>Uttar Pradesh</td>
+        <td>Etah</td>
+                    <td>
+              18,461            </td>
+            <td>
+              49,309            </td>
+            <td>
+              2.67            </td>
+                        <td>
+              18,355            </td>
+            <td>
+              49,341            </td>
+            <td>
+              2.69            </td>
+            
+      </tr>
+            <tr>
+        <td>24</td>
+        <td>Uttar Pradesh</td>
+        <td>Etawah</td>
+                    <td>
+              51,404            </td>
+            <td>
+              157,605            </td>
+            <td>
+              3.07            </td>
+                        <td>
+              50,762            </td>
+            <td>
+              153,149            </td>
+            <td>
+              3.02            </td>
+            
+      </tr>
+            <tr>
+        <td>25</td>
+        <td>Uttar Pradesh</td>
+        <td>Faizabad</td>
+                    <td>
+              102,083            </td>
+            <td>
+              259,189            </td>
+            <td>
+              2.54            </td>
+                        <td>
+              99,090            </td>
+            <td>
+              255,157            </td>
+            <td>
+              2.58            </td>
+            
+      </tr>
+            <tr>
+        <td>26</td>
+        <td>Uttar Pradesh</td>
+        <td>Farrukhabad</td>
+                    <td>
+              13,644            </td>
+            <td>
+              39,991            </td>
+            <td>
+              2.93            </td>
+                        <td>
+              13,568            </td>
+            <td>
+              43,123            </td>
+            <td>
+              3.18            </td>
+            
+      </tr>
+            <tr>
+        <td>27</td>
+        <td>Uttar Pradesh</td>
+        <td>Fatehpur</td>
+                    <td>
+              85,554            </td>
+            <td>
+              240,835            </td>
+            <td>
+              2.82            </td>
+                        <td>
+              91,803            </td>
+            <td>
+              261,914            </td>
+            <td>
+              2.85            </td>
+            
+      </tr>
+            <tr>
+        <td>28</td>
+        <td>Uttar Pradesh</td>
+        <td>Firozabad</td>
+                    <td>
+              24,571            </td>
+            <td>
+              62,362            </td>
+            <td>
+              2.54            </td>
+                        <td>
+              23,078            </td>
+            <td>
+              67,911            </td>
+            <td>
+              2.94            </td>
+            
+      </tr>
+            <tr>
+        <td>29</td>
+        <td>Uttar Pradesh</td>
+        <td>Gautam buddha nagar</td>
+                    <td>
+              14,492            </td>
+            <td>
+              33,810            </td>
+            <td>
+              2.33            </td>
+                        <td>
+              20,378            </td>
+            <td>
+              44,791            </td>
+            <td>
+              2.20            </td>
+            
+      </tr>
+            <tr>
+        <td>30</td>
+        <td>Uttar Pradesh</td>
+        <td>Ghaziabad</td>
+                    <td>
+              9,848            </td>
+            <td>
+              26,590            </td>
+            <td>
+              2.70            </td>
+                        <td>
+              9,711            </td>
+            <td>
+              24,268            </td>
+            <td>
+              2.50            </td>
+            
+      </tr>
+            <tr>
+        <td>31</td>
+        <td>Uttar Pradesh</td>
+        <td>Ghazipur</td>
+                    <td>
+              152,900            </td>
+            <td>
+              412,677            </td>
+            <td>
+              2.70            </td>
+                        <td>
+              149,984            </td>
+            <td>
+              503,647            </td>
+            <td>
+              3.36            </td>
+            
+      </tr>
+            <tr>
+        <td>32</td>
+        <td>Uttar Pradesh</td>
+        <td>Gonda</td>
+                    <td>
+              137,624            </td>
+            <td>
+              320,203            </td>
+            <td>
+              2.33            </td>
+                        <td>
+              137,529            </td>
+            <td>
+              311,366            </td>
+            <td>
+              2.26            </td>
+            
+      </tr>
+            <tr>
+        <td>33</td>
+        <td>Uttar Pradesh</td>
+        <td>Gorakhpur</td>
+                    <td>
+              156,326            </td>
+            <td>
+              348,986            </td>
+            <td>
+              2.23            </td>
+                        <td>
+              152,723            </td>
+            <td>
+              365,142            </td>
+            <td>
+              2.39            </td>
+            
+      </tr>
+            <tr>
+        <td>34</td>
+        <td>Uttar Pradesh</td>
+        <td>Hamirpur</td>
+                    <td>
+              51            </td>
+            <td>
+              121            </td>
+            <td>
+              2.37            </td>
+                        <td>
+              518            </td>
+            <td>
+              1,249            </td>
+            <td>
+              2.41            </td>
+            
+      </tr>
+            <tr>
+        <td>35</td>
+        <td>Uttar Pradesh</td>
+        <td>Hapur</td>
+                    <td>
+              20,667            </td>
+            <td>
+              55,243            </td>
+            <td>
+              2.67            </td>
+                        <td>
+              24,387            </td>
+            <td>
+              58,626            </td>
+            <td>
+              2.40            </td>
+            
+      </tr>
+            <tr>
+        <td>36</td>
+        <td>Uttar Pradesh</td>
+        <td>Hardoi</td>
+                    <td>
+              152,000            </td>
+            <td>
+              411,312            </td>
+            <td>
+              2.71            </td>
+                        <td>
+              147,731            </td>
+            <td>
+              395,471            </td>
+            <td>
+              2.68            </td>
+            
+      </tr>
+            <tr>
+        <td>37</td>
+        <td>Uttar Pradesh</td>
+        <td>Hathras</td>
+                    <td>
+              22,304            </td>
+            <td>
+              53,797            </td>
+            <td>
+              2.41            </td>
+                        <td>
+              21,879            </td>
+            <td>
+              54,527            </td>
+            <td>
+              2.49            </td>
+            
+      </tr>
+            <tr>
+        <td>38</td>
+        <td>Uttar Pradesh</td>
+        <td>Jalaun</td>
+                    <td>
+              253            </td>
+            <td>
+              467            </td>
+            <td>
+              1.85            </td>
+                        <td>
+              318            </td>
+            <td>
+              425            </td>
+            <td>
+              1.34            </td>
+            
+      </tr>
+            <tr>
+        <td>39</td>
+        <td>Uttar Pradesh</td>
+        <td>Jaunpur</td>
+                    <td>
+              150,827            </td>
+            <td>
+              397,127            </td>
+            <td>
+              2.63            </td>
+                        <td>
+              146,269            </td>
+            <td>
+              411,751            </td>
+            <td>
+              2.82            </td>
+            
+      </tr>
+            <tr>
+        <td>40</td>
+        <td>Uttar Pradesh</td>
+        <td>Jhansi</td>
+                    <td>
+              9,200            </td>
+            <td>
+              19,716            </td>
+            <td>
+              2.14            </td>
+                        <td>
+              8,975            </td>
+            <td>
+              17,833            </td>
+            <td>
+              1.99            </td>
+            
+      </tr>
+            <tr>
+        <td>41</td>
+        <td>Uttar Pradesh</td>
+        <td>Kannauj</td>
+                    <td>
+              19,938            </td>
+            <td>
+              55,049            </td>
+            <td>
+              2.76            </td>
+                        <td>
+              20,583            </td>
+            <td>
+              61,317            </td>
+            <td>
+              2.98            </td>
+            
+      </tr>
+            <tr>
+        <td>42</td>
+        <td>Uttar Pradesh</td>
+        <td>Kanpur dehat</td>
+                    <td>
+              41,343            </td>
+            <td>
+              133,869            </td>
+            <td>
+              3.24            </td>
+                        <td>
+              57,187            </td>
+            <td>
+              187,916            </td>
+            <td>
+              3.29            </td>
+            
+      </tr>
+            <tr>
+        <td>43</td>
+        <td>Uttar Pradesh</td>
+        <td>Kanpur nagar</td>
+                    <td>
+              32,618            </td>
+            <td>
+              95,636            </td>
+            <td>
+              2.93            </td>
+                        <td>
+              31,816            </td>
+            <td>
+              95,098            </td>
+            <td>
+              2.99            </td>
+            
+      </tr>
+            <tr>
+        <td>44</td>
+        <td>Uttar Pradesh</td>
+        <td>Kasganj</td>
+                    <td>
+              16,543            </td>
+            <td>
+              44,385            </td>
+            <td>
+              2.68            </td>
+                        <td>
+              19,263            </td>
+            <td>
+              49,660            </td>
+            <td>
+              2.58            </td>
+            
+      </tr>
+            <tr>
+        <td>45</td>
+        <td>Uttar Pradesh</td>
+        <td>Kaushambi</td>
+                    <td>
+              49,058            </td>
+            <td>
+              134,026            </td>
+            <td>
+              2.73            </td>
+                        <td>
+              64,347            </td>
+            <td>
+              197,674            </td>
+            <td>
+              3.07            </td>
+            
+      </tr>
+            <tr>
+        <td>46</td>
+        <td>Uttar Pradesh</td>
+        <td>Kheri</td>
+                    <td>
+              186,649            </td>
+            <td>
+              530,375            </td>
+            <td>
+              2.84            </td>
+                        <td>
+              184,521            </td>
+            <td>
+              521,373            </td>
+            <td>
+              2.83            </td>
+            
+      </tr>
+            <tr>
+        <td>47</td>
+        <td>Uttar Pradesh</td>
+        <td>Kushi nagar</td>
+                    <td>
+              127,373            </td>
+            <td>
+              332,061            </td>
+            <td>
+              2.61            </td>
+                        <td>
+              124,360            </td>
+            <td>
+              314,009            </td>
+            <td>
+              2.53            </td>
+            
+      </tr>
+            <tr>
+        <td>48</td>
+        <td>Uttar Pradesh</td>
+        <td>Lalitpur</td>
+                    <td>
+              1,537            </td>
+            <td>
+              787            </td>
+            <td>
+              0.51            </td>
+                        <td>
+              2,058            </td>
+            <td>
+              5,303            </td>
+            <td>
+              2.58            </td>
+            
+      </tr>
+            <tr>
+        <td>49</td>
+        <td>Uttar Pradesh</td>
+        <td>Lucknow</td>
+                    <td>
+              55,083            </td>
+            <td>
+              137,267            </td>
+            <td>
+              2.49            </td>
+                        <td>
+              52,020            </td>
+            <td>
+              136,500            </td>
+            <td>
+              2.62            </td>
+            
+      </tr>
+            <tr>
+        <td>50</td>
+        <td>Uttar Pradesh</td>
+        <td>Maharajganj</td>
+                    <td>
+              181,085            </td>
+            <td>
+              497,078            </td>
+            <td>
+              2.74            </td>
+                        <td>
+              166,405            </td>
+            <td>
+              430,157            </td>
+            <td>
+              2.59            </td>
+            
+      </tr>
+            <tr>
+        <td>51</td>
+        <td>Uttar Pradesh</td>
+        <td>Mahoba</td>
+                    <td>
+              139            </td>
+            <td>
+              329            </td>
+            <td>
+              2.37            </td>
+                        <td>
+              104            </td>
+            <td>
+              251            </td>
+            <td>
+              2.41            </td>
+            
+      </tr>
+            <tr>
+        <td>52</td>
+        <td>Uttar Pradesh</td>
+        <td>Mainpuri</td>
+                    <td>
+              62,512            </td>
+            <td>
+              168,032            </td>
+            <td>
+              2.69            </td>
+                        <td>
+              73,819            </td>
+            <td>
+              185,672            </td>
+            <td>
+              2.52            </td>
+            
+      </tr>
+            <tr>
+        <td>53</td>
+        <td>Uttar Pradesh</td>
+        <td>Mathura</td>
+                    <td>
+              47,810            </td>
+            <td>
+              89,118            </td>
+            <td>
+              1.86            </td>
+                        <td>
+              68,748            </td>
+            <td>
+              126,565            </td>
+            <td>
+              1.84            </td>
+            
+      </tr>
+            <tr>
+        <td>54</td>
+        <td>Uttar Pradesh</td>
+        <td>Mau</td>
+                    <td>
+              90,496            </td>
+            <td>
+              214,928            </td>
+            <td>
+              2.38            </td>
+                        <td>
+              91,210            </td>
+            <td>
+              233,315            </td>
+            <td>
+              2.56            </td>
+            
+      </tr>
+            <tr>
+        <td>55</td>
+        <td>Uttar Pradesh</td>
+        <td>Meerut</td>
+                    <td>
+              15,165            </td>
+            <td>
+              44,062            </td>
+            <td>
+              2.91            </td>
+                        <td>
+              15,412            </td>
+            <td>
+              38,074            </td>
+            <td>
+              2.47            </td>
+            
+      </tr>
+            <tr>
+        <td>56</td>
+        <td>Uttar Pradesh</td>
+        <td>Mirzapur</td>
+                    <td>
+              87,568            </td>
+            <td>
+              273,650            </td>
+            <td>
+              3.13            </td>
+                        <td>
+              85,151            </td>
+            <td>
+              278,103            </td>
+            <td>
+              3.27            </td>
+            
+      </tr>
+            <tr>
+        <td>57</td>
+        <td>Uttar Pradesh</td>
+        <td>Moradabad</td>
+                    <td>
+              94,621            </td>
+            <td>
+              273,710            </td>
+            <td>
+              2.89            </td>
+                        <td>
+              96,064            </td>
+            <td>
+              271,186            </td>
+            <td>
+              2.82            </td>
+            
+      </tr>
+            <tr>
+        <td>58</td>
+        <td>Uttar Pradesh</td>
+        <td>Muzaffarnagar</td>
+                    <td>
+              12,953            </td>
+            <td>
+              35,155            </td>
+            <td>
+              2.71            </td>
+                        <td>
+              13,430            </td>
+            <td>
+              34,743            </td>
+            <td>
+              2.59            </td>
+            
+      </tr>
+            <tr>
+        <td>59</td>
+        <td>Uttar Pradesh</td>
+        <td>Pilibhit</td>
+                    <td>
+              151,200            </td>
+            <td>
+              508,777            </td>
+            <td>
+              3.36            </td>
+                        <td>
+              149,332            </td>
+            <td>
+              484,775            </td>
+            <td>
+              3.25            </td>
+            
+      </tr>
+            <tr>
+        <td>60</td>
+        <td>Uttar Pradesh</td>
+        <td>Pratapgarh</td>
+                    <td>
+              98,615            </td>
+            <td>
+              249,101            </td>
+            <td>
+              2.53            </td>
+                        <td>
+              91,548            </td>
+            <td>
+              258,101            </td>
+            <td>
+              2.82            </td>
+            
+      </tr>
+            <tr>
+        <td>61</td>
+        <td>Uttar Pradesh</td>
+        <td>Rae bareli</td>
+                    <td>
+              89,968            </td>
+            <td>
+              247,412            </td>
+            <td>
+              2.75            </td>
+                        <td>
+              87,695            </td>
+            <td>
+              247,388            </td>
+            <td>
+              2.82            </td>
+            
+      </tr>
+            <tr>
+        <td>62</td>
+        <td>Uttar Pradesh</td>
+        <td>Rampur</td>
+                    <td>
+              154,393            </td>
+            <td>
+              439,548            </td>
+            <td>
+              2.85            </td>
+                        <td>
+              149,598            </td>
+            <td>
+              412,070            </td>
+            <td>
+              2.75            </td>
+            
+      </tr>
+            <tr>
+        <td>63</td>
+        <td>Uttar Pradesh</td>
+        <td>Saharanpur</td>
+                    <td>
+              58,256            </td>
+            <td>
+              161,486            </td>
+            <td>
+              2.77            </td>
+                        <td>
+              57,912            </td>
+            <td>
+              142,620            </td>
+            <td>
+              2.46            </td>
+            
+      </tr>
+            <tr>
+        <td>64</td>
+        <td>Uttar Pradesh</td>
+        <td>Sambhal</td>
+                    <td>
+              41,211            </td>
+            <td>
+              111,888            </td>
+            <td>
+              2.72            </td>
+                        <td>
+              48,993            </td>
+            <td>
+              136,058            </td>
+            <td>
+              2.78            </td>
+            
+      </tr>
+            <tr>
+        <td>65</td>
+        <td>Uttar Pradesh</td>
+        <td>Sant kabeer nagar</td>
+                    <td>
+              91,860            </td>
+            <td>
+              272,848            </td>
+            <td>
+              2.97            </td>
+                        <td>
+              91,722            </td>
+            <td>
+              263,131            </td>
+            <td>
+              2.87            </td>
+            
+      </tr>
+            <tr>
+        <td>66</td>
+        <td>Uttar Pradesh</td>
+        <td>Sant ravidas nagar</td>
+                    <td>
+              27,768            </td>
+            <td>
+              85,220            </td>
+            <td>
+              3.07            </td>
+                        <td>
+              28,305            </td>
+            <td>
+              89,189            </td>
+            <td>
+              3.15            </td>
+            
+      </tr>
+            <tr>
+        <td>67</td>
+        <td>Uttar Pradesh</td>
+        <td>Shahjahanpur</td>
+                    <td>
+              223,243            </td>
+            <td>
+              737,183            </td>
+            <td>
+              3.30            </td>
+                        <td>
+              211,642            </td>
+            <td>
+              705,118            </td>
+            <td>
+              3.33            </td>
+            
+      </tr>
+            <tr>
+        <td>68</td>
+        <td>Uttar Pradesh</td>
+        <td>Shamli</td>
+                    <td>
+              21,023            </td>
+            <td>
+              61,206            </td>
+            <td>
+              2.91            </td>
+                        <td>
+              20,974            </td>
+            <td>
+              54,620            </td>
+            <td>
+              2.60            </td>
+            
+      </tr>
+            <tr>
+        <td>69</td>
+        <td>Uttar Pradesh</td>
+        <td>Shravasti</td>
+                    <td>
+              84,628            </td>
+            <td>
+              164,771            </td>
+            <td>
+              1.95            </td>
+                        <td>
+              84,628            </td>
+            <td>
+              183,135            </td>
+            <td>
+              2.16            </td>
+            
+      </tr>
+            <tr>
+        <td>70</td>
+        <td>Uttar Pradesh</td>
+        <td>Siddharth nagar</td>
+                    <td>
+              174,355            </td>
+            <td>
+              458,240            </td>
+            <td>
+              2.63            </td>
+                        <td>
+              174,226            </td>
+            <td>
+              405,125            </td>
+            <td>
+              2.33            </td>
+            
+      </tr>
+            <tr>
+        <td>71</td>
+        <td>Uttar Pradesh</td>
+        <td>Sitapur</td>
+                    <td>
+              167,121            </td>
+            <td>
+              460,418            </td>
+            <td>
+              2.75            </td>
+                        <td>
+              164,671            </td>
+            <td>
+              348,807            </td>
+            <td>
+              2.12            </td>
+            
+      </tr>
+            <tr>
+        <td>72</td>
+        <td>Uttar Pradesh</td>
+        <td>Sonbhadra</td>
+                    <td>
+              31,948            </td>
+            <td>
+              99,838            </td>
+            <td>
+              3.13            </td>
+                        <td>
+              31,627            </td>
+            <td>
+              86,595            </td>
+            <td>
+              2.74            </td>
+            
+      </tr>
+            <tr>
+        <td>73</td>
+        <td>Uttar Pradesh</td>
+        <td>Sultanpur</td>
+                    <td>
+              94,627            </td>
+            <td>
+              276,784            </td>
+            <td>
+              2.93            </td>
+                        <td>
+              94,627            </td>
+            <td>
+              262,874            </td>
+            <td>
+              2.78            </td>
+            
+      </tr>
+            <tr>
+        <td>74</td>
+        <td>Uttar Pradesh</td>
+        <td>Unnao</td>
+                    <td>
+              98,060            </td>
+            <td>
+              221,125            </td>
+            <td>
+              2.25            </td>
+                        <td>
+              96,337            </td>
+            <td>
+              227,644            </td>
+            <td>
+              2.36            </td>
+            
+      </tr>
+            <tr>
+        <td>75</td>
+        <td>Uttar Pradesh</td>
+        <td>Varanasi</td>
+                    <td>
+              48,057            </td>
+            <td>
+              131,724            </td>
+            <td>
+              2.74            </td>
+                        <td>
+              48,019            </td>
+            <td>
+              135,558            </td>
+            <td>
+              2.82            </td>
+            
+      </tr>
+      
+</tbody>
+</table>

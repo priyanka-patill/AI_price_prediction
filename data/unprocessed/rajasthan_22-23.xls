@@ -1,0 +1,389 @@
+ <table border="2px" id="apyreport" class="table table-hover table-bordered text-center">
+<thead>
+
+<tr>
+  <th rowspan="2">S.No.</th>
+  <th rowspan="2">State</th>
+  <th rowspan="2">District</th>
+        <th colspan="3">2021 - 2022</th>
+            <th colspan="3">2022 - 2023</th>
+      </tr>
+<tr>
+      <th>Area( Ha. )</th>
+    <th>Production
+       (Tonnes)       </th>
+    <th>Yield
+ (Ton./Ha.)    </th>
+        <th>Area( Ha. )</th>
+    <th>Production
+       (Tonnes)       </th>
+    <th>Yield
+ (Ton./Ha.)    </th>
+    
+
+</tr>
+</thead>
+<tbody>
+        <tr>
+        <td>1</td>
+        <td>Rajasthan</td>
+        <td>Ajmer</td>
+                    <td>
+              4            </td>
+            <td>
+              10            </td>
+            <td>
+              2.50            </td>
+                        <td>
+                          </td>
+            <td>
+                          </td>
+            <td>
+                          </td>
+            
+      </tr>
+            <tr>
+        <td>2</td>
+        <td>Rajasthan</td>
+        <td>Alwar</td>
+                    <td>
+              44            </td>
+            <td>
+              107            </td>
+            <td>
+              2.43            </td>
+                        <td>
+              7            </td>
+            <td>
+              17            </td>
+            <td>
+              2.43            </td>
+            
+      </tr>
+            <tr>
+        <td>3</td>
+        <td>Rajasthan</td>
+        <td>Banswara</td>
+                    <td>
+              26,549            </td>
+            <td>
+              27,937            </td>
+            <td>
+              1.05            </td>
+                        <td>
+              28,043            </td>
+            <td>
+              31,724            </td>
+            <td>
+              1.13            </td>
+            
+      </tr>
+            <tr>
+        <td>4</td>
+        <td>Rajasthan</td>
+        <td>Baran</td>
+                    <td>
+              14,535            </td>
+            <td>
+              32,797            </td>
+            <td>
+              2.26            </td>
+                        <td>
+              22,691            </td>
+            <td>
+              64,355            </td>
+            <td>
+              2.84            </td>
+            
+      </tr>
+            <tr>
+        <td>5</td>
+        <td>Rajasthan</td>
+        <td>Bharatpur</td>
+                    <td>
+              1,191            </td>
+            <td>
+              3,307            </td>
+            <td>
+              2.78            </td>
+                        <td>
+              2,468            </td>
+            <td>
+              4,936            </td>
+            <td>
+              2.00            </td>
+            
+      </tr>
+            <tr>
+        <td>6</td>
+        <td>Rajasthan</td>
+        <td>Bhilwara</td>
+                    <td>
+              628            </td>
+            <td>
+              1,530            </td>
+            <td>
+              2.44            </td>
+                        <td>
+              1,016            </td>
+            <td>
+              2,504            </td>
+            <td>
+              2.46            </td>
+            
+      </tr>
+            <tr>
+        <td>7</td>
+        <td>Rajasthan</td>
+        <td>Bundi</td>
+                    <td>
+              55,581            </td>
+            <td>
+              148,499            </td>
+            <td>
+              2.67            </td>
+                        <td>
+              75,801            </td>
+            <td>
+              214,443            </td>
+            <td>
+              2.83            </td>
+            
+      </tr>
+            <tr>
+        <td>8</td>
+        <td>Rajasthan</td>
+        <td>Chittorgarh</td>
+                    <td>
+              943            </td>
+            <td>
+              2,171            </td>
+            <td>
+              2.30            </td>
+                        <td>
+              1,032            </td>
+            <td>
+              2,428            </td>
+            <td>
+              2.35            </td>
+            
+      </tr>
+            <tr>
+        <td>9</td>
+        <td>Rajasthan</td>
+        <td>Dholpur</td>
+                    <td>
+              470            </td>
+            <td>
+              1,145            </td>
+            <td>
+              2.44            </td>
+                        <td>
+              421            </td>
+            <td>
+              1,038            </td>
+            <td>
+              2.47            </td>
+            
+      </tr>
+            <tr>
+        <td>10</td>
+        <td>Rajasthan</td>
+        <td>Dungarpur</td>
+                    <td>
+              14,966            </td>
+            <td>
+              15,461            </td>
+            <td>
+              1.03            </td>
+                        <td>
+              17,492            </td>
+            <td>
+              19,141            </td>
+            <td>
+              1.09            </td>
+            
+      </tr>
+            <tr>
+        <td>11</td>
+        <td>Rajasthan</td>
+        <td>Ganganagar</td>
+                    <td>
+              8,252            </td>
+            <td>
+              22,983            </td>
+            <td>
+              2.79            </td>
+                        <td>
+              5,343            </td>
+            <td>
+              16,258            </td>
+            <td>
+              3.04            </td>
+            
+      </tr>
+            <tr>
+        <td>12</td>
+        <td>Rajasthan</td>
+        <td>Hanumangarh</td>
+                    <td>
+              34,451            </td>
+            <td>
+              122,149            </td>
+            <td>
+              3.55            </td>
+                        <td>
+              31,533            </td>
+            <td>
+              106,224            </td>
+            <td>
+              3.37            </td>
+            
+      </tr>
+            <tr>
+        <td>13</td>
+        <td>Rajasthan</td>
+        <td>Jhalawar</td>
+                    <td>
+              5,289            </td>
+            <td>
+              12,246            </td>
+            <td>
+              2.32            </td>
+                        <td>
+              6,893            </td>
+            <td>
+              14,745            </td>
+            <td>
+              2.14            </td>
+            
+      </tr>
+            <tr>
+        <td>14</td>
+        <td>Rajasthan</td>
+        <td>Karauli</td>
+                    <td>
+              2,261            </td>
+            <td>
+              4,890            </td>
+            <td>
+              2.16            </td>
+                        <td>
+              1,765            </td>
+            <td>
+              2,536            </td>
+            <td>
+              1.44            </td>
+            
+      </tr>
+            <tr>
+        <td>15</td>
+        <td>Rajasthan</td>
+        <td>Kota</td>
+                    <td>
+              24,215            </td>
+            <td>
+              72,019            </td>
+            <td>
+              2.97            </td>
+                        <td>
+              31,268            </td>
+            <td>
+              88,322            </td>
+            <td>
+              2.82            </td>
+            
+      </tr>
+            <tr>
+        <td>16</td>
+        <td>Rajasthan</td>
+        <td>Pratapgarh</td>
+                    <td>
+              419            </td>
+            <td>
+              1,020            </td>
+            <td>
+              2.43            </td>
+                        <td>
+              263            </td>
+            <td>
+              648            </td>
+            <td>
+              2.46            </td>
+            
+      </tr>
+            <tr>
+        <td>17</td>
+        <td>Rajasthan</td>
+        <td>Rajsamand</td>
+                    <td>
+              8            </td>
+            <td>
+              19            </td>
+            <td>
+              2.38            </td>
+                        <td>
+              4            </td>
+            <td>
+              10            </td>
+            <td>
+              2.50            </td>
+            
+      </tr>
+            <tr>
+        <td>18</td>
+        <td>Rajasthan</td>
+        <td>Sawai madhopur</td>
+                    <td>
+              2,829            </td>
+            <td>
+              6,118            </td>
+            <td>
+              2.16            </td>
+                        <td>
+              4,551            </td>
+            <td>
+              5,516            </td>
+            <td>
+              1.21            </td>
+            
+      </tr>
+            <tr>
+        <td>19</td>
+        <td>Rajasthan</td>
+        <td>Tonk</td>
+                    <td>
+                          </td>
+            <td>
+                          </td>
+            <td>
+                          </td>
+                        <td>
+              5            </td>
+            <td>
+              12            </td>
+            <td>
+              2.40            </td>
+            
+      </tr>
+            <tr>
+        <td>20</td>
+        <td>Rajasthan</td>
+        <td>Udaipur</td>
+                    <td>
+              3,824            </td>
+            <td>
+              4,099            </td>
+            <td>
+              1.07            </td>
+                        <td>
+              3,717            </td>
+            <td>
+              2,600            </td>
+            <td>
+              0.70            </td>
+            
+      </tr>
+      
+</tbody>
+</table>

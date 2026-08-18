@@ -1,0 +1,33 @@
+# Phase 3 Buffer Stock Optimization Configuration (PuLP MILP)
+
+optimization:
+  minimum_reserve_percent: 0.25 # Keep at least 25% of buffer norm
+  price_pressure_weight: 100.0 # Weight for price pressure reduction
+  transport_cost_weight: 0.05   # Weight for transport cost penalty
+  shortage_penalty_weight: 500.0 # Weight for unmet state demand
+  reserve_stock_weight: 10.0    # Weight for holding reserve stock
+  default_max_release_mt: 50000.0
+
+# Transportation Cost Matrix (Distance in km / Cost in Rs per MT per km)
+# Labeled as: ESTIMATED / CONFIGURATION INPUT
+transport_matrix:
+  origin_hub: "Central Warehouse Hub"
+  destinations:
+    "Punjab":
+      distance_km: 150
+      cost_per_mt_km: 1.50
+    "Haryana":
+      distance_km: 220
+      cost_per_mt_km: 1.50
+    "Uttar Pradesh":
+      distance_km: 450
+      cost_per_mt_km: 1.80
+    "West Bengal":
+      distance_km: 1300
+      cost_per_mt_km: 2.20
+    "Andhra Pradesh":
+      distance_km: 1600
+      cost_per_mt_km: 2.40
+    "Telangana":
+      distance_km: 1450
+      cost_per_mt_km: 2.30

@@ -1,0 +1,497 @@
+ <table border="2px" id="apyreport" class="table table-hover table-bordered text-center">
+<thead>
+
+<tr>
+  <th rowspan="2">S.No.</th>
+  <th rowspan="2">State</th>
+  <th rowspan="2">District</th>
+        <th colspan="3">2021 - 2022</th>
+            <th colspan="3">2022 - 2023</th>
+      </tr>
+<tr>
+      <th>Area( Ha. )</th>
+    <th>Production
+       (Tonnes)       </th>
+    <th>Yield
+ (Ton./Ha.)    </th>
+        <th>Area( Ha. )</th>
+    <th>Production
+       (Tonnes)       </th>
+    <th>Yield
+ (Ton./Ha.)    </th>
+    
+
+</tr>
+</thead>
+<tbody>
+        <tr>
+        <td>1</td>
+        <td>Andhra Pradesh</td>
+        <td>Alluri sitharama raju</td>
+                    <td>
+                          </td>
+            <td>
+                          </td>
+            <td>
+                          </td>
+                        <td>
+              58,705            </td>
+            <td>
+              175,374            </td>
+            <td>
+              2.99            </td>
+            
+      </tr>
+            <tr>
+        <td>2</td>
+        <td>Andhra Pradesh</td>
+        <td>Anakapalli</td>
+                    <td>
+                          </td>
+            <td>
+                          </td>
+            <td>
+                          </td>
+                        <td>
+              59,406            </td>
+            <td>
+              186,481            </td>
+            <td>
+              3.14            </td>
+            
+      </tr>
+            <tr>
+        <td>3</td>
+        <td>Andhra Pradesh</td>
+        <td>Anantapur</td>
+                    <td>
+              32,366            </td>
+            <td>
+              72,080            </td>
+            <td>
+              2.23            </td>
+                        <td>
+              26,995            </td>
+            <td>
+              103,988            </td>
+            <td>
+              3.85            </td>
+            
+      </tr>
+            <tr>
+        <td>4</td>
+        <td>Andhra Pradesh</td>
+        <td>Annamayya</td>
+                    <td>
+                          </td>
+            <td>
+                          </td>
+            <td>
+                          </td>
+                        <td>
+              15,906            </td>
+            <td>
+              52,418            </td>
+            <td>
+              3.30            </td>
+            
+      </tr>
+            <tr>
+        <td>5</td>
+        <td>Andhra Pradesh</td>
+        <td>Bapatla</td>
+                    <td>
+                          </td>
+            <td>
+                          </td>
+            <td>
+                          </td>
+                        <td>
+              115,379            </td>
+            <td>
+              480,939            </td>
+            <td>
+              4.17            </td>
+            
+      </tr>
+            <tr>
+        <td>6</td>
+        <td>Andhra Pradesh</td>
+        <td>Chittoor</td>
+                    <td>
+              86,842            </td>
+            <td>
+              306,533            </td>
+            <td>
+              3.53            </td>
+                        <td>
+              19,888            </td>
+            <td>
+              62,697            </td>
+            <td>
+              3.15            </td>
+            
+      </tr>
+            <tr>
+        <td>7</td>
+        <td>Andhra Pradesh</td>
+        <td>East godavari</td>
+                    <td>
+              430,625            </td>
+            <td>
+              1,447,672            </td>
+            <td>
+              3.36            </td>
+                        <td>
+              132,082            </td>
+            <td>
+              580,924            </td>
+            <td>
+              4.40            </td>
+            
+      </tr>
+            <tr>
+        <td>8</td>
+        <td>Andhra Pradesh</td>
+        <td>Eluru</td>
+                    <td>
+                          </td>
+            <td>
+                          </td>
+            <td>
+                          </td>
+                        <td>
+              121,263            </td>
+            <td>
+              543,616            </td>
+            <td>
+              4.48            </td>
+            
+      </tr>
+            <tr>
+        <td>9</td>
+        <td>Andhra Pradesh</td>
+        <td>Guntur</td>
+                    <td>
+              254,172            </td>
+            <td>
+              766,598            </td>
+            <td>
+              3.02            </td>
+                        <td>
+              62,355            </td>
+            <td>
+              261,552            </td>
+            <td>
+              4.19            </td>
+            
+      </tr>
+            <tr>
+        <td>10</td>
+        <td>Andhra Pradesh</td>
+        <td>Kadapa</td>
+                    <td>
+              70,502            </td>
+            <td>
+              141,251            </td>
+            <td>
+              2.00            </td>
+                        <td>
+              38,047            </td>
+            <td>
+              126,196            </td>
+            <td>
+              3.32            </td>
+            
+      </tr>
+            <tr>
+        <td>11</td>
+        <td>Andhra Pradesh</td>
+        <td>Kakinada</td>
+                    <td>
+                          </td>
+            <td>
+                          </td>
+            <td>
+                          </td>
+                        <td>
+              155,124            </td>
+            <td>
+              609,901            </td>
+            <td>
+              3.93            </td>
+            
+      </tr>
+            <tr>
+        <td>12</td>
+        <td>Andhra Pradesh</td>
+        <td>Konaseema</td>
+                    <td>
+                          </td>
+            <td>
+                          </td>
+            <td>
+                          </td>
+                        <td>
+              126,790            </td>
+            <td>
+              584,636            </td>
+            <td>
+              4.61            </td>
+            
+      </tr>
+            <tr>
+        <td>13</td>
+        <td>Andhra Pradesh</td>
+        <td>Krishna</td>
+                    <td>
+              268,513            </td>
+            <td>
+              928,371            </td>
+            <td>
+              3.46            </td>
+                        <td>
+              167,427            </td>
+            <td>
+              665,011            </td>
+            <td>
+              3.97            </td>
+            
+      </tr>
+            <tr>
+        <td>14</td>
+        <td>Andhra Pradesh</td>
+        <td>Kurnool</td>
+                    <td>
+              117,156            </td>
+            <td>
+              382,980            </td>
+            <td>
+              3.27            </td>
+                        <td>
+              16,333            </td>
+            <td>
+              54,918            </td>
+            <td>
+              3.36            </td>
+            
+      </tr>
+            <tr>
+        <td>15</td>
+        <td>Andhra Pradesh</td>
+        <td>Nandyal</td>
+                    <td>
+                          </td>
+            <td>
+                          </td>
+            <td>
+                          </td>
+                        <td>
+              98,196            </td>
+            <td>
+              393,843            </td>
+            <td>
+              4.01            </td>
+            
+      </tr>
+            <tr>
+        <td>16</td>
+        <td>Andhra Pradesh</td>
+        <td>Ntr</td>
+                    <td>
+                          </td>
+            <td>
+                          </td>
+            <td>
+                          </td>
+                        <td>
+              63,982            </td>
+            <td>
+              248,986            </td>
+            <td>
+              3.89            </td>
+            
+      </tr>
+            <tr>
+        <td>17</td>
+        <td>Andhra Pradesh</td>
+        <td>Palnadu</td>
+                    <td>
+                          </td>
+            <td>
+                          </td>
+            <td>
+                          </td>
+                        <td>
+              58,473            </td>
+            <td>
+              217,012            </td>
+            <td>
+              3.71            </td>
+            
+      </tr>
+            <tr>
+        <td>18</td>
+        <td>Andhra Pradesh</td>
+        <td>Parvathipuram manyam</td>
+                    <td>
+                          </td>
+            <td>
+                          </td>
+            <td>
+                          </td>
+                        <td>
+              72,813            </td>
+            <td>
+              241,927            </td>
+            <td>
+              3.32            </td>
+            
+      </tr>
+            <tr>
+        <td>19</td>
+        <td>Andhra Pradesh</td>
+        <td>Prakasam</td>
+                    <td>
+              89,512            </td>
+            <td>
+              286,626            </td>
+            <td>
+              3.20            </td>
+                        <td>
+              26,523            </td>
+            <td>
+              91,994            </td>
+            <td>
+              3.47            </td>
+            
+      </tr>
+            <tr>
+        <td>20</td>
+        <td>Andhra Pradesh</td>
+        <td>Spsr nellore</td>
+                    <td>
+              273,534            </td>
+            <td>
+              1,169,190            </td>
+            <td>
+              4.27            </td>
+                        <td>
+              150,491            </td>
+            <td>
+              671,290            </td>
+            <td>
+              4.46            </td>
+            
+      </tr>
+            <tr>
+        <td>21</td>
+        <td>Andhra Pradesh</td>
+        <td>Sri sathya sai</td>
+                    <td>
+                          </td>
+            <td>
+                          </td>
+            <td>
+                          </td>
+                        <td>
+              6,527            </td>
+            <td>
+              18,180            </td>
+            <td>
+              2.79            </td>
+            
+      </tr>
+            <tr>
+        <td>22</td>
+        <td>Andhra Pradesh</td>
+        <td>Srikakulam</td>
+                    <td>
+              205,195            </td>
+            <td>
+              538,618            </td>
+            <td>
+              2.62            </td>
+                        <td>
+              159,837            </td>
+            <td>
+              501,208            </td>
+            <td>
+              3.14            </td>
+            
+      </tr>
+            <tr>
+        <td>23</td>
+        <td>Andhra Pradesh</td>
+        <td>Tirupati</td>
+                    <td>
+                          </td>
+            <td>
+                          </td>
+            <td>
+                          </td>
+                        <td>
+              100,597            </td>
+            <td>
+              386,133            </td>
+            <td>
+              3.84            </td>
+            
+      </tr>
+            <tr>
+        <td>24</td>
+        <td>Andhra Pradesh</td>
+        <td>Visakhapatanam</td>
+                    <td>
+              102,370            </td>
+            <td>
+              254,772            </td>
+            <td>
+              2.49            </td>
+                        <td>
+              5,480            </td>
+            <td>
+              18,248            </td>
+            <td>
+              3.33            </td>
+            
+      </tr>
+            <tr>
+        <td>25</td>
+        <td>Andhra Pradesh</td>
+        <td>Vizianagaram</td>
+                    <td>
+              131,877            </td>
+            <td>
+              386,725            </td>
+            <td>
+              2.93            </td>
+                        <td>
+              94,505            </td>
+            <td>
+              341,775            </td>
+            <td>
+              3.62            </td>
+            
+      </tr>
+            <tr>
+        <td>26</td>
+        <td>Andhra Pradesh</td>
+        <td>West godavari</td>
+                    <td>
+              421,951            </td>
+            <td>
+              1,735,499            </td>
+            <td>
+              4.11            </td>
+                        <td>
+              175,965            </td>
+            <td>
+              800,687            </td>
+            <td>
+              4.55            </td>
+            
+      </tr>
+      
+</tbody>
+</table>

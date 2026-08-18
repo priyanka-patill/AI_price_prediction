@@ -1,0 +1,19 @@
+{
+  "train_period": {
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "records": 424
+  },
+  "validation_period": {
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "records": 416
+  },
+  "test_period": {
+    "start": "2026-01-01",
+    "end": "2026-07-31",
+    "records": 240
+  },
+  "total_records": 1080,
+  "split_method": "Chronological (No Data Leakage)"
+}

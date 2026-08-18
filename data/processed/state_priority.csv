@@ -1,0 +1,2 @@
+priority_rank,state,price_pressure_score,forecast_7d,forecast_15d,forecast_30d,warning_level,stock_available_mt,estimated_need_mt
+1,Punjab,6.54,3104.1110666488657,3114.1110666488657,3124.1110666488657,WARNING,15000.0,16350.0

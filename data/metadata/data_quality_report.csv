@@ -1,0 +1,12 @@
+dataset_name,rows,columns,date_range,num_states,num_districts,num_markets,missing_percentage,duplicate_count,suspicious_record_count,primary_source,verification_status,data_status,last_updated
+rice_production,455,13,2021-22 to 2025-26,37,0,0,0.0,6,1,Ministry of Agriculture & Farmers Welfare (APY),Verified,Final,2026-08-17
+rice_market,1080,16,2024-01-01 to 2026-07-27,6,5,5,0.0,0,0,AGMARKNET (Government of India),Verified,Derived,2026-08-17
+paddy_market,1080,16,2024-01-01 to 2026-07-27,6,5,5,0.0,0,0,AGMARKNET (Government of India),Verified,Derived,2026-08-17
+weather,2829,19,2024-01-01 to 2026-07-31,2,3,0,0.0,0,0,Open-Meteo Historical Weather API,Verified,Official_API,2026-08-17
+procurement,23,12,2021-22 to 2025-26,5,0,0,0.0,0,0,Department of Food & Public Distribution (DFPD),Verified,Final,2026-08-17
+msp,10,9,2021-22 to 2025-26,0,0,0,0.0,0,0,Cabinet Committee on Economic Affairs (CCEA) / DFPD,Verified,Final,2026-08-17
+stock,31,11,2024-01-01 to 2026-07-01,0,0,0,0.0,0,0,Food Corporation of India (FCI),Verified,Final,2026-08-17
+allocation,527,12,2024-01-01 to 2026-07-01,17,0,0,0.0,0,0,Department of Food & Public Distribution (DFPD),Verified,Final,2026-08-17
+unified_market_daily_modelling,1080,25,2024-01-01 to 2026-07-27,6,5,5,22.5,0,0,AGMARKNET (Government of India),Verified,Derived,2026-08-17
+unified_state_daily_modelling,810,11,2024-01-01 to 2026-07-27,6,1,1,30.3,0,0,Official Data Provider,Verified,Final,2026-08-17
+feature_engineered_modelling_dataset,1080,61,2024-01-01 to 2026-07-27,6,5,5,20.54,0,0,AGMARKNET (Government of India),Verified,Derived,2026-08-17

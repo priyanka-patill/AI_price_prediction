@@ -1,0 +1,18 @@
+State,District,Latitude,Longitude,Geocoding_Name,Geocoding_Status,Source
+Andhra Pradesh,East Godavari,,,East Godavari,Not_Found,Open-Meteo Geocoding API
+Andhra Pradesh,West Godavari,16.71311,81.10437,Eluru,Success,Open-Meteo Geocoding API
+Assam,Central,,,Central,Not_Found,Open-Meteo Geocoding API
+Bihar,Central,,,Central,Not_Found,Open-Meteo Geocoding API
+Chhattisgarh,Raipur,21.23333,81.63333,Raipur,Success,Open-Meteo Geocoding API
+Chhattisgarh,Durg,21.19147,81.27619,Durg,Success,Open-Meteo Geocoding API
+Gujarat,Central,,,Central,Not_Found,Open-Meteo Geocoding API
+Haryana,Central,,,Central,Not_Found,Open-Meteo Geocoding API
+Punjab,Ludhiana,30.91204,75.85379,Ludhiana,Success,Open-Meteo Geocoding API
+Punjab,Patiala,30.33625,76.3922,Patiāla,Success,Open-Meteo Geocoding API
+Punjab,Amritsar,31.62234,74.87534,Amritsar,Success,Open-Meteo Geocoding API
+West Bengal,Burdwan,23.25572,87.85691,Bardhaman,Success,Open-Meteo Geocoding API
+West Bengal,Hooghly,22.90877,88.39674,Hugli,Success,Open-Meteo Geocoding API
+Uttar Pradesh,Kanpur,26.46523,80.34975,Kanpur,Success,Open-Meteo Geocoding API
+Uttar Pradesh,Varanasi,25.31668,83.01041,Varanasi,Success,Open-Meteo Geocoding API
+Andhra Pradesh,Krishna,27.66317,78.97125,Krishna,Success,Open-Meteo Geocoding API
+Telangana,Nizamabad,18.67154,78.0988,Nizāmābād,Success,Open-Meteo Geocoding API

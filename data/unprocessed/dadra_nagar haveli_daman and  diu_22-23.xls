@@ -1,0 +1,65 @@
+ <table border="2px" id="apyreport" class="table table-hover table-bordered text-center">
+<thead>
+
+<tr>
+  <th rowspan="2">S.No.</th>
+  <th rowspan="2">State</th>
+  <th rowspan="2">District</th>
+        <th colspan="3">2021 - 2022</th>
+            <th colspan="3">2022 - 2023</th>
+      </tr>
+<tr>
+      <th>Area( Ha. )</th>
+    <th>Production
+       (Tonnes)       </th>
+    <th>Yield
+ (Ton./Ha.)    </th>
+        <th>Area( Ha. )</th>
+    <th>Production
+       (Tonnes)       </th>
+    <th>Yield
+ (Ton./Ha.)    </th>
+    
+
+</tr>
+</thead>
+<tbody>
+        <tr>
+        <td>1</td>
+        <td>The Dadra &amp; Nagar Haveli and Daman and Diu</td>
+        <td>Dadra and Nagar Haveli</td>
+                    <td>
+              15,853            </td>
+            <td>
+              32,800            </td>
+            <td>
+              2.07            </td>
+                        <td>
+              15,853            </td>
+            <td>
+              33,038            </td>
+            <td>
+              2.08            </td>
+            
+      </tr>
+            <tr>
+        <td>2</td>
+        <td>The Dadra &amp; Nagar Haveli and Daman and Diu</td>
+        <td>Daman</td>
+                    <td>
+              1,434            </td>
+            <td>
+              2,776            </td>
+            <td>
+              1.94            </td>
+                        <td>
+              1,434            </td>
+            <td>
+              2,791            </td>
+            <td>
+              1.95            </td>
+            
+      </tr>
+      
+</tbody>
+</table>

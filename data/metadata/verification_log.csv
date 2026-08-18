@@ -1,0 +1,12 @@
+Dataset,Primary_Source,Secondary_Source,Verification_Status,Data_Status,Notes
+rice_production,Ministry of Agriculture & Farmers Welfare (APY),DES (Directorate of Economics & Statistics),Verified,Final,Preserved original APY reporting period (Financial Year)
+rice_market,AGMARKNET (Government of India),data.gov.in,Verified,Derived,Processed Rice market prices and arrivals.
+paddy_market,AGMARKNET (Government of India),data.gov.in,Verified,Derived,Processed Paddy (Dhan) market prices and arrivals.
+weather,Open-Meteo Historical Weather API,ERA5 Reanalysis Grid,Verified,Official_API,"Daily historical precipitation, temperature, soil moisture, and evapotranspiration from Open-Meteo API"
+procurement,Department of Food & Public Distribution (DFPD),Food Corporation of India (FCI),Verified,Final,Official KMS Paddy Procurement & Rice Equivalent
+msp,Cabinet Committee on Economic Affairs (CCEA) / DFPD,Ministry of Agriculture & Farmers Welfare,Verified,Final,Minimum Support Price for Paddy Common & Grade A
+stock,Food Corporation of India (FCI),DFPD Monthly Foodgrain Bulletin,Verified,Final,Central Pool Rice Stock vs Quarterly Buffer Norms
+allocation,Department of Food & Public Distribution (DFPD),State PDS Portals,Verified,Final,Monthly Rice Allocation & Offtake under NFSA/TPDS
+unified_market_daily_modelling,AGMARKNET (Government of India),data.gov.in,Verified,Derived,Processed Rice market prices and arrivals.
+unified_state_daily_modelling,Official Data Provider,GoI Ministry Reports,Verified,Final,Standardized
+feature_engineered_modelling_dataset,AGMARKNET (Government of India),data.gov.in,Verified,Derived,Processed Rice market prices and arrivals.

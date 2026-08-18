@@ -1,0 +1,965 @@
+ <table border="2px" id="apyreport" class="table table-hover table-bordered text-center">
+<thead>
+
+<tr>
+  <th rowspan="2">S.No.</th>
+  <th rowspan="2">State</th>
+  <th rowspan="2">District</th>
+        <th colspan="3">2021 - 2022</th>
+            <th colspan="3">2022 - 2023</th>
+      </tr>
+<tr>
+      <th>Area( Ha. )</th>
+    <th>Production
+       (Tonnes)       </th>
+    <th>Yield
+ (Ton./Ha.)    </th>
+        <th>Area( Ha. )</th>
+    <th>Production
+       (Tonnes)       </th>
+    <th>Yield
+ (Ton./Ha.)    </th>
+    
+
+</tr>
+</thead>
+<tbody>
+        <tr>
+        <td>1</td>
+        <td>Madhya Pradesh</td>
+        <td>Agar malwa</td>
+                    <td>
+                          </td>
+            <td>
+                          </td>
+            <td>
+                          </td>
+                        <td>
+              7            </td>
+            <td>
+              14            </td>
+            <td>
+              2.00            </td>
+            
+      </tr>
+            <tr>
+        <td>2</td>
+        <td>Madhya Pradesh</td>
+        <td>Alirajpur</td>
+                    <td>
+              4,534            </td>
+            <td>
+              5,686            </td>
+            <td>
+              1.25            </td>
+                        <td>
+              4,985            </td>
+            <td>
+              9,876            </td>
+            <td>
+              1.98            </td>
+            
+      </tr>
+            <tr>
+        <td>3</td>
+        <td>Madhya Pradesh</td>
+        <td>Anuppur</td>
+                    <td>
+              135,252            </td>
+            <td>
+              203,329            </td>
+            <td>
+              1.50            </td>
+                        <td>
+              135,881            </td>
+            <td>
+              320,000            </td>
+            <td>
+              2.36            </td>
+            
+      </tr>
+            <tr>
+        <td>4</td>
+        <td>Madhya Pradesh</td>
+        <td>Ashoknagar</td>
+                    <td>
+              11,512            </td>
+            <td>
+              27,706            </td>
+            <td>
+              2.41            </td>
+                        <td>
+              20,750            </td>
+            <td>
+              74,908            </td>
+            <td>
+              3.61            </td>
+            
+      </tr>
+            <tr>
+        <td>5</td>
+        <td>Madhya Pradesh</td>
+        <td>Balaghat</td>
+                    <td>
+              301,090            </td>
+            <td>
+              588,130            </td>
+            <td>
+              1.95            </td>
+                        <td>
+              306,354            </td>
+            <td>
+              897,617            </td>
+            <td>
+              2.93            </td>
+            
+      </tr>
+            <tr>
+        <td>6</td>
+        <td>Madhya Pradesh</td>
+        <td>Barwani</td>
+                    <td>
+              302            </td>
+            <td>
+              361            </td>
+            <td>
+              1.19            </td>
+                        <td>
+              268            </td>
+            <td>
+              507            </td>
+            <td>
+              1.89            </td>
+            
+      </tr>
+            <tr>
+        <td>7</td>
+        <td>Madhya Pradesh</td>
+        <td>Betul</td>
+                    <td>
+              35,486            </td>
+            <td>
+              66,713            </td>
+            <td>
+              1.88            </td>
+                        <td>
+              33,807            </td>
+            <td>
+              96,349            </td>
+            <td>
+              2.85            </td>
+            
+      </tr>
+            <tr>
+        <td>8</td>
+        <td>Madhya Pradesh</td>
+        <td>Bhind</td>
+                    <td>
+              19,402            </td>
+            <td>
+              64,155            </td>
+            <td>
+              3.31            </td>
+                        <td>
+              25,407            </td>
+            <td>
+              109,708            </td>
+            <td>
+              4.32            </td>
+            
+      </tr>
+            <tr>
+        <td>9</td>
+        <td>Madhya Pradesh</td>
+        <td>Bhopal</td>
+                    <td>
+              23,844            </td>
+            <td>
+              36,720            </td>
+            <td>
+              1.54            </td>
+                        <td>
+              23,641            </td>
+            <td>
+              84,872            </td>
+            <td>
+              3.59            </td>
+            
+      </tr>
+            <tr>
+        <td>10</td>
+        <td>Madhya Pradesh</td>
+        <td>Burhanpur</td>
+                    <td>
+              875            </td>
+            <td>
+              1,212            </td>
+            <td>
+              1.39            </td>
+                        <td>
+              535            </td>
+            <td>
+              1,054            </td>
+            <td>
+              1.97            </td>
+            
+      </tr>
+            <tr>
+        <td>11</td>
+        <td>Madhya Pradesh</td>
+        <td>Chhatarpur</td>
+                    <td>
+              1,475            </td>
+            <td>
+              2,040            </td>
+            <td>
+              1.38            </td>
+                        <td>
+              1,779            </td>
+            <td>
+              3,576            </td>
+            <td>
+              2.01            </td>
+            
+      </tr>
+            <tr>
+        <td>12</td>
+        <td>Madhya Pradesh</td>
+        <td>Chhindwara</td>
+                    <td>
+              35,631            </td>
+            <td>
+              69,837            </td>
+            <td>
+              1.96            </td>
+                        <td>
+              35,664            </td>
+            <td>
+              104,852            </td>
+            <td>
+              2.94            </td>
+            
+      </tr>
+            <tr>
+        <td>13</td>
+        <td>Madhya Pradesh</td>
+        <td>Damoh</td>
+                    <td>
+              100,977            </td>
+            <td>
+              160,217            </td>
+            <td>
+              1.59            </td>
+                        <td>
+              91,167            </td>
+            <td>
+              345,067            </td>
+            <td>
+              3.78            </td>
+            
+      </tr>
+            <tr>
+        <td>14</td>
+        <td>Madhya Pradesh</td>
+        <td>Datia</td>
+                    <td>
+              79,564            </td>
+            <td>
+              124,119            </td>
+            <td>
+              1.56            </td>
+                        <td>
+              86,457            </td>
+            <td>
+              213,549            </td>
+            <td>
+              2.47            </td>
+            
+      </tr>
+            <tr>
+        <td>15</td>
+        <td>Madhya Pradesh</td>
+        <td>Dewas</td>
+                    <td>
+              106            </td>
+            <td>
+              151            </td>
+            <td>
+              1.43            </td>
+                        <td>
+              80            </td>
+            <td>
+              171            </td>
+            <td>
+              2.14            </td>
+            
+      </tr>
+            <tr>
+        <td>16</td>
+        <td>Madhya Pradesh</td>
+        <td>Dhar</td>
+                    <td>
+              11            </td>
+            <td>
+              15            </td>
+            <td>
+              1.33            </td>
+                        <td>
+              16            </td>
+            <td>
+              29            </td>
+            <td>
+              1.81            </td>
+            
+      </tr>
+            <tr>
+        <td>17</td>
+        <td>Madhya Pradesh</td>
+        <td>Dindori</td>
+                    <td>
+              138,847            </td>
+            <td>
+              204,567            </td>
+            <td>
+              1.47            </td>
+                        <td>
+              159,580            </td>
+            <td>
+              352,672            </td>
+            <td>
+              2.21            </td>
+            
+      </tr>
+            <tr>
+        <td>18</td>
+        <td>Madhya Pradesh</td>
+        <td>Guna</td>
+                    <td>
+              4,204            </td>
+            <td>
+              9,804            </td>
+            <td>
+              2.33            </td>
+                        <td>
+              8,991            </td>
+            <td>
+              32,008            </td>
+            <td>
+              3.56            </td>
+            
+      </tr>
+            <tr>
+        <td>19</td>
+        <td>Madhya Pradesh</td>
+        <td>Gwalior</td>
+                    <td>
+              103,289            </td>
+            <td>
+              295,407            </td>
+            <td>
+              2.86            </td>
+                        <td>
+              108,001            </td>
+            <td>
+              479,848            </td>
+            <td>
+              4.44            </td>
+            
+      </tr>
+            <tr>
+        <td>20</td>
+        <td>Madhya Pradesh</td>
+        <td>Harda</td>
+                    <td>
+              7,289            </td>
+            <td>
+              16,998            </td>
+            <td>
+              2.33            </td>
+                        <td>
+              6,620            </td>
+            <td>
+              23,155            </td>
+            <td>
+              3.50            </td>
+            
+      </tr>
+            <tr>
+        <td>21</td>
+        <td>Madhya Pradesh</td>
+        <td>Hoshangabad</td>
+                    <td>
+              201,287            </td>
+            <td>
+              590,441            </td>
+            <td>
+              2.93            </td>
+                        <td>
+              237,086            </td>
+            <td>
+              1,019,470            </td>
+            <td>
+              4.30            </td>
+            
+      </tr>
+            <tr>
+        <td>22</td>
+        <td>Madhya Pradesh</td>
+        <td>Indore</td>
+                    <td>
+              65            </td>
+            <td>
+              107            </td>
+            <td>
+              1.64            </td>
+                        <td>
+              16            </td>
+            <td>
+              38            </td>
+            <td>
+              2.38            </td>
+            
+      </tr>
+            <tr>
+        <td>23</td>
+        <td>Madhya Pradesh</td>
+        <td>Jabalpur</td>
+                    <td>
+              186,169            </td>
+            <td>
+              522,267            </td>
+            <td>
+              2.81            </td>
+                        <td>
+              181,663            </td>
+            <td>
+              673,606            </td>
+            <td>
+              3.71            </td>
+            
+      </tr>
+            <tr>
+        <td>24</td>
+        <td>Madhya Pradesh</td>
+        <td>Jhabua</td>
+                    <td>
+              4,289            </td>
+            <td>
+              4,812            </td>
+            <td>
+              1.12            </td>
+                        <td>
+              4,024            </td>
+            <td>
+              7,927            </td>
+            <td>
+              1.97            </td>
+            
+      </tr>
+            <tr>
+        <td>25</td>
+        <td>Madhya Pradesh</td>
+        <td>Katni</td>
+                    <td>
+              198,166            </td>
+            <td>
+              514,438            </td>
+            <td>
+              2.60            </td>
+                        <td>
+              122,956            </td>
+            <td>
+              484,447            </td>
+            <td>
+              3.94            </td>
+            
+      </tr>
+            <tr>
+        <td>26</td>
+        <td>Madhya Pradesh</td>
+        <td>Khandwa</td>
+                    <td>
+              3,436            </td>
+            <td>
+              4,192            </td>
+            <td>
+              1.22            </td>
+                        <td>
+              2,035            </td>
+            <td>
+              3,928            </td>
+            <td>
+              1.93            </td>
+            
+      </tr>
+            <tr>
+        <td>27</td>
+        <td>Madhya Pradesh</td>
+        <td>Khargone</td>
+                    <td>
+              10            </td>
+            <td>
+              12            </td>
+            <td>
+              1.20            </td>
+                        <td>
+              40            </td>
+            <td>
+              73            </td>
+            <td>
+              1.83            </td>
+            
+      </tr>
+            <tr>
+        <td>28</td>
+        <td>Madhya Pradesh</td>
+        <td>Mandla</td>
+                    <td>
+              186,955            </td>
+            <td>
+              377,648            </td>
+            <td>
+              2.02            </td>
+                        <td>
+              194,475            </td>
+            <td>
+              603,845            </td>
+            <td>
+              3.11            </td>
+            
+      </tr>
+            <tr>
+        <td>29</td>
+        <td>Madhya Pradesh</td>
+        <td>Mandsaur</td>
+                    <td>
+              13            </td>
+            <td>
+              16            </td>
+            <td>
+              1.23            </td>
+                        <td>
+              8            </td>
+            <td>
+              15            </td>
+            <td>
+              1.88            </td>
+            
+      </tr>
+            <tr>
+        <td>30</td>
+        <td>Madhya Pradesh</td>
+        <td>Morena</td>
+                    <td>
+              4,445            </td>
+            <td>
+              11,972            </td>
+            <td>
+              2.69            </td>
+                        <td>
+              4,333            </td>
+            <td>
+              17,505            </td>
+            <td>
+              4.04            </td>
+            
+      </tr>
+            <tr>
+        <td>31</td>
+        <td>Madhya Pradesh</td>
+        <td>Narsinghpur</td>
+                    <td>
+              82,720            </td>
+            <td>
+              158,933            </td>
+            <td>
+              1.92            </td>
+                        <td>
+              87,429            </td>
+            <td>
+              340,011            </td>
+            <td>
+              3.89            </td>
+            
+      </tr>
+            <tr>
+        <td>32</td>
+        <td>Madhya Pradesh</td>
+        <td>Neemuch</td>
+                    <td>
+              165            </td>
+            <td>
+              211            </td>
+            <td>
+              1.28            </td>
+                        <td>
+              164            </td>
+            <td>
+              213            </td>
+            <td>
+              1.30            </td>
+            
+      </tr>
+            <tr>
+        <td>33</td>
+        <td>Madhya Pradesh</td>
+        <td>Niwari</td>
+                    <td>
+              128            </td>
+            <td>
+              145            </td>
+            <td>
+              1.14            </td>
+                        <td>
+              224            </td>
+            <td>
+              435            </td>
+            <td>
+              1.94            </td>
+            
+      </tr>
+            <tr>
+        <td>34</td>
+        <td>Madhya Pradesh</td>
+        <td>Panna</td>
+                    <td>
+              127,863            </td>
+            <td>
+              245,667            </td>
+            <td>
+              1.92            </td>
+                        <td>
+              122,244            </td>
+            <td>
+              384,457            </td>
+            <td>
+              3.14            </td>
+            
+      </tr>
+            <tr>
+        <td>35</td>
+        <td>Madhya Pradesh</td>
+        <td>Raisen</td>
+                    <td>
+              246,286            </td>
+            <td>
+              560,712            </td>
+            <td>
+              2.28            </td>
+                        <td>
+              285,453            </td>
+            <td>
+              1,016,498            </td>
+            <td>
+              3.56            </td>
+            
+      </tr>
+            <tr>
+        <td>36</td>
+        <td>Madhya Pradesh</td>
+        <td>Rajgarh</td>
+                    <td>
+              98            </td>
+            <td>
+              157            </td>
+            <td>
+              1.61            </td>
+                        <td>
+              259            </td>
+            <td>
+              598            </td>
+            <td>
+              2.31            </td>
+            
+      </tr>
+            <tr>
+        <td>37</td>
+        <td>Madhya Pradesh</td>
+        <td>Ratlam</td>
+                    <td>
+              22            </td>
+            <td>
+              30            </td>
+            <td>
+              1.36            </td>
+                        <td>
+              37            </td>
+            <td>
+              77            </td>
+            <td>
+              2.08            </td>
+            
+      </tr>
+            <tr>
+        <td>38</td>
+        <td>Madhya Pradesh</td>
+        <td>Rewa</td>
+                    <td>
+              323,983            </td>
+            <td>
+              892,249            </td>
+            <td>
+              2.75            </td>
+                        <td>
+              280,363            </td>
+            <td>
+              1,117,807            </td>
+            <td>
+              3.99            </td>
+            
+      </tr>
+            <tr>
+        <td>39</td>
+        <td>Madhya Pradesh</td>
+        <td>Sagar</td>
+                    <td>
+              56,313            </td>
+            <td>
+              98,397            </td>
+            <td>
+              1.75            </td>
+                        <td>
+              54,558            </td>
+            <td>
+              142,669            </td>
+            <td>
+              2.61            </td>
+            
+      </tr>
+            <tr>
+        <td>40</td>
+        <td>Madhya Pradesh</td>
+        <td>Satna</td>
+                    <td>
+              261,336            </td>
+            <td>
+              775,122            </td>
+            <td>
+              2.97            </td>
+                        <td>
+              265,204            </td>
+            <td>
+              1,102,983            </td>
+            <td>
+              4.16            </td>
+            
+      </tr>
+            <tr>
+        <td>41</td>
+        <td>Madhya Pradesh</td>
+        <td>Sehore</td>
+                    <td>
+              51,420            </td>
+            <td>
+              133,830            </td>
+            <td>
+              2.60            </td>
+                        <td>
+              54,632            </td>
+            <td>
+              243,659            </td>
+            <td>
+              4.46            </td>
+            
+      </tr>
+            <tr>
+        <td>42</td>
+        <td>Madhya Pradesh</td>
+        <td>Seoni</td>
+                    <td>
+              265,243            </td>
+            <td>
+              591,315            </td>
+            <td>
+              2.23            </td>
+                        <td>
+              240,842            </td>
+            <td>
+              805,376            </td>
+            <td>
+              3.34            </td>
+            
+      </tr>
+            <tr>
+        <td>43</td>
+        <td>Madhya Pradesh</td>
+        <td>Shahdol</td>
+                    <td>
+              178,089            </td>
+            <td>
+              298,595            </td>
+            <td>
+              1.68            </td>
+                        <td>
+              178,938            </td>
+            <td>
+              467,923            </td>
+            <td>
+              2.62            </td>
+            
+      </tr>
+            <tr>
+        <td>44</td>
+        <td>Madhya Pradesh</td>
+        <td>Shajapur</td>
+                    <td>
+              44            </td>
+            <td>
+              53            </td>
+            <td>
+              1.21            </td>
+                        <td>
+              57            </td>
+            <td>
+              111            </td>
+            <td>
+              1.95            </td>
+            
+      </tr>
+            <tr>
+        <td>45</td>
+        <td>Madhya Pradesh</td>
+        <td>Sheopur</td>
+                    <td>
+              55,222            </td>
+            <td>
+              168,317            </td>
+            <td>
+              3.05            </td>
+                        <td>
+              65,610            </td>
+            <td>
+              286,847            </td>
+            <td>
+              4.37            </td>
+            
+      </tr>
+            <tr>
+        <td>46</td>
+        <td>Madhya Pradesh</td>
+        <td>Shivpuri</td>
+                    <td>
+              58,607            </td>
+            <td>
+              102,405            </td>
+            <td>
+              1.75            </td>
+                        <td>
+              60,849            </td>
+            <td>
+              216,257            </td>
+            <td>
+              3.55            </td>
+            
+      </tr>
+            <tr>
+        <td>47</td>
+        <td>Madhya Pradesh</td>
+        <td>Sidhi</td>
+                    <td>
+              112,741            </td>
+            <td>
+              336,043            </td>
+            <td>
+              2.98            </td>
+                        <td>
+              110,852            </td>
+            <td>
+              391,862            </td>
+            <td>
+              3.54            </td>
+            
+      </tr>
+            <tr>
+        <td>48</td>
+        <td>Madhya Pradesh</td>
+        <td>Singrauli</td>
+                    <td>
+              98,357            </td>
+            <td>
+              303,990            </td>
+            <td>
+              3.09            </td>
+                        <td>
+              90,760            </td>
+            <td>
+              278,633            </td>
+            <td>
+              3.07            </td>
+            
+      </tr>
+            <tr>
+        <td>49</td>
+        <td>Madhya Pradesh</td>
+        <td>Tikamgarh</td>
+                    <td>
+              914            </td>
+            <td>
+              997            </td>
+            <td>
+              1.09            </td>
+                        <td>
+              806            </td>
+            <td>
+              1,561            </td>
+            <td>
+              1.94            </td>
+            
+      </tr>
+            <tr>
+        <td>50</td>
+        <td>Madhya Pradesh</td>
+        <td>Ujjain</td>
+                    <td>
+              667            </td>
+            <td>
+              804            </td>
+            <td>
+              1.21            </td>
+                        <td>
+              38            </td>
+            <td>
+              75            </td>
+            <td>
+              1.97            </td>
+            
+      </tr>
+            <tr>
+        <td>51</td>
+        <td>Madhya Pradesh</td>
+        <td>Umaria</td>
+                    <td>
+              87,432            </td>
+            <td>
+              123,279            </td>
+            <td>
+              1.41            </td>
+                        <td>
+              89,196            </td>
+            <td>
+              188,650            </td>
+            <td>
+              2.12            </td>
+            
+      </tr>
+            <tr>
+        <td>52</td>
+        <td>Madhya Pradesh</td>
+        <td>Vidisha</td>
+                    <td>
+              57,258            </td>
+            <td>
+              100,775            </td>
+            <td>
+              1.76            </td>
+                        <td>
+              62,920            </td>
+            <td>
+              178,693            </td>
+            <td>
+              2.84            </td>
+            
+      </tr>
+      
+</tbody>
+</table>

@@ -1,0 +1,83 @@
+[
+  {
+    "MAE": 33.37,
+    "RMSE": 38.56,
+    "MAPE": 0.92,
+    "sMAPE": 0.92,
+    "R2": -1.7592,
+    "Model": "Naive Baseline",
+    "Horizon": "7D"
+  },
+  {
+    "MAE": 21.45,
+    "RMSE": 25.47,
+    "MAPE": 0.59,
+    "sMAPE": 0.59,
+    "R2": -0.2039,
+    "Model": "ARIMA Baseline",
+    "Horizon": "7D"
+  },
+  {
+    "MAE": 233.33,
+    "RMSE": 234.47,
+    "MAPE": 6.42,
+    "sMAPE": 6.64,
+    "R2": -100.9932,
+    "Model": "LightGBM",
+    "Horizon": "7D"
+  },
+  {
+    "MAE": 51.17,
+    "RMSE": 51.21,
+    "MAPE": 1.4,
+    "sMAPE": 1.41,
+    "R2": -10.4705,
+    "Model": "Naive Baseline",
+    "Horizon": "15D"
+  },
+  {
+    "MAE": 13.13,
+    "RMSE": 15.15,
+    "MAPE": 0.36,
+    "sMAPE": 0.36,
+    "R2": -0.0038,
+    "Model": "ARIMA Baseline",
+    "Horizon": "15D"
+  },
+  {
+    "MAE": 336.87,
+    "RMSE": 337.14,
+    "MAPE": 9.24,
+    "sMAPE": 9.69,
+    "R2": -496.0614,
+    "Model": "LightGBM",
+    "Horizon": "15D"
+  },
+  {
+    "MAE": NaN,
+    "RMSE": NaN,
+    "MAPE": NaN,
+    "sMAPE": NaN,
+    "R2": NaN,
+    "Model": "Naive Baseline",
+    "Horizon": "30D"
+  },
+  {
+    "MAE": NaN,
+    "RMSE": NaN,
+    "MAPE": NaN,
+    "sMAPE": NaN,
+    "R2": NaN,
+    "Model": "ARIMA Baseline",
+    "Horizon": "30D"
+  },
+  {
+    "MAE": NaN,
+    "RMSE": NaN,
+    "MAPE": NaN,
+    "sMAPE": NaN,
+    "R2": NaN,
+    "Model": "LightGBM",
+    "Horizon": "30D"
+  }
+]

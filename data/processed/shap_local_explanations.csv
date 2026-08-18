@@ -1,0 +1,251 @@
+date,state,district,market,forecast_horizon,feature,feature_value,shap_value_rs,contribution_direction,interpretation
+2024-01-01,Andhra Pradesh,East Godavari,East Godavari Mandi,7D,min_price,3200.0,-57.85,DOWNWARD PRESSURE (DECREASE),min_price (3200.0) contributed -57.85 ₹/Qtl toward model prediction
+2024-01-01,Andhra Pradesh,East Godavari,East Godavari Mandi,7D,month,1.0,-12.7,DOWNWARD PRESSURE (DECREASE),month (1) contributed -12.70 ₹/Qtl toward model prediction
+2024-01-01,Andhra Pradesh,East Godavari,East Godavari Mandi,7D,price_rolling_mean_7,nan,7.15,UPWARD PRESSURE (INCREASE),price_rolling_mean_7 (nan) contributed +7.15 ₹/Qtl toward model prediction
+2024-01-01,Andhra Pradesh,East Godavari,East Godavari Mandi,7D,price_rolling_std_7,nan,-1.01,DOWNWARD PRESSURE (DECREASE),price_rolling_std_7 (nan) contributed -1.01 ₹/Qtl toward model prediction
+2024-01-01,Andhra Pradesh,East Godavari,East Godavari Mandi,7D,price_lag_7,nan,-0.99,DOWNWARD PRESSURE (DECREASE),price_lag_7 (nan) contributed -0.99 ₹/Qtl toward model prediction
+2024-01-01,Andhra Pradesh,West Godavari,West Godavari Mandi,7D,min_price,3200.0,-57.85,DOWNWARD PRESSURE (DECREASE),min_price (3200.0) contributed -57.85 ₹/Qtl toward model prediction
+2024-01-01,Andhra Pradesh,West Godavari,West Godavari Mandi,7D,month,1.0,-12.7,DOWNWARD PRESSURE (DECREASE),month (1) contributed -12.70 ₹/Qtl toward model prediction
+2024-01-01,Andhra Pradesh,West Godavari,West Godavari Mandi,7D,price_rolling_mean_7,nan,7.15,UPWARD PRESSURE (INCREASE),price_rolling_mean_7 (nan) contributed +7.15 ₹/Qtl toward model prediction
+2024-01-01,Andhra Pradesh,West Godavari,West Godavari Mandi,7D,price_rolling_std_7,nan,-1.01,DOWNWARD PRESSURE (DECREASE),price_rolling_std_7 (nan) contributed -1.01 ₹/Qtl toward model prediction
+2024-01-01,Andhra Pradesh,West Godavari,West Godavari Mandi,7D,price_lag_7,nan,-0.99,DOWNWARD PRESSURE (DECREASE),price_lag_7 (nan) contributed -0.99 ₹/Qtl toward model prediction
+2024-01-01,Assam,Central,Central Mandi,7D,min_price,3200.0,-57.85,DOWNWARD PRESSURE (DECREASE),min_price (3200.0) contributed -57.85 ₹/Qtl toward model prediction
+2024-01-01,Assam,Central,Central Mandi,7D,month,1.0,-12.7,DOWNWARD PRESSURE (DECREASE),month (1) contributed -12.70 ₹/Qtl toward model prediction
+2024-01-01,Assam,Central,Central Mandi,7D,price_rolling_mean_7,nan,7.15,UPWARD PRESSURE (INCREASE),price_rolling_mean_7 (nan) contributed +7.15 ₹/Qtl toward model prediction
+2024-01-01,Assam,Central,Central Mandi,7D,price_rolling_std_7,nan,-1.01,DOWNWARD PRESSURE (DECREASE),price_rolling_std_7 (nan) contributed -1.01 ₹/Qtl toward model prediction
+2024-01-01,Assam,Central,Central Mandi,7D,price_lag_7,nan,-0.99,DOWNWARD PRESSURE (DECREASE),price_lag_7 (nan) contributed -0.99 ₹/Qtl toward model prediction
+2024-01-01,Bihar,Central,Central Mandi,7D,min_price,3200.0,-57.85,DOWNWARD PRESSURE (DECREASE),min_price (3200.0) contributed -57.85 ₹/Qtl toward model prediction
+2024-01-01,Bihar,Central,Central Mandi,7D,month,1.0,-12.7,DOWNWARD PRESSURE (DECREASE),month (1) contributed -12.70 ₹/Qtl toward model prediction
+2024-01-01,Bihar,Central,Central Mandi,7D,price_rolling_mean_7,nan,7.15,UPWARD PRESSURE (INCREASE),price_rolling_mean_7 (nan) contributed +7.15 ₹/Qtl toward model prediction
+2024-01-01,Bihar,Central,Central Mandi,7D,price_rolling_std_7,nan,-1.01,DOWNWARD PRESSURE (DECREASE),price_rolling_std_7 (nan) contributed -1.01 ₹/Qtl toward model prediction
+2024-01-01,Bihar,Central,Central Mandi,7D,price_lag_7,nan,-0.99,DOWNWARD PRESSURE (DECREASE),price_lag_7 (nan) contributed -0.99 ₹/Qtl toward model prediction
+2024-01-01,Chhattisgarh,Durg,Durg Mandi,7D,min_price,3200.0,-57.85,DOWNWARD PRESSURE (DECREASE),min_price (3200.0) contributed -57.85 ₹/Qtl toward model prediction
+2024-01-01,Chhattisgarh,Durg,Durg Mandi,7D,month,1.0,-12.7,DOWNWARD PRESSURE (DECREASE),month (1) contributed -12.70 ₹/Qtl toward model prediction
+2024-01-01,Chhattisgarh,Durg,Durg Mandi,7D,price_rolling_mean_7,nan,7.15,UPWARD PRESSURE (INCREASE),price_rolling_mean_7 (nan) contributed +7.15 ₹/Qtl toward model prediction
+2024-01-01,Chhattisgarh,Durg,Durg Mandi,7D,price_rolling_std_7,nan,-1.01,DOWNWARD PRESSURE (DECREASE),price_rolling_std_7 (nan) contributed -1.01 ₹/Qtl toward model prediction
+2024-01-01,Chhattisgarh,Durg,Durg Mandi,7D,price_lag_7,nan,-0.99,DOWNWARD PRESSURE (DECREASE),price_lag_7 (nan) contributed -0.99 ₹/Qtl toward model prediction
+2024-01-01,Chhattisgarh,Raipur,Raipur Mandi,7D,min_price,3200.0,-57.85,DOWNWARD PRESSURE (DECREASE),min_price (3200.0) contributed -57.85 ₹/Qtl toward model prediction
+2024-01-01,Chhattisgarh,Raipur,Raipur Mandi,7D,month,1.0,-12.7,DOWNWARD PRESSURE (DECREASE),month (1) contributed -12.70 ₹/Qtl toward model prediction
+2024-01-01,Chhattisgarh,Raipur,Raipur Mandi,7D,price_rolling_mean_7,nan,7.15,UPWARD PRESSURE (INCREASE),price_rolling_mean_7 (nan) contributed +7.15 ₹/Qtl toward model prediction
+2024-01-01,Chhattisgarh,Raipur,Raipur Mandi,7D,price_rolling_std_7,nan,-1.01,DOWNWARD PRESSURE (DECREASE),price_rolling_std_7 (nan) contributed -1.01 ₹/Qtl toward model prediction
+2024-01-01,Chhattisgarh,Raipur,Raipur Mandi,7D,price_lag_7,nan,-0.99,DOWNWARD PRESSURE (DECREASE),price_lag_7 (nan) contributed -0.99 ₹/Qtl toward model prediction
+2024-01-01,Gujarat,Central,Central Mandi,7D,min_price,3200.0,-57.85,DOWNWARD PRESSURE (DECREASE),min_price (3200.0) contributed -57.85 ₹/Qtl toward model prediction
+2024-01-01,Gujarat,Central,Central Mandi,7D,month,1.0,-12.7,DOWNWARD PRESSURE (DECREASE),month (1) contributed -12.70 ₹/Qtl toward model prediction
+2024-01-01,Gujarat,Central,Central Mandi,7D,price_rolling_mean_7,nan,7.15,UPWARD PRESSURE (INCREASE),price_rolling_mean_7 (nan) contributed +7.15 ₹/Qtl toward model prediction
+2024-01-01,Gujarat,Central,Central Mandi,7D,price_rolling_std_7,nan,-1.01,DOWNWARD PRESSURE (DECREASE),price_rolling_std_7 (nan) contributed -1.01 ₹/Qtl toward model prediction
+2024-01-01,Gujarat,Central,Central Mandi,7D,price_lag_7,nan,-0.99,DOWNWARD PRESSURE (DECREASE),price_lag_7 (nan) contributed -0.99 ₹/Qtl toward model prediction
+2024-01-01,Haryana,Central,Central Mandi,7D,min_price,3200.0,-57.85,DOWNWARD PRESSURE (DECREASE),min_price (3200.0) contributed -57.85 ₹/Qtl toward model prediction
+2024-01-01,Haryana,Central,Central Mandi,7D,month,1.0,-12.7,DOWNWARD PRESSURE (DECREASE),month (1) contributed -12.70 ₹/Qtl toward model prediction
+2024-01-01,Haryana,Central,Central Mandi,7D,price_rolling_mean_7,nan,7.15,UPWARD PRESSURE (INCREASE),price_rolling_mean_7 (nan) contributed +7.15 ₹/Qtl toward model prediction
+2024-01-01,Haryana,Central,Central Mandi,7D,price_rolling_std_7,nan,-1.01,DOWNWARD PRESSURE (DECREASE),price_rolling_std_7 (nan) contributed -1.01 ₹/Qtl toward model prediction
+2024-01-01,Haryana,Central,Central Mandi,7D,price_lag_7,nan,-0.99,DOWNWARD PRESSURE (DECREASE),price_lag_7 (nan) contributed -0.99 ₹/Qtl toward model prediction
+2024-01-08,Andhra Pradesh,East Godavari,East Godavari Mandi,7D,min_price,3203.5,-64.31,DOWNWARD PRESSURE (DECREASE),min_price (3203.5) contributed -64.31 ₹/Qtl toward model prediction
+2024-01-08,Andhra Pradesh,East Godavari,East Godavari Mandi,7D,month,1.0,-17.36,DOWNWARD PRESSURE (DECREASE),month (1) contributed -17.36 ₹/Qtl toward model prediction
+2024-01-08,Andhra Pradesh,East Godavari,East Godavari Mandi,7D,price_rolling_mean_7,3300.0,-7.55,DOWNWARD PRESSURE (DECREASE),price_rolling_mean_7 (3300.0) contributed -7.55 ₹/Qtl toward model prediction
+2024-01-08,Andhra Pradesh,East Godavari,East Godavari Mandi,7D,price_rolling_std_7,nan,-1.97,DOWNWARD PRESSURE (DECREASE),price_rolling_std_7 (nan) contributed -1.97 ₹/Qtl toward model prediction
+2024-01-08,Andhra Pradesh,East Godavari,East Godavari Mandi,7D,price_lag_14,nan,1.75,UPWARD PRESSURE (INCREASE),price_lag_14 (nan) contributed +1.75 ₹/Qtl toward model prediction
+2024-01-08,Andhra Pradesh,West Godavari,West Godavari Mandi,7D,min_price,3203.5,-64.31,DOWNWARD PRESSURE (DECREASE),min_price (3203.5) contributed -64.31 ₹/Qtl toward model prediction
+2024-01-08,Andhra Pradesh,West Godavari,West Godavari Mandi,7D,month,1.0,-17.36,DOWNWARD PRESSURE (DECREASE),month (1) contributed -17.36 ₹/Qtl toward model prediction
+2024-01-08,Andhra Pradesh,West Godavari,West Godavari Mandi,7D,price_rolling_mean_7,3300.0,-7.55,DOWNWARD PRESSURE (DECREASE),price_rolling_mean_7 (3300.0) contributed -7.55 ₹/Qtl toward model prediction
+2024-01-08,Andhra Pradesh,West Godavari,West Godavari Mandi,7D,price_rolling_std_7,nan,-1.97,DOWNWARD PRESSURE (DECREASE),price_rolling_std_7 (nan) contributed -1.97 ₹/Qtl toward model prediction
+2024-01-08,Andhra Pradesh,West Godavari,West Godavari Mandi,7D,price_lag_14,nan,1.75,UPWARD PRESSURE (INCREASE),price_lag_14 (nan) contributed +1.75 ₹/Qtl toward model prediction
+2024-01-08,Assam,Central,Central Mandi,7D,min_price,3203.5,-64.31,DOWNWARD PRESSURE (DECREASE),min_price (3203.5) contributed -64.31 ₹/Qtl toward model prediction
+2024-01-08,Assam,Central,Central Mandi,7D,month,1.0,-17.36,DOWNWARD PRESSURE (DECREASE),month (1) contributed -17.36 ₹/Qtl toward model prediction
+2024-01-08,Assam,Central,Central Mandi,7D,price_rolling_mean_7,3300.0,-7.55,DOWNWARD PRESSURE (DECREASE),price_rolling_mean_7 (3300.0) contributed -7.55 ₹/Qtl toward model prediction
+2024-01-08,Assam,Central,Central Mandi,7D,price_rolling_std_7,nan,-1.97,DOWNWARD PRESSURE (DECREASE),price_rolling_std_7 (nan) contributed -1.97 ₹/Qtl toward model prediction
+2024-01-08,Assam,Central,Central Mandi,7D,price_lag_14,nan,1.75,UPWARD PRESSURE (INCREASE),price_lag_14 (nan) contributed +1.75 ₹/Qtl toward model prediction
+2024-01-08,Bihar,Central,Central Mandi,7D,min_price,3203.5,-64.31,DOWNWARD PRESSURE (DECREASE),min_price (3203.5) contributed -64.31 ₹/Qtl toward model prediction
+2024-01-08,Bihar,Central,Central Mandi,7D,month,1.0,-17.36,DOWNWARD PRESSURE (DECREASE),month (1) contributed -17.36 ₹/Qtl toward model prediction
+2024-01-08,Bihar,Central,Central Mandi,7D,price_rolling_mean_7,3300.0,-7.55,DOWNWARD PRESSURE (DECREASE),price_rolling_mean_7 (3300.0) contributed -7.55 ₹/Qtl toward model prediction
+2024-01-08,Bihar,Central,Central Mandi,7D,price_rolling_std_7,nan,-1.97,DOWNWARD PRESSURE (DECREASE),price_rolling_std_7 (nan) contributed -1.97 ₹/Qtl toward model prediction
+2024-01-08,Bihar,Central,Central Mandi,7D,price_lag_14,nan,1.75,UPWARD PRESSURE (INCREASE),price_lag_14 (nan) contributed +1.75 ₹/Qtl toward model prediction
+2024-01-08,Chhattisgarh,Durg,Durg Mandi,7D,min_price,3203.5,-64.31,DOWNWARD PRESSURE (DECREASE),min_price (3203.5) contributed -64.31 ₹/Qtl toward model prediction
+2024-01-08,Chhattisgarh,Durg,Durg Mandi,7D,month,1.0,-17.36,DOWNWARD PRESSURE (DECREASE),month (1) contributed -17.36 ₹/Qtl toward model prediction
+2024-01-08,Chhattisgarh,Durg,Durg Mandi,7D,price_rolling_mean_7,3300.0,-7.55,DOWNWARD PRESSURE (DECREASE),price_rolling_mean_7 (3300.0) contributed -7.55 ₹/Qtl toward model prediction
+2024-01-08,Chhattisgarh,Durg,Durg Mandi,7D,price_rolling_std_7,nan,-1.97,DOWNWARD PRESSURE (DECREASE),price_rolling_std_7 (nan) contributed -1.97 ₹/Qtl toward model prediction
+2024-01-08,Chhattisgarh,Durg,Durg Mandi,7D,price_lag_14,nan,1.75,UPWARD PRESSURE (INCREASE),price_lag_14 (nan) contributed +1.75 ₹/Qtl toward model prediction
+2024-01-08,Chhattisgarh,Raipur,Raipur Mandi,7D,min_price,3203.5,-64.31,DOWNWARD PRESSURE (DECREASE),min_price (3203.5) contributed -64.31 ₹/Qtl toward model prediction
+2024-01-08,Chhattisgarh,Raipur,Raipur Mandi,7D,month,1.0,-17.36,DOWNWARD PRESSURE (DECREASE),month (1) contributed -17.36 ₹/Qtl toward model prediction
+2024-01-08,Chhattisgarh,Raipur,Raipur Mandi,7D,price_rolling_mean_7,3300.0,-7.55,DOWNWARD PRESSURE (DECREASE),price_rolling_mean_7 (3300.0) contributed -7.55 ₹/Qtl toward model prediction
+2024-01-08,Chhattisgarh,Raipur,Raipur Mandi,7D,price_rolling_std_7,nan,-1.97,DOWNWARD PRESSURE (DECREASE),price_rolling_std_7 (nan) contributed -1.97 ₹/Qtl toward model prediction
+2024-01-08,Chhattisgarh,Raipur,Raipur Mandi,7D,price_lag_14,nan,1.75,UPWARD PRESSURE (INCREASE),price_lag_14 (nan) contributed +1.75 ₹/Qtl toward model prediction
+2024-01-08,Gujarat,Central,Central Mandi,7D,min_price,3203.5,-64.31,DOWNWARD PRESSURE (DECREASE),min_price (3203.5) contributed -64.31 ₹/Qtl toward model prediction
+2024-01-08,Gujarat,Central,Central Mandi,7D,month,1.0,-17.36,DOWNWARD PRESSURE (DECREASE),month (1) contributed -17.36 ₹/Qtl toward model prediction
+2024-01-08,Gujarat,Central,Central Mandi,7D,price_rolling_mean_7,3300.0,-7.55,DOWNWARD PRESSURE (DECREASE),price_rolling_mean_7 (3300.0) contributed -7.55 ₹/Qtl toward model prediction
+2024-01-08,Gujarat,Central,Central Mandi,7D,price_rolling_std_7,nan,-1.97,DOWNWARD PRESSURE (DECREASE),price_rolling_std_7 (nan) contributed -1.97 ₹/Qtl toward model prediction
+2024-01-08,Gujarat,Central,Central Mandi,7D,price_lag_14,nan,1.75,UPWARD PRESSURE (INCREASE),price_lag_14 (nan) contributed +1.75 ₹/Qtl toward model prediction
+2024-01-08,Haryana,Central,Central Mandi,7D,min_price,3203.5,-64.31,DOWNWARD PRESSURE (DECREASE),min_price (3203.5) contributed -64.31 ₹/Qtl toward model prediction
+2024-01-08,Haryana,Central,Central Mandi,7D,month,1.0,-17.36,DOWNWARD PRESSURE (DECREASE),month (1) contributed -17.36 ₹/Qtl toward model prediction
+2024-01-08,Haryana,Central,Central Mandi,7D,price_rolling_mean_7,3300.0,-7.55,DOWNWARD PRESSURE (DECREASE),price_rolling_mean_7 (3300.0) contributed -7.55 ₹/Qtl toward model prediction
+2024-01-08,Haryana,Central,Central Mandi,7D,price_rolling_std_7,nan,-1.97,DOWNWARD PRESSURE (DECREASE),price_rolling_std_7 (nan) contributed -1.97 ₹/Qtl toward model prediction
+2024-01-08,Haryana,Central,Central Mandi,7D,price_lag_14,nan,1.75,UPWARD PRESSURE (INCREASE),price_lag_14 (nan) contributed +1.75 ₹/Qtl toward model prediction
+2024-01-15,Andhra Pradesh,East Godavari,East Godavari Mandi,7D,min_price,3207.0,-61.89,DOWNWARD PRESSURE (DECREASE),min_price (3207.0) contributed -61.89 ₹/Qtl toward model prediction
+2024-01-15,Andhra Pradesh,East Godavari,East Godavari Mandi,7D,month,1.0,-18.11,DOWNWARD PRESSURE (DECREASE),month (1) contributed -18.11 ₹/Qtl toward model prediction
+2024-01-15,Andhra Pradesh,East Godavari,East Godavari Mandi,7D,price_rolling_mean_7,3301.75,-7.55,DOWNWARD PRESSURE (DECREASE),price_rolling_mean_7 (3301.75) contributed -7.55 ₹/Qtl toward model prediction
+2024-01-15,Andhra Pradesh,East Godavari,East Godavari Mandi,7D,price_rolling_std_7,2.47,-1.96,DOWNWARD PRESSURE (DECREASE),price_rolling_std_7 (2.4748737341529163) contributed -1.96 ₹/Qtl toward model prediction
+2024-01-15,Andhra Pradesh,East Godavari,East Godavari Mandi,7D,price_lag_14,nan,1.93,UPWARD PRESSURE (INCREASE),price_lag_14 (nan) contributed +1.93 ₹/Qtl toward model prediction
+2024-01-15,Andhra Pradesh,West Godavari,West Godavari Mandi,7D,min_price,3207.0,-61.89,DOWNWARD PRESSURE (DECREASE),min_price (3207.0) contributed -61.89 ₹/Qtl toward model prediction
+2024-01-15,Andhra Pradesh,West Godavari,West Godavari Mandi,7D,month,1.0,-18.11,DOWNWARD PRESSURE (DECREASE),month (1) contributed -18.11 ₹/Qtl toward model prediction
+2024-01-15,Andhra Pradesh,West Godavari,West Godavari Mandi,7D,price_rolling_mean_7,3301.75,-7.55,DOWNWARD PRESSURE (DECREASE),price_rolling_mean_7 (3301.75) contributed -7.55 ₹/Qtl toward model prediction
+2024-01-15,Andhra Pradesh,West Godavari,West Godavari Mandi,7D,price_rolling_std_7,2.47,-1.96,DOWNWARD PRESSURE (DECREASE),price_rolling_std_7 (2.4748737341529163) contributed -1.96 ₹/Qtl toward model prediction
+2024-01-15,Andhra Pradesh,West Godavari,West Godavari Mandi,7D,price_lag_14,nan,1.93,UPWARD PRESSURE (INCREASE),price_lag_14 (nan) contributed +1.93 ₹/Qtl toward model prediction
+2024-01-15,Assam,Central,Central Mandi,7D,min_price,3207.0,-61.89,DOWNWARD PRESSURE (DECREASE),min_price (3207.0) contributed -61.89 ₹/Qtl toward model prediction
+2024-01-15,Assam,Central,Central Mandi,7D,month,1.0,-18.11,DOWNWARD PRESSURE (DECREASE),month (1) contributed -18.11 ₹/Qtl toward model prediction
+2024-01-15,Assam,Central,Central Mandi,7D,price_rolling_mean_7,3301.75,-7.55,DOWNWARD PRESSURE (DECREASE),price_rolling_mean_7 (3301.75) contributed -7.55 ₹/Qtl toward model prediction
+2024-01-15,Assam,Central,Central Mandi,7D,price_rolling_std_7,2.47,-1.96,DOWNWARD PRESSURE (DECREASE),price_rolling_std_7 (2.4748737341529163) contributed -1.96 ₹/Qtl toward model prediction
+2024-01-15,Assam,Central,Central Mandi,7D,price_lag_14,nan,1.93,UPWARD PRESSURE (INCREASE),price_lag_14 (nan) contributed +1.93 ₹/Qtl toward model prediction
+2024-01-15,Bihar,Central,Central Mandi,7D,min_price,3207.0,-61.89,DOWNWARD PRESSURE (DECREASE),min_price (3207.0) contributed -61.89 ₹/Qtl toward model prediction
+2024-01-15,Bihar,Central,Central Mandi,7D,month,1.0,-18.11,DOWNWARD PRESSURE (DECREASE),month (1) contributed -18.11 ₹/Qtl toward model prediction
+2024-01-15,Bihar,Central,Central Mandi,7D,price_rolling_mean_7,3301.75,-7.55,DOWNWARD PRESSURE (DECREASE),price_rolling_mean_7 (3301.75) contributed -7.55 ₹/Qtl toward model prediction
+2024-01-15,Bihar,Central,Central Mandi,7D,price_rolling_std_7,2.47,-1.96,DOWNWARD PRESSURE (DECREASE),price_rolling_std_7 (2.4748737341529163) contributed -1.96 ₹/Qtl toward model prediction
+2024-01-15,Bihar,Central,Central Mandi,7D,price_lag_14,nan,1.93,UPWARD PRESSURE (INCREASE),price_lag_14 (nan) contributed +1.93 ₹/Qtl toward model prediction
+2024-01-15,Chhattisgarh,Durg,Durg Mandi,7D,min_price,3207.0,-61.89,DOWNWARD PRESSURE (DECREASE),min_price (3207.0) contributed -61.89 ₹/Qtl toward model prediction
+2024-01-15,Chhattisgarh,Durg,Durg Mandi,7D,month,1.0,-18.11,DOWNWARD PRESSURE (DECREASE),month (1) contributed -18.11 ₹/Qtl toward model prediction
+2024-01-15,Chhattisgarh,Durg,Durg Mandi,7D,price_rolling_mean_7,3301.75,-7.55,DOWNWARD PRESSURE (DECREASE),price_rolling_mean_7 (3301.75) contributed -7.55 ₹/Qtl toward model prediction
+2024-01-15,Chhattisgarh,Durg,Durg Mandi,7D,price_rolling_std_7,2.47,-1.96,DOWNWARD PRESSURE (DECREASE),price_rolling_std_7 (2.4748737341529163) contributed -1.96 ₹/Qtl toward model prediction
+2024-01-15,Chhattisgarh,Durg,Durg Mandi,7D,price_lag_14,nan,1.93,UPWARD PRESSURE (INCREASE),price_lag_14 (nan) contributed +1.93 ₹/Qtl toward model prediction
+2024-01-15,Chhattisgarh,Raipur,Raipur Mandi,7D,min_price,3207.0,-61.89,DOWNWARD PRESSURE (DECREASE),min_price (3207.0) contributed -61.89 ₹/Qtl toward model prediction
+2024-01-15,Chhattisgarh,Raipur,Raipur Mandi,7D,month,1.0,-18.11,DOWNWARD PRESSURE (DECREASE),month (1) contributed -18.11 ₹/Qtl toward model prediction
+2024-01-15,Chhattisgarh,Raipur,Raipur Mandi,7D,price_rolling_mean_7,3301.75,-7.55,DOWNWARD PRESSURE (DECREASE),price_rolling_mean_7 (3301.75) contributed -7.55 ₹/Qtl toward model prediction
+2024-01-15,Chhattisgarh,Raipur,Raipur Mandi,7D,price_rolling_std_7,2.47,-1.96,DOWNWARD PRESSURE (DECREASE),price_rolling_std_7 (2.4748737341529163) contributed -1.96 ₹/Qtl toward model prediction
+2024-01-15,Chhattisgarh,Raipur,Raipur Mandi,7D,price_lag_14,nan,1.93,UPWARD PRESSURE (INCREASE),price_lag_14 (nan) contributed +1.93 ₹/Qtl toward model prediction
+2024-01-15,Gujarat,Central,Central Mandi,7D,min_price,3207.0,-61.89,DOWNWARD PRESSURE (DECREASE),min_price (3207.0) contributed -61.89 ₹/Qtl toward model prediction
+2024-01-15,Gujarat,Central,Central Mandi,7D,month,1.0,-18.11,DOWNWARD PRESSURE (DECREASE),month (1) contributed -18.11 ₹/Qtl toward model prediction
+2024-01-15,Gujarat,Central,Central Mandi,7D,price_rolling_mean_7,3301.75,-7.55,DOWNWARD PRESSURE (DECREASE),price_rolling_mean_7 (3301.75) contributed -7.55 ₹/Qtl toward model prediction
+2024-01-15,Gujarat,Central,Central Mandi,7D,price_rolling_std_7,2.47,-1.96,DOWNWARD PRESSURE (DECREASE),price_rolling_std_7 (2.4748737341529163) contributed -1.96 ₹/Qtl toward model prediction
+2024-01-15,Gujarat,Central,Central Mandi,7D,price_lag_14,nan,1.93,UPWARD PRESSURE (INCREASE),price_lag_14 (nan) contributed +1.93 ₹/Qtl toward model prediction
+2024-01-15,Haryana,Central,Central Mandi,7D,min_price,3207.0,-61.89,DOWNWARD PRESSURE (DECREASE),min_price (3207.0) contributed -61.89 ₹/Qtl toward model prediction
+2024-01-15,Haryana,Central,Central Mandi,7D,month,1.0,-18.11,DOWNWARD PRESSURE (DECREASE),month (1) contributed -18.11 ₹/Qtl toward model prediction
+2024-01-15,Haryana,Central,Central Mandi,7D,price_rolling_mean_7,3301.75,-7.55,DOWNWARD PRESSURE (DECREASE),price_rolling_mean_7 (3301.75) contributed -7.55 ₹/Qtl toward model prediction
+2024-01-15,Haryana,Central,Central Mandi,7D,price_rolling_std_7,2.47,-1.96,DOWNWARD PRESSURE (DECREASE),price_rolling_std_7 (2.4748737341529163) contributed -1.96 ₹/Qtl toward model prediction
+2024-01-15,Haryana,Central,Central Mandi,7D,price_lag_14,nan,1.93,UPWARD PRESSURE (INCREASE),price_lag_14 (nan) contributed +1.93 ₹/Qtl toward model prediction
+2024-01-22,Andhra Pradesh,East Godavari,East Godavari Mandi,7D,min_price,3210.5,-61.4,DOWNWARD PRESSURE (DECREASE),min_price (3210.5) contributed -61.40 ₹/Qtl toward model prediction
+2024-01-22,Andhra Pradesh,East Godavari,East Godavari Mandi,7D,month,1.0,-17.92,DOWNWARD PRESSURE (DECREASE),month (1) contributed -17.92 ₹/Qtl toward model prediction
+2024-01-22,Andhra Pradesh,East Godavari,East Godavari Mandi,7D,price_rolling_mean_7,3303.5,-7.11,DOWNWARD PRESSURE (DECREASE),price_rolling_mean_7 (3303.5) contributed -7.11 ₹/Qtl toward model prediction
+2024-01-22,Andhra Pradesh,East Godavari,East Godavari Mandi,7D,price_lag_14,nan,1.93,UPWARD PRESSURE (INCREASE),price_lag_14 (nan) contributed +1.93 ₹/Qtl toward model prediction
+2024-01-22,Andhra Pradesh,East Godavari,East Godavari Mandi,7D,arrival_rolling_mean_7,385.0,-0.7,DOWNWARD PRESSURE (DECREASE),arrival_rolling_mean_7 (385.0) contributed -0.70 ₹/Qtl toward model prediction
+2024-01-22,Andhra Pradesh,West Godavari,West Godavari Mandi,7D,min_price,3210.5,-61.4,DOWNWARD PRESSURE (DECREASE),min_price (3210.5) contributed -61.40 ₹/Qtl toward model prediction
+2024-01-22,Andhra Pradesh,West Godavari,West Godavari Mandi,7D,month,1.0,-17.92,DOWNWARD PRESSURE (DECREASE),month (1) contributed -17.92 ₹/Qtl toward model prediction
+2024-01-22,Andhra Pradesh,West Godavari,West Godavari Mandi,7D,price_rolling_mean_7,3303.5,-7.11,DOWNWARD PRESSURE (DECREASE),price_rolling_mean_7 (3303.5) contributed -7.11 ₹/Qtl toward model prediction
+2024-01-22,Andhra Pradesh,West Godavari,West Godavari Mandi,7D,price_lag_14,nan,1.93,UPWARD PRESSURE (INCREASE),price_lag_14 (nan) contributed +1.93 ₹/Qtl toward model prediction
+2024-01-22,Andhra Pradesh,West Godavari,West Godavari Mandi,7D,arrival_rolling_mean_7,385.0,-0.7,DOWNWARD PRESSURE (DECREASE),arrival_rolling_mean_7 (385.0) contributed -0.70 ₹/Qtl toward model prediction
+2024-01-22,Assam,Central,Central Mandi,7D,min_price,3210.5,-61.4,DOWNWARD PRESSURE (DECREASE),min_price (3210.5) contributed -61.40 ₹/Qtl toward model prediction
+2024-01-22,Assam,Central,Central Mandi,7D,month,1.0,-17.92,DOWNWARD PRESSURE (DECREASE),month (1) contributed -17.92 ₹/Qtl toward model prediction
+2024-01-22,Assam,Central,Central Mandi,7D,price_rolling_mean_7,3303.5,-7.11,DOWNWARD PRESSURE (DECREASE),price_rolling_mean_7 (3303.5) contributed -7.11 ₹/Qtl toward model prediction
+2024-01-22,Assam,Central,Central Mandi,7D,price_lag_14,nan,1.93,UPWARD PRESSURE (INCREASE),price_lag_14 (nan) contributed +1.93 ₹/Qtl toward model prediction
+2024-01-22,Assam,Central,Central Mandi,7D,arrival_rolling_mean_7,385.0,-0.7,DOWNWARD PRESSURE (DECREASE),arrival_rolling_mean_7 (385.0) contributed -0.70 ₹/Qtl toward model prediction
+2024-01-22,Bihar,Central,Central Mandi,7D,min_price,3210.5,-61.4,DOWNWARD PRESSURE (DECREASE),min_price (3210.5) contributed -61.40 ₹/Qtl toward model prediction
+2024-01-22,Bihar,Central,Central Mandi,7D,month,1.0,-17.92,DOWNWARD PRESSURE (DECREASE),month (1) contributed -17.92 ₹/Qtl toward model prediction
+2024-01-22,Bihar,Central,Central Mandi,7D,price_rolling_mean_7,3303.5,-7.11,DOWNWARD PRESSURE (DECREASE),price_rolling_mean_7 (3303.5) contributed -7.11 ₹/Qtl toward model prediction
+2024-01-22,Bihar,Central,Central Mandi,7D,price_lag_14,nan,1.93,UPWARD PRESSURE (INCREASE),price_lag_14 (nan) contributed +1.93 ₹/Qtl toward model prediction
+2024-01-22,Bihar,Central,Central Mandi,7D,arrival_rolling_mean_7,385.0,-0.7,DOWNWARD PRESSURE (DECREASE),arrival_rolling_mean_7 (385.0) contributed -0.70 ₹/Qtl toward model prediction
+2024-01-22,Chhattisgarh,Durg,Durg Mandi,7D,min_price,3210.5,-61.4,DOWNWARD PRESSURE (DECREASE),min_price (3210.5) contributed -61.40 ₹/Qtl toward model prediction
+2024-01-22,Chhattisgarh,Durg,Durg Mandi,7D,month,1.0,-17.92,DOWNWARD PRESSURE (DECREASE),month (1) contributed -17.92 ₹/Qtl toward model prediction
+2024-01-22,Chhattisgarh,Durg,Durg Mandi,7D,price_rolling_mean_7,3303.5,-7.11,DOWNWARD PRESSURE (DECREASE),price_rolling_mean_7 (3303.5) contributed -7.11 ₹/Qtl toward model prediction
+2024-01-22,Chhattisgarh,Durg,Durg Mandi,7D,price_lag_14,nan,1.93,UPWARD PRESSURE (INCREASE),price_lag_14 (nan) contributed +1.93 ₹/Qtl toward model prediction
+2024-01-22,Chhattisgarh,Durg,Durg Mandi,7D,arrival_rolling_mean_7,385.0,-0.7,DOWNWARD PRESSURE (DECREASE),arrival_rolling_mean_7 (385.0) contributed -0.70 ₹/Qtl toward model prediction
+2024-01-22,Chhattisgarh,Raipur,Raipur Mandi,7D,min_price,3210.5,-61.4,DOWNWARD PRESSURE (DECREASE),min_price (3210.5) contributed -61.40 ₹/Qtl toward model prediction
+2024-01-22,Chhattisgarh,Raipur,Raipur Mandi,7D,month,1.0,-17.92,DOWNWARD PRESSURE (DECREASE),month (1) contributed -17.92 ₹/Qtl toward model prediction
+2024-01-22,Chhattisgarh,Raipur,Raipur Mandi,7D,price_rolling_mean_7,3303.5,-7.11,DOWNWARD PRESSURE (DECREASE),price_rolling_mean_7 (3303.5) contributed -7.11 ₹/Qtl toward model prediction
+2024-01-22,Chhattisgarh,Raipur,Raipur Mandi,7D,price_lag_14,nan,1.93,UPWARD PRESSURE (INCREASE),price_lag_14 (nan) contributed +1.93 ₹/Qtl toward model prediction
+2024-01-22,Chhattisgarh,Raipur,Raipur Mandi,7D,arrival_rolling_mean_7,385.0,-0.7,DOWNWARD PRESSURE (DECREASE),arrival_rolling_mean_7 (385.0) contributed -0.70 ₹/Qtl toward model prediction
+2024-01-22,Gujarat,Central,Central Mandi,7D,min_price,3210.5,-61.4,DOWNWARD PRESSURE (DECREASE),min_price (3210.5) contributed -61.40 ₹/Qtl toward model prediction
+2024-01-22,Gujarat,Central,Central Mandi,7D,month,1.0,-17.92,DOWNWARD PRESSURE (DECREASE),month (1) contributed -17.92 ₹/Qtl toward model prediction
+2024-01-22,Gujarat,Central,Central Mandi,7D,price_rolling_mean_7,3303.5,-7.11,DOWNWARD PRESSURE (DECREASE),price_rolling_mean_7 (3303.5) contributed -7.11 ₹/Qtl toward model prediction
+2024-01-22,Gujarat,Central,Central Mandi,7D,price_lag_14,nan,1.93,UPWARD PRESSURE (INCREASE),price_lag_14 (nan) contributed +1.93 ₹/Qtl toward model prediction
+2024-01-22,Gujarat,Central,Central Mandi,7D,arrival_rolling_mean_7,385.0,-0.7,DOWNWARD PRESSURE (DECREASE),arrival_rolling_mean_7 (385.0) contributed -0.70 ₹/Qtl toward model prediction
+2024-01-22,Haryana,Central,Central Mandi,7D,min_price,3210.5,-61.4,DOWNWARD PRESSURE (DECREASE),min_price (3210.5) contributed -61.40 ₹/Qtl toward model prediction
+2024-01-22,Haryana,Central,Central Mandi,7D,month,1.0,-17.92,DOWNWARD PRESSURE (DECREASE),month (1) contributed -17.92 ₹/Qtl toward model prediction
+2024-01-22,Haryana,Central,Central Mandi,7D,price_rolling_mean_7,3303.5,-7.11,DOWNWARD PRESSURE (DECREASE),price_rolling_mean_7 (3303.5) contributed -7.11 ₹/Qtl toward model prediction
+2024-01-22,Haryana,Central,Central Mandi,7D,price_lag_14,nan,1.93,UPWARD PRESSURE (INCREASE),price_lag_14 (nan) contributed +1.93 ₹/Qtl toward model prediction
+2024-01-22,Haryana,Central,Central Mandi,7D,arrival_rolling_mean_7,385.0,-0.7,DOWNWARD PRESSURE (DECREASE),arrival_rolling_mean_7 (385.0) contributed -0.70 ₹/Qtl toward model prediction
+2024-01-29,Andhra Pradesh,East Godavari,East Godavari Mandi,7D,min_price,3214.0,-60.73,DOWNWARD PRESSURE (DECREASE),min_price (3214.0) contributed -60.73 ₹/Qtl toward model prediction
+2024-01-29,Andhra Pradesh,East Godavari,East Godavari Mandi,7D,month,1.0,-17.47,DOWNWARD PRESSURE (DECREASE),month (1) contributed -17.47 ₹/Qtl toward model prediction
+2024-01-29,Andhra Pradesh,East Godavari,East Godavari Mandi,7D,price_rolling_mean_7,3305.25,-6.6,DOWNWARD PRESSURE (DECREASE),price_rolling_mean_7 (3305.25) contributed -6.60 ₹/Qtl toward model prediction
+2024-01-29,Andhra Pradesh,East Godavari,East Godavari Mandi,7D,price_lag_14,nan,2.03,UPWARD PRESSURE (INCREASE),price_lag_14 (nan) contributed +2.03 ₹/Qtl toward model prediction
+2024-01-29,Andhra Pradesh,East Godavari,East Godavari Mandi,7D,price_rolling_std_7,4.52,1.46,UPWARD PRESSURE (INCREASE),price_rolling_std_7 (4.51848057057532) contributed +1.46 ₹/Qtl toward model prediction
+2024-01-29,Andhra Pradesh,West Godavari,West Godavari Mandi,7D,min_price,3214.0,-60.73,DOWNWARD PRESSURE (DECREASE),min_price (3214.0) contributed -60.73 ₹/Qtl toward model prediction
+2024-01-29,Andhra Pradesh,West Godavari,West Godavari Mandi,7D,month,1.0,-17.47,DOWNWARD PRESSURE (DECREASE),month (1) contributed -17.47 ₹/Qtl toward model prediction
+2024-01-29,Andhra Pradesh,West Godavari,West Godavari Mandi,7D,price_rolling_mean_7,3305.25,-6.6,DOWNWARD PRESSURE (DECREASE),price_rolling_mean_7 (3305.25) contributed -6.60 ₹/Qtl toward model prediction
+2024-01-29,Andhra Pradesh,West Godavari,West Godavari Mandi,7D,price_lag_14,nan,2.03,UPWARD PRESSURE (INCREASE),price_lag_14 (nan) contributed +2.03 ₹/Qtl toward model prediction
+2024-01-29,Andhra Pradesh,West Godavari,West Godavari Mandi,7D,price_rolling_std_7,4.52,1.46,UPWARD PRESSURE (INCREASE),price_rolling_std_7 (4.51848057057532) contributed +1.46 ₹/Qtl toward model prediction
+2024-01-29,Assam,Central,Central Mandi,7D,min_price,3214.0,-60.73,DOWNWARD PRESSURE (DECREASE),min_price (3214.0) contributed -60.73 ₹/Qtl toward model prediction
+2024-01-29,Assam,Central,Central Mandi,7D,month,1.0,-17.47,DOWNWARD PRESSURE (DECREASE),month (1) contributed -17.47 ₹/Qtl toward model prediction
+2024-01-29,Assam,Central,Central Mandi,7D,price_rolling_mean_7,3305.25,-6.6,DOWNWARD PRESSURE (DECREASE),price_rolling_mean_7 (3305.25) contributed -6.60 ₹/Qtl toward model prediction
+2024-01-29,Assam,Central,Central Mandi,7D,price_lag_14,nan,2.03,UPWARD PRESSURE (INCREASE),price_lag_14 (nan) contributed +2.03 ₹/Qtl toward model prediction
+2024-01-29,Assam,Central,Central Mandi,7D,price_rolling_std_7,4.52,1.46,UPWARD PRESSURE (INCREASE),price_rolling_std_7 (4.51848057057532) contributed +1.46 ₹/Qtl toward model prediction
+2024-01-29,Bihar,Central,Central Mandi,7D,min_price,3214.0,-60.73,DOWNWARD PRESSURE (DECREASE),min_price (3214.0) contributed -60.73 ₹/Qtl toward model prediction
+2024-01-29,Bihar,Central,Central Mandi,7D,month,1.0,-17.47,DOWNWARD PRESSURE (DECREASE),month (1) contributed -17.47 ₹/Qtl toward model prediction
+2024-01-29,Bihar,Central,Central Mandi,7D,price_rolling_mean_7,3305.25,-6.6,DOWNWARD PRESSURE (DECREASE),price_rolling_mean_7 (3305.25) contributed -6.60 ₹/Qtl toward model prediction
+2024-01-29,Bihar,Central,Central Mandi,7D,price_lag_14,nan,2.03,UPWARD PRESSURE (INCREASE),price_lag_14 (nan) contributed +2.03 ₹/Qtl toward model prediction
+2024-01-29,Bihar,Central,Central Mandi,7D,price_rolling_std_7,4.52,1.46,UPWARD PRESSURE (INCREASE),price_rolling_std_7 (4.51848057057532) contributed +1.46 ₹/Qtl toward model prediction
+2024-01-29,Chhattisgarh,Durg,Durg Mandi,7D,min_price,3214.0,-60.73,DOWNWARD PRESSURE (DECREASE),min_price (3214.0) contributed -60.73 ₹/Qtl toward model prediction
+2024-01-29,Chhattisgarh,Durg,Durg Mandi,7D,month,1.0,-17.47,DOWNWARD PRESSURE (DECREASE),month (1) contributed -17.47 ₹/Qtl toward model prediction
+2024-01-29,Chhattisgarh,Durg,Durg Mandi,7D,price_rolling_mean_7,3305.25,-6.6,DOWNWARD PRESSURE (DECREASE),price_rolling_mean_7 (3305.25) contributed -6.60 ₹/Qtl toward model prediction
+2024-01-29,Chhattisgarh,Durg,Durg Mandi,7D,price_lag_14,nan,2.03,UPWARD PRESSURE (INCREASE),price_lag_14 (nan) contributed +2.03 ₹/Qtl toward model prediction
+2024-01-29,Chhattisgarh,Durg,Durg Mandi,7D,price_rolling_std_7,4.52,1.46,UPWARD PRESSURE (INCREASE),price_rolling_std_7 (4.51848057057532) contributed +1.46 ₹/Qtl toward model prediction
+2024-01-29,Chhattisgarh,Raipur,Raipur Mandi,7D,min_price,3214.0,-60.73,DOWNWARD PRESSURE (DECREASE),min_price (3214.0) contributed -60.73 ₹/Qtl toward model prediction
+2024-01-29,Chhattisgarh,Raipur,Raipur Mandi,7D,month,1.0,-17.47,DOWNWARD PRESSURE (DECREASE),month (1) contributed -17.47 ₹/Qtl toward model prediction
+2024-01-29,Chhattisgarh,Raipur,Raipur Mandi,7D,price_rolling_mean_7,3305.25,-6.6,DOWNWARD PRESSURE (DECREASE),price_rolling_mean_7 (3305.25) contributed -6.60 ₹/Qtl toward model prediction
+2024-01-29,Chhattisgarh,Raipur,Raipur Mandi,7D,price_lag_14,nan,2.03,UPWARD PRESSURE (INCREASE),price_lag_14 (nan) contributed +2.03 ₹/Qtl toward model prediction
+2024-01-29,Chhattisgarh,Raipur,Raipur Mandi,7D,price_rolling_std_7,4.52,1.46,UPWARD PRESSURE (INCREASE),price_rolling_std_7 (4.51848057057532) contributed +1.46 ₹/Qtl toward model prediction
+2024-01-29,Gujarat,Central,Central Mandi,7D,min_price,3214.0,-60.73,DOWNWARD PRESSURE (DECREASE),min_price (3214.0) contributed -60.73 ₹/Qtl toward model prediction
+2024-01-29,Gujarat,Central,Central Mandi,7D,month,1.0,-17.47,DOWNWARD PRESSURE (DECREASE),month (1) contributed -17.47 ₹/Qtl toward model prediction
+2024-01-29,Gujarat,Central,Central Mandi,7D,price_rolling_mean_7,3305.25,-6.6,DOWNWARD PRESSURE (DECREASE),price_rolling_mean_7 (3305.25) contributed -6.60 ₹/Qtl toward model prediction
+2024-01-29,Gujarat,Central,Central Mandi,7D,price_lag_14,nan,2.03,UPWARD PRESSURE (INCREASE),price_lag_14 (nan) contributed +2.03 ₹/Qtl toward model prediction
+2024-01-29,Gujarat,Central,Central Mandi,7D,price_rolling_std_7,4.52,1.46,UPWARD PRESSURE (INCREASE),price_rolling_std_7 (4.51848057057532) contributed +1.46 ₹/Qtl toward model prediction
+2024-01-29,Haryana,Central,Central Mandi,7D,min_price,3214.0,-60.73,DOWNWARD PRESSURE (DECREASE),min_price (3214.0) contributed -60.73 ₹/Qtl toward model prediction
+2024-01-29,Haryana,Central,Central Mandi,7D,month,1.0,-17.47,DOWNWARD PRESSURE (DECREASE),month (1) contributed -17.47 ₹/Qtl toward model prediction
+2024-01-29,Haryana,Central,Central Mandi,7D,price_rolling_mean_7,3305.25,-6.6,DOWNWARD PRESSURE (DECREASE),price_rolling_mean_7 (3305.25) contributed -6.60 ₹/Qtl toward model prediction
+2024-01-29,Haryana,Central,Central Mandi,7D,price_lag_14,nan,2.03,UPWARD PRESSURE (INCREASE),price_lag_14 (nan) contributed +2.03 ₹/Qtl toward model prediction
+2024-01-29,Haryana,Central,Central Mandi,7D,price_rolling_std_7,4.52,1.46,UPWARD PRESSURE (INCREASE),price_rolling_std_7 (4.51848057057532) contributed +1.46 ₹/Qtl toward model prediction
+2024-02-05,Andhra Pradesh,East Godavari,East Godavari Mandi,7D,min_price,3117.5,-76.87,DOWNWARD PRESSURE (DECREASE),min_price (3117.5) contributed -76.87 ₹/Qtl toward model prediction
+2024-02-05,Andhra Pradesh,East Godavari,East Godavari Mandi,7D,month,2.0,-12.52,DOWNWARD PRESSURE (DECREASE),month (2) contributed -12.52 ₹/Qtl toward model prediction
+2024-02-05,Andhra Pradesh,East Godavari,East Godavari Mandi,7D,price_rolling_mean_7,3307.0,-4.2,DOWNWARD PRESSURE (DECREASE),price_rolling_mean_7 (3307.0) contributed -4.20 ₹/Qtl toward model prediction
+2024-02-05,Andhra Pradesh,East Godavari,East Godavari Mandi,7D,price_lag_14,nan,2.33,UPWARD PRESSURE (INCREASE),price_lag_14 (nan) contributed +2.33 ₹/Qtl toward model prediction
+2024-02-05,Andhra Pradesh,East Godavari,East Godavari Mandi,7D,price_rolling_std_7,5.53,1.46,UPWARD PRESSURE (INCREASE),price_rolling_std_7 (5.533985905294664) contributed +1.46 ₹/Qtl toward model prediction
+2024-02-05,Andhra Pradesh,West Godavari,West Godavari Mandi,7D,min_price,3117.5,-76.87,DOWNWARD PRESSURE (DECREASE),min_price (3117.5) contributed -76.87 ₹/Qtl toward model prediction
+2024-02-05,Andhra Pradesh,West Godavari,West Godavari Mandi,7D,month,2.0,-12.52,DOWNWARD PRESSURE (DECREASE),month (2) contributed -12.52 ₹/Qtl toward model prediction
+2024-02-05,Andhra Pradesh,West Godavari,West Godavari Mandi,7D,price_rolling_mean_7,3307.0,-4.2,DOWNWARD PRESSURE (DECREASE),price_rolling_mean_7 (3307.0) contributed -4.20 ₹/Qtl toward model prediction
+2024-02-05,Andhra Pradesh,West Godavari,West Godavari Mandi,7D,price_lag_14,nan,2.33,UPWARD PRESSURE (INCREASE),price_lag_14 (nan) contributed +2.33 ₹/Qtl toward model prediction
+2024-02-05,Andhra Pradesh,West Godavari,West Godavari Mandi,7D,price_rolling_std_7,5.53,1.46,UPWARD PRESSURE (INCREASE),price_rolling_std_7 (5.533985905294664) contributed +1.46 ₹/Qtl toward model prediction
+2024-02-05,Assam,Central,Central Mandi,7D,min_price,3117.5,-76.87,DOWNWARD PRESSURE (DECREASE),min_price (3117.5) contributed -76.87 ₹/Qtl toward model prediction
+2024-02-05,Assam,Central,Central Mandi,7D,month,2.0,-12.52,DOWNWARD PRESSURE (DECREASE),month (2) contributed -12.52 ₹/Qtl toward model prediction
+2024-02-05,Assam,Central,Central Mandi,7D,price_rolling_mean_7,3307.0,-4.2,DOWNWARD PRESSURE (DECREASE),price_rolling_mean_7 (3307.0) contributed -4.20 ₹/Qtl toward model prediction
+2024-02-05,Assam,Central,Central Mandi,7D,price_lag_14,nan,2.33,UPWARD PRESSURE (INCREASE),price_lag_14 (nan) contributed +2.33 ₹/Qtl toward model prediction
+2024-02-05,Assam,Central,Central Mandi,7D,price_rolling_std_7,5.53,1.46,UPWARD PRESSURE (INCREASE),price_rolling_std_7 (5.533985905294664) contributed +1.46 ₹/Qtl toward model prediction
+2024-02-05,Bihar,Central,Central Mandi,7D,min_price,3117.5,-76.87,DOWNWARD PRESSURE (DECREASE),min_price (3117.5) contributed -76.87 ₹/Qtl toward model prediction
+2024-02-05,Bihar,Central,Central Mandi,7D,month,2.0,-12.52,DOWNWARD PRESSURE (DECREASE),month (2) contributed -12.52 ₹/Qtl toward model prediction
+2024-02-05,Bihar,Central,Central Mandi,7D,price_rolling_mean_7,3307.0,-4.2,DOWNWARD PRESSURE (DECREASE),price_rolling_mean_7 (3307.0) contributed -4.20 ₹/Qtl toward model prediction
+2024-02-05,Bihar,Central,Central Mandi,7D,price_lag_14,nan,2.33,UPWARD PRESSURE (INCREASE),price_lag_14 (nan) contributed +2.33 ₹/Qtl toward model prediction
+2024-02-05,Bihar,Central,Central Mandi,7D,price_rolling_std_7,5.53,1.46,UPWARD PRESSURE (INCREASE),price_rolling_std_7 (5.533985905294664) contributed +1.46 ₹/Qtl toward model prediction
+2024-02-05,Chhattisgarh,Durg,Durg Mandi,7D,min_price,3117.5,-76.87,DOWNWARD PRESSURE (DECREASE),min_price (3117.5) contributed -76.87 ₹/Qtl toward model prediction
+2024-02-05,Chhattisgarh,Durg,Durg Mandi,7D,month,2.0,-12.52,DOWNWARD PRESSURE (DECREASE),month (2) contributed -12.52 ₹/Qtl toward model prediction
+2024-02-05,Chhattisgarh,Durg,Durg Mandi,7D,price_rolling_mean_7,3307.0,-4.2,DOWNWARD PRESSURE (DECREASE),price_rolling_mean_7 (3307.0) contributed -4.20 ₹/Qtl toward model prediction
+2024-02-05,Chhattisgarh,Durg,Durg Mandi,7D,price_lag_14,nan,2.33,UPWARD PRESSURE (INCREASE),price_lag_14 (nan) contributed +2.33 ₹/Qtl toward model prediction
+2024-02-05,Chhattisgarh,Durg,Durg Mandi,7D,price_rolling_std_7,5.53,1.46,UPWARD PRESSURE (INCREASE),price_rolling_std_7 (5.533985905294664) contributed +1.46 ₹/Qtl toward model prediction
+2024-02-05,Chhattisgarh,Raipur,Raipur Mandi,7D,min_price,3117.5,-76.87,DOWNWARD PRESSURE (DECREASE),min_price (3117.5) contributed -76.87 ₹/Qtl toward model prediction
+2024-02-05,Chhattisgarh,Raipur,Raipur Mandi,7D,month,2.0,-12.52,DOWNWARD PRESSURE (DECREASE),month (2) contributed -12.52 ₹/Qtl toward model prediction
+2024-02-05,Chhattisgarh,Raipur,Raipur Mandi,7D,price_rolling_mean_7,3307.0,-4.2,DOWNWARD PRESSURE (DECREASE),price_rolling_mean_7 (3307.0) contributed -4.20 ₹/Qtl toward model prediction
+2024-02-05,Chhattisgarh,Raipur,Raipur Mandi,7D,price_lag_14,nan,2.33,UPWARD PRESSURE (INCREASE),price_lag_14 (nan) contributed +2.33 ₹/Qtl toward model prediction
+2024-02-05,Chhattisgarh,Raipur,Raipur Mandi,7D,price_rolling_std_7,5.53,1.46,UPWARD PRESSURE (INCREASE),price_rolling_std_7 (5.533985905294664) contributed +1.46 ₹/Qtl toward model prediction
+2024-02-05,Gujarat,Central,Central Mandi,7D,min_price,3117.5,-76.87,DOWNWARD PRESSURE (DECREASE),min_price (3117.5) contributed -76.87 ₹/Qtl toward model prediction
+2024-02-05,Gujarat,Central,Central Mandi,7D,month,2.0,-12.52,DOWNWARD PRESSURE (DECREASE),month (2) contributed -12.52 ₹/Qtl toward model prediction
+2024-02-05,Gujarat,Central,Central Mandi,7D,price_rolling_mean_7,3307.0,-4.2,DOWNWARD PRESSURE (DECREASE),price_rolling_mean_7 (3307.0) contributed -4.20 ₹/Qtl toward model prediction
+2024-02-05,Gujarat,Central,Central Mandi,7D,price_lag_14,nan,2.33,UPWARD PRESSURE (INCREASE),price_lag_14 (nan) contributed +2.33 ₹/Qtl toward model prediction
+2024-02-05,Gujarat,Central,Central Mandi,7D,price_rolling_std_7,5.53,1.46,UPWARD PRESSURE (INCREASE),price_rolling_std_7 (5.533985905294664) contributed +1.46 ₹/Qtl toward model prediction
+2024-02-05,Haryana,Central,Central Mandi,7D,min_price,3117.5,-76.87,DOWNWARD PRESSURE (DECREASE),min_price (3117.5) contributed -76.87 ₹/Qtl toward model prediction
+2024-02-05,Haryana,Central,Central Mandi,7D,month,2.0,-12.52,DOWNWARD PRESSURE (DECREASE),month (2) contributed -12.52 ₹/Qtl toward model prediction
+2024-02-05,Haryana,Central,Central Mandi,7D,price_rolling_mean_7,3307.0,-4.2,DOWNWARD PRESSURE (DECREASE),price_rolling_mean_7 (3307.0) contributed -4.20 ₹/Qtl toward model prediction
+2024-02-05,Haryana,Central,Central Mandi,7D,price_lag_14,nan,2.33,UPWARD PRESSURE (INCREASE),price_lag_14 (nan) contributed +2.33 ₹/Qtl toward model prediction
+2024-02-05,Haryana,Central,Central Mandi,7D,price_rolling_std_7,5.53,1.46,UPWARD PRESSURE (INCREASE),price_rolling_std_7 (5.533985905294664) contributed +1.46 ₹/Qtl toward model prediction
+2024-02-12,Andhra Pradesh,East Godavari,East Godavari Mandi,7D,min_price,3121.0,-76.61,DOWNWARD PRESSURE (DECREASE),min_price (3121.0) contributed -76.61 ₹/Qtl toward model prediction
+2024-02-12,Andhra Pradesh,East Godavari,East Godavari Mandi,7D,month,2.0,-12.33,DOWNWARD PRESSURE (DECREASE),month (2) contributed -12.33 ₹/Qtl toward model prediction
+2024-02-12,Andhra Pradesh,East Godavari,East Godavari Mandi,7D,price_rolling_mean_7,3292.08,-3.93,DOWNWARD PRESSURE (DECREASE),price_rolling_mean_7 (3292.0833333333335) contributed -3.93 ₹/Qtl toward model prediction
+2024-02-12,Andhra Pradesh,East Godavari,East Godavari Mandi,7D,price_lag_14,nan,1.96,UPWARD PRESSURE (INCREASE),price_lag_14 (nan) contributed +1.96 ₹/Qtl toward model prediction
+2024-02-12,Andhra Pradesh,East Godavari,East Godavari Mandi,7D,price_rolling_std_7,36.87,1.44,UPWARD PRESSURE (INCREASE),price_rolling_std_7 (36.87196315178606) contributed +1.44 ₹/Qtl toward model prediction
+2024-02-12,Andhra Pradesh,West Godavari,West Godavari Mandi,7D,min_price,3121.0,-76.61,DOWNWARD PRESSURE (DECREASE),min_price (3121.0) contributed -76.61 ₹/Qtl toward model prediction
+2024-02-12,Andhra Pradesh,West Godavari,West Godavari Mandi,7D,month,2.0,-12.33,DOWNWARD PRESSURE (DECREASE),month (2) contributed -12.33 ₹/Qtl toward model prediction
+2024-02-12,Andhra Pradesh,West Godavari,West Godavari Mandi,7D,price_rolling_mean_7,3292.08,-3.93,DOWNWARD PRESSURE (DECREASE),price_rolling_mean_7 (3292.0833333333335) contributed -3.93 ₹/Qtl toward model prediction
+2024-02-12,Andhra Pradesh,West Godavari,West Godavari Mandi,7D,price_lag_14,nan,1.96,UPWARD PRESSURE (INCREASE),price_lag_14 (nan) contributed +1.96 ₹/Qtl toward model prediction
+2024-02-12,Andhra Pradesh,West Godavari,West Godavari Mandi,7D,price_rolling_std_7,36.87,1.44,UPWARD PRESSURE (INCREASE),price_rolling_std_7 (36.87196315178606) contributed +1.44 ₹/Qtl toward model prediction

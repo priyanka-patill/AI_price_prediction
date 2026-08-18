@@ -1,0 +1,227 @@
+ <table border="2px" id="apyreport" class="table table-hover table-bordered text-center">
+<thead>
+
+<tr>
+  <th rowspan="2">S.No.</th>
+  <th rowspan="2">State</th>
+  <th rowspan="2">District</th>
+        <th colspan="3">2021 - 2022</th>
+            <th colspan="3">2022 - 2023</th>
+      </tr>
+<tr>
+      <th>Area( Ha. )</th>
+    <th>Production
+       (Tonnes)       </th>
+    <th>Yield
+ (Ton./Ha.)    </th>
+        <th>Area( Ha. )</th>
+    <th>Production
+       (Tonnes)       </th>
+    <th>Yield
+ (Ton./Ha.)    </th>
+    
+
+</tr>
+</thead>
+<tbody>
+        <tr>
+        <td>1</td>
+        <td>Meghalaya</td>
+        <td>East garo hills</td>
+                    <td>
+              8,620            </td>
+            <td>
+              19,793            </td>
+            <td>
+              2.30            </td>
+                        <td>
+              6,646            </td>
+            <td>
+              13,034            </td>
+            <td>
+              1.96            </td>
+            
+      </tr>
+            <tr>
+        <td>2</td>
+        <td>Meghalaya</td>
+        <td>East jaintia hills</td>
+                    <td>
+              4,387            </td>
+            <td>
+              9,205            </td>
+            <td>
+              2.10            </td>
+                        <td>
+              4,385            </td>
+            <td>
+              9,626            </td>
+            <td>
+              2.20            </td>
+            
+      </tr>
+            <tr>
+        <td>3</td>
+        <td>Meghalaya</td>
+        <td>East khasi hills</td>
+                    <td>
+              5,459            </td>
+            <td>
+              12,580            </td>
+            <td>
+              2.30            </td>
+                        <td>
+              8,662            </td>
+            <td>
+              16,862            </td>
+            <td>
+              1.95            </td>
+            
+      </tr>
+            <tr>
+        <td>4</td>
+        <td>Meghalaya</td>
+        <td>North garo hills</td>
+                    <td>
+              8,290            </td>
+            <td>
+              19,266            </td>
+            <td>
+              2.32            </td>
+                        <td>
+              8,001            </td>
+            <td>
+              17,358            </td>
+            <td>
+              2.17            </td>
+            
+      </tr>
+            <tr>
+        <td>5</td>
+        <td>Meghalaya</td>
+        <td>Ri bhoi</td>
+                    <td>
+              9,322            </td>
+            <td>
+              31,546            </td>
+            <td>
+              3.38            </td>
+                        <td>
+              10,688            </td>
+            <td>
+              36,140            </td>
+            <td>
+              3.38            </td>
+            
+      </tr>
+            <tr>
+        <td>6</td>
+        <td>Meghalaya</td>
+        <td>South garo hills</td>
+                    <td>
+              7,537            </td>
+            <td>
+              17,114            </td>
+            <td>
+              2.27            </td>
+                        <td>
+              6,360            </td>
+            <td>
+              12,857            </td>
+            <td>
+              2.02            </td>
+            
+      </tr>
+            <tr>
+        <td>7</td>
+        <td>Meghalaya</td>
+        <td>South west garo hills</td>
+                    <td>
+              10,948            </td>
+            <td>
+              31,688            </td>
+            <td>
+              2.89            </td>
+                        <td>
+              11,878            </td>
+            <td>
+              32,807            </td>
+            <td>
+              2.76            </td>
+            
+      </tr>
+            <tr>
+        <td>8</td>
+        <td>Meghalaya</td>
+        <td>South west khasi hills</td>
+                    <td>
+              1,790            </td>
+            <td>
+              3,346            </td>
+            <td>
+              1.87            </td>
+                        <td>
+              1,585            </td>
+            <td>
+              2,965            </td>
+            <td>
+              1.87            </td>
+            
+      </tr>
+            <tr>
+        <td>9</td>
+        <td>Meghalaya</td>
+        <td>West garo hills</td>
+                    <td>
+              24,403            </td>
+            <td>
+              60,851            </td>
+            <td>
+              2.49            </td>
+                        <td>
+              20,416            </td>
+            <td>
+              49,454            </td>
+            <td>
+              2.42            </td>
+            
+      </tr>
+            <tr>
+        <td>10</td>
+        <td>Meghalaya</td>
+        <td>West jaintia hills</td>
+                    <td>
+              8,054            </td>
+            <td>
+              17,587            </td>
+            <td>
+              2.18            </td>
+                        <td>
+              8,054            </td>
+            <td>
+              15,198            </td>
+            <td>
+              1.89            </td>
+            
+      </tr>
+            <tr>
+        <td>11</td>
+        <td>Meghalaya</td>
+        <td>West khasi hills</td>
+                    <td>
+              6,023            </td>
+            <td>
+              11,191            </td>
+            <td>
+              1.86            </td>
+                        <td>
+              8,622            </td>
+            <td>
+              16,004            </td>
+            <td>
+              1.86            </td>
+            
+      </tr>
+      
+</tbody>
+</table>

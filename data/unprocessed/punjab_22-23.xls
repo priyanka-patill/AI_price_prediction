@@ -1,0 +1,443 @@
+ <table border="2px" id="apyreport" class="table table-hover table-bordered text-center">
+<thead>
+
+<tr>
+  <th rowspan="2">S.No.</th>
+  <th rowspan="2">State</th>
+  <th rowspan="2">District</th>
+        <th colspan="3">2021 - 2022</th>
+            <th colspan="3">2022 - 2023</th>
+      </tr>
+<tr>
+      <th>Area( Ha. )</th>
+    <th>Production
+       (Tonnes)       </th>
+    <th>Yield
+ (Ton./Ha.)    </th>
+        <th>Area( Ha. )</th>
+    <th>Production
+       (Tonnes)       </th>
+    <th>Yield
+ (Ton./Ha.)    </th>
+    
+
+</tr>
+</thead>
+<tbody>
+        <tr>
+        <td>1</td>
+        <td>Punjab</td>
+        <td>Amritsar</td>
+                    <td>
+              183,000            </td>
+            <td>
+              659,000            </td>
+            <td>
+              3.60            </td>
+                        <td>
+              181,000            </td>
+            <td>
+              644,000            </td>
+            <td>
+              3.56            </td>
+            
+      </tr>
+            <tr>
+        <td>2</td>
+        <td>Punjab</td>
+        <td>Barnala</td>
+                    <td>
+              116,100            </td>
+            <td>
+              551,000            </td>
+            <td>
+              4.75            </td>
+                        <td>
+              114,500            </td>
+            <td>
+              601,000            </td>
+            <td>
+              5.25            </td>
+            
+      </tr>
+            <tr>
+        <td>3</td>
+        <td>Punjab</td>
+        <td>Bathinda</td>
+                    <td>
+              180,400            </td>
+            <td>
+              829,000            </td>
+            <td>
+              4.60            </td>
+                        <td>
+              189,800            </td>
+            <td>
+              901,000            </td>
+            <td>
+              4.75            </td>
+            
+      </tr>
+            <tr>
+        <td>4</td>
+        <td>Punjab</td>
+        <td>Faridkot</td>
+                    <td>
+              115,700            </td>
+            <td>
+              503,000            </td>
+            <td>
+              4.35            </td>
+                        <td>
+              115,900            </td>
+            <td>
+              519,000            </td>
+            <td>
+              4.48            </td>
+            
+      </tr>
+            <tr>
+        <td>5</td>
+        <td>Punjab</td>
+        <td>Fatehgarh sahib</td>
+                    <td>
+              87,300            </td>
+            <td>
+              412,000            </td>
+            <td>
+              4.72            </td>
+                        <td>
+              87,400            </td>
+            <td>
+              352,000            </td>
+            <td>
+              4.03            </td>
+            
+      </tr>
+            <tr>
+        <td>6</td>
+        <td>Punjab</td>
+        <td>Fazilka</td>
+                    <td>
+              113,100            </td>
+            <td>
+              355,000            </td>
+            <td>
+              3.14            </td>
+                        <td>
+              108,200            </td>
+            <td>
+              379,000            </td>
+            <td>
+              3.50            </td>
+            
+      </tr>
+            <tr>
+        <td>7</td>
+        <td>Punjab</td>
+        <td>Firozepur</td>
+                    <td>
+              187,800            </td>
+            <td>
+              827,000            </td>
+            <td>
+              4.40            </td>
+                        <td>
+              187,300            </td>
+            <td>
+              897,000            </td>
+            <td>
+              4.79            </td>
+            
+      </tr>
+            <tr>
+        <td>8</td>
+        <td>Punjab</td>
+        <td>Gurdaspur</td>
+                    <td>
+              174,600            </td>
+            <td>
+              671,000            </td>
+            <td>
+              3.84            </td>
+                        <td>
+              173,200            </td>
+            <td>
+              631,000            </td>
+            <td>
+              3.64            </td>
+            
+      </tr>
+            <tr>
+        <td>9</td>
+        <td>Punjab</td>
+        <td>Hoshiarpur</td>
+                    <td>
+              76,700            </td>
+            <td>
+              291,000            </td>
+            <td>
+              3.79            </td>
+                        <td>
+              81,000            </td>
+            <td>
+              255,000            </td>
+            <td>
+              3.15            </td>
+            
+      </tr>
+            <tr>
+        <td>10</td>
+        <td>Punjab</td>
+        <td>Jalandhar</td>
+                    <td>
+              174,700            </td>
+            <td>
+              747,000            </td>
+            <td>
+              4.28            </td>
+                        <td>
+              175,600            </td>
+            <td>
+              733,000            </td>
+            <td>
+              4.17            </td>
+            
+      </tr>
+            <tr>
+        <td>11</td>
+        <td>Punjab</td>
+        <td>Kapurthala</td>
+                    <td>
+              119,200            </td>
+            <td>
+              503,000            </td>
+            <td>
+              4.22            </td>
+                        <td>
+              119,100            </td>
+            <td>
+              509,000            </td>
+            <td>
+              4.27            </td>
+            
+      </tr>
+            <tr>
+        <td>12</td>
+        <td>Punjab</td>
+        <td>Ludhiana</td>
+                    <td>
+              258,700            </td>
+            <td>
+              1,246,000            </td>
+            <td>
+              4.82            </td>
+                        <td>
+              258,800            </td>
+            <td>
+              1,236,000            </td>
+            <td>
+              4.78            </td>
+            
+      </tr>
+            <tr>
+        <td>13</td>
+        <td>Punjab</td>
+        <td>Malerkotla</td>
+                    <td>
+              53,100            </td>
+            <td>
+              279,000            </td>
+            <td>
+              5.25            </td>
+                        <td>
+              52,900            </td>
+            <td>
+              277,000            </td>
+            <td>
+              5.24            </td>
+            
+      </tr>
+            <tr>
+        <td>14</td>
+        <td>Punjab</td>
+        <td>Mansa</td>
+                    <td>
+              122,700            </td>
+            <td>
+              561,000            </td>
+            <td>
+              4.57            </td>
+                        <td>
+              126,300            </td>
+            <td>
+              593,000            </td>
+            <td>
+              4.70            </td>
+            
+      </tr>
+            <tr>
+        <td>15</td>
+        <td>Punjab</td>
+        <td>Moga</td>
+                    <td>
+              181,700            </td>
+            <td>
+              861,000            </td>
+            <td>
+              4.74            </td>
+                        <td>
+              183,200            </td>
+            <td>
+              927,000            </td>
+            <td>
+              5.06            </td>
+            
+      </tr>
+            <tr>
+        <td>16</td>
+        <td>Punjab</td>
+        <td>Muktsar</td>
+                    <td>
+              183,400            </td>
+            <td>
+              766,000            </td>
+            <td>
+              4.18            </td>
+                        <td>
+              183,000            </td>
+            <td>
+              754,000            </td>
+            <td>
+              4.12            </td>
+            
+      </tr>
+            <tr>
+        <td>17</td>
+        <td>Punjab</td>
+        <td>Nawanshahr</td>
+                    <td>
+              60,900            </td>
+            <td>
+              275,000            </td>
+            <td>
+              4.52            </td>
+                        <td>
+              63,000            </td>
+            <td>
+              224,000            </td>
+            <td>
+              3.56            </td>
+            
+      </tr>
+            <tr>
+        <td>18</td>
+        <td>Punjab</td>
+        <td>Pathankot</td>
+                    <td>
+              27,600            </td>
+            <td>
+              97,000            </td>
+            <td>
+              3.51            </td>
+                        <td>
+              30,100            </td>
+            <td>
+              82,000            </td>
+            <td>
+              2.72            </td>
+            
+      </tr>
+            <tr>
+        <td>19</td>
+        <td>Punjab</td>
+        <td>Patiala</td>
+                    <td>
+              233,700            </td>
+            <td>
+              1,008,000            </td>
+            <td>
+              4.31            </td>
+                        <td>
+              233,600            </td>
+            <td>
+              966,000            </td>
+            <td>
+              4.14            </td>
+            
+      </tr>
+            <tr>
+        <td>20</td>
+        <td>Punjab</td>
+        <td>Rupnagar</td>
+                    <td>
+              40,100            </td>
+            <td>
+              169,000            </td>
+            <td>
+              4.21            </td>
+                        <td>
+              40,800            </td>
+            <td>
+              149,000            </td>
+            <td>
+              3.65            </td>
+            
+      </tr>
+            <tr>
+        <td>21</td>
+        <td>Punjab</td>
+        <td>S.a.s nagar</td>
+                    <td>
+              32,200            </td>
+            <td>
+              113,000            </td>
+            <td>
+              3.51            </td>
+                        <td>
+              42,000            </td>
+            <td>
+              127,000            </td>
+            <td>
+              3.02            </td>
+            
+      </tr>
+            <tr>
+        <td>22</td>
+        <td>Punjab</td>
+        <td>Sangrur</td>
+                    <td>
+              238,700            </td>
+            <td>
+              1,195,000            </td>
+            <td>
+              5.01            </td>
+                        <td>
+              238,700            </td>
+            <td>
+              1,231,000            </td>
+            <td>
+              5.16            </td>
+            
+      </tr>
+            <tr>
+        <td>23</td>
+        <td>Punjab</td>
+        <td>Tarn taran</td>
+                    <td>
+              182,000            </td>
+            <td>
+              724,000            </td>
+            <td>
+              3.98            </td>
+                        <td>
+              182,400            </td>
+            <td>
+              764,000            </td>
+            <td>
+              4.19            </td>
+            
+      </tr>
+      
+</tbody>
+</table>

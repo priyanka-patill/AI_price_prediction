@@ -1,0 +1,479 @@
+ <table border="2px" id="apyreport" class="table table-hover table-bordered text-center">
+<thead>
+
+<tr>
+  <th rowspan="2">S.No.</th>
+  <th rowspan="2">State</th>
+  <th rowspan="2">District</th>
+        <th colspan="3">2021 - 2022</th>
+            <th colspan="3">2022 - 2023</th>
+      </tr>
+<tr>
+      <th>Area( Ha. )</th>
+    <th>Production
+       (Tonnes)       </th>
+    <th>Yield
+ (Ton./Ha.)    </th>
+        <th>Area( Ha. )</th>
+    <th>Production
+       (Tonnes)       </th>
+    <th>Yield
+ (Ton./Ha.)    </th>
+    
+
+</tr>
+</thead>
+<tbody>
+        <tr>
+        <td>1</td>
+        <td>Arunachal Pradesh</td>
+        <td>Anjaw</td>
+                    <td>
+              3,802            </td>
+            <td>
+              4,245            </td>
+            <td>
+              1.12            </td>
+                        <td>
+              3,826            </td>
+            <td>
+              4,294            </td>
+            <td>
+              1.12            </td>
+            
+      </tr>
+            <tr>
+        <td>2</td>
+        <td>Arunachal Pradesh</td>
+        <td>Changlang</td>
+                    <td>
+              9,671            </td>
+            <td>
+              21,599            </td>
+            <td>
+              2.23            </td>
+                        <td>
+              9,703            </td>
+            <td>
+              21,779            </td>
+            <td>
+              2.24            </td>
+            
+      </tr>
+            <tr>
+        <td>3</td>
+        <td>Arunachal Pradesh</td>
+        <td>Dibang valley</td>
+                    <td>
+              1,896            </td>
+            <td>
+              2,263            </td>
+            <td>
+              1.19            </td>
+                        <td>
+              1,917            </td>
+            <td>
+              2,297            </td>
+            <td>
+              1.20            </td>
+            
+      </tr>
+            <tr>
+        <td>4</td>
+        <td>Arunachal Pradesh</td>
+        <td>East kameng</td>
+                    <td>
+              6,504            </td>
+            <td>
+              8,737            </td>
+            <td>
+              1.34            </td>
+                        <td>
+              6,532            </td>
+            <td>
+              8,809            </td>
+            <td>
+              1.35            </td>
+            
+      </tr>
+            <tr>
+        <td>5</td>
+        <td>Arunachal Pradesh</td>
+        <td>East siang</td>
+                    <td>
+              14,441            </td>
+            <td>
+              26,764            </td>
+            <td>
+              1.85            </td>
+                        <td>
+              15,132            </td>
+            <td>
+              28,077            </td>
+            <td>
+              1.86            </td>
+            
+      </tr>
+            <tr>
+        <td>6</td>
+        <td>Arunachal Pradesh</td>
+        <td>Kamle</td>
+                    <td>
+              3,656            </td>
+            <td>
+              8,165            </td>
+            <td>
+              2.23            </td>
+                        <td>
+              3,658            </td>
+            <td>
+              7,074            </td>
+            <td>
+              1.93            </td>
+            
+      </tr>
+            <tr>
+        <td>7</td>
+        <td>Arunachal Pradesh</td>
+        <td>Kra daadi</td>
+                    <td>
+              645            </td>
+            <td>
+              1,294            </td>
+            <td>
+              2.01            </td>
+                        <td>
+              664            </td>
+            <td>
+              1,327            </td>
+            <td>
+              2.00            </td>
+            
+      </tr>
+            <tr>
+        <td>8</td>
+        <td>Arunachal Pradesh</td>
+        <td>Kurung kumey</td>
+                    <td>
+              670            </td>
+            <td>
+              1,335            </td>
+            <td>
+              1.99            </td>
+                        <td>
+              691            </td>
+            <td>
+              1,379            </td>
+            <td>
+              2.00            </td>
+            
+      </tr>
+            <tr>
+        <td>9</td>
+        <td>Arunachal Pradesh</td>
+        <td>Leparada</td>
+                    <td>
+              3,612            </td>
+            <td>
+              6,003            </td>
+            <td>
+              1.66            </td>
+                        <td>
+              3,664            </td>
+            <td>
+              6,133            </td>
+            <td>
+              1.67            </td>
+            
+      </tr>
+            <tr>
+        <td>10</td>
+        <td>Arunachal Pradesh</td>
+        <td>Lohit</td>
+                    <td>
+              4,736            </td>
+            <td>
+              10,040            </td>
+            <td>
+              2.12            </td>
+                        <td>
+              4,764            </td>
+            <td>
+              10,155            </td>
+            <td>
+              2.13            </td>
+            
+      </tr>
+            <tr>
+        <td>11</td>
+        <td>Arunachal Pradesh</td>
+        <td>Longding</td>
+                    <td>
+              3,130            </td>
+            <td>
+              5,477            </td>
+            <td>
+              1.75            </td>
+                        <td>
+              3,154            </td>
+            <td>
+              5,545            </td>
+            <td>
+              1.76            </td>
+            
+      </tr>
+            <tr>
+        <td>12</td>
+        <td>Arunachal Pradesh</td>
+        <td>Lower dibang valley</td>
+                    <td>
+              15,107            </td>
+            <td>
+              23,667            </td>
+            <td>
+              1.57            </td>
+                        <td>
+              14,475            </td>
+            <td>
+              23,849            </td>
+            <td>
+              1.65            </td>
+            
+      </tr>
+            <tr>
+        <td>13</td>
+        <td>Arunachal Pradesh</td>
+        <td>Lower siang</td>
+                    <td>
+              4,959            </td>
+            <td>
+              7,749            </td>
+            <td>
+              1.56            </td>
+                        <td>
+              4,989            </td>
+            <td>
+              7,836            </td>
+            <td>
+              1.57            </td>
+            
+      </tr>
+            <tr>
+        <td>14</td>
+        <td>Arunachal Pradesh</td>
+        <td>Lower subansiri</td>
+                    <td>
+              6,208            </td>
+            <td>
+              12,755            </td>
+            <td>
+              2.05            </td>
+                        <td>
+              6,241            </td>
+            <td>
+              12,883            </td>
+            <td>
+              2.06            </td>
+            
+      </tr>
+            <tr>
+        <td>15</td>
+        <td>Arunachal Pradesh</td>
+        <td>Namsai</td>
+                    <td>
+              8,897            </td>
+            <td>
+              20,167            </td>
+            <td>
+              2.27            </td>
+                        <td>
+              8,928            </td>
+            <td>
+              20,342            </td>
+            <td>
+              2.28            </td>
+            
+      </tr>
+            <tr>
+        <td>16</td>
+        <td>Arunachal Pradesh</td>
+        <td>Pakke kessang</td>
+                    <td>
+              2,795            </td>
+            <td>
+              3,788            </td>
+            <td>
+              1.36            </td>
+                        <td>
+              2,845            </td>
+            <td>
+              3,875            </td>
+            <td>
+              1.36            </td>
+            
+      </tr>
+            <tr>
+        <td>17</td>
+        <td>Arunachal Pradesh</td>
+        <td>Papum pare</td>
+                    <td>
+              12,322            </td>
+            <td>
+              24,742            </td>
+            <td>
+              2.01            </td>
+                        <td>
+              12,356            </td>
+            <td>
+              24,939            </td>
+            <td>
+              2.02            </td>
+            
+      </tr>
+            <tr>
+        <td>18</td>
+        <td>Arunachal Pradesh</td>
+        <td>Shi yomi</td>
+                    <td>
+              2,720            </td>
+            <td>
+              4,511            </td>
+            <td>
+              1.66            </td>
+                        <td>
+              2,738            </td>
+            <td>
+              4,561            </td>
+            <td>
+              1.67            </td>
+            
+      </tr>
+            <tr>
+        <td>19</td>
+        <td>Arunachal Pradesh</td>
+        <td>Siang</td>
+                    <td>
+              7,864            </td>
+            <td>
+              17,301            </td>
+            <td>
+              2.20            </td>
+                        <td>
+              7,895            </td>
+            <td>
+              16,942            </td>
+            <td>
+              2.15            </td>
+            
+      </tr>
+            <tr>
+        <td>20</td>
+        <td>Arunachal Pradesh</td>
+        <td>Tawang</td>
+                    <td>
+              930            </td>
+            <td>
+              1,841            </td>
+            <td>
+              1.98            </td>
+                        <td>
+              949            </td>
+            <td>
+              1,875            </td>
+            <td>
+              1.98            </td>
+            
+      </tr>
+            <tr>
+        <td>21</td>
+        <td>Arunachal Pradesh</td>
+        <td>Tirap</td>
+                    <td>
+              3,146            </td>
+            <td>
+              4,562            </td>
+            <td>
+              1.45            </td>
+                        <td>
+              3,173            </td>
+            <td>
+              4,623            </td>
+            <td>
+              1.46            </td>
+            
+      </tr>
+            <tr>
+        <td>22</td>
+        <td>Arunachal Pradesh</td>
+        <td>Upper siang</td>
+                    <td>
+              6,915            </td>
+            <td>
+              13,507            </td>
+            <td>
+              1.95            </td>
+                        <td>
+              6,944            </td>
+            <td>
+              13,637            </td>
+            <td>
+              1.96            </td>
+            
+      </tr>
+            <tr>
+        <td>23</td>
+        <td>Arunachal Pradesh</td>
+        <td>Upper subansiri</td>
+                    <td>
+              4,467            </td>
+            <td>
+              9,381            </td>
+            <td>
+              2.10            </td>
+                        <td>
+              4,496            </td>
+            <td>
+              9,485            </td>
+            <td>
+              2.11            </td>
+            
+      </tr>
+            <tr>
+        <td>24</td>
+        <td>Arunachal Pradesh</td>
+        <td>West kameng</td>
+                    <td>
+              980            </td>
+            <td>
+              1,803            </td>
+            <td>
+              1.84            </td>
+                        <td>
+              985            </td>
+            <td>
+              1,819            </td>
+            <td>
+              1.85            </td>
+            
+      </tr>
+            <tr>
+        <td>25</td>
+        <td>Arunachal Pradesh</td>
+        <td>West siang</td>
+                    <td>
+              6,411            </td>
+            <td>
+              10,681            </td>
+            <td>
+              1.67            </td>
+                        <td>
+              6,447            </td>
+            <td>
+              10,862            </td>
+            <td>
+              1.68            </td>
+            
+      </tr>
+      
+</tbody>
+</table>

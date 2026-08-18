@@ -1,0 +1,7 @@
+{
+  "zscore_warning": 1.0,
+  "zscore_high_risk": 1.8,
+  "expected_change_percent_warning": 3.0,
+  "expected_change_percent_high_risk": 6.0,
+  "volatility_threshold_high": 0.01
+}

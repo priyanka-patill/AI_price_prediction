@@ -1,0 +1,713 @@
+ <table border="2px" id="apyreport" class="table table-hover table-bordered text-center">
+<thead>
+
+<tr>
+  <th rowspan="2">S.No.</th>
+  <th rowspan="2">State</th>
+  <th rowspan="2">District</th>
+        <th colspan="3">2021 - 2022</th>
+            <th colspan="3">2022 - 2023</th>
+      </tr>
+<tr>
+      <th>Area( Ha. )</th>
+    <th>Production
+       (Tonnes)       </th>
+    <th>Yield
+ (Ton./Ha.)    </th>
+        <th>Area( Ha. )</th>
+    <th>Production
+       (Tonnes)       </th>
+    <th>Yield
+ (Ton./Ha.)    </th>
+    
+
+</tr>
+</thead>
+<tbody>
+        <tr>
+        <td>1</td>
+        <td>Bihar</td>
+        <td>Araria</td>
+                    <td>
+              35,294            </td>
+            <td>
+              71,040            </td>
+            <td>
+              2.01            </td>
+                        <td>
+              36,239            </td>
+            <td>
+              87,550            </td>
+            <td>
+              2.42            </td>
+            
+      </tr>
+            <tr>
+        <td>2</td>
+        <td>Bihar</td>
+        <td>Arwal</td>
+                    <td>
+              17,349            </td>
+            <td>
+              66,290            </td>
+            <td>
+              3.82            </td>
+                        <td>
+              16,974            </td>
+            <td>
+              56,576            </td>
+            <td>
+              3.33            </td>
+            
+      </tr>
+            <tr>
+        <td>3</td>
+        <td>Bihar</td>
+        <td>Aurangabad</td>
+                    <td>
+              183,834            </td>
+            <td>
+              705,640            </td>
+            <td>
+              3.84            </td>
+                        <td>
+              137,736            </td>
+            <td>
+              527,105            </td>
+            <td>
+              3.83            </td>
+            
+      </tr>
+            <tr>
+        <td>4</td>
+        <td>Bihar</td>
+        <td>Banka</td>
+                    <td>
+              101,888            </td>
+            <td>
+              242,012            </td>
+            <td>
+              2.38            </td>
+                        <td>
+              86,124            </td>
+            <td>
+              203,800            </td>
+            <td>
+              2.37            </td>
+            
+      </tr>
+            <tr>
+        <td>5</td>
+        <td>Bihar</td>
+        <td>Begusarai</td>
+                    <td>
+              12,230            </td>
+            <td>
+              29,261            </td>
+            <td>
+              2.39            </td>
+                        <td>
+              12,049            </td>
+            <td>
+              32,796            </td>
+            <td>
+              2.72            </td>
+            
+      </tr>
+            <tr>
+        <td>6</td>
+        <td>Bihar</td>
+        <td>Bhagalpur</td>
+                    <td>
+              33,311            </td>
+            <td>
+              66,167            </td>
+            <td>
+              1.99            </td>
+                        <td>
+              22,463            </td>
+            <td>
+              40,230            </td>
+            <td>
+              1.79            </td>
+            
+      </tr>
+            <tr>
+        <td>7</td>
+        <td>Bihar</td>
+        <td>Bhojpur</td>
+                    <td>
+              99,003            </td>
+            <td>
+              310,736            </td>
+            <td>
+              3.14            </td>
+                        <td>
+              101,731            </td>
+            <td>
+              347,794            </td>
+            <td>
+              3.42            </td>
+            
+      </tr>
+            <tr>
+        <td>8</td>
+        <td>Bihar</td>
+        <td>Buxar</td>
+                    <td>
+              88,366            </td>
+            <td>
+              318,056            </td>
+            <td>
+              3.60            </td>
+                        <td>
+              83,059            </td>
+            <td>
+              304,725            </td>
+            <td>
+              3.67            </td>
+            
+      </tr>
+            <tr>
+        <td>9</td>
+        <td>Bihar</td>
+        <td>Darbhanga</td>
+                    <td>
+              101,736            </td>
+            <td>
+              138,784            </td>
+            <td>
+              1.36            </td>
+                        <td>
+              96,272            </td>
+            <td>
+              181,810            </td>
+            <td>
+              1.89            </td>
+            
+      </tr>
+            <tr>
+        <td>10</td>
+        <td>Bihar</td>
+        <td>Gaya</td>
+                    <td>
+              84,474            </td>
+            <td>
+              282,185            </td>
+            <td>
+              3.34            </td>
+                        <td>
+              84,155            </td>
+            <td>
+              220,039            </td>
+            <td>
+              2.61            </td>
+            
+      </tr>
+            <tr>
+        <td>11</td>
+        <td>Bihar</td>
+        <td>Gopalganj</td>
+                    <td>
+              50,968            </td>
+            <td>
+              97,764            </td>
+            <td>
+              1.92            </td>
+                        <td>
+              47,039            </td>
+            <td>
+              100,477            </td>
+            <td>
+              2.14            </td>
+            
+      </tr>
+            <tr>
+        <td>12</td>
+        <td>Bihar</td>
+        <td>Jamui</td>
+                    <td>
+              54,157            </td>
+            <td>
+              100,235            </td>
+            <td>
+              1.85            </td>
+                        <td>
+              24,194            </td>
+            <td>
+              50,086            </td>
+            <td>
+              2.07            </td>
+            
+      </tr>
+            <tr>
+        <td>13</td>
+        <td>Bihar</td>
+        <td>Jehanabad</td>
+                    <td>
+              28,591            </td>
+            <td>
+              90,942            </td>
+            <td>
+              3.18            </td>
+                        <td>
+              18,125            </td>
+            <td>
+              64,900            </td>
+            <td>
+              3.58            </td>
+            
+      </tr>
+            <tr>
+        <td>14</td>
+        <td>Bihar</td>
+        <td>Kaimur (bhabua)</td>
+                    <td>
+              134,746            </td>
+            <td>
+              499,095            </td>
+            <td>
+              3.70            </td>
+                        <td>
+              134,826            </td>
+            <td>
+              514,643            </td>
+            <td>
+              3.82            </td>
+            
+      </tr>
+            <tr>
+        <td>15</td>
+        <td>Bihar</td>
+        <td>Katihar</td>
+                    <td>
+              83,046            </td>
+            <td>
+              179,715            </td>
+            <td>
+              2.16            </td>
+                        <td>
+              82,026            </td>
+            <td>
+              227,075            </td>
+            <td>
+              2.77            </td>
+            
+      </tr>
+            <tr>
+        <td>16</td>
+        <td>Bihar</td>
+        <td>Khagaria</td>
+                    <td>
+              13,993            </td>
+            <td>
+              27,930            </td>
+            <td>
+              2.00            </td>
+                        <td>
+              16,552            </td>
+            <td>
+              45,104            </td>
+            <td>
+              2.72            </td>
+            
+      </tr>
+            <tr>
+        <td>17</td>
+        <td>Bihar</td>
+        <td>Kishanganj</td>
+                    <td>
+              76,701            </td>
+            <td>
+              148,210            </td>
+            <td>
+              1.93            </td>
+                        <td>
+              81,973            </td>
+            <td>
+              189,661            </td>
+            <td>
+              2.31            </td>
+            
+      </tr>
+            <tr>
+        <td>18</td>
+        <td>Bihar</td>
+        <td>Lakhisarai</td>
+                    <td>
+              21,991            </td>
+            <td>
+              65,341            </td>
+            <td>
+              2.97            </td>
+                        <td>
+              16,219            </td>
+            <td>
+              64,658            </td>
+            <td>
+              3.99            </td>
+            
+      </tr>
+            <tr>
+        <td>19</td>
+        <td>Bihar</td>
+        <td>Madhepura</td>
+                    <td>
+              85,496            </td>
+            <td>
+              171,766            </td>
+            <td>
+              2.01            </td>
+                        <td>
+              80,231            </td>
+            <td>
+              182,937            </td>
+            <td>
+              2.28            </td>
+            
+      </tr>
+            <tr>
+        <td>20</td>
+        <td>Bihar</td>
+        <td>Madhubani</td>
+                    <td>
+              174,245            </td>
+            <td>
+              294,207            </td>
+            <td>
+              1.69            </td>
+                        <td>
+              172,490            </td>
+            <td>
+              276,162            </td>
+            <td>
+              1.60            </td>
+            
+      </tr>
+            <tr>
+        <td>21</td>
+        <td>Bihar</td>
+        <td>Munger</td>
+                    <td>
+              26,021            </td>
+            <td>
+              71,043            </td>
+            <td>
+              2.73            </td>
+                        <td>
+              25,980            </td>
+            <td>
+              74,503            </td>
+            <td>
+              2.87            </td>
+            
+      </tr>
+            <tr>
+        <td>22</td>
+        <td>Bihar</td>
+        <td>Muzaffarpur</td>
+                    <td>
+              121,636            </td>
+            <td>
+              145,258            </td>
+            <td>
+              1.19            </td>
+                        <td>
+              121,471            </td>
+            <td>
+              229,860            </td>
+            <td>
+              1.89            </td>
+            
+      </tr>
+            <tr>
+        <td>23</td>
+        <td>Bihar</td>
+        <td>Nalanda</td>
+                    <td>
+              109,560            </td>
+            <td>
+              314,745            </td>
+            <td>
+              2.87            </td>
+                        <td>
+              108,086            </td>
+            <td>
+              328,373            </td>
+            <td>
+              3.04            </td>
+            
+      </tr>
+            <tr>
+        <td>24</td>
+        <td>Bihar</td>
+        <td>Nawada</td>
+                    <td>
+              73,786            </td>
+            <td>
+              223,652            </td>
+            <td>
+              3.03            </td>
+                        <td>
+              67,141            </td>
+            <td>
+              215,187            </td>
+            <td>
+              3.21            </td>
+            
+      </tr>
+            <tr>
+        <td>25</td>
+        <td>Bihar</td>
+        <td>Pashchim champaran</td>
+                    <td>
+              130,251            </td>
+            <td>
+              286,141            </td>
+            <td>
+              2.20            </td>
+                        <td>
+              128,589            </td>
+            <td>
+              301,859            </td>
+            <td>
+              2.35            </td>
+            
+      </tr>
+            <tr>
+        <td>26</td>
+        <td>Bihar</td>
+        <td>Patna</td>
+                    <td>
+              67,972            </td>
+            <td>
+              214,491            </td>
+            <td>
+              3.16            </td>
+                        <td>
+              64,744            </td>
+            <td>
+              209,766            </td>
+            <td>
+              3.24            </td>
+            
+      </tr>
+            <tr>
+        <td>27</td>
+        <td>Bihar</td>
+        <td>Purbi champaran</td>
+                    <td>
+              203,038            </td>
+            <td>
+              385,641            </td>
+            <td>
+              1.90            </td>
+                        <td>
+              201,733            </td>
+            <td>
+              371,816            </td>
+            <td>
+              1.84            </td>
+            
+      </tr>
+            <tr>
+        <td>28</td>
+        <td>Bihar</td>
+        <td>Purnia</td>
+                    <td>
+              48,524            </td>
+            <td>
+              92,019            </td>
+            <td>
+              1.90            </td>
+                        <td>
+              57,565            </td>
+            <td>
+              125,312            </td>
+            <td>
+              2.18            </td>
+            
+      </tr>
+            <tr>
+        <td>29</td>
+        <td>Bihar</td>
+        <td>Rohtas</td>
+                    <td>
+              225,954            </td>
+            <td>
+              993,227            </td>
+            <td>
+              4.40            </td>
+                        <td>
+              200,319            </td>
+            <td>
+              944,805            </td>
+            <td>
+              4.72            </td>
+            
+      </tr>
+            <tr>
+        <td>30</td>
+        <td>Bihar</td>
+        <td>Saharsa</td>
+                    <td>
+              78,399            </td>
+            <td>
+              118,030            </td>
+            <td>
+              1.51            </td>
+                        <td>
+              76,731            </td>
+            <td>
+              132,967            </td>
+            <td>
+              1.73            </td>
+            
+      </tr>
+            <tr>
+        <td>31</td>
+        <td>Bihar</td>
+        <td>Samastipur</td>
+                    <td>
+              88,246            </td>
+            <td>
+              122,966            </td>
+            <td>
+              1.39            </td>
+                        <td>
+              88,310            </td>
+            <td>
+              183,458            </td>
+            <td>
+              2.08            </td>
+            
+      </tr>
+            <tr>
+        <td>32</td>
+        <td>Bihar</td>
+        <td>Saran</td>
+                    <td>
+              55,418            </td>
+            <td>
+              128,717            </td>
+            <td>
+              2.32            </td>
+                        <td>
+              59,207            </td>
+            <td>
+              161,837            </td>
+            <td>
+              2.73            </td>
+            
+      </tr>
+            <tr>
+        <td>33</td>
+        <td>Bihar</td>
+        <td>Sheikhpura</td>
+                    <td>
+              24,997            </td>
+            <td>
+              46,208            </td>
+            <td>
+              1.85            </td>
+                        <td>
+              23,983            </td>
+            <td>
+              66,684            </td>
+            <td>
+              2.78            </td>
+            
+      </tr>
+            <tr>
+        <td>34</td>
+        <td>Bihar</td>
+        <td>Sheohar</td>
+                    <td>
+              21,352            </td>
+            <td>
+              36,517            </td>
+            <td>
+              1.71            </td>
+                        <td>
+              21,327            </td>
+            <td>
+              43,843            </td>
+            <td>
+              2.06            </td>
+            
+      </tr>
+            <tr>
+        <td>35</td>
+        <td>Bihar</td>
+        <td>Sitamarhi</td>
+                    <td>
+              99,901            </td>
+            <td>
+              164,157            </td>
+            <td>
+              1.64            </td>
+                        <td>
+              101,162            </td>
+            <td>
+              180,681            </td>
+            <td>
+              1.79            </td>
+            
+      </tr>
+            <tr>
+        <td>36</td>
+        <td>Bihar</td>
+        <td>Siwan</td>
+                    <td>
+              90,998            </td>
+            <td>
+              172,186            </td>
+            <td>
+              1.89            </td>
+                        <td>
+              90,999            </td>
+            <td>
+              222,519            </td>
+            <td>
+              2.45            </td>
+            
+      </tr>
+            <tr>
+        <td>37</td>
+        <td>Bihar</td>
+        <td>Supaul</td>
+                    <td>
+              108,503            </td>
+            <td>
+              239,706            </td>
+            <td>
+              2.21            </td>
+                        <td>
+              107,874            </td>
+            <td>
+              271,891            </td>
+            <td>
+              2.52            </td>
+            
+      </tr>
+            <tr>
+        <td>38</td>
+        <td>Bihar</td>
+        <td>Vaishali</td>
+                    <td>
+              35,386            </td>
+            <td>
+              57,223            </td>
+            <td>
+              1.62            </td>
+                        <td>
+              38,858            </td>
+            <td>
+              89,362            </td>
+            <td>
+              2.30            </td>
+            
+      </tr>
+      
+</tbody>
+</table>

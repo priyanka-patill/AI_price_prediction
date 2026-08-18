@@ -1,0 +1,32 @@
+{
+  "AGMARKNET": {
+    "endpoint": "https://api.data.gov.in/resource/9ef84268-d588-465a-a308-a864a43d0070",
+    "coverage": "2024-2026",
+    "status": "Active"
+  },
+  "OpenMeteo_Weather": {
+    "endpoint": "https://archive-api.open-meteo.com/v1/archive",
+    "coverage": "2024-2026",
+    "status": "Active",
+    "geocoding_summary": {
+      "total_locations_cached": 17,
+      "successful_geocodes": 12,
+      "failed_geocodes": 5
+    }
+  },
+  "DFPD_Procurement": {
+    "source": "DFPD / FCI Official Portals",
+    "coverage": "2021-2026",
+    "status": "Active"
+  },
+  "FCI_Buffer_Stock": {
+    "source": "FCI Central Pool Bulletin",
+    "coverage": "2024-2026",
+    "status": "Active"
+  },
+  "DFPD_Allocation": {
+    "source": "DFPD PDS Portal",
+    "coverage": "2024-2026",
+    "status": "Active"
+  }
+}

@@ -1,0 +1,8 @@
+# Phase 3 SHAP Configuration
+
+shap:
+  background_samples: 100
+  top_n_features: 15
+  output_csv_global: "data/processed/shap_global_importance.csv"
+  output_csv_local: "data/processed/shap_local_explanations.csv"
+  plot_dir: "reports/shap"

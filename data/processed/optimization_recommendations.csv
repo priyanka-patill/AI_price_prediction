@@ -1,0 +1,2 @@
+date,origin,destination_state,destination_market,recommended_release_mt,available_stock_mt,remaining_stock_mt,transportation_cost_rs,price_pressure_score,warning_level,scenario,optimization_status,recommendation_explanation
+2026-08-01,Central Warehouse Hub,Punjab,Punjab Primary Mandi,16350.0,135000.0,118650.0,3678750.0,6.54,WARNING,Optimized,Optimal,"Recommended release for consideration: 16,350 MT to Punjab. Reason: Punjab exhibits WARNING price warning with Price Pressure Score 6.5. Respects central pool reserve stock constraints."

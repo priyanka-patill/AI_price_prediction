@@ -1,0 +1,569 @@
+ <table border="2px" id="apyreport" class="table table-hover table-bordered text-center">
+<thead>
+
+<tr>
+  <th rowspan="2">S.No.</th>
+  <th rowspan="2">State</th>
+  <th rowspan="2">District</th>
+        <th colspan="3">2021 - 2022</th>
+            <th colspan="3">2022 - 2023</th>
+      </tr>
+<tr>
+      <th>Area( Ha. )</th>
+    <th>Production
+       (Tonnes)       </th>
+    <th>Yield
+ (Ton./Ha.)    </th>
+        <th>Area( Ha. )</th>
+    <th>Production
+       (Tonnes)       </th>
+    <th>Yield
+ (Ton./Ha.)    </th>
+    
+
+</tr>
+</thead>
+<tbody>
+        <tr>
+        <td>1</td>
+        <td>Odisha</td>
+        <td>Anugul</td>
+                    <td>
+              68,248            </td>
+            <td>
+              154,793            </td>
+            <td>
+              2.27            </td>
+                        <td>
+              119,000            </td>
+            <td>
+              401,600            </td>
+            <td>
+              3.37            </td>
+            
+      </tr>
+            <tr>
+        <td>2</td>
+        <td>Odisha</td>
+        <td>Balangir</td>
+                    <td>
+              184,397            </td>
+            <td>
+              263,618            </td>
+            <td>
+              1.43            </td>
+                        <td>
+              183,100            </td>
+            <td>
+              393,930            </td>
+            <td>
+              2.15            </td>
+            
+      </tr>
+            <tr>
+        <td>3</td>
+        <td>Odisha</td>
+        <td>Baleshwar</td>
+                    <td>
+              225,543            </td>
+            <td>
+              598,808            </td>
+            <td>
+              2.65            </td>
+                        <td>
+              220,140            </td>
+            <td>
+              686,260            </td>
+            <td>
+              3.12            </td>
+            
+      </tr>
+            <tr>
+        <td>4</td>
+        <td>Odisha</td>
+        <td>Bargarh</td>
+                    <td>
+              315,696            </td>
+            <td>
+              817,696            </td>
+            <td>
+              2.59            </td>
+                        <td>
+              325,960            </td>
+            <td>
+              1,311,280            </td>
+            <td>
+              4.02            </td>
+            
+      </tr>
+            <tr>
+        <td>5</td>
+        <td>Odisha</td>
+        <td>Bhadrak</td>
+                    <td>
+              159,332            </td>
+            <td>
+              396,667            </td>
+            <td>
+              2.49            </td>
+                        <td>
+              141,060            </td>
+            <td>
+              404,430            </td>
+            <td>
+              2.87            </td>
+            
+      </tr>
+            <tr>
+        <td>6</td>
+        <td>Odisha</td>
+        <td>Boudh</td>
+                    <td>
+              71,528            </td>
+            <td>
+              224,070            </td>
+            <td>
+              3.13            </td>
+                        <td>
+              70,750            </td>
+            <td>
+              236,360            </td>
+            <td>
+              3.34            </td>
+            
+      </tr>
+            <tr>
+        <td>7</td>
+        <td>Odisha</td>
+        <td>Cuttack</td>
+                    <td>
+              111,822            </td>
+            <td>
+              293,656            </td>
+            <td>
+              2.63            </td>
+                        <td>
+              113,420            </td>
+            <td>
+              328,240            </td>
+            <td>
+              2.89            </td>
+            
+      </tr>
+            <tr>
+        <td>8</td>
+        <td>Odisha</td>
+        <td>Deogarh</td>
+                    <td>
+              43,439            </td>
+            <td>
+              80,598            </td>
+            <td>
+              1.86            </td>
+                        <td>
+              40,150            </td>
+            <td>
+              103,900            </td>
+            <td>
+              2.59            </td>
+            
+      </tr>
+            <tr>
+        <td>9</td>
+        <td>Odisha</td>
+        <td>Dhenkanal</td>
+                    <td>
+              71,437            </td>
+            <td>
+              210,384            </td>
+            <td>
+              2.95            </td>
+                        <td>
+              86,470            </td>
+            <td>
+              292,830            </td>
+            <td>
+              3.39            </td>
+            
+      </tr>
+            <tr>
+        <td>10</td>
+        <td>Odisha</td>
+        <td>Gajapati</td>
+                    <td>
+              37,907            </td>
+            <td>
+              85,600            </td>
+            <td>
+              2.26            </td>
+                        <td>
+              32,090            </td>
+            <td>
+              82,600            </td>
+            <td>
+              2.57            </td>
+            
+      </tr>
+            <tr>
+        <td>11</td>
+        <td>Odisha</td>
+        <td>Ganjam</td>
+                    <td>
+              257,267            </td>
+            <td>
+              544,047            </td>
+            <td>
+              2.11            </td>
+                        <td>
+              293,560            </td>
+            <td>
+              898,000            </td>
+            <td>
+              3.06            </td>
+            
+      </tr>
+            <tr>
+        <td>12</td>
+        <td>Odisha</td>
+        <td>Jagatsinghapur</td>
+                    <td>
+              88,788            </td>
+            <td>
+              150,860            </td>
+            <td>
+              1.70            </td>
+                        <td>
+              76,900            </td>
+            <td>
+              219,060            </td>
+            <td>
+              2.85            </td>
+            
+      </tr>
+            <tr>
+        <td>13</td>
+        <td>Odisha</td>
+        <td>Jajapur</td>
+                    <td>
+              100,346            </td>
+            <td>
+              168,701            </td>
+            <td>
+              1.68            </td>
+                        <td>
+              113,770            </td>
+            <td>
+              270,190            </td>
+            <td>
+              2.37            </td>
+            
+      </tr>
+            <tr>
+        <td>14</td>
+        <td>Odisha</td>
+        <td>Jharsuguda</td>
+                    <td>
+              47,230            </td>
+            <td>
+              30,980            </td>
+            <td>
+              0.66            </td>
+                        <td>
+              47,080            </td>
+            <td>
+              74,190            </td>
+            <td>
+              1.58            </td>
+            
+      </tr>
+            <tr>
+        <td>15</td>
+        <td>Odisha</td>
+        <td>Kalahandi</td>
+                    <td>
+              222,072            </td>
+            <td>
+              516,707            </td>
+            <td>
+              2.33            </td>
+                        <td>
+              243,450            </td>
+            <td>
+              741,540            </td>
+            <td>
+              3.05            </td>
+            
+      </tr>
+            <tr>
+        <td>16</td>
+        <td>Odisha</td>
+        <td>Kandhamal</td>
+                    <td>
+              34,579            </td>
+            <td>
+              61,192            </td>
+            <td>
+              1.77            </td>
+                        <td>
+              42,520            </td>
+            <td>
+              97,360            </td>
+            <td>
+              2.29            </td>
+            
+      </tr>
+            <tr>
+        <td>17</td>
+        <td>Odisha</td>
+        <td>Kendrapara</td>
+                    <td>
+              122,999            </td>
+            <td>
+              197,620            </td>
+            <td>
+              1.61            </td>
+                        <td>
+              121,110            </td>
+            <td>
+              275,840            </td>
+            <td>
+              2.28            </td>
+            
+      </tr>
+            <tr>
+        <td>18</td>
+        <td>Odisha</td>
+        <td>Kendujhar</td>
+                    <td>
+              150,995            </td>
+            <td>
+              456,302            </td>
+            <td>
+              3.02            </td>
+                        <td>
+              175,150            </td>
+            <td>
+              611,090            </td>
+            <td>
+              3.49            </td>
+            
+      </tr>
+            <tr>
+        <td>19</td>
+        <td>Odisha</td>
+        <td>Khordha</td>
+                    <td>
+              86,665            </td>
+            <td>
+              193,910            </td>
+            <td>
+              2.24            </td>
+                        <td>
+              82,090            </td>
+            <td>
+              243,590            </td>
+            <td>
+              2.97            </td>
+            
+      </tr>
+            <tr>
+        <td>20</td>
+        <td>Odisha</td>
+        <td>Koraput</td>
+                    <td>
+              131,745            </td>
+            <td>
+              381,161            </td>
+            <td>
+              2.89            </td>
+                        <td>
+              132,500            </td>
+            <td>
+              419,990            </td>
+            <td>
+              3.17            </td>
+            
+      </tr>
+            <tr>
+        <td>21</td>
+        <td>Odisha</td>
+        <td>Malkangiri</td>
+                    <td>
+              115,897            </td>
+            <td>
+              285,796            </td>
+            <td>
+              2.47            </td>
+                        <td>
+              130,590            </td>
+            <td>
+              353,600            </td>
+            <td>
+              2.71            </td>
+            
+      </tr>
+            <tr>
+        <td>22</td>
+        <td>Odisha</td>
+        <td>Mayurbhanj</td>
+                    <td>
+              320,669            </td>
+            <td>
+              839,133            </td>
+            <td>
+              2.62            </td>
+                        <td>
+              319,230            </td>
+            <td>
+              872,620            </td>
+            <td>
+              2.73            </td>
+            
+      </tr>
+            <tr>
+        <td>23</td>
+        <td>Odisha</td>
+        <td>Nabarangpur</td>
+                    <td>
+              135,012            </td>
+            <td>
+              376,316            </td>
+            <td>
+              2.79            </td>
+                        <td>
+              133,770            </td>
+            <td>
+              435,230            </td>
+            <td>
+              3.25            </td>
+            
+      </tr>
+            <tr>
+        <td>24</td>
+        <td>Odisha</td>
+        <td>Nayagarh</td>
+                    <td>
+              88,473            </td>
+            <td>
+              180,318            </td>
+            <td>
+              2.04            </td>
+                        <td>
+              91,990            </td>
+            <td>
+              253,080            </td>
+            <td>
+              2.75            </td>
+            
+      </tr>
+            <tr>
+        <td>25</td>
+        <td>Odisha</td>
+        <td>Nuapada</td>
+                    <td>
+              97,937            </td>
+            <td>
+              215,085            </td>
+            <td>
+              2.20            </td>
+                        <td>
+              106,860            </td>
+            <td>
+              268,460            </td>
+            <td>
+              2.51            </td>
+            
+      </tr>
+            <tr>
+        <td>26</td>
+        <td>Odisha</td>
+        <td>Puri</td>
+                    <td>
+              135,129            </td>
+            <td>
+              232,504            </td>
+            <td>
+              1.72            </td>
+                        <td>
+              121,590            </td>
+            <td>
+              296,240            </td>
+            <td>
+              2.44            </td>
+            
+      </tr>
+            <tr>
+        <td>27</td>
+        <td>Odisha</td>
+        <td>Rayagada</td>
+                    <td>
+              61,132            </td>
+            <td>
+              185,906            </td>
+            <td>
+              3.04            </td>
+                        <td>
+              49,050            </td>
+            <td>
+              158,010            </td>
+            <td>
+              3.22            </td>
+            
+      </tr>
+            <tr>
+        <td>28</td>
+        <td>Odisha</td>
+        <td>Sambalpur</td>
+                    <td>
+              137,089            </td>
+            <td>
+              326,887            </td>
+            <td>
+              2.38            </td>
+                        <td>
+              125,810            </td>
+            <td>
+              343,610            </td>
+            <td>
+              2.73            </td>
+            
+      </tr>
+            <tr>
+        <td>29</td>
+        <td>Odisha</td>
+        <td>Sonepur</td>
+                    <td>
+              131,905            </td>
+            <td>
+              453,264            </td>
+            <td>
+              3.44            </td>
+                        <td>
+              149,330            </td>
+            <td>
+              555,480            </td>
+            <td>
+              3.72            </td>
+            
+      </tr>
+            <tr>
+        <td>30</td>
+        <td>Odisha</td>
+        <td>Sundargarh</td>
+                    <td>
+              192,466            </td>
+            <td>
+              368,519            </td>
+            <td>
+              1.91            </td>
+                        <td>
+              175,680            </td>
+            <td>
+              303,940            </td>
+            <td>
+              1.73            </td>
+            
+      </tr>
+      
+</tbody>
+</table>

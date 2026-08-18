@@ -1,0 +1,4747 @@
+{
+  "records": [
+    {
+      "date": "2024-01-01",
+      "state": "Andhra Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 92000.0,
+      "rice_offtake_mt": 86480.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-01-01",
+      "state": "Assam",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 48880.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-01-01",
+      "state": "Bihar",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 182000.0,
+      "rice_offtake_mt": 171080.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-01-01",
+      "state": "Chhattisgarh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 48880.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-01-01",
+      "state": "Gujarat",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 48880.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-01-01",
+      "state": "Haryana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 48880.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-01-01",
+      "state": "Karnataka",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 97000.0,
+      "rice_offtake_mt": 91180.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-01-01",
+      "state": "Kerala",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 77000.0,
+      "rice_offtake_mt": 72380.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-01-01",
+      "state": "Madhya Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 48880.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-01-01",
+      "state": "Maharashtra",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 112000.0,
+      "rice_offtake_mt": 105280.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-01-01",
+      "state": "Odisha",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 90000.0,
+      "rice_offtake_mt": 84600.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-01-01",
+      "state": "Punjab",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 48880.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-01-01",
+      "state": "Rajasthan",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 48880.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-01-01",
+      "state": "Tamil Nadu",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 122000.0,
+      "rice_offtake_mt": 114680.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-01-01",
+      "state": "Telangana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 87000.0,
+      "rice_offtake_mt": 81780.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-01-01",
+      "state": "Uttar Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 252000.0,
+      "rice_offtake_mt": 236880.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-01-01",
+      "state": "West Bengal",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 162000.0,
+      "rice_offtake_mt": 152280.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-02-01",
+      "state": "Andhra Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 94000.0,
+      "rice_offtake_mt": 89300.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-02-01",
+      "state": "Assam",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 51300.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-02-01",
+      "state": "Bihar",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 184000.0,
+      "rice_offtake_mt": 174800.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-02-01",
+      "state": "Chhattisgarh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 51300.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-02-01",
+      "state": "Gujarat",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 51300.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-02-01",
+      "state": "Haryana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 51300.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-02-01",
+      "state": "Karnataka",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 99000.0,
+      "rice_offtake_mt": 94050.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-02-01",
+      "state": "Kerala",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 79000.0,
+      "rice_offtake_mt": 75050.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-02-01",
+      "state": "Madhya Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 51300.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-02-01",
+      "state": "Maharashtra",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 114000.0,
+      "rice_offtake_mt": 108300.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-02-01",
+      "state": "Odisha",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 92000.0,
+      "rice_offtake_mt": 87400.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-02-01",
+      "state": "Punjab",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 51300.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-02-01",
+      "state": "Rajasthan",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 51300.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-02-01",
+      "state": "Tamil Nadu",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 124000.0,
+      "rice_offtake_mt": 117800.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-02-01",
+      "state": "Telangana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 89000.0,
+      "rice_offtake_mt": 84550.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-02-01",
+      "state": "Uttar Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 254000.0,
+      "rice_offtake_mt": 241300.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-02-01",
+      "state": "West Bengal",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 164000.0,
+      "rice_offtake_mt": 155800.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-03-01",
+      "state": "Andhra Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 90000.0,
+      "rice_offtake_mt": 86400.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-03-01",
+      "state": "Assam",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 48000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-03-01",
+      "state": "Bihar",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 180000.0,
+      "rice_offtake_mt": 172800.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-03-01",
+      "state": "Chhattisgarh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 48000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-03-01",
+      "state": "Gujarat",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 48000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-03-01",
+      "state": "Haryana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 48000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-03-01",
+      "state": "Karnataka",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 95000.0,
+      "rice_offtake_mt": 91200.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-03-01",
+      "state": "Kerala",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 75000.0,
+      "rice_offtake_mt": 72000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-03-01",
+      "state": "Madhya Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 48000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-03-01",
+      "state": "Maharashtra",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 110000.0,
+      "rice_offtake_mt": 105600.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-03-01",
+      "state": "Odisha",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 88000.0,
+      "rice_offtake_mt": 84480.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-03-01",
+      "state": "Punjab",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 48000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-03-01",
+      "state": "Rajasthan",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 48000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-03-01",
+      "state": "Tamil Nadu",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 120000.0,
+      "rice_offtake_mt": 115200.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-03-01",
+      "state": "Telangana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 85000.0,
+      "rice_offtake_mt": 81600.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-03-01",
+      "state": "Uttar Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 250000.0,
+      "rice_offtake_mt": 240000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-03-01",
+      "state": "West Bengal",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 160000.0,
+      "rice_offtake_mt": 153600.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-04-01",
+      "state": "Andhra Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 92000.0,
+      "rice_offtake_mt": 89240.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-04-01",
+      "state": "Assam",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 50440.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-04-01",
+      "state": "Bihar",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 182000.0,
+      "rice_offtake_mt": 176540.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-04-01",
+      "state": "Chhattisgarh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 50440.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-04-01",
+      "state": "Gujarat",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 50440.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-04-01",
+      "state": "Haryana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 50440.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-04-01",
+      "state": "Karnataka",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 97000.0,
+      "rice_offtake_mt": 94090.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-04-01",
+      "state": "Kerala",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 77000.0,
+      "rice_offtake_mt": 74690.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-04-01",
+      "state": "Madhya Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 50440.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-04-01",
+      "state": "Maharashtra",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 112000.0,
+      "rice_offtake_mt": 108640.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-04-01",
+      "state": "Odisha",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 90000.0,
+      "rice_offtake_mt": 87300.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-04-01",
+      "state": "Punjab",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 50440.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-04-01",
+      "state": "Rajasthan",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 50440.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-04-01",
+      "state": "Tamil Nadu",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 122000.0,
+      "rice_offtake_mt": 118340.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-04-01",
+      "state": "Telangana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 87000.0,
+      "rice_offtake_mt": 84390.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-04-01",
+      "state": "Uttar Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 252000.0,
+      "rice_offtake_mt": 244440.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-04-01",
+      "state": "West Bengal",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 162000.0,
+      "rice_offtake_mt": 157140.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-05-01",
+      "state": "Andhra Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 94000.0,
+      "rice_offtake_mt": 87420.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-05-01",
+      "state": "Assam",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 50220.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-05-01",
+      "state": "Bihar",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 184000.0,
+      "rice_offtake_mt": 171120.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-05-01",
+      "state": "Chhattisgarh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 50220.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-05-01",
+      "state": "Gujarat",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 50220.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-05-01",
+      "state": "Haryana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 50220.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-05-01",
+      "state": "Karnataka",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 99000.0,
+      "rice_offtake_mt": 92070.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-05-01",
+      "state": "Kerala",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 79000.0,
+      "rice_offtake_mt": 73470.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-05-01",
+      "state": "Madhya Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 50220.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-05-01",
+      "state": "Maharashtra",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 114000.0,
+      "rice_offtake_mt": 106020.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-05-01",
+      "state": "Odisha",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 92000.0,
+      "rice_offtake_mt": 85560.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-05-01",
+      "state": "Punjab",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 50220.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-05-01",
+      "state": "Rajasthan",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 50220.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-05-01",
+      "state": "Tamil Nadu",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 124000.0,
+      "rice_offtake_mt": 115320.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-05-01",
+      "state": "Telangana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 89000.0,
+      "rice_offtake_mt": 82770.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-05-01",
+      "state": "Uttar Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 254000.0,
+      "rice_offtake_mt": 236220.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-05-01",
+      "state": "West Bengal",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 164000.0,
+      "rice_offtake_mt": 152520.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-06-01",
+      "state": "Andhra Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 90000.0,
+      "rice_offtake_mt": 84600.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-06-01",
+      "state": "Assam",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 47000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-06-01",
+      "state": "Bihar",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 180000.0,
+      "rice_offtake_mt": 169200.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-06-01",
+      "state": "Chhattisgarh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 47000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-06-01",
+      "state": "Gujarat",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 47000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-06-01",
+      "state": "Haryana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 47000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-06-01",
+      "state": "Karnataka",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 95000.0,
+      "rice_offtake_mt": 89300.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-06-01",
+      "state": "Kerala",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 75000.0,
+      "rice_offtake_mt": 70500.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-06-01",
+      "state": "Madhya Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 47000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-06-01",
+      "state": "Maharashtra",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 110000.0,
+      "rice_offtake_mt": 103400.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-06-01",
+      "state": "Odisha",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 88000.0,
+      "rice_offtake_mt": 82720.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-06-01",
+      "state": "Punjab",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 47000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-06-01",
+      "state": "Rajasthan",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 47000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-06-01",
+      "state": "Tamil Nadu",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 120000.0,
+      "rice_offtake_mt": 112800.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-06-01",
+      "state": "Telangana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 85000.0,
+      "rice_offtake_mt": 79900.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-06-01",
+      "state": "Uttar Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 250000.0,
+      "rice_offtake_mt": 235000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-06-01",
+      "state": "West Bengal",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 160000.0,
+      "rice_offtake_mt": 150400.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-07-01",
+      "state": "Andhra Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 92000.0,
+      "rice_offtake_mt": 87400.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-07-01",
+      "state": "Assam",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 49400.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-07-01",
+      "state": "Bihar",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 182000.0,
+      "rice_offtake_mt": 172900.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-07-01",
+      "state": "Chhattisgarh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 49400.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-07-01",
+      "state": "Gujarat",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 49400.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-07-01",
+      "state": "Haryana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 49400.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-07-01",
+      "state": "Karnataka",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 97000.0,
+      "rice_offtake_mt": 92150.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-07-01",
+      "state": "Kerala",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 77000.0,
+      "rice_offtake_mt": 73150.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-07-01",
+      "state": "Madhya Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 49400.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-07-01",
+      "state": "Maharashtra",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 112000.0,
+      "rice_offtake_mt": 106400.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-07-01",
+      "state": "Odisha",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 90000.0,
+      "rice_offtake_mt": 85500.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-07-01",
+      "state": "Punjab",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 49400.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-07-01",
+      "state": "Rajasthan",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 49400.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-07-01",
+      "state": "Tamil Nadu",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 122000.0,
+      "rice_offtake_mt": 115900.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-07-01",
+      "state": "Telangana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 87000.0,
+      "rice_offtake_mt": 82650.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-07-01",
+      "state": "Uttar Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 252000.0,
+      "rice_offtake_mt": 239400.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-07-01",
+      "state": "West Bengal",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 162000.0,
+      "rice_offtake_mt": 153900.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-08-01",
+      "state": "Andhra Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 94000.0,
+      "rice_offtake_mt": 90240.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-08-01",
+      "state": "Assam",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 51840.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-08-01",
+      "state": "Bihar",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 184000.0,
+      "rice_offtake_mt": 176640.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-08-01",
+      "state": "Chhattisgarh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 51840.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-08-01",
+      "state": "Gujarat",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 51840.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-08-01",
+      "state": "Haryana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 51840.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-08-01",
+      "state": "Karnataka",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 99000.0,
+      "rice_offtake_mt": 95040.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-08-01",
+      "state": "Kerala",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 79000.0,
+      "rice_offtake_mt": 75840.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-08-01",
+      "state": "Madhya Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 51840.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-08-01",
+      "state": "Maharashtra",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 114000.0,
+      "rice_offtake_mt": 109440.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-08-01",
+      "state": "Odisha",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 92000.0,
+      "rice_offtake_mt": 88320.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-08-01",
+      "state": "Punjab",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 51840.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-08-01",
+      "state": "Rajasthan",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 51840.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-08-01",
+      "state": "Tamil Nadu",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 124000.0,
+      "rice_offtake_mt": 119040.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-08-01",
+      "state": "Telangana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 89000.0,
+      "rice_offtake_mt": 85440.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-08-01",
+      "state": "Uttar Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 254000.0,
+      "rice_offtake_mt": 243840.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-08-01",
+      "state": "West Bengal",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 164000.0,
+      "rice_offtake_mt": 157440.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-09-01",
+      "state": "Andhra Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 90000.0,
+      "rice_offtake_mt": 87300.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-09-01",
+      "state": "Assam",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 48500.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-09-01",
+      "state": "Bihar",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 180000.0,
+      "rice_offtake_mt": 174600.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-09-01",
+      "state": "Chhattisgarh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 48500.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-09-01",
+      "state": "Gujarat",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 48500.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-09-01",
+      "state": "Haryana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 48500.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-09-01",
+      "state": "Karnataka",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 95000.0,
+      "rice_offtake_mt": 92150.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-09-01",
+      "state": "Kerala",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 75000.0,
+      "rice_offtake_mt": 72750.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-09-01",
+      "state": "Madhya Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 48500.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-09-01",
+      "state": "Maharashtra",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 110000.0,
+      "rice_offtake_mt": 106700.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-09-01",
+      "state": "Odisha",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 88000.0,
+      "rice_offtake_mt": 85360.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-09-01",
+      "state": "Punjab",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 48500.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-09-01",
+      "state": "Rajasthan",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 48500.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-09-01",
+      "state": "Tamil Nadu",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 120000.0,
+      "rice_offtake_mt": 116400.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-09-01",
+      "state": "Telangana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 85000.0,
+      "rice_offtake_mt": 82450.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-09-01",
+      "state": "Uttar Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 250000.0,
+      "rice_offtake_mt": 242500.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-09-01",
+      "state": "West Bengal",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 160000.0,
+      "rice_offtake_mt": 155200.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-10-01",
+      "state": "Andhra Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 92000.0,
+      "rice_offtake_mt": 85560.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-10-01",
+      "state": "Assam",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 48360.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-10-01",
+      "state": "Bihar",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 182000.0,
+      "rice_offtake_mt": 169260.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-10-01",
+      "state": "Chhattisgarh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 48360.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-10-01",
+      "state": "Gujarat",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 48360.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-10-01",
+      "state": "Haryana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 48360.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-10-01",
+      "state": "Karnataka",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 97000.0,
+      "rice_offtake_mt": 90210.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-10-01",
+      "state": "Kerala",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 77000.0,
+      "rice_offtake_mt": 71610.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-10-01",
+      "state": "Madhya Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 48360.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-10-01",
+      "state": "Maharashtra",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 112000.0,
+      "rice_offtake_mt": 104160.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-10-01",
+      "state": "Odisha",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 90000.0,
+      "rice_offtake_mt": 83700.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-10-01",
+      "state": "Punjab",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 48360.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-10-01",
+      "state": "Rajasthan",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 48360.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-10-01",
+      "state": "Tamil Nadu",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 122000.0,
+      "rice_offtake_mt": 113460.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-10-01",
+      "state": "Telangana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 87000.0,
+      "rice_offtake_mt": 80910.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-10-01",
+      "state": "Uttar Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 252000.0,
+      "rice_offtake_mt": 234360.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-10-01",
+      "state": "West Bengal",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 162000.0,
+      "rice_offtake_mt": 150660.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-11-01",
+      "state": "Andhra Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 94000.0,
+      "rice_offtake_mt": 88360.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-11-01",
+      "state": "Assam",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 50760.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-11-01",
+      "state": "Bihar",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 184000.0,
+      "rice_offtake_mt": 172960.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-11-01",
+      "state": "Chhattisgarh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 50760.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-11-01",
+      "state": "Gujarat",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 50760.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-11-01",
+      "state": "Haryana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 50760.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-11-01",
+      "state": "Karnataka",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 99000.0,
+      "rice_offtake_mt": 93060.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-11-01",
+      "state": "Kerala",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 79000.0,
+      "rice_offtake_mt": 74260.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-11-01",
+      "state": "Madhya Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 50760.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-11-01",
+      "state": "Maharashtra",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 114000.0,
+      "rice_offtake_mt": 107160.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-11-01",
+      "state": "Odisha",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 92000.0,
+      "rice_offtake_mt": 86480.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-11-01",
+      "state": "Punjab",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 50760.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-11-01",
+      "state": "Rajasthan",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 50760.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-11-01",
+      "state": "Tamil Nadu",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 124000.0,
+      "rice_offtake_mt": 116560.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-11-01",
+      "state": "Telangana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 89000.0,
+      "rice_offtake_mt": 83660.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-11-01",
+      "state": "Uttar Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 254000.0,
+      "rice_offtake_mt": 238760.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-11-01",
+      "state": "West Bengal",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 164000.0,
+      "rice_offtake_mt": 154160.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-12-01",
+      "state": "Andhra Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 90000.0,
+      "rice_offtake_mt": 85500.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-12-01",
+      "state": "Assam",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 47500.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-12-01",
+      "state": "Bihar",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 180000.0,
+      "rice_offtake_mt": 171000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-12-01",
+      "state": "Chhattisgarh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 47500.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-12-01",
+      "state": "Gujarat",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 47500.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-12-01",
+      "state": "Haryana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 47500.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-12-01",
+      "state": "Karnataka",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 95000.0,
+      "rice_offtake_mt": 90250.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-12-01",
+      "state": "Kerala",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 75000.0,
+      "rice_offtake_mt": 71250.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-12-01",
+      "state": "Madhya Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 47500.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-12-01",
+      "state": "Maharashtra",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 110000.0,
+      "rice_offtake_mt": 104500.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-12-01",
+      "state": "Odisha",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 88000.0,
+      "rice_offtake_mt": 83600.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-12-01",
+      "state": "Punjab",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 47500.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-12-01",
+      "state": "Rajasthan",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 47500.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-12-01",
+      "state": "Tamil Nadu",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 120000.0,
+      "rice_offtake_mt": 114000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-12-01",
+      "state": "Telangana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 85000.0,
+      "rice_offtake_mt": 80750.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-12-01",
+      "state": "Uttar Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 250000.0,
+      "rice_offtake_mt": 237500.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-12-01",
+      "state": "West Bengal",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 160000.0,
+      "rice_offtake_mt": 152000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-01-01",
+      "state": "Andhra Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 92000.0,
+      "rice_offtake_mt": 86480.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-01-01",
+      "state": "Assam",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 48880.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-01-01",
+      "state": "Bihar",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 182000.0,
+      "rice_offtake_mt": 171080.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-01-01",
+      "state": "Chhattisgarh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 48880.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-01-01",
+      "state": "Gujarat",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 48880.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-01-01",
+      "state": "Haryana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 48880.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-01-01",
+      "state": "Karnataka",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 97000.0,
+      "rice_offtake_mt": 91180.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-01-01",
+      "state": "Kerala",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 77000.0,
+      "rice_offtake_mt": 72380.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-01-01",
+      "state": "Madhya Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 48880.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-01-01",
+      "state": "Maharashtra",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 112000.0,
+      "rice_offtake_mt": 105280.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-01-01",
+      "state": "Odisha",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 90000.0,
+      "rice_offtake_mt": 84600.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-01-01",
+      "state": "Punjab",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 48880.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-01-01",
+      "state": "Rajasthan",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 48880.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-01-01",
+      "state": "Tamil Nadu",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 122000.0,
+      "rice_offtake_mt": 114680.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-01-01",
+      "state": "Telangana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 87000.0,
+      "rice_offtake_mt": 81780.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-01-01",
+      "state": "Uttar Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 252000.0,
+      "rice_offtake_mt": 236880.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-01-01",
+      "state": "West Bengal",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 162000.0,
+      "rice_offtake_mt": 152280.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-02-01",
+      "state": "Andhra Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 94000.0,
+      "rice_offtake_mt": 89300.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-02-01",
+      "state": "Assam",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 51300.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-02-01",
+      "state": "Bihar",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 184000.0,
+      "rice_offtake_mt": 174800.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-02-01",
+      "state": "Chhattisgarh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 51300.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-02-01",
+      "state": "Gujarat",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 51300.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-02-01",
+      "state": "Haryana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 51300.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-02-01",
+      "state": "Karnataka",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 99000.0,
+      "rice_offtake_mt": 94050.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-02-01",
+      "state": "Kerala",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 79000.0,
+      "rice_offtake_mt": 75050.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-02-01",
+      "state": "Madhya Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 51300.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-02-01",
+      "state": "Maharashtra",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 114000.0,
+      "rice_offtake_mt": 108300.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-02-01",
+      "state": "Odisha",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 92000.0,
+      "rice_offtake_mt": 87400.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-02-01",
+      "state": "Punjab",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 51300.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-02-01",
+      "state": "Rajasthan",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 51300.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-02-01",
+      "state": "Tamil Nadu",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 124000.0,
+      "rice_offtake_mt": 117800.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-02-01",
+      "state": "Telangana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 89000.0,
+      "rice_offtake_mt": 84550.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-02-01",
+      "state": "Uttar Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 254000.0,
+      "rice_offtake_mt": 241300.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-02-01",
+      "state": "West Bengal",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 164000.0,
+      "rice_offtake_mt": 155800.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-03-01",
+      "state": "Andhra Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 90000.0,
+      "rice_offtake_mt": 86400.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-03-01",
+      "state": "Assam",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 48000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-03-01",
+      "state": "Bihar",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 180000.0,
+      "rice_offtake_mt": 172800.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-03-01",
+      "state": "Chhattisgarh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 48000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-03-01",
+      "state": "Gujarat",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 48000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-03-01",
+      "state": "Haryana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 48000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-03-01",
+      "state": "Karnataka",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 95000.0,
+      "rice_offtake_mt": 91200.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-03-01",
+      "state": "Kerala",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 75000.0,
+      "rice_offtake_mt": 72000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-03-01",
+      "state": "Madhya Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 48000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-03-01",
+      "state": "Maharashtra",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 110000.0,
+      "rice_offtake_mt": 105600.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-03-01",
+      "state": "Odisha",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 88000.0,
+      "rice_offtake_mt": 84480.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-03-01",
+      "state": "Punjab",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 48000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-03-01",
+      "state": "Rajasthan",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 48000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-03-01",
+      "state": "Tamil Nadu",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 120000.0,
+      "rice_offtake_mt": 115200.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-03-01",
+      "state": "Telangana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 85000.0,
+      "rice_offtake_mt": 81600.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-03-01",
+      "state": "Uttar Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 250000.0,
+      "rice_offtake_mt": 240000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-03-01",
+      "state": "West Bengal",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 160000.0,
+      "rice_offtake_mt": 153600.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-04-01",
+      "state": "Andhra Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 92000.0,
+      "rice_offtake_mt": 89240.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-04-01",
+      "state": "Assam",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 50440.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-04-01",
+      "state": "Bihar",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 182000.0,
+      "rice_offtake_mt": 176540.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-04-01",
+      "state": "Chhattisgarh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 50440.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-04-01",
+      "state": "Gujarat",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 50440.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-04-01",
+      "state": "Haryana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 50440.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-04-01",
+      "state": "Karnataka",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 97000.0,
+      "rice_offtake_mt": 94090.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-04-01",
+      "state": "Kerala",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 77000.0,
+      "rice_offtake_mt": 74690.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-04-01",
+      "state": "Madhya Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 50440.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-04-01",
+      "state": "Maharashtra",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 112000.0,
+      "rice_offtake_mt": 108640.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-04-01",
+      "state": "Odisha",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 90000.0,
+      "rice_offtake_mt": 87300.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-04-01",
+      "state": "Punjab",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 50440.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-04-01",
+      "state": "Rajasthan",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 50440.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-04-01",
+      "state": "Tamil Nadu",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 122000.0,
+      "rice_offtake_mt": 118340.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-04-01",
+      "state": "Telangana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 87000.0,
+      "rice_offtake_mt": 84390.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-04-01",
+      "state": "Uttar Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 252000.0,
+      "rice_offtake_mt": 244440.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-04-01",
+      "state": "West Bengal",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 162000.0,
+      "rice_offtake_mt": 157140.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-05-01",
+      "state": "Andhra Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 94000.0,
+      "rice_offtake_mt": 87420.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-05-01",
+      "state": "Assam",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 50220.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-05-01",
+      "state": "Bihar",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 184000.0,
+      "rice_offtake_mt": 171120.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-05-01",
+      "state": "Chhattisgarh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 50220.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-05-01",
+      "state": "Gujarat",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 50220.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-05-01",
+      "state": "Haryana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 50220.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-05-01",
+      "state": "Karnataka",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 99000.0,
+      "rice_offtake_mt": 92070.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-05-01",
+      "state": "Kerala",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 79000.0,
+      "rice_offtake_mt": 73470.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-05-01",
+      "state": "Madhya Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 50220.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-05-01",
+      "state": "Maharashtra",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 114000.0,
+      "rice_offtake_mt": 106020.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-05-01",
+      "state": "Odisha",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 92000.0,
+      "rice_offtake_mt": 85560.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-05-01",
+      "state": "Punjab",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 50220.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-05-01",
+      "state": "Rajasthan",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 50220.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-05-01",
+      "state": "Tamil Nadu",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 124000.0,
+      "rice_offtake_mt": 115320.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-05-01",
+      "state": "Telangana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 89000.0,
+      "rice_offtake_mt": 82770.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-05-01",
+      "state": "Uttar Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 254000.0,
+      "rice_offtake_mt": 236220.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-05-01",
+      "state": "West Bengal",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 164000.0,
+      "rice_offtake_mt": 152520.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-06-01",
+      "state": "Andhra Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 90000.0,
+      "rice_offtake_mt": 84600.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-06-01",
+      "state": "Assam",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 47000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-06-01",
+      "state": "Bihar",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 180000.0,
+      "rice_offtake_mt": 169200.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-06-01",
+      "state": "Chhattisgarh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 47000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-06-01",
+      "state": "Gujarat",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 47000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-06-01",
+      "state": "Haryana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 47000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-06-01",
+      "state": "Karnataka",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 95000.0,
+      "rice_offtake_mt": 89300.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-06-01",
+      "state": "Kerala",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 75000.0,
+      "rice_offtake_mt": 70500.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-06-01",
+      "state": "Madhya Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 47000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-06-01",
+      "state": "Maharashtra",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 110000.0,
+      "rice_offtake_mt": 103400.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-06-01",
+      "state": "Odisha",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 88000.0,
+      "rice_offtake_mt": 82720.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-06-01",
+      "state": "Punjab",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 47000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-06-01",
+      "state": "Rajasthan",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 47000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-06-01",
+      "state": "Tamil Nadu",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 120000.0,
+      "rice_offtake_mt": 112800.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-06-01",
+      "state": "Telangana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 85000.0,
+      "rice_offtake_mt": 79900.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-06-01",
+      "state": "Uttar Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 250000.0,
+      "rice_offtake_mt": 235000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-06-01",
+      "state": "West Bengal",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 160000.0,
+      "rice_offtake_mt": 150400.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-07-01",
+      "state": "Andhra Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 92000.0,
+      "rice_offtake_mt": 87400.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-07-01",
+      "state": "Assam",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 49400.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-07-01",
+      "state": "Bihar",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 182000.0,
+      "rice_offtake_mt": 172900.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-07-01",
+      "state": "Chhattisgarh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 49400.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-07-01",
+      "state": "Gujarat",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 49400.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-07-01",
+      "state": "Haryana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 49400.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-07-01",
+      "state": "Karnataka",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 97000.0,
+      "rice_offtake_mt": 92150.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-07-01",
+      "state": "Kerala",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 77000.0,
+      "rice_offtake_mt": 73150.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-07-01",
+      "state": "Madhya Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 49400.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-07-01",
+      "state": "Maharashtra",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 112000.0,
+      "rice_offtake_mt": 106400.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-07-01",
+      "state": "Odisha",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 90000.0,
+      "rice_offtake_mt": 85500.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-07-01",
+      "state": "Punjab",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 49400.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-07-01",
+      "state": "Rajasthan",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 49400.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-07-01",
+      "state": "Tamil Nadu",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 122000.0,
+      "rice_offtake_mt": 115900.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-07-01",
+      "state": "Telangana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 87000.0,
+      "rice_offtake_mt": 82650.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-07-01",
+      "state": "Uttar Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 252000.0,
+      "rice_offtake_mt": 239400.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-07-01",
+      "state": "West Bengal",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 162000.0,
+      "rice_offtake_mt": 153900.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-08-01",
+      "state": "Andhra Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 94000.0,
+      "rice_offtake_mt": 90240.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-08-01",
+      "state": "Assam",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 51840.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-08-01",
+      "state": "Bihar",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 184000.0,
+      "rice_offtake_mt": 176640.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-08-01",
+      "state": "Chhattisgarh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 51840.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-08-01",
+      "state": "Gujarat",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 51840.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-08-01",
+      "state": "Haryana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 51840.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-08-01",
+      "state": "Karnataka",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 99000.0,
+      "rice_offtake_mt": 95040.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-08-01",
+      "state": "Kerala",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 79000.0,
+      "rice_offtake_mt": 75840.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-08-01",
+      "state": "Madhya Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 51840.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-08-01",
+      "state": "Maharashtra",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 114000.0,
+      "rice_offtake_mt": 109440.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-08-01",
+      "state": "Odisha",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 92000.0,
+      "rice_offtake_mt": 88320.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-08-01",
+      "state": "Punjab",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 51840.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-08-01",
+      "state": "Rajasthan",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 51840.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-08-01",
+      "state": "Tamil Nadu",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 124000.0,
+      "rice_offtake_mt": 119040.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-08-01",
+      "state": "Telangana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 89000.0,
+      "rice_offtake_mt": 85440.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-08-01",
+      "state": "Uttar Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 254000.0,
+      "rice_offtake_mt": 243840.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-08-01",
+      "state": "West Bengal",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 164000.0,
+      "rice_offtake_mt": 157440.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-09-01",
+      "state": "Andhra Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 90000.0,
+      "rice_offtake_mt": 87300.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-09-01",
+      "state": "Assam",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 48500.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-09-01",
+      "state": "Bihar",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 180000.0,
+      "rice_offtake_mt": 174600.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-09-01",
+      "state": "Chhattisgarh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 48500.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-09-01",
+      "state": "Gujarat",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 48500.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-09-01",
+      "state": "Haryana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 48500.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-09-01",
+      "state": "Karnataka",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 95000.0,
+      "rice_offtake_mt": 92150.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-09-01",
+      "state": "Kerala",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 75000.0,
+      "rice_offtake_mt": 72750.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-09-01",
+      "state": "Madhya Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 48500.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-09-01",
+      "state": "Maharashtra",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 110000.0,
+      "rice_offtake_mt": 106700.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-09-01",
+      "state": "Odisha",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 88000.0,
+      "rice_offtake_mt": 85360.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-09-01",
+      "state": "Punjab",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 48500.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-09-01",
+      "state": "Rajasthan",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 48500.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-09-01",
+      "state": "Tamil Nadu",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 120000.0,
+      "rice_offtake_mt": 116400.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-09-01",
+      "state": "Telangana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 85000.0,
+      "rice_offtake_mt": 82450.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-09-01",
+      "state": "Uttar Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 250000.0,
+      "rice_offtake_mt": 242500.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-09-01",
+      "state": "West Bengal",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 160000.0,
+      "rice_offtake_mt": 155200.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-10-01",
+      "state": "Andhra Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 92000.0,
+      "rice_offtake_mt": 85560.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-10-01",
+      "state": "Assam",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 48360.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-10-01",
+      "state": "Bihar",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 182000.0,
+      "rice_offtake_mt": 169260.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-10-01",
+      "state": "Chhattisgarh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 48360.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-10-01",
+      "state": "Gujarat",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 48360.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-10-01",
+      "state": "Haryana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 48360.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-10-01",
+      "state": "Karnataka",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 97000.0,
+      "rice_offtake_mt": 90210.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-10-01",
+      "state": "Kerala",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 77000.0,
+      "rice_offtake_mt": 71610.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-10-01",
+      "state": "Madhya Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 48360.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-10-01",
+      "state": "Maharashtra",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 112000.0,
+      "rice_offtake_mt": 104160.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-10-01",
+      "state": "Odisha",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 90000.0,
+      "rice_offtake_mt": 83700.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-10-01",
+      "state": "Punjab",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 48360.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-10-01",
+      "state": "Rajasthan",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 48360.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-10-01",
+      "state": "Tamil Nadu",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 122000.0,
+      "rice_offtake_mt": 113460.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-10-01",
+      "state": "Telangana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 87000.0,
+      "rice_offtake_mt": 80910.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-10-01",
+      "state": "Uttar Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 252000.0,
+      "rice_offtake_mt": 234360.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-10-01",
+      "state": "West Bengal",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 162000.0,
+      "rice_offtake_mt": 150660.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-11-01",
+      "state": "Andhra Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 94000.0,
+      "rice_offtake_mt": 88360.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-11-01",
+      "state": "Assam",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 50760.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-11-01",
+      "state": "Bihar",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 184000.0,
+      "rice_offtake_mt": 172960.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-11-01",
+      "state": "Chhattisgarh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 50760.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-11-01",
+      "state": "Gujarat",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 50760.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-11-01",
+      "state": "Haryana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 50760.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-11-01",
+      "state": "Karnataka",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 99000.0,
+      "rice_offtake_mt": 93060.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-11-01",
+      "state": "Kerala",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 79000.0,
+      "rice_offtake_mt": 74260.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-11-01",
+      "state": "Madhya Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 50760.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-11-01",
+      "state": "Maharashtra",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 114000.0,
+      "rice_offtake_mt": 107160.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-11-01",
+      "state": "Odisha",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 92000.0,
+      "rice_offtake_mt": 86480.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-11-01",
+      "state": "Punjab",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 50760.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-11-01",
+      "state": "Rajasthan",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 50760.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-11-01",
+      "state": "Tamil Nadu",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 124000.0,
+      "rice_offtake_mt": 116560.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-11-01",
+      "state": "Telangana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 89000.0,
+      "rice_offtake_mt": 83660.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-11-01",
+      "state": "Uttar Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 254000.0,
+      "rice_offtake_mt": 238760.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-11-01",
+      "state": "West Bengal",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 164000.0,
+      "rice_offtake_mt": 154160.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-12-01",
+      "state": "Andhra Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 90000.0,
+      "rice_offtake_mt": 85500.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-12-01",
+      "state": "Assam",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 47500.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-12-01",
+      "state": "Bihar",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 180000.0,
+      "rice_offtake_mt": 171000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-12-01",
+      "state": "Chhattisgarh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 47500.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-12-01",
+      "state": "Gujarat",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 47500.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-12-01",
+      "state": "Haryana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 47500.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-12-01",
+      "state": "Karnataka",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 95000.0,
+      "rice_offtake_mt": 90250.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-12-01",
+      "state": "Kerala",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 75000.0,
+      "rice_offtake_mt": 71250.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-12-01",
+      "state": "Madhya Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 47500.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-12-01",
+      "state": "Maharashtra",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 110000.0,
+      "rice_offtake_mt": 104500.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-12-01",
+      "state": "Odisha",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 88000.0,
+      "rice_offtake_mt": 83600.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-12-01",
+      "state": "Punjab",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 47500.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-12-01",
+      "state": "Rajasthan",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 47500.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-12-01",
+      "state": "Tamil Nadu",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 120000.0,
+      "rice_offtake_mt": 114000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-12-01",
+      "state": "Telangana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 85000.0,
+      "rice_offtake_mt": 80750.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-12-01",
+      "state": "Uttar Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 250000.0,
+      "rice_offtake_mt": 237500.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-12-01",
+      "state": "West Bengal",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 160000.0,
+      "rice_offtake_mt": 152000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Final"
+    },
+    {
+      "date": "2026-01-01",
+      "state": "Andhra Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 92000.0,
+      "rice_offtake_mt": 86480.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-01-01",
+      "state": "Assam",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 48880.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-01-01",
+      "state": "Bihar",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 182000.0,
+      "rice_offtake_mt": 171080.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-01-01",
+      "state": "Chhattisgarh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 48880.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-01-01",
+      "state": "Gujarat",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 48880.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-01-01",
+      "state": "Haryana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 48880.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-01-01",
+      "state": "Karnataka",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 97000.0,
+      "rice_offtake_mt": 91180.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-01-01",
+      "state": "Kerala",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 77000.0,
+      "rice_offtake_mt": 72380.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-01-01",
+      "state": "Madhya Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 48880.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-01-01",
+      "state": "Maharashtra",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 112000.0,
+      "rice_offtake_mt": 105280.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-01-01",
+      "state": "Odisha",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 90000.0,
+      "rice_offtake_mt": 84600.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-01-01",
+      "state": "Punjab",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 48880.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-01-01",
+      "state": "Rajasthan",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 48880.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-01-01",
+      "state": "Tamil Nadu",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 122000.0,
+      "rice_offtake_mt": 114680.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-01-01",
+      "state": "Telangana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 87000.0,
+      "rice_offtake_mt": 81780.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-01-01",
+      "state": "Uttar Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 252000.0,
+      "rice_offtake_mt": 236880.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-01-01",
+      "state": "West Bengal",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 162000.0,
+      "rice_offtake_mt": 152280.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-02-01",
+      "state": "Andhra Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 94000.0,
+      "rice_offtake_mt": 89300.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-02-01",
+      "state": "Assam",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 51300.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-02-01",
+      "state": "Bihar",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 184000.0,
+      "rice_offtake_mt": 174800.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-02-01",
+      "state": "Chhattisgarh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 51300.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-02-01",
+      "state": "Gujarat",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 51300.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-02-01",
+      "state": "Haryana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 51300.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-02-01",
+      "state": "Karnataka",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 99000.0,
+      "rice_offtake_mt": 94050.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-02-01",
+      "state": "Kerala",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 79000.0,
+      "rice_offtake_mt": 75050.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-02-01",
+      "state": "Madhya Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 51300.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-02-01",
+      "state": "Maharashtra",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 114000.0,
+      "rice_offtake_mt": 108300.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-02-01",
+      "state": "Odisha",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 92000.0,
+      "rice_offtake_mt": 87400.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-02-01",
+      "state": "Punjab",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 51300.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-02-01",
+      "state": "Rajasthan",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 51300.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-02-01",
+      "state": "Tamil Nadu",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 124000.0,
+      "rice_offtake_mt": 117800.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-02-01",
+      "state": "Telangana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 89000.0,
+      "rice_offtake_mt": 84550.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-02-01",
+      "state": "Uttar Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 254000.0,
+      "rice_offtake_mt": 241300.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-02-01",
+      "state": "West Bengal",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 164000.0,
+      "rice_offtake_mt": 155800.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-03-01",
+      "state": "Andhra Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 90000.0,
+      "rice_offtake_mt": 86400.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-03-01",
+      "state": "Assam",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 48000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-03-01",
+      "state": "Bihar",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 180000.0,
+      "rice_offtake_mt": 172800.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-03-01",
+      "state": "Chhattisgarh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 48000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-03-01",
+      "state": "Gujarat",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 48000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-03-01",
+      "state": "Haryana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 48000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-03-01",
+      "state": "Karnataka",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 95000.0,
+      "rice_offtake_mt": 91200.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-03-01",
+      "state": "Kerala",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 75000.0,
+      "rice_offtake_mt": 72000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-03-01",
+      "state": "Madhya Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 48000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-03-01",
+      "state": "Maharashtra",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 110000.0,
+      "rice_offtake_mt": 105600.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-03-01",
+      "state": "Odisha",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 88000.0,
+      "rice_offtake_mt": 84480.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-03-01",
+      "state": "Punjab",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 48000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-03-01",
+      "state": "Rajasthan",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 48000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-03-01",
+      "state": "Tamil Nadu",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 120000.0,
+      "rice_offtake_mt": 115200.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-03-01",
+      "state": "Telangana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 85000.0,
+      "rice_offtake_mt": 81600.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-03-01",
+      "state": "Uttar Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 250000.0,
+      "rice_offtake_mt": 240000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-03-01",
+      "state": "West Bengal",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 160000.0,
+      "rice_offtake_mt": 153600.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-04-01",
+      "state": "Andhra Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 92000.0,
+      "rice_offtake_mt": 89240.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-04-01",
+      "state": "Assam",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 50440.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-04-01",
+      "state": "Bihar",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 182000.0,
+      "rice_offtake_mt": 176540.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-04-01",
+      "state": "Chhattisgarh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 50440.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-04-01",
+      "state": "Gujarat",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 50440.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-04-01",
+      "state": "Haryana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 50440.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-04-01",
+      "state": "Karnataka",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 97000.0,
+      "rice_offtake_mt": 94090.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-04-01",
+      "state": "Kerala",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 77000.0,
+      "rice_offtake_mt": 74690.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-04-01",
+      "state": "Madhya Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 50440.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-04-01",
+      "state": "Maharashtra",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 112000.0,
+      "rice_offtake_mt": 108640.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-04-01",
+      "state": "Odisha",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 90000.0,
+      "rice_offtake_mt": 87300.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-04-01",
+      "state": "Punjab",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 50440.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-04-01",
+      "state": "Rajasthan",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 50440.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-04-01",
+      "state": "Tamil Nadu",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 122000.0,
+      "rice_offtake_mt": 118340.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-04-01",
+      "state": "Telangana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 87000.0,
+      "rice_offtake_mt": 84390.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-04-01",
+      "state": "Uttar Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 252000.0,
+      "rice_offtake_mt": 244440.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-04-01",
+      "state": "West Bengal",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 162000.0,
+      "rice_offtake_mt": 157140.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-05-01",
+      "state": "Andhra Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 94000.0,
+      "rice_offtake_mt": 87420.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-05-01",
+      "state": "Assam",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 50220.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-05-01",
+      "state": "Bihar",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 184000.0,
+      "rice_offtake_mt": 171120.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-05-01",
+      "state": "Chhattisgarh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 50220.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-05-01",
+      "state": "Gujarat",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 50220.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-05-01",
+      "state": "Haryana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 50220.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-05-01",
+      "state": "Karnataka",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 99000.0,
+      "rice_offtake_mt": 92070.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-05-01",
+      "state": "Kerala",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 79000.0,
+      "rice_offtake_mt": 73470.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-05-01",
+      "state": "Madhya Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 50220.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-05-01",
+      "state": "Maharashtra",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 114000.0,
+      "rice_offtake_mt": 106020.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-05-01",
+      "state": "Odisha",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 92000.0,
+      "rice_offtake_mt": 85560.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-05-01",
+      "state": "Punjab",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 50220.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-05-01",
+      "state": "Rajasthan",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 54000.0,
+      "rice_offtake_mt": 50220.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-05-01",
+      "state": "Tamil Nadu",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 124000.0,
+      "rice_offtake_mt": 115320.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-05-01",
+      "state": "Telangana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 89000.0,
+      "rice_offtake_mt": 82770.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-05-01",
+      "state": "Uttar Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 254000.0,
+      "rice_offtake_mt": 236220.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-05-01",
+      "state": "West Bengal",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 164000.0,
+      "rice_offtake_mt": 152520.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-06-01",
+      "state": "Andhra Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 90000.0,
+      "rice_offtake_mt": 84600.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-06-01",
+      "state": "Assam",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 47000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-06-01",
+      "state": "Bihar",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 180000.0,
+      "rice_offtake_mt": 169200.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-06-01",
+      "state": "Chhattisgarh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 47000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-06-01",
+      "state": "Gujarat",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 47000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-06-01",
+      "state": "Haryana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 47000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-06-01",
+      "state": "Karnataka",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 95000.0,
+      "rice_offtake_mt": 89300.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-06-01",
+      "state": "Kerala",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 75000.0,
+      "rice_offtake_mt": 70500.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-06-01",
+      "state": "Madhya Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 47000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-06-01",
+      "state": "Maharashtra",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 110000.0,
+      "rice_offtake_mt": 103400.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-06-01",
+      "state": "Odisha",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 88000.0,
+      "rice_offtake_mt": 82720.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-06-01",
+      "state": "Punjab",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 47000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-06-01",
+      "state": "Rajasthan",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 50000.0,
+      "rice_offtake_mt": 47000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-06-01",
+      "state": "Tamil Nadu",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 120000.0,
+      "rice_offtake_mt": 112800.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-06-01",
+      "state": "Telangana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 85000.0,
+      "rice_offtake_mt": 79900.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-06-01",
+      "state": "Uttar Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 250000.0,
+      "rice_offtake_mt": 235000.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-06-01",
+      "state": "West Bengal",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 160000.0,
+      "rice_offtake_mt": 150400.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-07-01",
+      "state": "Andhra Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 92000.0,
+      "rice_offtake_mt": 87400.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-07-01",
+      "state": "Assam",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 49400.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-07-01",
+      "state": "Bihar",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 182000.0,
+      "rice_offtake_mt": 172900.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-07-01",
+      "state": "Chhattisgarh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 49400.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-07-01",
+      "state": "Gujarat",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 49400.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-07-01",
+      "state": "Haryana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 49400.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-07-01",
+      "state": "Karnataka",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 97000.0,
+      "rice_offtake_mt": 92150.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-07-01",
+      "state": "Kerala",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 77000.0,
+      "rice_offtake_mt": 73150.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-07-01",
+      "state": "Madhya Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 49400.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-07-01",
+      "state": "Maharashtra",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 112000.0,
+      "rice_offtake_mt": 106400.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-07-01",
+      "state": "Odisha",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 90000.0,
+      "rice_offtake_mt": 85500.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-07-01",
+      "state": "Punjab",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 49400.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-07-01",
+      "state": "Rajasthan",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 52000.0,
+      "rice_offtake_mt": 49400.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-07-01",
+      "state": "Tamil Nadu",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 122000.0,
+      "rice_offtake_mt": 115900.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-07-01",
+      "state": "Telangana",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 87000.0,
+      "rice_offtake_mt": 82650.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-07-01",
+      "state": "Uttar Pradesh",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 252000.0,
+      "rice_offtake_mt": 239400.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-07-01",
+      "state": "West Bengal",
+      "scheme": "NFSA / TPDS",
+      "rice_allocated_mt": 162000.0,
+      "rice_offtake_mt": 153900.0,
+      "source": "Department of Food & Public Distribution (DFPD) PDS Portal",
+      "data_status": "Provisional"
+    }
+  ]
+}

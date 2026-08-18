@@ -1,0 +1,461 @@
+ <table border="2px" id="apyreport" class="table table-hover table-bordered text-center">
+<thead>
+
+<tr>
+  <th rowspan="2">S.No.</th>
+  <th rowspan="2">State</th>
+  <th rowspan="2">District</th>
+        <th colspan="3">2021 - 2022</th>
+            <th colspan="3">2022 - 2023</th>
+      </tr>
+<tr>
+      <th>Area( Ha. )</th>
+    <th>Production
+       (Tonnes)       </th>
+    <th>Yield
+ (Ton./Ha.)    </th>
+        <th>Area( Ha. )</th>
+    <th>Production
+       (Tonnes)       </th>
+    <th>Yield
+ (Ton./Ha.)    </th>
+    
+
+</tr>
+</thead>
+<tbody>
+        <tr>
+        <td>1</td>
+        <td>Jharkhand</td>
+        <td>Bokaro</td>
+                    <td>
+              31,367            </td>
+            <td>
+              103,511            </td>
+            <td>
+              3.30            </td>
+                        <td>
+              29,534            </td>
+            <td>
+              59,068            </td>
+            <td>
+              2.00            </td>
+            
+      </tr>
+            <tr>
+        <td>2</td>
+        <td>Jharkhand</td>
+        <td>Chatra</td>
+                    <td>
+              36,408            </td>
+            <td>
+              121,967            </td>
+            <td>
+              3.35            </td>
+                        <td>
+              11,366            </td>
+            <td>
+              36,884            </td>
+            <td>
+              3.25            </td>
+            
+      </tr>
+            <tr>
+        <td>3</td>
+        <td>Jharkhand</td>
+        <td>Deoghar</td>
+                    <td>
+              51,274            </td>
+            <td>
+              199,969            </td>
+            <td>
+              3.90            </td>
+                        <td>
+              44,418            </td>
+            <td>
+              173,230            </td>
+            <td>
+              3.90            </td>
+            
+      </tr>
+            <tr>
+        <td>4</td>
+        <td>Jharkhand</td>
+        <td>Dhanbad</td>
+                    <td>
+              42,155            </td>
+            <td>
+              115,926            </td>
+            <td>
+              2.75            </td>
+                        <td>
+              9,591            </td>
+            <td>
+              22,710            </td>
+            <td>
+              2.37            </td>
+            
+      </tr>
+            <tr>
+        <td>5</td>
+        <td>Jharkhand</td>
+        <td>Dumka</td>
+                    <td>
+              112,593            </td>
+            <td>
+              225,186            </td>
+            <td>
+              2.00            </td>
+                        <td>
+              16,500            </td>
+            <td>
+              35,810            </td>
+            <td>
+              2.17            </td>
+            
+      </tr>
+            <tr>
+        <td>6</td>
+        <td>Jharkhand</td>
+        <td>East singhbum</td>
+                    <td>
+              108,075            </td>
+            <td>
+              378,263            </td>
+            <td>
+              3.50            </td>
+                        <td>
+              156,091            </td>
+            <td>
+              475,927            </td>
+            <td>
+              3.05            </td>
+            
+      </tr>
+            <tr>
+        <td>7</td>
+        <td>Jharkhand</td>
+        <td>Garhwa</td>
+                    <td>
+              52,330            </td>
+            <td>
+              153,327            </td>
+            <td>
+              2.93            </td>
+                        <td>
+              22,748            </td>
+            <td>
+              39,986            </td>
+            <td>
+              1.76            </td>
+            
+      </tr>
+            <tr>
+        <td>8</td>
+        <td>Jharkhand</td>
+        <td>Giridih</td>
+                    <td>
+              86,798            </td>
+            <td>
+              333,478            </td>
+            <td>
+              3.84            </td>
+                        <td>
+              55,839            </td>
+            <td>
+              197,378            </td>
+            <td>
+              3.53            </td>
+            
+      </tr>
+            <tr>
+        <td>9</td>
+        <td>Jharkhand</td>
+        <td>Godda</td>
+                    <td>
+              54,356            </td>
+            <td>
+              168,504            </td>
+            <td>
+              3.10            </td>
+                        <td>
+              53,576            </td>
+            <td>
+              169,054            </td>
+            <td>
+              3.16            </td>
+            
+      </tr>
+            <tr>
+        <td>10</td>
+        <td>Jharkhand</td>
+        <td>Gumla</td>
+                    <td>
+              187,200            </td>
+            <td>
+              620,194            </td>
+            <td>
+              3.31            </td>
+                        <td>
+              285,121            </td>
+            <td>
+              721,356            </td>
+            <td>
+              2.53            </td>
+            
+      </tr>
+            <tr>
+        <td>11</td>
+        <td>Jharkhand</td>
+        <td>Hazaribagh</td>
+                    <td>
+              83,076            </td>
+            <td>
+              231,782            </td>
+            <td>
+              2.79            </td>
+                        <td>
+              50,464            </td>
+            <td>
+              67,282            </td>
+            <td>
+              1.33            </td>
+            
+      </tr>
+            <tr>
+        <td>12</td>
+        <td>Jharkhand</td>
+        <td>Jamtara</td>
+                    <td>
+              52,000            </td>
+            <td>
+              153,764            </td>
+            <td>
+              2.96            </td>
+                        <td>
+              25,237            </td>
+            <td>
+              31,185            </td>
+            <td>
+              1.24            </td>
+            
+      </tr>
+            <tr>
+        <td>13</td>
+        <td>Jharkhand</td>
+        <td>Khunti</td>
+                    <td>
+              65,189            </td>
+            <td>
+              297,783            </td>
+            <td>
+              4.57            </td>
+                        <td>
+              126,555            </td>
+            <td>
+              293,834            </td>
+            <td>
+              2.32            </td>
+            
+      </tr>
+            <tr>
+        <td>14</td>
+        <td>Jharkhand</td>
+        <td>Koderma</td>
+                    <td>
+              16,490            </td>
+            <td>
+              42,874            </td>
+            <td>
+              2.60            </td>
+                        <td>
+              19,916            </td>
+            <td>
+              51,781            </td>
+            <td>
+              2.60            </td>
+            
+      </tr>
+            <tr>
+        <td>15</td>
+        <td>Jharkhand</td>
+        <td>Latehar</td>
+                    <td>
+              29,739            </td>
+            <td>
+              66,913            </td>
+            <td>
+              2.25            </td>
+                        <td>
+              20,373            </td>
+            <td>
+              35,788            </td>
+            <td>
+              1.76            </td>
+            
+      </tr>
+            <tr>
+        <td>16</td>
+        <td>Jharkhand</td>
+        <td>Lohardaga</td>
+                    <td>
+              44,290            </td>
+            <td>
+              145,714            </td>
+            <td>
+              3.29            </td>
+                        <td>
+              62,228            </td>
+            <td>
+              160,237            </td>
+            <td>
+              2.57            </td>
+            
+      </tr>
+            <tr>
+        <td>17</td>
+        <td>Jharkhand</td>
+        <td>Pakur</td>
+                    <td>
+              48,408            </td>
+            <td>
+              97,010            </td>
+            <td>
+              2.00            </td>
+                        <td>
+              41,807            </td>
+            <td>
+              77,412            </td>
+            <td>
+              1.85            </td>
+            
+      </tr>
+            <tr>
+        <td>18</td>
+        <td>Jharkhand</td>
+        <td>Palamu</td>
+                    <td>
+              50,123            </td>
+            <td>
+              132,525            </td>
+            <td>
+              2.64            </td>
+                        <td>
+              7,703            </td>
+            <td>
+              16,044            </td>
+            <td>
+              2.08            </td>
+            
+      </tr>
+            <tr>
+        <td>19</td>
+        <td>Jharkhand</td>
+        <td>Ramgarh</td>
+                    <td>
+              34,755            </td>
+            <td>
+              91,753            </td>
+            <td>
+              2.64            </td>
+                        <td>
+              44,947            </td>
+            <td>
+              103,409            </td>
+            <td>
+              2.30            </td>
+            
+      </tr>
+            <tr>
+        <td>20</td>
+        <td>Jharkhand</td>
+        <td>Ranchi</td>
+                    <td>
+              171,000            </td>
+            <td>
+              649,800            </td>
+            <td>
+              3.80            </td>
+                        <td>
+              198,007            </td>
+            <td>
+              436,985            </td>
+            <td>
+              2.21            </td>
+            
+      </tr>
+            <tr>
+        <td>21</td>
+        <td>Jharkhand</td>
+        <td>Sahebganj</td>
+                    <td>
+              48,678            </td>
+            <td>
+              158,204            </td>
+            <td>
+              3.25            </td>
+                        <td>
+              49,588            </td>
+            <td>
+              139,238            </td>
+            <td>
+              2.81            </td>
+            
+      </tr>
+            <tr>
+        <td>22</td>
+        <td>Jharkhand</td>
+        <td>Saraikela kharsawan</td>
+                    <td>
+              97,513            </td>
+            <td>
+              273,036            </td>
+            <td>
+              2.80            </td>
+                        <td>
+              128,558            </td>
+            <td>
+              314,967            </td>
+            <td>
+              2.45            </td>
+            
+      </tr>
+            <tr>
+        <td>23</td>
+        <td>Jharkhand</td>
+        <td>Simdega</td>
+                    <td>
+              85,048            </td>
+            <td>
+              246,639            </td>
+            <td>
+              2.90            </td>
+                        <td>
+              142,263            </td>
+            <td>
+              323,762            </td>
+            <td>
+              2.28            </td>
+            
+      </tr>
+            <tr>
+        <td>24</td>
+        <td>Jharkhand</td>
+        <td>West singhbhum</td>
+                    <td>
+              174,683            </td>
+            <td>
+              357,052            </td>
+            <td>
+              2.04            </td>
+                        <td>
+              276,258            </td>
+            <td>
+              501,348            </td>
+            <td>
+              1.81            </td>
+            
+      </tr>
+      
+</tbody>
+</table>

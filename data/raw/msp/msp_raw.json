@@ -1,0 +1,74 @@
+{
+  "records": [
+    {
+      "marketing_year": "2021-22",
+      "paddy_type": "Common",
+      "msp_rs_per_qtl": 1940.0,
+      "source": "Cabinet Committee on Economic Affairs (CCEA) / DFPD",
+      "data_status": "Final"
+    },
+    {
+      "marketing_year": "2021-22",
+      "paddy_type": "Grade A",
+      "msp_rs_per_qtl": 1960.0,
+      "source": "Cabinet Committee on Economic Affairs (CCEA) / DFPD",
+      "data_status": "Final"
+    },
+    {
+      "marketing_year": "2022-23",
+      "paddy_type": "Common",
+      "msp_rs_per_qtl": 2040.0,
+      "source": "Cabinet Committee on Economic Affairs (CCEA) / DFPD",
+      "data_status": "Final"
+    },
+    {
+      "marketing_year": "2022-23",
+      "paddy_type": "Grade A",
+      "msp_rs_per_qtl": 2060.0,
+      "source": "Cabinet Committee on Economic Affairs (CCEA) / DFPD",
+      "data_status": "Final"
+    },
+    {
+      "marketing_year": "2023-24",
+      "paddy_type": "Common",
+      "msp_rs_per_qtl": 2183.0,
+      "source": "Cabinet Committee on Economic Affairs (CCEA) / DFPD",
+      "data_status": "Final"
+    },
+    {
+      "marketing_year": "2023-24",
+      "paddy_type": "Grade A",
+      "msp_rs_per_qtl": 2203.0,
+      "source": "Cabinet Committee on Economic Affairs (CCEA) / DFPD",
+      "data_status": "Final"
+    },
+    {
+      "marketing_year": "2024-25",
+      "paddy_type": "Common",
+      "msp_rs_per_qtl": 2300.0,
+      "source": "Cabinet Committee on Economic Affairs (CCEA) / DFPD",
+      "data_status": "Final"
+    },
+    {
+      "marketing_year": "2024-25",
+      "paddy_type": "Grade A",
+      "msp_rs_per_qtl": 2320.0,
+      "source": "Cabinet Committee on Economic Affairs (CCEA) / DFPD",
+      "data_status": "Final"
+    },
+    {
+      "marketing_year": "2025-26",
+      "paddy_type": "Common",
+      "msp_rs_per_qtl": 2300.0,
+      "source": "Cabinet Committee on Economic Affairs (CCEA) / DFPD",
+      "data_status": "Advance_Estimate"
+    },
+    {
+      "marketing_year": "2025-26",
+      "paddy_type": "Grade A",
+      "msp_rs_per_qtl": 2320.0,
+      "source": "Cabinet Committee on Economic Affairs (CCEA) / DFPD",
+      "data_status": "Advance_Estimate"
+    }
+  ]
+}

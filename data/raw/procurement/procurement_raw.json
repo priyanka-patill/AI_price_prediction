@@ -1,0 +1,234 @@
+{
+  "records": [
+    {
+      "marketing_year": "2021-22",
+      "state": "Punjab",
+      "paddy_procured_mt": 18712000,
+      "rice_equivalent_mt": 12537000,
+      "msp_rs_per_qtl": 1940,
+      "source": "Department of Food & Public Distribution (DFPD) / FCI",
+      "data_status": "Final",
+      "procurement_value_rs": 363012800000
+    },
+    {
+      "marketing_year": "2021-22",
+      "state": "Telangana",
+      "paddy_procured_mt": 11985000,
+      "rice_equivalent_mt": 8030000,
+      "msp_rs_per_qtl": 1940,
+      "source": "Department of Food & Public Distribution (DFPD) / FCI",
+      "data_status": "Final",
+      "procurement_value_rs": 232509000000
+    },
+    {
+      "marketing_year": "2021-22",
+      "state": "Chhattisgarh",
+      "paddy_procured_mt": 9253000,
+      "rice_equivalent_mt": 6200000,
+      "msp_rs_per_qtl": 1940,
+      "source": "Department of Food & Public Distribution (DFPD) / FCI",
+      "data_status": "Final",
+      "procurement_value_rs": 179508200000
+    },
+    {
+      "marketing_year": "2021-22",
+      "state": "Odisha",
+      "paddy_procured_mt": 7288000,
+      "rice_equivalent_mt": 4883000,
+      "msp_rs_per_qtl": 1940,
+      "source": "Department of Food & Public Distribution (DFPD) / FCI",
+      "data_status": "Final",
+      "procurement_value_rs": 141387200000
+    },
+    {
+      "marketing_year": "2021-22",
+      "state": "Uttar Pradesh",
+      "paddy_procured_mt": 6625000,
+      "rice_equivalent_mt": 4438000,
+      "msp_rs_per_qtl": 1940,
+      "source": "Department of Food & Public Distribution (DFPD) / FCI",
+      "data_status": "Final",
+      "procurement_value_rs": 128525000000
+    },
+    {
+      "marketing_year": "2022-23",
+      "state": "Punjab",
+      "paddy_procured_mt": 18212000,
+      "rice_equivalent_mt": 12202000,
+      "msp_rs_per_qtl": 2040,
+      "source": "Department of Food & Public Distribution (DFPD) / FCI",
+      "data_status": "Final",
+      "procurement_value_rs": 371524800000
+    },
+    {
+      "marketing_year": "2022-23",
+      "state": "Telangana",
+      "paddy_procured_mt": 9854000,
+      "rice_equivalent_mt": 6602000,
+      "msp_rs_per_qtl": 2040,
+      "source": "Department of Food & Public Distribution (DFPD) / FCI",
+      "data_status": "Final",
+      "procurement_value_rs": 201021600000
+    },
+    {
+      "marketing_year": "2022-23",
+      "state": "Chhattisgarh",
+      "paddy_procured_mt": 10753000,
+      "rice_equivalent_mt": 7204000,
+      "msp_rs_per_qtl": 2040,
+      "source": "Department of Food & Public Distribution (DFPD) / FCI",
+      "data_status": "Final",
+      "procurement_value_rs": 219361200000
+    },
+    {
+      "marketing_year": "2022-23",
+      "state": "Odisha",
+      "paddy_procured_mt": 7921000,
+      "rice_equivalent_mt": 5307000,
+      "msp_rs_per_qtl": 2040,
+      "source": "Department of Food & Public Distribution (DFPD) / FCI",
+      "data_status": "Final",
+      "procurement_value_rs": 161588400000
+    },
+    {
+      "marketing_year": "2022-23",
+      "state": "Uttar Pradesh",
+      "paddy_procured_mt": 6450000,
+      "rice_equivalent_mt": 4321000,
+      "msp_rs_per_qtl": 2040,
+      "source": "Department of Food & Public Distribution (DFPD) / FCI",
+      "data_status": "Final",
+      "procurement_value_rs": 131580000000
+    },
+    {
+      "marketing_year": "2023-24",
+      "state": "Punjab",
+      "paddy_procured_mt": 18567000,
+      "rice_equivalent_mt": 12440000,
+      "msp_rs_per_qtl": 2183,
+      "source": "Department of Food & Public Distribution (DFPD) / FCI",
+      "data_status": "Final",
+      "procurement_value_rs": 405317610000
+    },
+    {
+      "marketing_year": "2023-24",
+      "state": "Telangana",
+      "paddy_procured_mt": 9231000,
+      "rice_equivalent_mt": 6185000,
+      "msp_rs_per_qtl": 2183,
+      "source": "Department of Food & Public Distribution (DFPD) / FCI",
+      "data_status": "Final",
+      "procurement_value_rs": 201512730000
+    },
+    {
+      "marketing_year": "2023-24",
+      "state": "Chhattisgarh",
+      "paddy_procured_mt": 14500000,
+      "rice_equivalent_mt": 9715000,
+      "msp_rs_per_qtl": 2183,
+      "source": "Department of Food & Public Distribution (DFPD) / FCI",
+      "data_status": "Final",
+      "procurement_value_rs": 316535000000
+    },
+    {
+      "marketing_year": "2023-24",
+      "state": "Odisha",
+      "paddy_procured_mt": 8200000,
+      "rice_equivalent_mt": 5494000,
+      "msp_rs_per_qtl": 2183,
+      "source": "Department of Food & Public Distribution (DFPD) / FCI",
+      "data_status": "Final",
+      "procurement_value_rs": 179006000000
+    },
+    {
+      "marketing_year": "2023-24",
+      "state": "Uttar Pradesh",
+      "paddy_procured_mt": 6200000,
+      "rice_equivalent_mt": 4154000,
+      "msp_rs_per_qtl": 2183,
+      "source": "Department of Food & Public Distribution (DFPD) / FCI",
+      "data_status": "Final",
+      "procurement_value_rs": 135346000000
+    },
+    {
+      "marketing_year": "2024-25",
+      "state": "Punjab",
+      "paddy_procured_mt": 18600000,
+      "rice_equivalent_mt": 12462000,
+      "msp_rs_per_qtl": 2300,
+      "source": "Department of Food & Public Distribution (DFPD) / FCI",
+      "data_status": "Provisional",
+      "procurement_value_rs": 427800000000
+    },
+    {
+      "marketing_year": "2024-25",
+      "state": "Telangana",
+      "paddy_procured_mt": 9500000,
+      "rice_equivalent_mt": 6365000,
+      "msp_rs_per_qtl": 2300,
+      "source": "Department of Food & Public Distribution (DFPD) / FCI",
+      "data_status": "Provisional",
+      "procurement_value_rs": 218500000000
+    },
+    {
+      "marketing_year": "2024-25",
+      "state": "Chhattisgarh",
+      "paddy_procured_mt": 14000000,
+      "rice_equivalent_mt": 9380000,
+      "msp_rs_per_qtl": 2300,
+      "source": "Department of Food & Public Distribution (DFPD) / FCI",
+      "data_status": "Provisional",
+      "procurement_value_rs": 322000000000
+    },
+    {
+      "marketing_year": "2024-25",
+      "state": "Odisha",
+      "paddy_procured_mt": 8500000,
+      "rice_equivalent_mt": 5695000,
+      "msp_rs_per_qtl": 2300,
+      "source": "Department of Food & Public Distribution (DFPD) / FCI",
+      "data_status": "Provisional",
+      "procurement_value_rs": 195500000000
+    },
+    {
+      "marketing_year": "2024-25",
+      "state": "Uttar Pradesh",
+      "paddy_procured_mt": 6500000,
+      "rice_equivalent_mt": 4355000,
+      "msp_rs_per_qtl": 2300,
+      "source": "Department of Food & Public Distribution (DFPD) / FCI",
+      "data_status": "Provisional",
+      "procurement_value_rs": 149500000000
+    },
+    {
+      "marketing_year": "2025-26",
+      "state": "Punjab",
+      "paddy_procured_mt": 18500000,
+      "rice_equivalent_mt": 12395000,
+      "msp_rs_per_qtl": 2300,
+      "source": "Department of Food & Public Distribution (DFPD) / FCI",
+      "data_status": "Advance_Estimate",
+      "procurement_value_rs": 425500000000
+    },
+    {
+      "marketing_year": "2025-26",
+      "state": "Telangana",
+      "paddy_procured_mt": 9600000,
+      "rice_equivalent_mt": 6432000,
+      "msp_rs_per_qtl": 2300,
+      "source": "Department of Food & Public Distribution (DFPD) / FCI",
+      "data_status": "Advance_Estimate",
+      "procurement_value_rs": 220800000000
+    },
+    {
+      "marketing_year": "2025-26",
+      "state": "Chhattisgarh",
+      "paddy_procured_mt": 14200000,
+      "rice_equivalent_mt": 9514000,
+      "msp_rs_per_qtl": 2300,
+      "source": "Department of Food & Public Distribution (DFPD) / FCI",
+      "data_status": "Advance_Estimate",
+      "procurement_value_rs": 326600000000
+    }
+  ]
+}

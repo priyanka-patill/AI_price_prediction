@@ -1,0 +1,1441 @@
+forecast_date,location,actual_price,predicted_price,forecast_horizon,model,error
+2026-01-05,Andhra Pradesh|East Godavari|East Godavari Mandi,3592.0,3396.88,7D,LightGBM,-195.12
+2026-01-05,Andhra Pradesh|East Godavari|East Godavari Mandi,3592.0,3640.98,7D,ARIMA Baseline,48.98
+2026-01-12,Andhra Pradesh|East Godavari|East Godavari Mandi,3595.5,3396.67,7D,LightGBM,-198.83
+2026-01-12,Andhra Pradesh|East Godavari|East Godavari Mandi,3595.5,3640.98,7D,ARIMA Baseline,45.48
+2026-01-19,Andhra Pradesh|East Godavari|East Godavari Mandi,3599.0,3396.98,7D,LightGBM,-202.02
+2026-01-19,Andhra Pradesh|East Godavari|East Godavari Mandi,3599.0,3640.98,7D,ARIMA Baseline,41.98
+2026-01-26,Andhra Pradesh|East Godavari|East Godavari Mandi,3602.5,3396.83,7D,LightGBM,-205.67
+2026-01-26,Andhra Pradesh|East Godavari|East Godavari Mandi,3602.5,3640.98,7D,ARIMA Baseline,38.48
+2026-02-02,Andhra Pradesh|East Godavari|East Godavari Mandi,3606.0,3398.1,7D,LightGBM,-207.9
+2026-02-02,Andhra Pradesh|East Godavari|East Godavari Mandi,3606.0,3640.98,7D,ARIMA Baseline,34.98
+2026-02-09,Andhra Pradesh|East Godavari|East Godavari Mandi,3609.5,3396.59,7D,LightGBM,-212.91
+2026-02-09,Andhra Pradesh|East Godavari|East Godavari Mandi,3609.5,3640.98,7D,ARIMA Baseline,31.48
+2026-02-16,Andhra Pradesh|East Godavari|East Godavari Mandi,3613.0,3397.09,7D,LightGBM,-215.91
+2026-02-16,Andhra Pradesh|East Godavari|East Godavari Mandi,3613.0,3640.98,7D,ARIMA Baseline,27.98
+2026-02-23,Andhra Pradesh|East Godavari|East Godavari Mandi,3616.5,3396.96,7D,LightGBM,-219.54
+2026-02-23,Andhra Pradesh|East Godavari|East Godavari Mandi,3616.5,3640.98,7D,ARIMA Baseline,24.48
+2026-03-02,Andhra Pradesh|East Godavari|East Godavari Mandi,3620.0,3397.01,7D,LightGBM,-222.99
+2026-03-02,Andhra Pradesh|East Godavari|East Godavari Mandi,3620.0,3640.98,7D,ARIMA Baseline,20.98
+2026-03-09,Andhra Pradesh|East Godavari|East Godavari Mandi,3623.5,3397.24,7D,LightGBM,-226.26
+2026-03-09,Andhra Pradesh|East Godavari|East Godavari Mandi,3623.5,3640.98,7D,ARIMA Baseline,17.48
+2026-03-16,Andhra Pradesh|East Godavari|East Godavari Mandi,3627.0,3397.03,7D,LightGBM,-229.97
+2026-03-16,Andhra Pradesh|East Godavari|East Godavari Mandi,3627.0,3640.98,7D,ARIMA Baseline,13.98
+2026-03-23,Andhra Pradesh|East Godavari|East Godavari Mandi,3630.5,3397.06,7D,LightGBM,-233.44
+2026-03-23,Andhra Pradesh|East Godavari|East Godavari Mandi,3630.5,3640.98,7D,ARIMA Baseline,10.48
+2026-03-30,Andhra Pradesh|East Godavari|East Godavari Mandi,3634.0,3396.93,7D,LightGBM,-237.07
+2026-03-30,Andhra Pradesh|East Godavari|East Godavari Mandi,3634.0,3640.98,7D,ARIMA Baseline,6.98
+2026-04-06,Andhra Pradesh|East Godavari|East Godavari Mandi,3637.5,3397.14,7D,LightGBM,-240.36
+2026-04-06,Andhra Pradesh|East Godavari|East Godavari Mandi,3637.5,3640.98,7D,ARIMA Baseline,3.48
+2026-04-13,Andhra Pradesh|East Godavari|East Godavari Mandi,3641.0,3397.01,7D,LightGBM,-243.99
+2026-04-13,Andhra Pradesh|East Godavari|East Godavari Mandi,3641.0,3640.98,7D,ARIMA Baseline,-0.02
+2026-04-20,Andhra Pradesh|East Godavari|East Godavari Mandi,3644.5,3397.51,7D,LightGBM,-246.99
+2026-04-20,Andhra Pradesh|East Godavari|East Godavari Mandi,3644.5,3640.98,7D,ARIMA Baseline,-3.52
+2026-04-27,Andhra Pradesh|East Godavari|East Godavari Mandi,3648.0,3397.15,7D,LightGBM,-250.85
+2026-04-27,Andhra Pradesh|East Godavari|East Godavari Mandi,3648.0,3640.98,7D,ARIMA Baseline,-7.02
+2026-05-04,Andhra Pradesh|East Godavari|East Godavari Mandi,3651.5,3397.47,7D,LightGBM,-254.03
+2026-05-04,Andhra Pradesh|East Godavari|East Godavari Mandi,3651.5,3640.98,7D,ARIMA Baseline,-10.52
+2026-05-11,Andhra Pradesh|East Godavari|East Godavari Mandi,3655.0,3397.23,7D,LightGBM,-257.77
+2026-05-11,Andhra Pradesh|East Godavari|East Godavari Mandi,3655.0,3640.98,7D,ARIMA Baseline,-14.02
+2026-05-18,Andhra Pradesh|East Godavari|East Godavari Mandi,3658.5,3397.61,7D,LightGBM,-260.89
+2026-05-18,Andhra Pradesh|East Godavari|East Godavari Mandi,3658.5,3640.98,7D,ARIMA Baseline,-17.52
+2026-05-25,Andhra Pradesh|East Godavari|East Godavari Mandi,3662.0,3397.49,7D,LightGBM,-264.51
+2026-05-25,Andhra Pradesh|East Godavari|East Godavari Mandi,3662.0,3640.98,7D,ARIMA Baseline,-21.02
+2026-06-01,Andhra Pradesh|East Godavari|East Godavari Mandi,3665.5,3397.49,7D,LightGBM,-268.01
+2026-06-01,Andhra Pradesh|East Godavari|East Godavari Mandi,3665.5,3640.98,7D,ARIMA Baseline,-24.52
+2026-06-08,Andhra Pradesh|East Godavari|East Godavari Mandi,3669.0,3397.42,7D,LightGBM,-271.58
+2026-06-08,Andhra Pradesh|East Godavari|East Godavari Mandi,3669.0,3640.98,7D,ARIMA Baseline,-28.02
+2026-06-15,Andhra Pradesh|East Godavari|East Godavari Mandi,,3397.47,7D,LightGBM,
+2026-06-15,Andhra Pradesh|East Godavari|East Godavari Mandi,,3640.98,7D,ARIMA Baseline,
+2026-06-22,Andhra Pradesh|East Godavari|East Godavari Mandi,,3397.5,7D,LightGBM,
+2026-06-22,Andhra Pradesh|East Godavari|East Godavari Mandi,,3640.98,7D,ARIMA Baseline,
+2026-06-29,Andhra Pradesh|East Godavari|East Godavari Mandi,,3397.46,7D,LightGBM,
+2026-06-29,Andhra Pradesh|East Godavari|East Godavari Mandi,,3640.98,7D,ARIMA Baseline,
+2026-07-06,Andhra Pradesh|East Godavari|East Godavari Mandi,,3397.47,7D,LightGBM,
+2026-07-06,Andhra Pradesh|East Godavari|East Godavari Mandi,,3640.98,7D,ARIMA Baseline,
+2026-07-13,Andhra Pradesh|East Godavari|East Godavari Mandi,,3397.47,7D,LightGBM,
+2026-07-13,Andhra Pradesh|East Godavari|East Godavari Mandi,,3640.98,7D,ARIMA Baseline,
+2026-07-20,Andhra Pradesh|East Godavari|East Godavari Mandi,,3397.49,7D,LightGBM,
+2026-07-20,Andhra Pradesh|East Godavari|East Godavari Mandi,,3640.98,7D,ARIMA Baseline,
+2026-07-27,Andhra Pradesh|East Godavari|East Godavari Mandi,,3397.09,7D,LightGBM,
+2026-07-27,Andhra Pradesh|East Godavari|East Godavari Mandi,,3640.98,7D,ARIMA Baseline,
+2026-01-05,Andhra Pradesh|West Godavari|West Godavari Mandi,3592.0,3396.88,7D,LightGBM,-195.12
+2026-01-05,Andhra Pradesh|West Godavari|West Godavari Mandi,3592.0,3640.98,7D,ARIMA Baseline,48.98
+2026-01-12,Andhra Pradesh|West Godavari|West Godavari Mandi,3595.5,3396.67,7D,LightGBM,-198.83
+2026-01-12,Andhra Pradesh|West Godavari|West Godavari Mandi,3595.5,3640.98,7D,ARIMA Baseline,45.48
+2026-01-19,Andhra Pradesh|West Godavari|West Godavari Mandi,3599.0,3396.98,7D,LightGBM,-202.02
+2026-01-19,Andhra Pradesh|West Godavari|West Godavari Mandi,3599.0,3640.98,7D,ARIMA Baseline,41.98
+2026-01-26,Andhra Pradesh|West Godavari|West Godavari Mandi,3602.5,3396.83,7D,LightGBM,-205.67
+2026-01-26,Andhra Pradesh|West Godavari|West Godavari Mandi,3602.5,3640.98,7D,ARIMA Baseline,38.48
+2026-02-02,Andhra Pradesh|West Godavari|West Godavari Mandi,3606.0,3398.1,7D,LightGBM,-207.9
+2026-02-02,Andhra Pradesh|West Godavari|West Godavari Mandi,3606.0,3640.98,7D,ARIMA Baseline,34.98
+2026-02-09,Andhra Pradesh|West Godavari|West Godavari Mandi,3609.5,3396.59,7D,LightGBM,-212.91
+2026-02-09,Andhra Pradesh|West Godavari|West Godavari Mandi,3609.5,3640.98,7D,ARIMA Baseline,31.48
+2026-02-16,Andhra Pradesh|West Godavari|West Godavari Mandi,3613.0,3397.09,7D,LightGBM,-215.91
+2026-02-16,Andhra Pradesh|West Godavari|West Godavari Mandi,3613.0,3640.98,7D,ARIMA Baseline,27.98
+2026-02-23,Andhra Pradesh|West Godavari|West Godavari Mandi,3616.5,3396.96,7D,LightGBM,-219.54
+2026-02-23,Andhra Pradesh|West Godavari|West Godavari Mandi,3616.5,3640.98,7D,ARIMA Baseline,24.48
+2026-03-02,Andhra Pradesh|West Godavari|West Godavari Mandi,3620.0,3397.01,7D,LightGBM,-222.99
+2026-03-02,Andhra Pradesh|West Godavari|West Godavari Mandi,3620.0,3640.98,7D,ARIMA Baseline,20.98
+2026-03-09,Andhra Pradesh|West Godavari|West Godavari Mandi,3623.5,3397.24,7D,LightGBM,-226.26
+2026-03-09,Andhra Pradesh|West Godavari|West Godavari Mandi,3623.5,3640.98,7D,ARIMA Baseline,17.48
+2026-03-16,Andhra Pradesh|West Godavari|West Godavari Mandi,3627.0,3397.03,7D,LightGBM,-229.97
+2026-03-16,Andhra Pradesh|West Godavari|West Godavari Mandi,3627.0,3640.98,7D,ARIMA Baseline,13.98
+2026-03-23,Andhra Pradesh|West Godavari|West Godavari Mandi,3630.5,3397.06,7D,LightGBM,-233.44
+2026-03-23,Andhra Pradesh|West Godavari|West Godavari Mandi,3630.5,3640.98,7D,ARIMA Baseline,10.48
+2026-03-30,Andhra Pradesh|West Godavari|West Godavari Mandi,3634.0,3396.93,7D,LightGBM,-237.07
+2026-03-30,Andhra Pradesh|West Godavari|West Godavari Mandi,3634.0,3640.98,7D,ARIMA Baseline,6.98
+2026-04-06,Andhra Pradesh|West Godavari|West Godavari Mandi,3637.5,3397.14,7D,LightGBM,-240.36
+2026-04-06,Andhra Pradesh|West Godavari|West Godavari Mandi,3637.5,3640.98,7D,ARIMA Baseline,3.48
+2026-04-13,Andhra Pradesh|West Godavari|West Godavari Mandi,3641.0,3397.01,7D,LightGBM,-243.99
+2026-04-13,Andhra Pradesh|West Godavari|West Godavari Mandi,3641.0,3640.98,7D,ARIMA Baseline,-0.02
+2026-04-20,Andhra Pradesh|West Godavari|West Godavari Mandi,3644.5,3397.51,7D,LightGBM,-246.99
+2026-04-20,Andhra Pradesh|West Godavari|West Godavari Mandi,3644.5,3640.98,7D,ARIMA Baseline,-3.52
+2026-04-27,Andhra Pradesh|West Godavari|West Godavari Mandi,3648.0,3397.15,7D,LightGBM,-250.85
+2026-04-27,Andhra Pradesh|West Godavari|West Godavari Mandi,3648.0,3640.98,7D,ARIMA Baseline,-7.02
+2026-05-04,Andhra Pradesh|West Godavari|West Godavari Mandi,3651.5,3397.47,7D,LightGBM,-254.03
+2026-05-04,Andhra Pradesh|West Godavari|West Godavari Mandi,3651.5,3640.98,7D,ARIMA Baseline,-10.52
+2026-05-11,Andhra Pradesh|West Godavari|West Godavari Mandi,3655.0,3397.23,7D,LightGBM,-257.77
+2026-05-11,Andhra Pradesh|West Godavari|West Godavari Mandi,3655.0,3640.98,7D,ARIMA Baseline,-14.02
+2026-05-18,Andhra Pradesh|West Godavari|West Godavari Mandi,3658.5,3397.61,7D,LightGBM,-260.89
+2026-05-18,Andhra Pradesh|West Godavari|West Godavari Mandi,3658.5,3640.98,7D,ARIMA Baseline,-17.52
+2026-05-25,Andhra Pradesh|West Godavari|West Godavari Mandi,3662.0,3397.49,7D,LightGBM,-264.51
+2026-05-25,Andhra Pradesh|West Godavari|West Godavari Mandi,3662.0,3640.98,7D,ARIMA Baseline,-21.02
+2026-06-01,Andhra Pradesh|West Godavari|West Godavari Mandi,3665.5,3397.49,7D,LightGBM,-268.01
+2026-06-01,Andhra Pradesh|West Godavari|West Godavari Mandi,3665.5,3640.98,7D,ARIMA Baseline,-24.52
+2026-06-08,Andhra Pradesh|West Godavari|West Godavari Mandi,3669.0,3397.42,7D,LightGBM,-271.58
+2026-06-08,Andhra Pradesh|West Godavari|West Godavari Mandi,3669.0,3640.98,7D,ARIMA Baseline,-28.02
+2026-06-15,Andhra Pradesh|West Godavari|West Godavari Mandi,,3397.47,7D,LightGBM,
+2026-06-15,Andhra Pradesh|West Godavari|West Godavari Mandi,,3640.98,7D,ARIMA Baseline,
+2026-06-22,Andhra Pradesh|West Godavari|West Godavari Mandi,,3397.5,7D,LightGBM,
+2026-06-22,Andhra Pradesh|West Godavari|West Godavari Mandi,,3640.98,7D,ARIMA Baseline,
+2026-06-29,Andhra Pradesh|West Godavari|West Godavari Mandi,,3397.46,7D,LightGBM,
+2026-06-29,Andhra Pradesh|West Godavari|West Godavari Mandi,,3640.98,7D,ARIMA Baseline,
+2026-07-06,Andhra Pradesh|West Godavari|West Godavari Mandi,,3397.47,7D,LightGBM,
+2026-07-06,Andhra Pradesh|West Godavari|West Godavari Mandi,,3640.98,7D,ARIMA Baseline,
+2026-07-13,Andhra Pradesh|West Godavari|West Godavari Mandi,,3397.47,7D,LightGBM,
+2026-07-13,Andhra Pradesh|West Godavari|West Godavari Mandi,,3640.98,7D,ARIMA Baseline,
+2026-07-20,Andhra Pradesh|West Godavari|West Godavari Mandi,,3397.49,7D,LightGBM,
+2026-07-20,Andhra Pradesh|West Godavari|West Godavari Mandi,,3640.98,7D,ARIMA Baseline,
+2026-07-27,Andhra Pradesh|West Godavari|West Godavari Mandi,,3397.09,7D,LightGBM,
+2026-07-27,Andhra Pradesh|West Godavari|West Godavari Mandi,,3640.98,7D,ARIMA Baseline,
+2026-01-05,Assam|Central|Central Mandi,3592.0,3396.88,7D,LightGBM,-195.12
+2026-01-05,Assam|Central|Central Mandi,3592.0,3640.98,7D,ARIMA Baseline,48.98
+2026-01-12,Assam|Central|Central Mandi,3595.5,3396.67,7D,LightGBM,-198.83
+2026-01-12,Assam|Central|Central Mandi,3595.5,3640.98,7D,ARIMA Baseline,45.48
+2026-01-19,Assam|Central|Central Mandi,3599.0,3396.98,7D,LightGBM,-202.02
+2026-01-19,Assam|Central|Central Mandi,3599.0,3640.98,7D,ARIMA Baseline,41.98
+2026-01-26,Assam|Central|Central Mandi,3602.5,3396.83,7D,LightGBM,-205.67
+2026-01-26,Assam|Central|Central Mandi,3602.5,3640.98,7D,ARIMA Baseline,38.48
+2026-02-02,Assam|Central|Central Mandi,3606.0,3398.1,7D,LightGBM,-207.9
+2026-02-02,Assam|Central|Central Mandi,3606.0,3640.98,7D,ARIMA Baseline,34.98
+2026-02-09,Assam|Central|Central Mandi,3609.5,3396.59,7D,LightGBM,-212.91
+2026-02-09,Assam|Central|Central Mandi,3609.5,3640.98,7D,ARIMA Baseline,31.48
+2026-02-16,Assam|Central|Central Mandi,3613.0,3397.09,7D,LightGBM,-215.91
+2026-02-16,Assam|Central|Central Mandi,3613.0,3640.98,7D,ARIMA Baseline,27.98
+2026-02-23,Assam|Central|Central Mandi,3616.5,3396.96,7D,LightGBM,-219.54
+2026-02-23,Assam|Central|Central Mandi,3616.5,3640.98,7D,ARIMA Baseline,24.48
+2026-03-02,Assam|Central|Central Mandi,3620.0,3397.01,7D,LightGBM,-222.99
+2026-03-02,Assam|Central|Central Mandi,3620.0,3640.98,7D,ARIMA Baseline,20.98
+2026-03-09,Assam|Central|Central Mandi,3623.5,3397.24,7D,LightGBM,-226.26
+2026-03-09,Assam|Central|Central Mandi,3623.5,3640.98,7D,ARIMA Baseline,17.48
+2026-03-16,Assam|Central|Central Mandi,3627.0,3397.03,7D,LightGBM,-229.97
+2026-03-16,Assam|Central|Central Mandi,3627.0,3640.98,7D,ARIMA Baseline,13.98
+2026-03-23,Assam|Central|Central Mandi,3630.5,3397.06,7D,LightGBM,-233.44
+2026-03-23,Assam|Central|Central Mandi,3630.5,3640.98,7D,ARIMA Baseline,10.48
+2026-03-30,Assam|Central|Central Mandi,3634.0,3396.93,7D,LightGBM,-237.07
+2026-03-30,Assam|Central|Central Mandi,3634.0,3640.98,7D,ARIMA Baseline,6.98
+2026-04-06,Assam|Central|Central Mandi,3637.5,3397.14,7D,LightGBM,-240.36
+2026-04-06,Assam|Central|Central Mandi,3637.5,3640.98,7D,ARIMA Baseline,3.48
+2026-04-13,Assam|Central|Central Mandi,3641.0,3397.01,7D,LightGBM,-243.99
+2026-04-13,Assam|Central|Central Mandi,3641.0,3640.98,7D,ARIMA Baseline,-0.02
+2026-04-20,Assam|Central|Central Mandi,3644.5,3397.51,7D,LightGBM,-246.99
+2026-04-20,Assam|Central|Central Mandi,3644.5,3640.98,7D,ARIMA Baseline,-3.52
+2026-04-27,Assam|Central|Central Mandi,3648.0,3397.15,7D,LightGBM,-250.85
+2026-04-27,Assam|Central|Central Mandi,3648.0,3640.98,7D,ARIMA Baseline,-7.02
+2026-05-04,Assam|Central|Central Mandi,3651.5,3397.47,7D,LightGBM,-254.03
+2026-05-04,Assam|Central|Central Mandi,3651.5,3640.98,7D,ARIMA Baseline,-10.52
+2026-05-11,Assam|Central|Central Mandi,3655.0,3397.23,7D,LightGBM,-257.77
+2026-05-11,Assam|Central|Central Mandi,3655.0,3640.98,7D,ARIMA Baseline,-14.02
+2026-05-18,Assam|Central|Central Mandi,3658.5,3397.61,7D,LightGBM,-260.89
+2026-05-18,Assam|Central|Central Mandi,3658.5,3640.98,7D,ARIMA Baseline,-17.52
+2026-05-25,Assam|Central|Central Mandi,3662.0,3397.49,7D,LightGBM,-264.51
+2026-05-25,Assam|Central|Central Mandi,3662.0,3640.98,7D,ARIMA Baseline,-21.02
+2026-06-01,Assam|Central|Central Mandi,3665.5,3397.49,7D,LightGBM,-268.01
+2026-06-01,Assam|Central|Central Mandi,3665.5,3640.98,7D,ARIMA Baseline,-24.52
+2026-06-08,Assam|Central|Central Mandi,3669.0,3397.42,7D,LightGBM,-271.58
+2026-06-08,Assam|Central|Central Mandi,3669.0,3640.98,7D,ARIMA Baseline,-28.02
+2026-06-15,Assam|Central|Central Mandi,,3397.47,7D,LightGBM,
+2026-06-15,Assam|Central|Central Mandi,,3640.98,7D,ARIMA Baseline,
+2026-06-22,Assam|Central|Central Mandi,,3397.5,7D,LightGBM,
+2026-06-22,Assam|Central|Central Mandi,,3640.98,7D,ARIMA Baseline,
+2026-06-29,Assam|Central|Central Mandi,,3397.46,7D,LightGBM,
+2026-06-29,Assam|Central|Central Mandi,,3640.98,7D,ARIMA Baseline,
+2026-07-06,Assam|Central|Central Mandi,,3397.47,7D,LightGBM,
+2026-07-06,Assam|Central|Central Mandi,,3640.98,7D,ARIMA Baseline,
+2026-07-13,Assam|Central|Central Mandi,,3397.47,7D,LightGBM,
+2026-07-13,Assam|Central|Central Mandi,,3640.98,7D,ARIMA Baseline,
+2026-07-20,Assam|Central|Central Mandi,,3397.49,7D,LightGBM,
+2026-07-20,Assam|Central|Central Mandi,,3640.98,7D,ARIMA Baseline,
+2026-07-27,Assam|Central|Central Mandi,,3397.09,7D,LightGBM,
+2026-07-27,Assam|Central|Central Mandi,,3640.98,7D,ARIMA Baseline,
+2026-01-05,Bihar|Central|Central Mandi,3592.0,3396.88,7D,LightGBM,-195.12
+2026-01-05,Bihar|Central|Central Mandi,3592.0,3640.98,7D,ARIMA Baseline,48.98
+2026-01-12,Bihar|Central|Central Mandi,3595.5,3396.67,7D,LightGBM,-198.83
+2026-01-12,Bihar|Central|Central Mandi,3595.5,3640.98,7D,ARIMA Baseline,45.48
+2026-01-19,Bihar|Central|Central Mandi,3599.0,3396.98,7D,LightGBM,-202.02
+2026-01-19,Bihar|Central|Central Mandi,3599.0,3640.98,7D,ARIMA Baseline,41.98
+2026-01-26,Bihar|Central|Central Mandi,3602.5,3396.83,7D,LightGBM,-205.67
+2026-01-26,Bihar|Central|Central Mandi,3602.5,3640.98,7D,ARIMA Baseline,38.48
+2026-02-02,Bihar|Central|Central Mandi,3606.0,3398.1,7D,LightGBM,-207.9
+2026-02-02,Bihar|Central|Central Mandi,3606.0,3640.98,7D,ARIMA Baseline,34.98
+2026-02-09,Bihar|Central|Central Mandi,3609.5,3396.59,7D,LightGBM,-212.91
+2026-02-09,Bihar|Central|Central Mandi,3609.5,3640.98,7D,ARIMA Baseline,31.48
+2026-02-16,Bihar|Central|Central Mandi,3613.0,3397.09,7D,LightGBM,-215.91
+2026-02-16,Bihar|Central|Central Mandi,3613.0,3640.98,7D,ARIMA Baseline,27.98
+2026-02-23,Bihar|Central|Central Mandi,3616.5,3396.96,7D,LightGBM,-219.54
+2026-02-23,Bihar|Central|Central Mandi,3616.5,3640.98,7D,ARIMA Baseline,24.48
+2026-03-02,Bihar|Central|Central Mandi,3620.0,3397.01,7D,LightGBM,-222.99
+2026-03-02,Bihar|Central|Central Mandi,3620.0,3640.98,7D,ARIMA Baseline,20.98
+2026-03-09,Bihar|Central|Central Mandi,3623.5,3397.24,7D,LightGBM,-226.26
+2026-03-09,Bihar|Central|Central Mandi,3623.5,3640.98,7D,ARIMA Baseline,17.48
+2026-03-16,Bihar|Central|Central Mandi,3627.0,3397.03,7D,LightGBM,-229.97
+2026-03-16,Bihar|Central|Central Mandi,3627.0,3640.98,7D,ARIMA Baseline,13.98
+2026-03-23,Bihar|Central|Central Mandi,3630.5,3397.06,7D,LightGBM,-233.44
+2026-03-23,Bihar|Central|Central Mandi,3630.5,3640.98,7D,ARIMA Baseline,10.48
+2026-03-30,Bihar|Central|Central Mandi,3634.0,3396.93,7D,LightGBM,-237.07
+2026-03-30,Bihar|Central|Central Mandi,3634.0,3640.98,7D,ARIMA Baseline,6.98
+2026-04-06,Bihar|Central|Central Mandi,3637.5,3397.14,7D,LightGBM,-240.36
+2026-04-06,Bihar|Central|Central Mandi,3637.5,3640.98,7D,ARIMA Baseline,3.48
+2026-04-13,Bihar|Central|Central Mandi,3641.0,3397.01,7D,LightGBM,-243.99
+2026-04-13,Bihar|Central|Central Mandi,3641.0,3640.98,7D,ARIMA Baseline,-0.02
+2026-04-20,Bihar|Central|Central Mandi,3644.5,3397.51,7D,LightGBM,-246.99
+2026-04-20,Bihar|Central|Central Mandi,3644.5,3640.98,7D,ARIMA Baseline,-3.52
+2026-04-27,Bihar|Central|Central Mandi,3648.0,3397.15,7D,LightGBM,-250.85
+2026-04-27,Bihar|Central|Central Mandi,3648.0,3640.98,7D,ARIMA Baseline,-7.02
+2026-05-04,Bihar|Central|Central Mandi,3651.5,3397.47,7D,LightGBM,-254.03
+2026-05-04,Bihar|Central|Central Mandi,3651.5,3640.98,7D,ARIMA Baseline,-10.52
+2026-05-11,Bihar|Central|Central Mandi,3655.0,3397.23,7D,LightGBM,-257.77
+2026-05-11,Bihar|Central|Central Mandi,3655.0,3640.98,7D,ARIMA Baseline,-14.02
+2026-05-18,Bihar|Central|Central Mandi,3658.5,3397.61,7D,LightGBM,-260.89
+2026-05-18,Bihar|Central|Central Mandi,3658.5,3640.98,7D,ARIMA Baseline,-17.52
+2026-05-25,Bihar|Central|Central Mandi,3662.0,3397.49,7D,LightGBM,-264.51
+2026-05-25,Bihar|Central|Central Mandi,3662.0,3640.98,7D,ARIMA Baseline,-21.02
+2026-06-01,Bihar|Central|Central Mandi,3665.5,3397.49,7D,LightGBM,-268.01
+2026-06-01,Bihar|Central|Central Mandi,3665.5,3640.98,7D,ARIMA Baseline,-24.52
+2026-06-08,Bihar|Central|Central Mandi,3669.0,3397.42,7D,LightGBM,-271.58
+2026-06-08,Bihar|Central|Central Mandi,3669.0,3640.98,7D,ARIMA Baseline,-28.02
+2026-06-15,Bihar|Central|Central Mandi,,3397.47,7D,LightGBM,
+2026-06-15,Bihar|Central|Central Mandi,,3640.98,7D,ARIMA Baseline,
+2026-06-22,Bihar|Central|Central Mandi,,3397.5,7D,LightGBM,
+2026-06-22,Bihar|Central|Central Mandi,,3640.98,7D,ARIMA Baseline,
+2026-06-29,Bihar|Central|Central Mandi,,3397.46,7D,LightGBM,
+2026-06-29,Bihar|Central|Central Mandi,,3640.98,7D,ARIMA Baseline,
+2026-07-06,Bihar|Central|Central Mandi,,3397.47,7D,LightGBM,
+2026-07-06,Bihar|Central|Central Mandi,,3640.98,7D,ARIMA Baseline,
+2026-07-13,Bihar|Central|Central Mandi,,3397.47,7D,LightGBM,
+2026-07-13,Bihar|Central|Central Mandi,,3640.98,7D,ARIMA Baseline,
+2026-07-20,Bihar|Central|Central Mandi,,3397.49,7D,LightGBM,
+2026-07-20,Bihar|Central|Central Mandi,,3640.98,7D,ARIMA Baseline,
+2026-07-27,Bihar|Central|Central Mandi,,3397.09,7D,LightGBM,
+2026-07-27,Bihar|Central|Central Mandi,,3640.98,7D,ARIMA Baseline,
+2026-01-05,Chhattisgarh|Durg|Durg Mandi,3592.0,3396.88,7D,LightGBM,-195.12
+2026-01-05,Chhattisgarh|Durg|Durg Mandi,3592.0,3640.98,7D,ARIMA Baseline,48.98
+2026-01-12,Chhattisgarh|Durg|Durg Mandi,3595.5,3396.67,7D,LightGBM,-198.83
+2026-01-12,Chhattisgarh|Durg|Durg Mandi,3595.5,3640.98,7D,ARIMA Baseline,45.48
+2026-01-19,Chhattisgarh|Durg|Durg Mandi,3599.0,3396.98,7D,LightGBM,-202.02
+2026-01-19,Chhattisgarh|Durg|Durg Mandi,3599.0,3640.98,7D,ARIMA Baseline,41.98
+2026-01-26,Chhattisgarh|Durg|Durg Mandi,3602.5,3396.83,7D,LightGBM,-205.67
+2026-01-26,Chhattisgarh|Durg|Durg Mandi,3602.5,3640.98,7D,ARIMA Baseline,38.48
+2026-02-02,Chhattisgarh|Durg|Durg Mandi,3606.0,3398.1,7D,LightGBM,-207.9
+2026-02-02,Chhattisgarh|Durg|Durg Mandi,3606.0,3640.98,7D,ARIMA Baseline,34.98
+2026-02-09,Chhattisgarh|Durg|Durg Mandi,3609.5,3396.59,7D,LightGBM,-212.91
+2026-02-09,Chhattisgarh|Durg|Durg Mandi,3609.5,3640.98,7D,ARIMA Baseline,31.48
+2026-02-16,Chhattisgarh|Durg|Durg Mandi,3613.0,3397.09,7D,LightGBM,-215.91
+2026-02-16,Chhattisgarh|Durg|Durg Mandi,3613.0,3640.98,7D,ARIMA Baseline,27.98
+2026-02-23,Chhattisgarh|Durg|Durg Mandi,3616.5,3396.96,7D,LightGBM,-219.54
+2026-02-23,Chhattisgarh|Durg|Durg Mandi,3616.5,3640.98,7D,ARIMA Baseline,24.48
+2026-03-02,Chhattisgarh|Durg|Durg Mandi,3620.0,3397.01,7D,LightGBM,-222.99
+2026-03-02,Chhattisgarh|Durg|Durg Mandi,3620.0,3640.98,7D,ARIMA Baseline,20.98
+2026-03-09,Chhattisgarh|Durg|Durg Mandi,3623.5,3397.24,7D,LightGBM,-226.26
+2026-03-09,Chhattisgarh|Durg|Durg Mandi,3623.5,3640.98,7D,ARIMA Baseline,17.48
+2026-03-16,Chhattisgarh|Durg|Durg Mandi,3627.0,3397.03,7D,LightGBM,-229.97
+2026-03-16,Chhattisgarh|Durg|Durg Mandi,3627.0,3640.98,7D,ARIMA Baseline,13.98
+2026-03-23,Chhattisgarh|Durg|Durg Mandi,3630.5,3397.06,7D,LightGBM,-233.44
+2026-03-23,Chhattisgarh|Durg|Durg Mandi,3630.5,3640.98,7D,ARIMA Baseline,10.48
+2026-03-30,Chhattisgarh|Durg|Durg Mandi,3634.0,3396.93,7D,LightGBM,-237.07
+2026-03-30,Chhattisgarh|Durg|Durg Mandi,3634.0,3640.98,7D,ARIMA Baseline,6.98
+2026-04-06,Chhattisgarh|Durg|Durg Mandi,3637.5,3397.14,7D,LightGBM,-240.36
+2026-04-06,Chhattisgarh|Durg|Durg Mandi,3637.5,3640.98,7D,ARIMA Baseline,3.48
+2026-04-13,Chhattisgarh|Durg|Durg Mandi,3641.0,3397.01,7D,LightGBM,-243.99
+2026-04-13,Chhattisgarh|Durg|Durg Mandi,3641.0,3640.98,7D,ARIMA Baseline,-0.02
+2026-04-20,Chhattisgarh|Durg|Durg Mandi,3644.5,3397.51,7D,LightGBM,-246.99
+2026-04-20,Chhattisgarh|Durg|Durg Mandi,3644.5,3640.98,7D,ARIMA Baseline,-3.52
+2026-04-27,Chhattisgarh|Durg|Durg Mandi,3648.0,3397.15,7D,LightGBM,-250.85
+2026-04-27,Chhattisgarh|Durg|Durg Mandi,3648.0,3640.98,7D,ARIMA Baseline,-7.02
+2026-05-04,Chhattisgarh|Durg|Durg Mandi,3651.5,3397.47,7D,LightGBM,-254.03
+2026-05-04,Chhattisgarh|Durg|Durg Mandi,3651.5,3640.98,7D,ARIMA Baseline,-10.52
+2026-05-11,Chhattisgarh|Durg|Durg Mandi,3655.0,3397.23,7D,LightGBM,-257.77
+2026-05-11,Chhattisgarh|Durg|Durg Mandi,3655.0,3640.98,7D,ARIMA Baseline,-14.02
+2026-05-18,Chhattisgarh|Durg|Durg Mandi,3658.5,3397.61,7D,LightGBM,-260.89
+2026-05-18,Chhattisgarh|Durg|Durg Mandi,3658.5,3640.98,7D,ARIMA Baseline,-17.52
+2026-05-25,Chhattisgarh|Durg|Durg Mandi,3662.0,3397.49,7D,LightGBM,-264.51
+2026-05-25,Chhattisgarh|Durg|Durg Mandi,3662.0,3640.98,7D,ARIMA Baseline,-21.02
+2026-06-01,Chhattisgarh|Durg|Durg Mandi,3665.5,3397.49,7D,LightGBM,-268.01
+2026-06-01,Chhattisgarh|Durg|Durg Mandi,3665.5,3640.98,7D,ARIMA Baseline,-24.52
+2026-06-08,Chhattisgarh|Durg|Durg Mandi,3669.0,3397.42,7D,LightGBM,-271.58
+2026-06-08,Chhattisgarh|Durg|Durg Mandi,3669.0,3640.98,7D,ARIMA Baseline,-28.02
+2026-06-15,Chhattisgarh|Durg|Durg Mandi,,3397.47,7D,LightGBM,
+2026-06-15,Chhattisgarh|Durg|Durg Mandi,,3640.98,7D,ARIMA Baseline,
+2026-06-22,Chhattisgarh|Durg|Durg Mandi,,3397.5,7D,LightGBM,
+2026-06-22,Chhattisgarh|Durg|Durg Mandi,,3640.98,7D,ARIMA Baseline,
+2026-06-29,Chhattisgarh|Durg|Durg Mandi,,3397.46,7D,LightGBM,
+2026-06-29,Chhattisgarh|Durg|Durg Mandi,,3640.98,7D,ARIMA Baseline,
+2026-07-06,Chhattisgarh|Durg|Durg Mandi,,3397.47,7D,LightGBM,
+2026-07-06,Chhattisgarh|Durg|Durg Mandi,,3640.98,7D,ARIMA Baseline,
+2026-07-13,Chhattisgarh|Durg|Durg Mandi,,3397.47,7D,LightGBM,
+2026-07-13,Chhattisgarh|Durg|Durg Mandi,,3640.98,7D,ARIMA Baseline,
+2026-07-20,Chhattisgarh|Durg|Durg Mandi,,3397.49,7D,LightGBM,
+2026-07-20,Chhattisgarh|Durg|Durg Mandi,,3640.98,7D,ARIMA Baseline,
+2026-07-27,Chhattisgarh|Durg|Durg Mandi,,3397.09,7D,LightGBM,
+2026-07-27,Chhattisgarh|Durg|Durg Mandi,,3640.98,7D,ARIMA Baseline,
+2026-01-05,Chhattisgarh|Raipur|Raipur Mandi,3592.0,3396.88,7D,LightGBM,-195.12
+2026-01-05,Chhattisgarh|Raipur|Raipur Mandi,3592.0,3640.98,7D,ARIMA Baseline,48.98
+2026-01-12,Chhattisgarh|Raipur|Raipur Mandi,3595.5,3396.67,7D,LightGBM,-198.83
+2026-01-12,Chhattisgarh|Raipur|Raipur Mandi,3595.5,3640.98,7D,ARIMA Baseline,45.48
+2026-01-19,Chhattisgarh|Raipur|Raipur Mandi,3599.0,3396.98,7D,LightGBM,-202.02
+2026-01-19,Chhattisgarh|Raipur|Raipur Mandi,3599.0,3640.98,7D,ARIMA Baseline,41.98
+2026-01-26,Chhattisgarh|Raipur|Raipur Mandi,3602.5,3396.83,7D,LightGBM,-205.67
+2026-01-26,Chhattisgarh|Raipur|Raipur Mandi,3602.5,3640.98,7D,ARIMA Baseline,38.48
+2026-02-02,Chhattisgarh|Raipur|Raipur Mandi,3606.0,3398.1,7D,LightGBM,-207.9
+2026-02-02,Chhattisgarh|Raipur|Raipur Mandi,3606.0,3640.98,7D,ARIMA Baseline,34.98
+2026-02-09,Chhattisgarh|Raipur|Raipur Mandi,3609.5,3396.59,7D,LightGBM,-212.91
+2026-02-09,Chhattisgarh|Raipur|Raipur Mandi,3609.5,3640.98,7D,ARIMA Baseline,31.48
+2026-02-16,Chhattisgarh|Raipur|Raipur Mandi,3613.0,3397.09,7D,LightGBM,-215.91
+2026-02-16,Chhattisgarh|Raipur|Raipur Mandi,3613.0,3640.98,7D,ARIMA Baseline,27.98
+2026-02-23,Chhattisgarh|Raipur|Raipur Mandi,3616.5,3396.96,7D,LightGBM,-219.54
+2026-02-23,Chhattisgarh|Raipur|Raipur Mandi,3616.5,3640.98,7D,ARIMA Baseline,24.48
+2026-03-02,Chhattisgarh|Raipur|Raipur Mandi,3620.0,3397.01,7D,LightGBM,-222.99
+2026-03-02,Chhattisgarh|Raipur|Raipur Mandi,3620.0,3640.98,7D,ARIMA Baseline,20.98
+2026-03-09,Chhattisgarh|Raipur|Raipur Mandi,3623.5,3397.24,7D,LightGBM,-226.26
+2026-03-09,Chhattisgarh|Raipur|Raipur Mandi,3623.5,3640.98,7D,ARIMA Baseline,17.48
+2026-03-16,Chhattisgarh|Raipur|Raipur Mandi,3627.0,3397.03,7D,LightGBM,-229.97
+2026-03-16,Chhattisgarh|Raipur|Raipur Mandi,3627.0,3640.98,7D,ARIMA Baseline,13.98
+2026-03-23,Chhattisgarh|Raipur|Raipur Mandi,3630.5,3397.06,7D,LightGBM,-233.44
+2026-03-23,Chhattisgarh|Raipur|Raipur Mandi,3630.5,3640.98,7D,ARIMA Baseline,10.48
+2026-03-30,Chhattisgarh|Raipur|Raipur Mandi,3634.0,3396.93,7D,LightGBM,-237.07
+2026-03-30,Chhattisgarh|Raipur|Raipur Mandi,3634.0,3640.98,7D,ARIMA Baseline,6.98
+2026-04-06,Chhattisgarh|Raipur|Raipur Mandi,3637.5,3397.14,7D,LightGBM,-240.36
+2026-04-06,Chhattisgarh|Raipur|Raipur Mandi,3637.5,3640.98,7D,ARIMA Baseline,3.48
+2026-04-13,Chhattisgarh|Raipur|Raipur Mandi,3641.0,3397.01,7D,LightGBM,-243.99
+2026-04-13,Chhattisgarh|Raipur|Raipur Mandi,3641.0,3640.98,7D,ARIMA Baseline,-0.02
+2026-04-20,Chhattisgarh|Raipur|Raipur Mandi,3644.5,3397.51,7D,LightGBM,-246.99
+2026-04-20,Chhattisgarh|Raipur|Raipur Mandi,3644.5,3640.98,7D,ARIMA Baseline,-3.52
+2026-04-27,Chhattisgarh|Raipur|Raipur Mandi,3648.0,3397.15,7D,LightGBM,-250.85
+2026-04-27,Chhattisgarh|Raipur|Raipur Mandi,3648.0,3640.98,7D,ARIMA Baseline,-7.02
+2026-05-04,Chhattisgarh|Raipur|Raipur Mandi,3651.5,3397.47,7D,LightGBM,-254.03
+2026-05-04,Chhattisgarh|Raipur|Raipur Mandi,3651.5,3640.98,7D,ARIMA Baseline,-10.52
+2026-05-11,Chhattisgarh|Raipur|Raipur Mandi,3655.0,3397.23,7D,LightGBM,-257.77
+2026-05-11,Chhattisgarh|Raipur|Raipur Mandi,3655.0,3640.98,7D,ARIMA Baseline,-14.02
+2026-05-18,Chhattisgarh|Raipur|Raipur Mandi,3658.5,3397.61,7D,LightGBM,-260.89
+2026-05-18,Chhattisgarh|Raipur|Raipur Mandi,3658.5,3640.98,7D,ARIMA Baseline,-17.52
+2026-05-25,Chhattisgarh|Raipur|Raipur Mandi,3662.0,3397.49,7D,LightGBM,-264.51
+2026-05-25,Chhattisgarh|Raipur|Raipur Mandi,3662.0,3640.98,7D,ARIMA Baseline,-21.02
+2026-06-01,Chhattisgarh|Raipur|Raipur Mandi,3665.5,3397.49,7D,LightGBM,-268.01
+2026-06-01,Chhattisgarh|Raipur|Raipur Mandi,3665.5,3640.98,7D,ARIMA Baseline,-24.52
+2026-06-08,Chhattisgarh|Raipur|Raipur Mandi,3669.0,3397.42,7D,LightGBM,-271.58
+2026-06-08,Chhattisgarh|Raipur|Raipur Mandi,3669.0,3640.98,7D,ARIMA Baseline,-28.02
+2026-06-15,Chhattisgarh|Raipur|Raipur Mandi,,3397.47,7D,LightGBM,
+2026-06-15,Chhattisgarh|Raipur|Raipur Mandi,,3640.98,7D,ARIMA Baseline,
+2026-06-22,Chhattisgarh|Raipur|Raipur Mandi,,3397.5,7D,LightGBM,
+2026-06-22,Chhattisgarh|Raipur|Raipur Mandi,,3640.98,7D,ARIMA Baseline,
+2026-06-29,Chhattisgarh|Raipur|Raipur Mandi,,3397.46,7D,LightGBM,
+2026-06-29,Chhattisgarh|Raipur|Raipur Mandi,,3640.98,7D,ARIMA Baseline,
+2026-07-06,Chhattisgarh|Raipur|Raipur Mandi,,3397.47,7D,LightGBM,
+2026-07-06,Chhattisgarh|Raipur|Raipur Mandi,,3640.98,7D,ARIMA Baseline,
+2026-07-13,Chhattisgarh|Raipur|Raipur Mandi,,3397.47,7D,LightGBM,
+2026-07-13,Chhattisgarh|Raipur|Raipur Mandi,,3640.98,7D,ARIMA Baseline,
+2026-07-20,Chhattisgarh|Raipur|Raipur Mandi,,3397.49,7D,LightGBM,
+2026-07-20,Chhattisgarh|Raipur|Raipur Mandi,,3640.98,7D,ARIMA Baseline,
+2026-07-27,Chhattisgarh|Raipur|Raipur Mandi,,3397.09,7D,LightGBM,
+2026-07-27,Chhattisgarh|Raipur|Raipur Mandi,,3640.98,7D,ARIMA Baseline,
+2026-01-05,Gujarat|Central|Central Mandi,3592.0,3396.88,7D,LightGBM,-195.12
+2026-01-05,Gujarat|Central|Central Mandi,3592.0,3640.98,7D,ARIMA Baseline,48.98
+2026-01-12,Gujarat|Central|Central Mandi,3595.5,3396.67,7D,LightGBM,-198.83
+2026-01-12,Gujarat|Central|Central Mandi,3595.5,3640.98,7D,ARIMA Baseline,45.48
+2026-01-19,Gujarat|Central|Central Mandi,3599.0,3396.98,7D,LightGBM,-202.02
+2026-01-19,Gujarat|Central|Central Mandi,3599.0,3640.98,7D,ARIMA Baseline,41.98
+2026-01-26,Gujarat|Central|Central Mandi,3602.5,3396.83,7D,LightGBM,-205.67
+2026-01-26,Gujarat|Central|Central Mandi,3602.5,3640.98,7D,ARIMA Baseline,38.48
+2026-02-02,Gujarat|Central|Central Mandi,3606.0,3398.1,7D,LightGBM,-207.9
+2026-02-02,Gujarat|Central|Central Mandi,3606.0,3640.98,7D,ARIMA Baseline,34.98
+2026-02-09,Gujarat|Central|Central Mandi,3609.5,3396.59,7D,LightGBM,-212.91
+2026-02-09,Gujarat|Central|Central Mandi,3609.5,3640.98,7D,ARIMA Baseline,31.48
+2026-02-16,Gujarat|Central|Central Mandi,3613.0,3397.09,7D,LightGBM,-215.91
+2026-02-16,Gujarat|Central|Central Mandi,3613.0,3640.98,7D,ARIMA Baseline,27.98
+2026-02-23,Gujarat|Central|Central Mandi,3616.5,3396.96,7D,LightGBM,-219.54
+2026-02-23,Gujarat|Central|Central Mandi,3616.5,3640.98,7D,ARIMA Baseline,24.48
+2026-03-02,Gujarat|Central|Central Mandi,3620.0,3397.01,7D,LightGBM,-222.99
+2026-03-02,Gujarat|Central|Central Mandi,3620.0,3640.98,7D,ARIMA Baseline,20.98
+2026-03-09,Gujarat|Central|Central Mandi,3623.5,3397.24,7D,LightGBM,-226.26
+2026-03-09,Gujarat|Central|Central Mandi,3623.5,3640.98,7D,ARIMA Baseline,17.48
+2026-03-16,Gujarat|Central|Central Mandi,3627.0,3397.03,7D,LightGBM,-229.97
+2026-03-16,Gujarat|Central|Central Mandi,3627.0,3640.98,7D,ARIMA Baseline,13.98
+2026-03-23,Gujarat|Central|Central Mandi,3630.5,3397.06,7D,LightGBM,-233.44
+2026-03-23,Gujarat|Central|Central Mandi,3630.5,3640.98,7D,ARIMA Baseline,10.48
+2026-03-30,Gujarat|Central|Central Mandi,3634.0,3396.93,7D,LightGBM,-237.07
+2026-03-30,Gujarat|Central|Central Mandi,3634.0,3640.98,7D,ARIMA Baseline,6.98
+2026-04-06,Gujarat|Central|Central Mandi,3637.5,3397.14,7D,LightGBM,-240.36
+2026-04-06,Gujarat|Central|Central Mandi,3637.5,3640.98,7D,ARIMA Baseline,3.48
+2026-04-13,Gujarat|Central|Central Mandi,3641.0,3397.01,7D,LightGBM,-243.99
+2026-04-13,Gujarat|Central|Central Mandi,3641.0,3640.98,7D,ARIMA Baseline,-0.02
+2026-04-20,Gujarat|Central|Central Mandi,3644.5,3397.51,7D,LightGBM,-246.99
+2026-04-20,Gujarat|Central|Central Mandi,3644.5,3640.98,7D,ARIMA Baseline,-3.52
+2026-04-27,Gujarat|Central|Central Mandi,3648.0,3397.15,7D,LightGBM,-250.85
+2026-04-27,Gujarat|Central|Central Mandi,3648.0,3640.98,7D,ARIMA Baseline,-7.02
+2026-05-04,Gujarat|Central|Central Mandi,3651.5,3397.47,7D,LightGBM,-254.03
+2026-05-04,Gujarat|Central|Central Mandi,3651.5,3640.98,7D,ARIMA Baseline,-10.52
+2026-05-11,Gujarat|Central|Central Mandi,3655.0,3397.23,7D,LightGBM,-257.77
+2026-05-11,Gujarat|Central|Central Mandi,3655.0,3640.98,7D,ARIMA Baseline,-14.02
+2026-05-18,Gujarat|Central|Central Mandi,3658.5,3397.61,7D,LightGBM,-260.89
+2026-05-18,Gujarat|Central|Central Mandi,3658.5,3640.98,7D,ARIMA Baseline,-17.52
+2026-05-25,Gujarat|Central|Central Mandi,3662.0,3397.49,7D,LightGBM,-264.51
+2026-05-25,Gujarat|Central|Central Mandi,3662.0,3640.98,7D,ARIMA Baseline,-21.02
+2026-06-01,Gujarat|Central|Central Mandi,3665.5,3397.49,7D,LightGBM,-268.01
+2026-06-01,Gujarat|Central|Central Mandi,3665.5,3640.98,7D,ARIMA Baseline,-24.52
+2026-06-08,Gujarat|Central|Central Mandi,3669.0,3397.42,7D,LightGBM,-271.58
+2026-06-08,Gujarat|Central|Central Mandi,3669.0,3640.98,7D,ARIMA Baseline,-28.02
+2026-06-15,Gujarat|Central|Central Mandi,,3397.47,7D,LightGBM,
+2026-06-15,Gujarat|Central|Central Mandi,,3640.98,7D,ARIMA Baseline,
+2026-06-22,Gujarat|Central|Central Mandi,,3397.5,7D,LightGBM,
+2026-06-22,Gujarat|Central|Central Mandi,,3640.98,7D,ARIMA Baseline,
+2026-06-29,Gujarat|Central|Central Mandi,,3397.46,7D,LightGBM,
+2026-06-29,Gujarat|Central|Central Mandi,,3640.98,7D,ARIMA Baseline,
+2026-07-06,Gujarat|Central|Central Mandi,,3397.47,7D,LightGBM,
+2026-07-06,Gujarat|Central|Central Mandi,,3640.98,7D,ARIMA Baseline,
+2026-07-13,Gujarat|Central|Central Mandi,,3397.47,7D,LightGBM,
+2026-07-13,Gujarat|Central|Central Mandi,,3640.98,7D,ARIMA Baseline,
+2026-07-20,Gujarat|Central|Central Mandi,,3397.49,7D,LightGBM,
+2026-07-20,Gujarat|Central|Central Mandi,,3640.98,7D,ARIMA Baseline,
+2026-07-27,Gujarat|Central|Central Mandi,,3397.09,7D,LightGBM,
+2026-07-27,Gujarat|Central|Central Mandi,,3640.98,7D,ARIMA Baseline,
+2026-01-05,Haryana|Central|Central Mandi,3592.0,3396.88,7D,LightGBM,-195.12
+2026-01-05,Haryana|Central|Central Mandi,3592.0,3640.98,7D,ARIMA Baseline,48.98
+2026-01-12,Haryana|Central|Central Mandi,3595.5,3396.67,7D,LightGBM,-198.83
+2026-01-12,Haryana|Central|Central Mandi,3595.5,3640.98,7D,ARIMA Baseline,45.48
+2026-01-19,Haryana|Central|Central Mandi,3599.0,3396.98,7D,LightGBM,-202.02
+2026-01-19,Haryana|Central|Central Mandi,3599.0,3640.98,7D,ARIMA Baseline,41.98
+2026-01-26,Haryana|Central|Central Mandi,3602.5,3396.83,7D,LightGBM,-205.67
+2026-01-26,Haryana|Central|Central Mandi,3602.5,3640.98,7D,ARIMA Baseline,38.48
+2026-02-02,Haryana|Central|Central Mandi,3606.0,3398.1,7D,LightGBM,-207.9
+2026-02-02,Haryana|Central|Central Mandi,3606.0,3640.98,7D,ARIMA Baseline,34.98
+2026-02-09,Haryana|Central|Central Mandi,3609.5,3396.59,7D,LightGBM,-212.91
+2026-02-09,Haryana|Central|Central Mandi,3609.5,3640.98,7D,ARIMA Baseline,31.48
+2026-02-16,Haryana|Central|Central Mandi,3613.0,3397.09,7D,LightGBM,-215.91
+2026-02-16,Haryana|Central|Central Mandi,3613.0,3640.98,7D,ARIMA Baseline,27.98
+2026-02-23,Haryana|Central|Central Mandi,3616.5,3396.96,7D,LightGBM,-219.54
+2026-02-23,Haryana|Central|Central Mandi,3616.5,3640.98,7D,ARIMA Baseline,24.48
+2026-03-02,Haryana|Central|Central Mandi,3620.0,3397.01,7D,LightGBM,-222.99
+2026-03-02,Haryana|Central|Central Mandi,3620.0,3640.98,7D,ARIMA Baseline,20.98
+2026-03-09,Haryana|Central|Central Mandi,3623.5,3397.24,7D,LightGBM,-226.26
+2026-03-09,Haryana|Central|Central Mandi,3623.5,3640.98,7D,ARIMA Baseline,17.48
+2026-03-16,Haryana|Central|Central Mandi,3627.0,3397.03,7D,LightGBM,-229.97
+2026-03-16,Haryana|Central|Central Mandi,3627.0,3640.98,7D,ARIMA Baseline,13.98
+2026-03-23,Haryana|Central|Central Mandi,3630.5,3397.06,7D,LightGBM,-233.44
+2026-03-23,Haryana|Central|Central Mandi,3630.5,3640.98,7D,ARIMA Baseline,10.48
+2026-03-30,Haryana|Central|Central Mandi,3634.0,3396.93,7D,LightGBM,-237.07
+2026-03-30,Haryana|Central|Central Mandi,3634.0,3640.98,7D,ARIMA Baseline,6.98
+2026-04-06,Haryana|Central|Central Mandi,3637.5,3397.14,7D,LightGBM,-240.36
+2026-04-06,Haryana|Central|Central Mandi,3637.5,3640.98,7D,ARIMA Baseline,3.48
+2026-04-13,Haryana|Central|Central Mandi,3641.0,3397.01,7D,LightGBM,-243.99
+2026-04-13,Haryana|Central|Central Mandi,3641.0,3640.98,7D,ARIMA Baseline,-0.02
+2026-04-20,Haryana|Central|Central Mandi,3644.5,3397.51,7D,LightGBM,-246.99
+2026-04-20,Haryana|Central|Central Mandi,3644.5,3640.98,7D,ARIMA Baseline,-3.52
+2026-04-27,Haryana|Central|Central Mandi,3648.0,3397.15,7D,LightGBM,-250.85
+2026-04-27,Haryana|Central|Central Mandi,3648.0,3640.98,7D,ARIMA Baseline,-7.02
+2026-05-04,Haryana|Central|Central Mandi,3651.5,3397.47,7D,LightGBM,-254.03
+2026-05-04,Haryana|Central|Central Mandi,3651.5,3640.98,7D,ARIMA Baseline,-10.52
+2026-05-11,Haryana|Central|Central Mandi,3655.0,3397.23,7D,LightGBM,-257.77
+2026-05-11,Haryana|Central|Central Mandi,3655.0,3640.98,7D,ARIMA Baseline,-14.02
+2026-05-18,Haryana|Central|Central Mandi,3658.5,3397.61,7D,LightGBM,-260.89
+2026-05-18,Haryana|Central|Central Mandi,3658.5,3640.98,7D,ARIMA Baseline,-17.52
+2026-05-25,Haryana|Central|Central Mandi,3662.0,3397.49,7D,LightGBM,-264.51
+2026-05-25,Haryana|Central|Central Mandi,3662.0,3640.98,7D,ARIMA Baseline,-21.02
+2026-06-01,Haryana|Central|Central Mandi,3665.5,3397.49,7D,LightGBM,-268.01
+2026-06-01,Haryana|Central|Central Mandi,3665.5,3640.98,7D,ARIMA Baseline,-24.52
+2026-06-08,Haryana|Central|Central Mandi,3669.0,3397.42,7D,LightGBM,-271.58
+2026-06-08,Haryana|Central|Central Mandi,3669.0,3640.98,7D,ARIMA Baseline,-28.02
+2026-06-15,Haryana|Central|Central Mandi,,3397.47,7D,LightGBM,
+2026-06-15,Haryana|Central|Central Mandi,,3640.98,7D,ARIMA Baseline,
+2026-06-22,Haryana|Central|Central Mandi,,3397.5,7D,LightGBM,
+2026-06-22,Haryana|Central|Central Mandi,,3640.98,7D,ARIMA Baseline,
+2026-06-29,Haryana|Central|Central Mandi,,3397.46,7D,LightGBM,
+2026-06-29,Haryana|Central|Central Mandi,,3640.98,7D,ARIMA Baseline,
+2026-07-06,Haryana|Central|Central Mandi,,3397.47,7D,LightGBM,
+2026-07-06,Haryana|Central|Central Mandi,,3640.98,7D,ARIMA Baseline,
+2026-07-13,Haryana|Central|Central Mandi,,3397.47,7D,LightGBM,
+2026-07-13,Haryana|Central|Central Mandi,,3640.98,7D,ARIMA Baseline,
+2026-07-20,Haryana|Central|Central Mandi,,3397.49,7D,LightGBM,
+2026-07-20,Haryana|Central|Central Mandi,,3640.98,7D,ARIMA Baseline,
+2026-07-27,Haryana|Central|Central Mandi,,3397.09,7D,LightGBM,
+2026-07-27,Haryana|Central|Central Mandi,,3640.98,7D,ARIMA Baseline,
+2026-01-05,Andhra Pradesh|East Godavari|East Godavari Mandi,3620.0,3304.35,15D,LightGBM,-315.65
+2026-01-05,Andhra Pradesh|East Godavari|East Godavari Mandi,3620.0,3645.43,15D,ARIMA Baseline,25.43
+2026-01-12,Andhra Pradesh|East Godavari|East Godavari Mandi,3623.5,3303.6,15D,LightGBM,-319.9
+2026-01-12,Andhra Pradesh|East Godavari|East Godavari Mandi,3623.5,3645.43,15D,ARIMA Baseline,21.93
+2026-01-19,Andhra Pradesh|East Godavari|East Godavari Mandi,3627.0,3303.83,15D,LightGBM,-323.17
+2026-01-19,Andhra Pradesh|East Godavari|East Godavari Mandi,3627.0,3645.43,15D,ARIMA Baseline,18.43
+2026-01-26,Andhra Pradesh|East Godavari|East Godavari Mandi,3630.5,3303.75,15D,LightGBM,-326.75
+2026-01-26,Andhra Pradesh|East Godavari|East Godavari Mandi,3630.5,3645.43,15D,ARIMA Baseline,14.93
+2026-02-02,Andhra Pradesh|East Godavari|East Godavari Mandi,3634.0,3309.5,15D,LightGBM,-324.5
+2026-02-02,Andhra Pradesh|East Godavari|East Godavari Mandi,3634.0,3645.43,15D,ARIMA Baseline,11.43
+2026-02-09,Andhra Pradesh|East Godavari|East Godavari Mandi,3637.5,3309.21,15D,LightGBM,-328.29
+2026-02-09,Andhra Pradesh|East Godavari|East Godavari Mandi,3637.5,3645.43,15D,ARIMA Baseline,7.93
+2026-02-16,Andhra Pradesh|East Godavari|East Godavari Mandi,3641.0,3308.65,15D,LightGBM,-332.35
+2026-02-16,Andhra Pradesh|East Godavari|East Godavari Mandi,3641.0,3645.43,15D,ARIMA Baseline,4.43
+2026-02-23,Andhra Pradesh|East Godavari|East Godavari Mandi,3644.5,3308.69,15D,LightGBM,-335.81
+2026-02-23,Andhra Pradesh|East Godavari|East Godavari Mandi,3644.5,3645.43,15D,ARIMA Baseline,0.93
+2026-03-02,Andhra Pradesh|East Godavari|East Godavari Mandi,3648.0,3308.57,15D,LightGBM,-339.43
+2026-03-02,Andhra Pradesh|East Godavari|East Godavari Mandi,3648.0,3645.43,15D,ARIMA Baseline,-2.57
+2026-03-09,Andhra Pradesh|East Godavari|East Godavari Mandi,3651.5,3308.55,15D,LightGBM,-342.95
+2026-03-09,Andhra Pradesh|East Godavari|East Godavari Mandi,3651.5,3645.43,15D,ARIMA Baseline,-6.07
+2026-03-16,Andhra Pradesh|East Godavari|East Godavari Mandi,3655.0,3309.33,15D,LightGBM,-345.67
+2026-03-16,Andhra Pradesh|East Godavari|East Godavari Mandi,3655.0,3645.43,15D,ARIMA Baseline,-9.57
+2026-03-23,Andhra Pradesh|East Godavari|East Godavari Mandi,3658.5,3308.74,15D,LightGBM,-349.76
+2026-03-23,Andhra Pradesh|East Godavari|East Godavari Mandi,3658.5,3645.43,15D,ARIMA Baseline,-13.07
+2026-03-30,Andhra Pradesh|East Godavari|East Godavari Mandi,3662.0,3309.21,15D,LightGBM,-352.79
+2026-03-30,Andhra Pradesh|East Godavari|East Godavari Mandi,3662.0,3645.43,15D,ARIMA Baseline,-16.57
+2026-04-06,Andhra Pradesh|East Godavari|East Godavari Mandi,3665.5,3309.17,15D,LightGBM,-356.33
+2026-04-06,Andhra Pradesh|East Godavari|East Godavari Mandi,3665.5,3645.43,15D,ARIMA Baseline,-20.07
+2026-04-13,Andhra Pradesh|East Godavari|East Godavari Mandi,3669.0,3309.32,15D,LightGBM,-359.68
+2026-04-13,Andhra Pradesh|East Godavari|East Godavari Mandi,3669.0,3645.43,15D,ARIMA Baseline,-23.57
+2026-04-20,Andhra Pradesh|East Godavari|East Godavari Mandi,,3310.52,15D,LightGBM,
+2026-04-20,Andhra Pradesh|East Godavari|East Godavari Mandi,,3645.43,15D,ARIMA Baseline,
+2026-04-27,Andhra Pradesh|East Godavari|East Godavari Mandi,,3310.07,15D,LightGBM,
+2026-04-27,Andhra Pradesh|East Godavari|East Godavari Mandi,,3645.43,15D,ARIMA Baseline,
+2026-05-04,Andhra Pradesh|East Godavari|East Godavari Mandi,,3316.23,15D,LightGBM,
+2026-05-04,Andhra Pradesh|East Godavari|East Godavari Mandi,,3645.43,15D,ARIMA Baseline,
+2026-05-11,Andhra Pradesh|East Godavari|East Godavari Mandi,,3323.87,15D,LightGBM,
+2026-05-11,Andhra Pradesh|East Godavari|East Godavari Mandi,,3645.43,15D,ARIMA Baseline,
+2026-05-18,Andhra Pradesh|East Godavari|East Godavari Mandi,,3321.31,15D,LightGBM,
+2026-05-18,Andhra Pradesh|East Godavari|East Godavari Mandi,,3645.43,15D,ARIMA Baseline,
+2026-05-25,Andhra Pradesh|East Godavari|East Godavari Mandi,,3315.07,15D,LightGBM,
+2026-05-25,Andhra Pradesh|East Godavari|East Godavari Mandi,,3645.43,15D,ARIMA Baseline,
+2026-06-01,Andhra Pradesh|East Godavari|East Godavari Mandi,,3389.41,15D,LightGBM,
+2026-06-01,Andhra Pradesh|East Godavari|East Godavari Mandi,,3645.43,15D,ARIMA Baseline,
+2026-06-08,Andhra Pradesh|East Godavari|East Godavari Mandi,,3387.07,15D,LightGBM,
+2026-06-08,Andhra Pradesh|East Godavari|East Godavari Mandi,,3645.43,15D,ARIMA Baseline,
+2026-06-15,Andhra Pradesh|East Godavari|East Godavari Mandi,,3386.07,15D,LightGBM,
+2026-06-15,Andhra Pradesh|East Godavari|East Godavari Mandi,,3645.43,15D,ARIMA Baseline,
+2026-06-22,Andhra Pradesh|East Godavari|East Godavari Mandi,,3381.01,15D,LightGBM,
+2026-06-22,Andhra Pradesh|East Godavari|East Godavari Mandi,,3645.43,15D,ARIMA Baseline,
+2026-06-29,Andhra Pradesh|East Godavari|East Godavari Mandi,,3381.46,15D,LightGBM,
+2026-06-29,Andhra Pradesh|East Godavari|East Godavari Mandi,,3645.43,15D,ARIMA Baseline,
+2026-07-06,Andhra Pradesh|East Godavari|East Godavari Mandi,,3435.53,15D,LightGBM,
+2026-07-06,Andhra Pradesh|East Godavari|East Godavari Mandi,,3645.43,15D,ARIMA Baseline,
+2026-07-13,Andhra Pradesh|East Godavari|East Godavari Mandi,,3437.03,15D,LightGBM,
+2026-07-13,Andhra Pradesh|East Godavari|East Godavari Mandi,,3645.43,15D,ARIMA Baseline,
+2026-07-20,Andhra Pradesh|East Godavari|East Godavari Mandi,,3431.57,15D,LightGBM,
+2026-07-20,Andhra Pradesh|East Godavari|East Godavari Mandi,,3645.43,15D,ARIMA Baseline,
+2026-07-27,Andhra Pradesh|East Godavari|East Godavari Mandi,,3436.65,15D,LightGBM,
+2026-07-27,Andhra Pradesh|East Godavari|East Godavari Mandi,,3645.43,15D,ARIMA Baseline,
+2026-01-05,Andhra Pradesh|West Godavari|West Godavari Mandi,3620.0,3304.35,15D,LightGBM,-315.65
+2026-01-05,Andhra Pradesh|West Godavari|West Godavari Mandi,3620.0,3645.43,15D,ARIMA Baseline,25.43
+2026-01-12,Andhra Pradesh|West Godavari|West Godavari Mandi,3623.5,3303.6,15D,LightGBM,-319.9
+2026-01-12,Andhra Pradesh|West Godavari|West Godavari Mandi,3623.5,3645.43,15D,ARIMA Baseline,21.93
+2026-01-19,Andhra Pradesh|West Godavari|West Godavari Mandi,3627.0,3303.83,15D,LightGBM,-323.17
+2026-01-19,Andhra Pradesh|West Godavari|West Godavari Mandi,3627.0,3645.43,15D,ARIMA Baseline,18.43
+2026-01-26,Andhra Pradesh|West Godavari|West Godavari Mandi,3630.5,3303.75,15D,LightGBM,-326.75
+2026-01-26,Andhra Pradesh|West Godavari|West Godavari Mandi,3630.5,3645.43,15D,ARIMA Baseline,14.93
+2026-02-02,Andhra Pradesh|West Godavari|West Godavari Mandi,3634.0,3309.5,15D,LightGBM,-324.5
+2026-02-02,Andhra Pradesh|West Godavari|West Godavari Mandi,3634.0,3645.43,15D,ARIMA Baseline,11.43
+2026-02-09,Andhra Pradesh|West Godavari|West Godavari Mandi,3637.5,3309.21,15D,LightGBM,-328.29
+2026-02-09,Andhra Pradesh|West Godavari|West Godavari Mandi,3637.5,3645.43,15D,ARIMA Baseline,7.93
+2026-02-16,Andhra Pradesh|West Godavari|West Godavari Mandi,3641.0,3308.65,15D,LightGBM,-332.35
+2026-02-16,Andhra Pradesh|West Godavari|West Godavari Mandi,3641.0,3645.43,15D,ARIMA Baseline,4.43
+2026-02-23,Andhra Pradesh|West Godavari|West Godavari Mandi,3644.5,3308.69,15D,LightGBM,-335.81
+2026-02-23,Andhra Pradesh|West Godavari|West Godavari Mandi,3644.5,3645.43,15D,ARIMA Baseline,0.93
+2026-03-02,Andhra Pradesh|West Godavari|West Godavari Mandi,3648.0,3308.57,15D,LightGBM,-339.43
+2026-03-02,Andhra Pradesh|West Godavari|West Godavari Mandi,3648.0,3645.43,15D,ARIMA Baseline,-2.57
+2026-03-09,Andhra Pradesh|West Godavari|West Godavari Mandi,3651.5,3308.55,15D,LightGBM,-342.95
+2026-03-09,Andhra Pradesh|West Godavari|West Godavari Mandi,3651.5,3645.43,15D,ARIMA Baseline,-6.07
+2026-03-16,Andhra Pradesh|West Godavari|West Godavari Mandi,3655.0,3309.33,15D,LightGBM,-345.67
+2026-03-16,Andhra Pradesh|West Godavari|West Godavari Mandi,3655.0,3645.43,15D,ARIMA Baseline,-9.57
+2026-03-23,Andhra Pradesh|West Godavari|West Godavari Mandi,3658.5,3308.74,15D,LightGBM,-349.76
+2026-03-23,Andhra Pradesh|West Godavari|West Godavari Mandi,3658.5,3645.43,15D,ARIMA Baseline,-13.07
+2026-03-30,Andhra Pradesh|West Godavari|West Godavari Mandi,3662.0,3309.21,15D,LightGBM,-352.79
+2026-03-30,Andhra Pradesh|West Godavari|West Godavari Mandi,3662.0,3645.43,15D,ARIMA Baseline,-16.57
+2026-04-06,Andhra Pradesh|West Godavari|West Godavari Mandi,3665.5,3309.17,15D,LightGBM,-356.33
+2026-04-06,Andhra Pradesh|West Godavari|West Godavari Mandi,3665.5,3645.43,15D,ARIMA Baseline,-20.07
+2026-04-13,Andhra Pradesh|West Godavari|West Godavari Mandi,3669.0,3309.32,15D,LightGBM,-359.68
+2026-04-13,Andhra Pradesh|West Godavari|West Godavari Mandi,3669.0,3645.43,15D,ARIMA Baseline,-23.57
+2026-04-20,Andhra Pradesh|West Godavari|West Godavari Mandi,,3310.52,15D,LightGBM,
+2026-04-20,Andhra Pradesh|West Godavari|West Godavari Mandi,,3645.43,15D,ARIMA Baseline,
+2026-04-27,Andhra Pradesh|West Godavari|West Godavari Mandi,,3310.07,15D,LightGBM,
+2026-04-27,Andhra Pradesh|West Godavari|West Godavari Mandi,,3645.43,15D,ARIMA Baseline,
+2026-05-04,Andhra Pradesh|West Godavari|West Godavari Mandi,,3316.23,15D,LightGBM,
+2026-05-04,Andhra Pradesh|West Godavari|West Godavari Mandi,,3645.43,15D,ARIMA Baseline,
+2026-05-11,Andhra Pradesh|West Godavari|West Godavari Mandi,,3323.87,15D,LightGBM,
+2026-05-11,Andhra Pradesh|West Godavari|West Godavari Mandi,,3645.43,15D,ARIMA Baseline,
+2026-05-18,Andhra Pradesh|West Godavari|West Godavari Mandi,,3321.31,15D,LightGBM,
+2026-05-18,Andhra Pradesh|West Godavari|West Godavari Mandi,,3645.43,15D,ARIMA Baseline,
+2026-05-25,Andhra Pradesh|West Godavari|West Godavari Mandi,,3315.07,15D,LightGBM,
+2026-05-25,Andhra Pradesh|West Godavari|West Godavari Mandi,,3645.43,15D,ARIMA Baseline,
+2026-06-01,Andhra Pradesh|West Godavari|West Godavari Mandi,,3389.41,15D,LightGBM,
+2026-06-01,Andhra Pradesh|West Godavari|West Godavari Mandi,,3645.43,15D,ARIMA Baseline,
+2026-06-08,Andhra Pradesh|West Godavari|West Godavari Mandi,,3387.07,15D,LightGBM,
+2026-06-08,Andhra Pradesh|West Godavari|West Godavari Mandi,,3645.43,15D,ARIMA Baseline,
+2026-06-15,Andhra Pradesh|West Godavari|West Godavari Mandi,,3386.07,15D,LightGBM,
+2026-06-15,Andhra Pradesh|West Godavari|West Godavari Mandi,,3645.43,15D,ARIMA Baseline,
+2026-06-22,Andhra Pradesh|West Godavari|West Godavari Mandi,,3381.01,15D,LightGBM,
+2026-06-22,Andhra Pradesh|West Godavari|West Godavari Mandi,,3645.43,15D,ARIMA Baseline,
+2026-06-29,Andhra Pradesh|West Godavari|West Godavari Mandi,,3381.46,15D,LightGBM,
+2026-06-29,Andhra Pradesh|West Godavari|West Godavari Mandi,,3645.43,15D,ARIMA Baseline,
+2026-07-06,Andhra Pradesh|West Godavari|West Godavari Mandi,,3435.53,15D,LightGBM,
+2026-07-06,Andhra Pradesh|West Godavari|West Godavari Mandi,,3645.43,15D,ARIMA Baseline,
+2026-07-13,Andhra Pradesh|West Godavari|West Godavari Mandi,,3437.03,15D,LightGBM,
+2026-07-13,Andhra Pradesh|West Godavari|West Godavari Mandi,,3645.43,15D,ARIMA Baseline,
+2026-07-20,Andhra Pradesh|West Godavari|West Godavari Mandi,,3431.57,15D,LightGBM,
+2026-07-20,Andhra Pradesh|West Godavari|West Godavari Mandi,,3645.43,15D,ARIMA Baseline,
+2026-07-27,Andhra Pradesh|West Godavari|West Godavari Mandi,,3436.65,15D,LightGBM,
+2026-07-27,Andhra Pradesh|West Godavari|West Godavari Mandi,,3645.43,15D,ARIMA Baseline,
+2026-01-05,Assam|Central|Central Mandi,3620.0,3304.35,15D,LightGBM,-315.65
+2026-01-05,Assam|Central|Central Mandi,3620.0,3645.43,15D,ARIMA Baseline,25.43
+2026-01-12,Assam|Central|Central Mandi,3623.5,3303.6,15D,LightGBM,-319.9
+2026-01-12,Assam|Central|Central Mandi,3623.5,3645.43,15D,ARIMA Baseline,21.93
+2026-01-19,Assam|Central|Central Mandi,3627.0,3303.83,15D,LightGBM,-323.17
+2026-01-19,Assam|Central|Central Mandi,3627.0,3645.43,15D,ARIMA Baseline,18.43
+2026-01-26,Assam|Central|Central Mandi,3630.5,3303.75,15D,LightGBM,-326.75
+2026-01-26,Assam|Central|Central Mandi,3630.5,3645.43,15D,ARIMA Baseline,14.93
+2026-02-02,Assam|Central|Central Mandi,3634.0,3309.5,15D,LightGBM,-324.5
+2026-02-02,Assam|Central|Central Mandi,3634.0,3645.43,15D,ARIMA Baseline,11.43
+2026-02-09,Assam|Central|Central Mandi,3637.5,3309.21,15D,LightGBM,-328.29
+2026-02-09,Assam|Central|Central Mandi,3637.5,3645.43,15D,ARIMA Baseline,7.93
+2026-02-16,Assam|Central|Central Mandi,3641.0,3308.65,15D,LightGBM,-332.35
+2026-02-16,Assam|Central|Central Mandi,3641.0,3645.43,15D,ARIMA Baseline,4.43
+2026-02-23,Assam|Central|Central Mandi,3644.5,3308.69,15D,LightGBM,-335.81
+2026-02-23,Assam|Central|Central Mandi,3644.5,3645.43,15D,ARIMA Baseline,0.93
+2026-03-02,Assam|Central|Central Mandi,3648.0,3308.57,15D,LightGBM,-339.43
+2026-03-02,Assam|Central|Central Mandi,3648.0,3645.43,15D,ARIMA Baseline,-2.57
+2026-03-09,Assam|Central|Central Mandi,3651.5,3308.55,15D,LightGBM,-342.95
+2026-03-09,Assam|Central|Central Mandi,3651.5,3645.43,15D,ARIMA Baseline,-6.07
+2026-03-16,Assam|Central|Central Mandi,3655.0,3309.33,15D,LightGBM,-345.67
+2026-03-16,Assam|Central|Central Mandi,3655.0,3645.43,15D,ARIMA Baseline,-9.57
+2026-03-23,Assam|Central|Central Mandi,3658.5,3308.74,15D,LightGBM,-349.76
+2026-03-23,Assam|Central|Central Mandi,3658.5,3645.43,15D,ARIMA Baseline,-13.07
+2026-03-30,Assam|Central|Central Mandi,3662.0,3309.21,15D,LightGBM,-352.79
+2026-03-30,Assam|Central|Central Mandi,3662.0,3645.43,15D,ARIMA Baseline,-16.57
+2026-04-06,Assam|Central|Central Mandi,3665.5,3309.17,15D,LightGBM,-356.33
+2026-04-06,Assam|Central|Central Mandi,3665.5,3645.43,15D,ARIMA Baseline,-20.07
+2026-04-13,Assam|Central|Central Mandi,3669.0,3309.32,15D,LightGBM,-359.68
+2026-04-13,Assam|Central|Central Mandi,3669.0,3645.43,15D,ARIMA Baseline,-23.57
+2026-04-20,Assam|Central|Central Mandi,,3310.52,15D,LightGBM,
+2026-04-20,Assam|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-04-27,Assam|Central|Central Mandi,,3310.07,15D,LightGBM,
+2026-04-27,Assam|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-05-04,Assam|Central|Central Mandi,,3316.23,15D,LightGBM,
+2026-05-04,Assam|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-05-11,Assam|Central|Central Mandi,,3323.87,15D,LightGBM,
+2026-05-11,Assam|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-05-18,Assam|Central|Central Mandi,,3321.31,15D,LightGBM,
+2026-05-18,Assam|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-05-25,Assam|Central|Central Mandi,,3315.07,15D,LightGBM,
+2026-05-25,Assam|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-06-01,Assam|Central|Central Mandi,,3389.41,15D,LightGBM,
+2026-06-01,Assam|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-06-08,Assam|Central|Central Mandi,,3387.07,15D,LightGBM,
+2026-06-08,Assam|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-06-15,Assam|Central|Central Mandi,,3386.07,15D,LightGBM,
+2026-06-15,Assam|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-06-22,Assam|Central|Central Mandi,,3381.01,15D,LightGBM,
+2026-06-22,Assam|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-06-29,Assam|Central|Central Mandi,,3381.46,15D,LightGBM,
+2026-06-29,Assam|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-07-06,Assam|Central|Central Mandi,,3435.53,15D,LightGBM,
+2026-07-06,Assam|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-07-13,Assam|Central|Central Mandi,,3437.03,15D,LightGBM,
+2026-07-13,Assam|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-07-20,Assam|Central|Central Mandi,,3431.57,15D,LightGBM,
+2026-07-20,Assam|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-07-27,Assam|Central|Central Mandi,,3436.65,15D,LightGBM,
+2026-07-27,Assam|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-01-05,Bihar|Central|Central Mandi,3620.0,3304.35,15D,LightGBM,-315.65
+2026-01-05,Bihar|Central|Central Mandi,3620.0,3645.43,15D,ARIMA Baseline,25.43
+2026-01-12,Bihar|Central|Central Mandi,3623.5,3303.6,15D,LightGBM,-319.9
+2026-01-12,Bihar|Central|Central Mandi,3623.5,3645.43,15D,ARIMA Baseline,21.93
+2026-01-19,Bihar|Central|Central Mandi,3627.0,3303.83,15D,LightGBM,-323.17
+2026-01-19,Bihar|Central|Central Mandi,3627.0,3645.43,15D,ARIMA Baseline,18.43
+2026-01-26,Bihar|Central|Central Mandi,3630.5,3303.75,15D,LightGBM,-326.75
+2026-01-26,Bihar|Central|Central Mandi,3630.5,3645.43,15D,ARIMA Baseline,14.93
+2026-02-02,Bihar|Central|Central Mandi,3634.0,3309.5,15D,LightGBM,-324.5
+2026-02-02,Bihar|Central|Central Mandi,3634.0,3645.43,15D,ARIMA Baseline,11.43
+2026-02-09,Bihar|Central|Central Mandi,3637.5,3309.21,15D,LightGBM,-328.29
+2026-02-09,Bihar|Central|Central Mandi,3637.5,3645.43,15D,ARIMA Baseline,7.93
+2026-02-16,Bihar|Central|Central Mandi,3641.0,3308.65,15D,LightGBM,-332.35
+2026-02-16,Bihar|Central|Central Mandi,3641.0,3645.43,15D,ARIMA Baseline,4.43
+2026-02-23,Bihar|Central|Central Mandi,3644.5,3308.69,15D,LightGBM,-335.81
+2026-02-23,Bihar|Central|Central Mandi,3644.5,3645.43,15D,ARIMA Baseline,0.93
+2026-03-02,Bihar|Central|Central Mandi,3648.0,3308.57,15D,LightGBM,-339.43
+2026-03-02,Bihar|Central|Central Mandi,3648.0,3645.43,15D,ARIMA Baseline,-2.57
+2026-03-09,Bihar|Central|Central Mandi,3651.5,3308.55,15D,LightGBM,-342.95
+2026-03-09,Bihar|Central|Central Mandi,3651.5,3645.43,15D,ARIMA Baseline,-6.07
+2026-03-16,Bihar|Central|Central Mandi,3655.0,3309.33,15D,LightGBM,-345.67
+2026-03-16,Bihar|Central|Central Mandi,3655.0,3645.43,15D,ARIMA Baseline,-9.57
+2026-03-23,Bihar|Central|Central Mandi,3658.5,3308.74,15D,LightGBM,-349.76
+2026-03-23,Bihar|Central|Central Mandi,3658.5,3645.43,15D,ARIMA Baseline,-13.07
+2026-03-30,Bihar|Central|Central Mandi,3662.0,3309.21,15D,LightGBM,-352.79
+2026-03-30,Bihar|Central|Central Mandi,3662.0,3645.43,15D,ARIMA Baseline,-16.57
+2026-04-06,Bihar|Central|Central Mandi,3665.5,3309.17,15D,LightGBM,-356.33
+2026-04-06,Bihar|Central|Central Mandi,3665.5,3645.43,15D,ARIMA Baseline,-20.07
+2026-04-13,Bihar|Central|Central Mandi,3669.0,3309.32,15D,LightGBM,-359.68
+2026-04-13,Bihar|Central|Central Mandi,3669.0,3645.43,15D,ARIMA Baseline,-23.57
+2026-04-20,Bihar|Central|Central Mandi,,3310.52,15D,LightGBM,
+2026-04-20,Bihar|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-04-27,Bihar|Central|Central Mandi,,3310.07,15D,LightGBM,
+2026-04-27,Bihar|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-05-04,Bihar|Central|Central Mandi,,3316.23,15D,LightGBM,
+2026-05-04,Bihar|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-05-11,Bihar|Central|Central Mandi,,3323.87,15D,LightGBM,
+2026-05-11,Bihar|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-05-18,Bihar|Central|Central Mandi,,3321.31,15D,LightGBM,
+2026-05-18,Bihar|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-05-25,Bihar|Central|Central Mandi,,3315.07,15D,LightGBM,
+2026-05-25,Bihar|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-06-01,Bihar|Central|Central Mandi,,3389.41,15D,LightGBM,
+2026-06-01,Bihar|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-06-08,Bihar|Central|Central Mandi,,3387.07,15D,LightGBM,
+2026-06-08,Bihar|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-06-15,Bihar|Central|Central Mandi,,3386.07,15D,LightGBM,
+2026-06-15,Bihar|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-06-22,Bihar|Central|Central Mandi,,3381.01,15D,LightGBM,
+2026-06-22,Bihar|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-06-29,Bihar|Central|Central Mandi,,3381.46,15D,LightGBM,
+2026-06-29,Bihar|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-07-06,Bihar|Central|Central Mandi,,3435.53,15D,LightGBM,
+2026-07-06,Bihar|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-07-13,Bihar|Central|Central Mandi,,3437.03,15D,LightGBM,
+2026-07-13,Bihar|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-07-20,Bihar|Central|Central Mandi,,3431.57,15D,LightGBM,
+2026-07-20,Bihar|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-07-27,Bihar|Central|Central Mandi,,3436.65,15D,LightGBM,
+2026-07-27,Bihar|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-01-05,Chhattisgarh|Durg|Durg Mandi,3620.0,3304.35,15D,LightGBM,-315.65
+2026-01-05,Chhattisgarh|Durg|Durg Mandi,3620.0,3645.43,15D,ARIMA Baseline,25.43
+2026-01-12,Chhattisgarh|Durg|Durg Mandi,3623.5,3303.6,15D,LightGBM,-319.9
+2026-01-12,Chhattisgarh|Durg|Durg Mandi,3623.5,3645.43,15D,ARIMA Baseline,21.93
+2026-01-19,Chhattisgarh|Durg|Durg Mandi,3627.0,3303.83,15D,LightGBM,-323.17
+2026-01-19,Chhattisgarh|Durg|Durg Mandi,3627.0,3645.43,15D,ARIMA Baseline,18.43
+2026-01-26,Chhattisgarh|Durg|Durg Mandi,3630.5,3303.75,15D,LightGBM,-326.75
+2026-01-26,Chhattisgarh|Durg|Durg Mandi,3630.5,3645.43,15D,ARIMA Baseline,14.93
+2026-02-02,Chhattisgarh|Durg|Durg Mandi,3634.0,3309.5,15D,LightGBM,-324.5
+2026-02-02,Chhattisgarh|Durg|Durg Mandi,3634.0,3645.43,15D,ARIMA Baseline,11.43
+2026-02-09,Chhattisgarh|Durg|Durg Mandi,3637.5,3309.21,15D,LightGBM,-328.29
+2026-02-09,Chhattisgarh|Durg|Durg Mandi,3637.5,3645.43,15D,ARIMA Baseline,7.93
+2026-02-16,Chhattisgarh|Durg|Durg Mandi,3641.0,3308.65,15D,LightGBM,-332.35
+2026-02-16,Chhattisgarh|Durg|Durg Mandi,3641.0,3645.43,15D,ARIMA Baseline,4.43
+2026-02-23,Chhattisgarh|Durg|Durg Mandi,3644.5,3308.69,15D,LightGBM,-335.81
+2026-02-23,Chhattisgarh|Durg|Durg Mandi,3644.5,3645.43,15D,ARIMA Baseline,0.93
+2026-03-02,Chhattisgarh|Durg|Durg Mandi,3648.0,3308.57,15D,LightGBM,-339.43
+2026-03-02,Chhattisgarh|Durg|Durg Mandi,3648.0,3645.43,15D,ARIMA Baseline,-2.57
+2026-03-09,Chhattisgarh|Durg|Durg Mandi,3651.5,3308.55,15D,LightGBM,-342.95
+2026-03-09,Chhattisgarh|Durg|Durg Mandi,3651.5,3645.43,15D,ARIMA Baseline,-6.07
+2026-03-16,Chhattisgarh|Durg|Durg Mandi,3655.0,3309.33,15D,LightGBM,-345.67
+2026-03-16,Chhattisgarh|Durg|Durg Mandi,3655.0,3645.43,15D,ARIMA Baseline,-9.57
+2026-03-23,Chhattisgarh|Durg|Durg Mandi,3658.5,3308.74,15D,LightGBM,-349.76
+2026-03-23,Chhattisgarh|Durg|Durg Mandi,3658.5,3645.43,15D,ARIMA Baseline,-13.07
+2026-03-30,Chhattisgarh|Durg|Durg Mandi,3662.0,3309.21,15D,LightGBM,-352.79
+2026-03-30,Chhattisgarh|Durg|Durg Mandi,3662.0,3645.43,15D,ARIMA Baseline,-16.57
+2026-04-06,Chhattisgarh|Durg|Durg Mandi,3665.5,3309.17,15D,LightGBM,-356.33
+2026-04-06,Chhattisgarh|Durg|Durg Mandi,3665.5,3645.43,15D,ARIMA Baseline,-20.07
+2026-04-13,Chhattisgarh|Durg|Durg Mandi,3669.0,3309.32,15D,LightGBM,-359.68
+2026-04-13,Chhattisgarh|Durg|Durg Mandi,3669.0,3645.43,15D,ARIMA Baseline,-23.57
+2026-04-20,Chhattisgarh|Durg|Durg Mandi,,3310.52,15D,LightGBM,
+2026-04-20,Chhattisgarh|Durg|Durg Mandi,,3645.43,15D,ARIMA Baseline,
+2026-04-27,Chhattisgarh|Durg|Durg Mandi,,3310.07,15D,LightGBM,
+2026-04-27,Chhattisgarh|Durg|Durg Mandi,,3645.43,15D,ARIMA Baseline,
+2026-05-04,Chhattisgarh|Durg|Durg Mandi,,3316.23,15D,LightGBM,
+2026-05-04,Chhattisgarh|Durg|Durg Mandi,,3645.43,15D,ARIMA Baseline,
+2026-05-11,Chhattisgarh|Durg|Durg Mandi,,3323.87,15D,LightGBM,
+2026-05-11,Chhattisgarh|Durg|Durg Mandi,,3645.43,15D,ARIMA Baseline,
+2026-05-18,Chhattisgarh|Durg|Durg Mandi,,3321.31,15D,LightGBM,
+2026-05-18,Chhattisgarh|Durg|Durg Mandi,,3645.43,15D,ARIMA Baseline,
+2026-05-25,Chhattisgarh|Durg|Durg Mandi,,3315.07,15D,LightGBM,
+2026-05-25,Chhattisgarh|Durg|Durg Mandi,,3645.43,15D,ARIMA Baseline,
+2026-06-01,Chhattisgarh|Durg|Durg Mandi,,3389.41,15D,LightGBM,
+2026-06-01,Chhattisgarh|Durg|Durg Mandi,,3645.43,15D,ARIMA Baseline,
+2026-06-08,Chhattisgarh|Durg|Durg Mandi,,3387.07,15D,LightGBM,
+2026-06-08,Chhattisgarh|Durg|Durg Mandi,,3645.43,15D,ARIMA Baseline,
+2026-06-15,Chhattisgarh|Durg|Durg Mandi,,3386.07,15D,LightGBM,
+2026-06-15,Chhattisgarh|Durg|Durg Mandi,,3645.43,15D,ARIMA Baseline,
+2026-06-22,Chhattisgarh|Durg|Durg Mandi,,3381.01,15D,LightGBM,
+2026-06-22,Chhattisgarh|Durg|Durg Mandi,,3645.43,15D,ARIMA Baseline,
+2026-06-29,Chhattisgarh|Durg|Durg Mandi,,3381.46,15D,LightGBM,
+2026-06-29,Chhattisgarh|Durg|Durg Mandi,,3645.43,15D,ARIMA Baseline,
+2026-07-06,Chhattisgarh|Durg|Durg Mandi,,3435.53,15D,LightGBM,
+2026-07-06,Chhattisgarh|Durg|Durg Mandi,,3645.43,15D,ARIMA Baseline,
+2026-07-13,Chhattisgarh|Durg|Durg Mandi,,3437.03,15D,LightGBM,
+2026-07-13,Chhattisgarh|Durg|Durg Mandi,,3645.43,15D,ARIMA Baseline,
+2026-07-20,Chhattisgarh|Durg|Durg Mandi,,3431.57,15D,LightGBM,
+2026-07-20,Chhattisgarh|Durg|Durg Mandi,,3645.43,15D,ARIMA Baseline,
+2026-07-27,Chhattisgarh|Durg|Durg Mandi,,3436.65,15D,LightGBM,
+2026-07-27,Chhattisgarh|Durg|Durg Mandi,,3645.43,15D,ARIMA Baseline,
+2026-01-05,Chhattisgarh|Raipur|Raipur Mandi,3620.0,3304.35,15D,LightGBM,-315.65
+2026-01-05,Chhattisgarh|Raipur|Raipur Mandi,3620.0,3645.43,15D,ARIMA Baseline,25.43
+2026-01-12,Chhattisgarh|Raipur|Raipur Mandi,3623.5,3303.6,15D,LightGBM,-319.9
+2026-01-12,Chhattisgarh|Raipur|Raipur Mandi,3623.5,3645.43,15D,ARIMA Baseline,21.93
+2026-01-19,Chhattisgarh|Raipur|Raipur Mandi,3627.0,3303.83,15D,LightGBM,-323.17
+2026-01-19,Chhattisgarh|Raipur|Raipur Mandi,3627.0,3645.43,15D,ARIMA Baseline,18.43
+2026-01-26,Chhattisgarh|Raipur|Raipur Mandi,3630.5,3303.75,15D,LightGBM,-326.75
+2026-01-26,Chhattisgarh|Raipur|Raipur Mandi,3630.5,3645.43,15D,ARIMA Baseline,14.93
+2026-02-02,Chhattisgarh|Raipur|Raipur Mandi,3634.0,3309.5,15D,LightGBM,-324.5
+2026-02-02,Chhattisgarh|Raipur|Raipur Mandi,3634.0,3645.43,15D,ARIMA Baseline,11.43
+2026-02-09,Chhattisgarh|Raipur|Raipur Mandi,3637.5,3309.21,15D,LightGBM,-328.29
+2026-02-09,Chhattisgarh|Raipur|Raipur Mandi,3637.5,3645.43,15D,ARIMA Baseline,7.93
+2026-02-16,Chhattisgarh|Raipur|Raipur Mandi,3641.0,3308.65,15D,LightGBM,-332.35
+2026-02-16,Chhattisgarh|Raipur|Raipur Mandi,3641.0,3645.43,15D,ARIMA Baseline,4.43
+2026-02-23,Chhattisgarh|Raipur|Raipur Mandi,3644.5,3308.69,15D,LightGBM,-335.81
+2026-02-23,Chhattisgarh|Raipur|Raipur Mandi,3644.5,3645.43,15D,ARIMA Baseline,0.93
+2026-03-02,Chhattisgarh|Raipur|Raipur Mandi,3648.0,3308.57,15D,LightGBM,-339.43
+2026-03-02,Chhattisgarh|Raipur|Raipur Mandi,3648.0,3645.43,15D,ARIMA Baseline,-2.57
+2026-03-09,Chhattisgarh|Raipur|Raipur Mandi,3651.5,3308.55,15D,LightGBM,-342.95
+2026-03-09,Chhattisgarh|Raipur|Raipur Mandi,3651.5,3645.43,15D,ARIMA Baseline,-6.07
+2026-03-16,Chhattisgarh|Raipur|Raipur Mandi,3655.0,3309.33,15D,LightGBM,-345.67
+2026-03-16,Chhattisgarh|Raipur|Raipur Mandi,3655.0,3645.43,15D,ARIMA Baseline,-9.57
+2026-03-23,Chhattisgarh|Raipur|Raipur Mandi,3658.5,3308.74,15D,LightGBM,-349.76
+2026-03-23,Chhattisgarh|Raipur|Raipur Mandi,3658.5,3645.43,15D,ARIMA Baseline,-13.07
+2026-03-30,Chhattisgarh|Raipur|Raipur Mandi,3662.0,3309.21,15D,LightGBM,-352.79
+2026-03-30,Chhattisgarh|Raipur|Raipur Mandi,3662.0,3645.43,15D,ARIMA Baseline,-16.57
+2026-04-06,Chhattisgarh|Raipur|Raipur Mandi,3665.5,3309.17,15D,LightGBM,-356.33
+2026-04-06,Chhattisgarh|Raipur|Raipur Mandi,3665.5,3645.43,15D,ARIMA Baseline,-20.07
+2026-04-13,Chhattisgarh|Raipur|Raipur Mandi,3669.0,3309.32,15D,LightGBM,-359.68
+2026-04-13,Chhattisgarh|Raipur|Raipur Mandi,3669.0,3645.43,15D,ARIMA Baseline,-23.57
+2026-04-20,Chhattisgarh|Raipur|Raipur Mandi,,3310.52,15D,LightGBM,
+2026-04-20,Chhattisgarh|Raipur|Raipur Mandi,,3645.43,15D,ARIMA Baseline,
+2026-04-27,Chhattisgarh|Raipur|Raipur Mandi,,3310.07,15D,LightGBM,
+2026-04-27,Chhattisgarh|Raipur|Raipur Mandi,,3645.43,15D,ARIMA Baseline,
+2026-05-04,Chhattisgarh|Raipur|Raipur Mandi,,3316.23,15D,LightGBM,
+2026-05-04,Chhattisgarh|Raipur|Raipur Mandi,,3645.43,15D,ARIMA Baseline,
+2026-05-11,Chhattisgarh|Raipur|Raipur Mandi,,3323.87,15D,LightGBM,
+2026-05-11,Chhattisgarh|Raipur|Raipur Mandi,,3645.43,15D,ARIMA Baseline,
+2026-05-18,Chhattisgarh|Raipur|Raipur Mandi,,3321.31,15D,LightGBM,
+2026-05-18,Chhattisgarh|Raipur|Raipur Mandi,,3645.43,15D,ARIMA Baseline,
+2026-05-25,Chhattisgarh|Raipur|Raipur Mandi,,3315.07,15D,LightGBM,
+2026-05-25,Chhattisgarh|Raipur|Raipur Mandi,,3645.43,15D,ARIMA Baseline,
+2026-06-01,Chhattisgarh|Raipur|Raipur Mandi,,3389.41,15D,LightGBM,
+2026-06-01,Chhattisgarh|Raipur|Raipur Mandi,,3645.43,15D,ARIMA Baseline,
+2026-06-08,Chhattisgarh|Raipur|Raipur Mandi,,3387.07,15D,LightGBM,
+2026-06-08,Chhattisgarh|Raipur|Raipur Mandi,,3645.43,15D,ARIMA Baseline,
+2026-06-15,Chhattisgarh|Raipur|Raipur Mandi,,3386.07,15D,LightGBM,
+2026-06-15,Chhattisgarh|Raipur|Raipur Mandi,,3645.43,15D,ARIMA Baseline,
+2026-06-22,Chhattisgarh|Raipur|Raipur Mandi,,3381.01,15D,LightGBM,
+2026-06-22,Chhattisgarh|Raipur|Raipur Mandi,,3645.43,15D,ARIMA Baseline,
+2026-06-29,Chhattisgarh|Raipur|Raipur Mandi,,3381.46,15D,LightGBM,
+2026-06-29,Chhattisgarh|Raipur|Raipur Mandi,,3645.43,15D,ARIMA Baseline,
+2026-07-06,Chhattisgarh|Raipur|Raipur Mandi,,3435.53,15D,LightGBM,
+2026-07-06,Chhattisgarh|Raipur|Raipur Mandi,,3645.43,15D,ARIMA Baseline,
+2026-07-13,Chhattisgarh|Raipur|Raipur Mandi,,3437.03,15D,LightGBM,
+2026-07-13,Chhattisgarh|Raipur|Raipur Mandi,,3645.43,15D,ARIMA Baseline,
+2026-07-20,Chhattisgarh|Raipur|Raipur Mandi,,3431.57,15D,LightGBM,
+2026-07-20,Chhattisgarh|Raipur|Raipur Mandi,,3645.43,15D,ARIMA Baseline,
+2026-07-27,Chhattisgarh|Raipur|Raipur Mandi,,3436.65,15D,LightGBM,
+2026-07-27,Chhattisgarh|Raipur|Raipur Mandi,,3645.43,15D,ARIMA Baseline,
+2026-01-05,Gujarat|Central|Central Mandi,3620.0,3304.35,15D,LightGBM,-315.65
+2026-01-05,Gujarat|Central|Central Mandi,3620.0,3645.43,15D,ARIMA Baseline,25.43
+2026-01-12,Gujarat|Central|Central Mandi,3623.5,3303.6,15D,LightGBM,-319.9
+2026-01-12,Gujarat|Central|Central Mandi,3623.5,3645.43,15D,ARIMA Baseline,21.93
+2026-01-19,Gujarat|Central|Central Mandi,3627.0,3303.83,15D,LightGBM,-323.17
+2026-01-19,Gujarat|Central|Central Mandi,3627.0,3645.43,15D,ARIMA Baseline,18.43
+2026-01-26,Gujarat|Central|Central Mandi,3630.5,3303.75,15D,LightGBM,-326.75
+2026-01-26,Gujarat|Central|Central Mandi,3630.5,3645.43,15D,ARIMA Baseline,14.93
+2026-02-02,Gujarat|Central|Central Mandi,3634.0,3309.5,15D,LightGBM,-324.5
+2026-02-02,Gujarat|Central|Central Mandi,3634.0,3645.43,15D,ARIMA Baseline,11.43
+2026-02-09,Gujarat|Central|Central Mandi,3637.5,3309.21,15D,LightGBM,-328.29
+2026-02-09,Gujarat|Central|Central Mandi,3637.5,3645.43,15D,ARIMA Baseline,7.93
+2026-02-16,Gujarat|Central|Central Mandi,3641.0,3308.65,15D,LightGBM,-332.35
+2026-02-16,Gujarat|Central|Central Mandi,3641.0,3645.43,15D,ARIMA Baseline,4.43
+2026-02-23,Gujarat|Central|Central Mandi,3644.5,3308.69,15D,LightGBM,-335.81
+2026-02-23,Gujarat|Central|Central Mandi,3644.5,3645.43,15D,ARIMA Baseline,0.93
+2026-03-02,Gujarat|Central|Central Mandi,3648.0,3308.57,15D,LightGBM,-339.43
+2026-03-02,Gujarat|Central|Central Mandi,3648.0,3645.43,15D,ARIMA Baseline,-2.57
+2026-03-09,Gujarat|Central|Central Mandi,3651.5,3308.55,15D,LightGBM,-342.95
+2026-03-09,Gujarat|Central|Central Mandi,3651.5,3645.43,15D,ARIMA Baseline,-6.07
+2026-03-16,Gujarat|Central|Central Mandi,3655.0,3309.33,15D,LightGBM,-345.67
+2026-03-16,Gujarat|Central|Central Mandi,3655.0,3645.43,15D,ARIMA Baseline,-9.57
+2026-03-23,Gujarat|Central|Central Mandi,3658.5,3308.74,15D,LightGBM,-349.76
+2026-03-23,Gujarat|Central|Central Mandi,3658.5,3645.43,15D,ARIMA Baseline,-13.07
+2026-03-30,Gujarat|Central|Central Mandi,3662.0,3309.21,15D,LightGBM,-352.79
+2026-03-30,Gujarat|Central|Central Mandi,3662.0,3645.43,15D,ARIMA Baseline,-16.57
+2026-04-06,Gujarat|Central|Central Mandi,3665.5,3309.17,15D,LightGBM,-356.33
+2026-04-06,Gujarat|Central|Central Mandi,3665.5,3645.43,15D,ARIMA Baseline,-20.07
+2026-04-13,Gujarat|Central|Central Mandi,3669.0,3309.32,15D,LightGBM,-359.68
+2026-04-13,Gujarat|Central|Central Mandi,3669.0,3645.43,15D,ARIMA Baseline,-23.57
+2026-04-20,Gujarat|Central|Central Mandi,,3310.52,15D,LightGBM,
+2026-04-20,Gujarat|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-04-27,Gujarat|Central|Central Mandi,,3310.07,15D,LightGBM,
+2026-04-27,Gujarat|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-05-04,Gujarat|Central|Central Mandi,,3316.23,15D,LightGBM,
+2026-05-04,Gujarat|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-05-11,Gujarat|Central|Central Mandi,,3323.87,15D,LightGBM,
+2026-05-11,Gujarat|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-05-18,Gujarat|Central|Central Mandi,,3321.31,15D,LightGBM,
+2026-05-18,Gujarat|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-05-25,Gujarat|Central|Central Mandi,,3315.07,15D,LightGBM,
+2026-05-25,Gujarat|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-06-01,Gujarat|Central|Central Mandi,,3389.41,15D,LightGBM,
+2026-06-01,Gujarat|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-06-08,Gujarat|Central|Central Mandi,,3387.07,15D,LightGBM,
+2026-06-08,Gujarat|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-06-15,Gujarat|Central|Central Mandi,,3386.07,15D,LightGBM,
+2026-06-15,Gujarat|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-06-22,Gujarat|Central|Central Mandi,,3381.01,15D,LightGBM,
+2026-06-22,Gujarat|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-06-29,Gujarat|Central|Central Mandi,,3381.46,15D,LightGBM,
+2026-06-29,Gujarat|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-07-06,Gujarat|Central|Central Mandi,,3435.53,15D,LightGBM,
+2026-07-06,Gujarat|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-07-13,Gujarat|Central|Central Mandi,,3437.03,15D,LightGBM,
+2026-07-13,Gujarat|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-07-20,Gujarat|Central|Central Mandi,,3431.57,15D,LightGBM,
+2026-07-20,Gujarat|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-07-27,Gujarat|Central|Central Mandi,,3436.65,15D,LightGBM,
+2026-07-27,Gujarat|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-01-05,Haryana|Central|Central Mandi,3620.0,3304.35,15D,LightGBM,-315.65
+2026-01-05,Haryana|Central|Central Mandi,3620.0,3645.43,15D,ARIMA Baseline,25.43
+2026-01-12,Haryana|Central|Central Mandi,3623.5,3303.6,15D,LightGBM,-319.9
+2026-01-12,Haryana|Central|Central Mandi,3623.5,3645.43,15D,ARIMA Baseline,21.93
+2026-01-19,Haryana|Central|Central Mandi,3627.0,3303.83,15D,LightGBM,-323.17
+2026-01-19,Haryana|Central|Central Mandi,3627.0,3645.43,15D,ARIMA Baseline,18.43
+2026-01-26,Haryana|Central|Central Mandi,3630.5,3303.75,15D,LightGBM,-326.75
+2026-01-26,Haryana|Central|Central Mandi,3630.5,3645.43,15D,ARIMA Baseline,14.93
+2026-02-02,Haryana|Central|Central Mandi,3634.0,3309.5,15D,LightGBM,-324.5
+2026-02-02,Haryana|Central|Central Mandi,3634.0,3645.43,15D,ARIMA Baseline,11.43
+2026-02-09,Haryana|Central|Central Mandi,3637.5,3309.21,15D,LightGBM,-328.29
+2026-02-09,Haryana|Central|Central Mandi,3637.5,3645.43,15D,ARIMA Baseline,7.93
+2026-02-16,Haryana|Central|Central Mandi,3641.0,3308.65,15D,LightGBM,-332.35
+2026-02-16,Haryana|Central|Central Mandi,3641.0,3645.43,15D,ARIMA Baseline,4.43
+2026-02-23,Haryana|Central|Central Mandi,3644.5,3308.69,15D,LightGBM,-335.81
+2026-02-23,Haryana|Central|Central Mandi,3644.5,3645.43,15D,ARIMA Baseline,0.93
+2026-03-02,Haryana|Central|Central Mandi,3648.0,3308.57,15D,LightGBM,-339.43
+2026-03-02,Haryana|Central|Central Mandi,3648.0,3645.43,15D,ARIMA Baseline,-2.57
+2026-03-09,Haryana|Central|Central Mandi,3651.5,3308.55,15D,LightGBM,-342.95
+2026-03-09,Haryana|Central|Central Mandi,3651.5,3645.43,15D,ARIMA Baseline,-6.07
+2026-03-16,Haryana|Central|Central Mandi,3655.0,3309.33,15D,LightGBM,-345.67
+2026-03-16,Haryana|Central|Central Mandi,3655.0,3645.43,15D,ARIMA Baseline,-9.57
+2026-03-23,Haryana|Central|Central Mandi,3658.5,3308.74,15D,LightGBM,-349.76
+2026-03-23,Haryana|Central|Central Mandi,3658.5,3645.43,15D,ARIMA Baseline,-13.07
+2026-03-30,Haryana|Central|Central Mandi,3662.0,3309.21,15D,LightGBM,-352.79
+2026-03-30,Haryana|Central|Central Mandi,3662.0,3645.43,15D,ARIMA Baseline,-16.57
+2026-04-06,Haryana|Central|Central Mandi,3665.5,3309.17,15D,LightGBM,-356.33
+2026-04-06,Haryana|Central|Central Mandi,3665.5,3645.43,15D,ARIMA Baseline,-20.07
+2026-04-13,Haryana|Central|Central Mandi,3669.0,3309.32,15D,LightGBM,-359.68
+2026-04-13,Haryana|Central|Central Mandi,3669.0,3645.43,15D,ARIMA Baseline,-23.57
+2026-04-20,Haryana|Central|Central Mandi,,3310.52,15D,LightGBM,
+2026-04-20,Haryana|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-04-27,Haryana|Central|Central Mandi,,3310.07,15D,LightGBM,
+2026-04-27,Haryana|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-05-04,Haryana|Central|Central Mandi,,3316.23,15D,LightGBM,
+2026-05-04,Haryana|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-05-11,Haryana|Central|Central Mandi,,3323.87,15D,LightGBM,
+2026-05-11,Haryana|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-05-18,Haryana|Central|Central Mandi,,3321.31,15D,LightGBM,
+2026-05-18,Haryana|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-05-25,Haryana|Central|Central Mandi,,3315.07,15D,LightGBM,
+2026-05-25,Haryana|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-06-01,Haryana|Central|Central Mandi,,3389.41,15D,LightGBM,
+2026-06-01,Haryana|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-06-08,Haryana|Central|Central Mandi,,3387.07,15D,LightGBM,
+2026-06-08,Haryana|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-06-15,Haryana|Central|Central Mandi,,3386.07,15D,LightGBM,
+2026-06-15,Haryana|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-06-22,Haryana|Central|Central Mandi,,3381.01,15D,LightGBM,
+2026-06-22,Haryana|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-06-29,Haryana|Central|Central Mandi,,3381.46,15D,LightGBM,
+2026-06-29,Haryana|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-07-06,Haryana|Central|Central Mandi,,3435.53,15D,LightGBM,
+2026-07-06,Haryana|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-07-13,Haryana|Central|Central Mandi,,3437.03,15D,LightGBM,
+2026-07-13,Haryana|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-07-20,Haryana|Central|Central Mandi,,3431.57,15D,LightGBM,
+2026-07-20,Haryana|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-07-27,Haryana|Central|Central Mandi,,3436.65,15D,LightGBM,
+2026-07-27,Haryana|Central|Central Mandi,,3645.43,15D,ARIMA Baseline,
+2026-01-05,Andhra Pradesh|East Godavari|East Godavari Mandi,,3346.69,30D,LightGBM,
+2026-01-05,Andhra Pradesh|East Godavari|East Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-01-12,Andhra Pradesh|East Godavari|East Godavari Mandi,,3345.1,30D,LightGBM,
+2026-01-12,Andhra Pradesh|East Godavari|East Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-01-19,Andhra Pradesh|East Godavari|East Godavari Mandi,,3345.04,30D,LightGBM,
+2026-01-19,Andhra Pradesh|East Godavari|East Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-01-26,Andhra Pradesh|East Godavari|East Godavari Mandi,,3345.68,30D,LightGBM,
+2026-01-26,Andhra Pradesh|East Godavari|East Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-02-02,Andhra Pradesh|East Godavari|East Godavari Mandi,,3345.62,30D,LightGBM,
+2026-02-02,Andhra Pradesh|East Godavari|East Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-02-09,Andhra Pradesh|East Godavari|East Godavari Mandi,,3349.5,30D,LightGBM,
+2026-02-09,Andhra Pradesh|East Godavari|East Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-02-16,Andhra Pradesh|East Godavari|East Godavari Mandi,,3351.37,30D,LightGBM,
+2026-02-16,Andhra Pradesh|East Godavari|East Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-02-23,Andhra Pradesh|East Godavari|East Godavari Mandi,,3341.8,30D,LightGBM,
+2026-02-23,Andhra Pradesh|East Godavari|East Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-03-02,Andhra Pradesh|East Godavari|East Godavari Mandi,,3462.08,30D,LightGBM,
+2026-03-02,Andhra Pradesh|East Godavari|East Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-03-09,Andhra Pradesh|East Godavari|East Godavari Mandi,,3464.47,30D,LightGBM,
+2026-03-09,Andhra Pradesh|East Godavari|East Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-03-16,Andhra Pradesh|East Godavari|East Godavari Mandi,,3467.66,30D,LightGBM,
+2026-03-16,Andhra Pradesh|East Godavari|East Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-03-23,Andhra Pradesh|East Godavari|East Godavari Mandi,,3455.09,30D,LightGBM,
+2026-03-23,Andhra Pradesh|East Godavari|East Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-03-30,Andhra Pradesh|East Godavari|East Godavari Mandi,,3443.01,30D,LightGBM,
+2026-03-30,Andhra Pradesh|East Godavari|East Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-04-06,Andhra Pradesh|East Godavari|East Godavari Mandi,,3448.31,30D,LightGBM,
+2026-04-06,Andhra Pradesh|East Godavari|East Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-04-13,Andhra Pradesh|East Godavari|East Godavari Mandi,,3447.73,30D,LightGBM,
+2026-04-13,Andhra Pradesh|East Godavari|East Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-04-20,Andhra Pradesh|East Godavari|East Godavari Mandi,,3435.62,30D,LightGBM,
+2026-04-20,Andhra Pradesh|East Godavari|East Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-04-27,Andhra Pradesh|East Godavari|East Godavari Mandi,,3442.33,30D,LightGBM,
+2026-04-27,Andhra Pradesh|East Godavari|East Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-05-04,Andhra Pradesh|East Godavari|East Godavari Mandi,,3462.04,30D,LightGBM,
+2026-05-04,Andhra Pradesh|East Godavari|East Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-05-11,Andhra Pradesh|East Godavari|East Godavari Mandi,,3461.73,30D,LightGBM,
+2026-05-11,Andhra Pradesh|East Godavari|East Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-05-18,Andhra Pradesh|East Godavari|East Godavari Mandi,,3462.61,30D,LightGBM,
+2026-05-18,Andhra Pradesh|East Godavari|East Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-05-25,Andhra Pradesh|East Godavari|East Godavari Mandi,,3462.55,30D,LightGBM,
+2026-05-25,Andhra Pradesh|East Godavari|East Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-06-01,Andhra Pradesh|East Godavari|East Godavari Mandi,,3445.33,30D,LightGBM,
+2026-06-01,Andhra Pradesh|East Godavari|East Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-06-08,Andhra Pradesh|East Godavari|East Godavari Mandi,,3445.39,30D,LightGBM,
+2026-06-08,Andhra Pradesh|East Godavari|East Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-06-15,Andhra Pradesh|East Godavari|East Godavari Mandi,,3445.57,30D,LightGBM,
+2026-06-15,Andhra Pradesh|East Godavari|East Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-06-22,Andhra Pradesh|East Godavari|East Godavari Mandi,,3455.77,30D,LightGBM,
+2026-06-22,Andhra Pradesh|East Godavari|East Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-06-29,Andhra Pradesh|East Godavari|East Godavari Mandi,,3454.01,30D,LightGBM,
+2026-06-29,Andhra Pradesh|East Godavari|East Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-07-06,Andhra Pradesh|East Godavari|East Godavari Mandi,,3445.51,30D,LightGBM,
+2026-07-06,Andhra Pradesh|East Godavari|East Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-07-13,Andhra Pradesh|East Godavari|East Godavari Mandi,,3445.31,30D,LightGBM,
+2026-07-13,Andhra Pradesh|East Godavari|East Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-07-20,Andhra Pradesh|East Godavari|East Godavari Mandi,,3443.8,30D,LightGBM,
+2026-07-20,Andhra Pradesh|East Godavari|East Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-07-27,Andhra Pradesh|East Godavari|East Godavari Mandi,,3442.31,30D,LightGBM,
+2026-07-27,Andhra Pradesh|East Godavari|East Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-01-05,Andhra Pradesh|West Godavari|West Godavari Mandi,,3346.69,30D,LightGBM,
+2026-01-05,Andhra Pradesh|West Godavari|West Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-01-12,Andhra Pradesh|West Godavari|West Godavari Mandi,,3345.1,30D,LightGBM,
+2026-01-12,Andhra Pradesh|West Godavari|West Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-01-19,Andhra Pradesh|West Godavari|West Godavari Mandi,,3345.04,30D,LightGBM,
+2026-01-19,Andhra Pradesh|West Godavari|West Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-01-26,Andhra Pradesh|West Godavari|West Godavari Mandi,,3345.68,30D,LightGBM,
+2026-01-26,Andhra Pradesh|West Godavari|West Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-02-02,Andhra Pradesh|West Godavari|West Godavari Mandi,,3345.62,30D,LightGBM,
+2026-02-02,Andhra Pradesh|West Godavari|West Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-02-09,Andhra Pradesh|West Godavari|West Godavari Mandi,,3349.5,30D,LightGBM,
+2026-02-09,Andhra Pradesh|West Godavari|West Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-02-16,Andhra Pradesh|West Godavari|West Godavari Mandi,,3351.37,30D,LightGBM,
+2026-02-16,Andhra Pradesh|West Godavari|West Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-02-23,Andhra Pradesh|West Godavari|West Godavari Mandi,,3341.8,30D,LightGBM,
+2026-02-23,Andhra Pradesh|West Godavari|West Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-03-02,Andhra Pradesh|West Godavari|West Godavari Mandi,,3462.08,30D,LightGBM,
+2026-03-02,Andhra Pradesh|West Godavari|West Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-03-09,Andhra Pradesh|West Godavari|West Godavari Mandi,,3464.47,30D,LightGBM,
+2026-03-09,Andhra Pradesh|West Godavari|West Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-03-16,Andhra Pradesh|West Godavari|West Godavari Mandi,,3467.66,30D,LightGBM,
+2026-03-16,Andhra Pradesh|West Godavari|West Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-03-23,Andhra Pradesh|West Godavari|West Godavari Mandi,,3455.09,30D,LightGBM,
+2026-03-23,Andhra Pradesh|West Godavari|West Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-03-30,Andhra Pradesh|West Godavari|West Godavari Mandi,,3443.01,30D,LightGBM,
+2026-03-30,Andhra Pradesh|West Godavari|West Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-04-06,Andhra Pradesh|West Godavari|West Godavari Mandi,,3448.31,30D,LightGBM,
+2026-04-06,Andhra Pradesh|West Godavari|West Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-04-13,Andhra Pradesh|West Godavari|West Godavari Mandi,,3447.73,30D,LightGBM,
+2026-04-13,Andhra Pradesh|West Godavari|West Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-04-20,Andhra Pradesh|West Godavari|West Godavari Mandi,,3435.62,30D,LightGBM,
+2026-04-20,Andhra Pradesh|West Godavari|West Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-04-27,Andhra Pradesh|West Godavari|West Godavari Mandi,,3442.33,30D,LightGBM,
+2026-04-27,Andhra Pradesh|West Godavari|West Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-05-04,Andhra Pradesh|West Godavari|West Godavari Mandi,,3462.04,30D,LightGBM,
+2026-05-04,Andhra Pradesh|West Godavari|West Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-05-11,Andhra Pradesh|West Godavari|West Godavari Mandi,,3461.73,30D,LightGBM,
+2026-05-11,Andhra Pradesh|West Godavari|West Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-05-18,Andhra Pradesh|West Godavari|West Godavari Mandi,,3462.61,30D,LightGBM,
+2026-05-18,Andhra Pradesh|West Godavari|West Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-05-25,Andhra Pradesh|West Godavari|West Godavari Mandi,,3462.55,30D,LightGBM,
+2026-05-25,Andhra Pradesh|West Godavari|West Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-06-01,Andhra Pradesh|West Godavari|West Godavari Mandi,,3445.33,30D,LightGBM,
+2026-06-01,Andhra Pradesh|West Godavari|West Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-06-08,Andhra Pradesh|West Godavari|West Godavari Mandi,,3445.39,30D,LightGBM,
+2026-06-08,Andhra Pradesh|West Godavari|West Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-06-15,Andhra Pradesh|West Godavari|West Godavari Mandi,,3445.57,30D,LightGBM,
+2026-06-15,Andhra Pradesh|West Godavari|West Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-06-22,Andhra Pradesh|West Godavari|West Godavari Mandi,,3455.77,30D,LightGBM,
+2026-06-22,Andhra Pradesh|West Godavari|West Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-06-29,Andhra Pradesh|West Godavari|West Godavari Mandi,,3454.01,30D,LightGBM,
+2026-06-29,Andhra Pradesh|West Godavari|West Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-07-06,Andhra Pradesh|West Godavari|West Godavari Mandi,,3445.51,30D,LightGBM,
+2026-07-06,Andhra Pradesh|West Godavari|West Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-07-13,Andhra Pradesh|West Godavari|West Godavari Mandi,,3445.31,30D,LightGBM,
+2026-07-13,Andhra Pradesh|West Godavari|West Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-07-20,Andhra Pradesh|West Godavari|West Godavari Mandi,,3443.8,30D,LightGBM,
+2026-07-20,Andhra Pradesh|West Godavari|West Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-07-27,Andhra Pradesh|West Godavari|West Godavari Mandi,,3442.31,30D,LightGBM,
+2026-07-27,Andhra Pradesh|West Godavari|West Godavari Mandi,,3646.64,30D,ARIMA Baseline,
+2026-01-05,Assam|Central|Central Mandi,,3346.69,30D,LightGBM,
+2026-01-05,Assam|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-01-12,Assam|Central|Central Mandi,,3345.1,30D,LightGBM,
+2026-01-12,Assam|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-01-19,Assam|Central|Central Mandi,,3345.04,30D,LightGBM,
+2026-01-19,Assam|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-01-26,Assam|Central|Central Mandi,,3345.68,30D,LightGBM,
+2026-01-26,Assam|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-02-02,Assam|Central|Central Mandi,,3345.62,30D,LightGBM,
+2026-02-02,Assam|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-02-09,Assam|Central|Central Mandi,,3349.5,30D,LightGBM,
+2026-02-09,Assam|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-02-16,Assam|Central|Central Mandi,,3351.37,30D,LightGBM,
+2026-02-16,Assam|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-02-23,Assam|Central|Central Mandi,,3341.8,30D,LightGBM,
+2026-02-23,Assam|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-03-02,Assam|Central|Central Mandi,,3462.08,30D,LightGBM,
+2026-03-02,Assam|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-03-09,Assam|Central|Central Mandi,,3464.47,30D,LightGBM,
+2026-03-09,Assam|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-03-16,Assam|Central|Central Mandi,,3467.66,30D,LightGBM,
+2026-03-16,Assam|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-03-23,Assam|Central|Central Mandi,,3455.09,30D,LightGBM,
+2026-03-23,Assam|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-03-30,Assam|Central|Central Mandi,,3443.01,30D,LightGBM,
+2026-03-30,Assam|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-04-06,Assam|Central|Central Mandi,,3448.31,30D,LightGBM,
+2026-04-06,Assam|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-04-13,Assam|Central|Central Mandi,,3447.73,30D,LightGBM,
+2026-04-13,Assam|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-04-20,Assam|Central|Central Mandi,,3435.62,30D,LightGBM,
+2026-04-20,Assam|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-04-27,Assam|Central|Central Mandi,,3442.33,30D,LightGBM,
+2026-04-27,Assam|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-05-04,Assam|Central|Central Mandi,,3462.04,30D,LightGBM,
+2026-05-04,Assam|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-05-11,Assam|Central|Central Mandi,,3461.73,30D,LightGBM,
+2026-05-11,Assam|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-05-18,Assam|Central|Central Mandi,,3462.61,30D,LightGBM,
+2026-05-18,Assam|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-05-25,Assam|Central|Central Mandi,,3462.55,30D,LightGBM,
+2026-05-25,Assam|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-06-01,Assam|Central|Central Mandi,,3445.33,30D,LightGBM,
+2026-06-01,Assam|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-06-08,Assam|Central|Central Mandi,,3445.39,30D,LightGBM,
+2026-06-08,Assam|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-06-15,Assam|Central|Central Mandi,,3445.57,30D,LightGBM,
+2026-06-15,Assam|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-06-22,Assam|Central|Central Mandi,,3455.77,30D,LightGBM,
+2026-06-22,Assam|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-06-29,Assam|Central|Central Mandi,,3454.01,30D,LightGBM,
+2026-06-29,Assam|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-07-06,Assam|Central|Central Mandi,,3445.51,30D,LightGBM,
+2026-07-06,Assam|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-07-13,Assam|Central|Central Mandi,,3445.31,30D,LightGBM,
+2026-07-13,Assam|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-07-20,Assam|Central|Central Mandi,,3443.8,30D,LightGBM,
+2026-07-20,Assam|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-07-27,Assam|Central|Central Mandi,,3442.31,30D,LightGBM,
+2026-07-27,Assam|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-01-05,Bihar|Central|Central Mandi,,3346.69,30D,LightGBM,
+2026-01-05,Bihar|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-01-12,Bihar|Central|Central Mandi,,3345.1,30D,LightGBM,
+2026-01-12,Bihar|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-01-19,Bihar|Central|Central Mandi,,3345.04,30D,LightGBM,
+2026-01-19,Bihar|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-01-26,Bihar|Central|Central Mandi,,3345.68,30D,LightGBM,
+2026-01-26,Bihar|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-02-02,Bihar|Central|Central Mandi,,3345.62,30D,LightGBM,
+2026-02-02,Bihar|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-02-09,Bihar|Central|Central Mandi,,3349.5,30D,LightGBM,
+2026-02-09,Bihar|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-02-16,Bihar|Central|Central Mandi,,3351.37,30D,LightGBM,
+2026-02-16,Bihar|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-02-23,Bihar|Central|Central Mandi,,3341.8,30D,LightGBM,
+2026-02-23,Bihar|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-03-02,Bihar|Central|Central Mandi,,3462.08,30D,LightGBM,
+2026-03-02,Bihar|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-03-09,Bihar|Central|Central Mandi,,3464.47,30D,LightGBM,
+2026-03-09,Bihar|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-03-16,Bihar|Central|Central Mandi,,3467.66,30D,LightGBM,
+2026-03-16,Bihar|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-03-23,Bihar|Central|Central Mandi,,3455.09,30D,LightGBM,
+2026-03-23,Bihar|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-03-30,Bihar|Central|Central Mandi,,3443.01,30D,LightGBM,
+2026-03-30,Bihar|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-04-06,Bihar|Central|Central Mandi,,3448.31,30D,LightGBM,
+2026-04-06,Bihar|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-04-13,Bihar|Central|Central Mandi,,3447.73,30D,LightGBM,
+2026-04-13,Bihar|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-04-20,Bihar|Central|Central Mandi,,3435.62,30D,LightGBM,
+2026-04-20,Bihar|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-04-27,Bihar|Central|Central Mandi,,3442.33,30D,LightGBM,
+2026-04-27,Bihar|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-05-04,Bihar|Central|Central Mandi,,3462.04,30D,LightGBM,
+2026-05-04,Bihar|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-05-11,Bihar|Central|Central Mandi,,3461.73,30D,LightGBM,
+2026-05-11,Bihar|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-05-18,Bihar|Central|Central Mandi,,3462.61,30D,LightGBM,
+2026-05-18,Bihar|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-05-25,Bihar|Central|Central Mandi,,3462.55,30D,LightGBM,
+2026-05-25,Bihar|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-06-01,Bihar|Central|Central Mandi,,3445.33,30D,LightGBM,
+2026-06-01,Bihar|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-06-08,Bihar|Central|Central Mandi,,3445.39,30D,LightGBM,
+2026-06-08,Bihar|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-06-15,Bihar|Central|Central Mandi,,3445.57,30D,LightGBM,
+2026-06-15,Bihar|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-06-22,Bihar|Central|Central Mandi,,3455.77,30D,LightGBM,
+2026-06-22,Bihar|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-06-29,Bihar|Central|Central Mandi,,3454.01,30D,LightGBM,
+2026-06-29,Bihar|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-07-06,Bihar|Central|Central Mandi,,3445.51,30D,LightGBM,
+2026-07-06,Bihar|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-07-13,Bihar|Central|Central Mandi,,3445.31,30D,LightGBM,
+2026-07-13,Bihar|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-07-20,Bihar|Central|Central Mandi,,3443.8,30D,LightGBM,
+2026-07-20,Bihar|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-07-27,Bihar|Central|Central Mandi,,3442.31,30D,LightGBM,
+2026-07-27,Bihar|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-01-05,Chhattisgarh|Durg|Durg Mandi,,3346.69,30D,LightGBM,
+2026-01-05,Chhattisgarh|Durg|Durg Mandi,,3646.64,30D,ARIMA Baseline,
+2026-01-12,Chhattisgarh|Durg|Durg Mandi,,3345.1,30D,LightGBM,
+2026-01-12,Chhattisgarh|Durg|Durg Mandi,,3646.64,30D,ARIMA Baseline,
+2026-01-19,Chhattisgarh|Durg|Durg Mandi,,3345.04,30D,LightGBM,
+2026-01-19,Chhattisgarh|Durg|Durg Mandi,,3646.64,30D,ARIMA Baseline,
+2026-01-26,Chhattisgarh|Durg|Durg Mandi,,3345.68,30D,LightGBM,
+2026-01-26,Chhattisgarh|Durg|Durg Mandi,,3646.64,30D,ARIMA Baseline,
+2026-02-02,Chhattisgarh|Durg|Durg Mandi,,3345.62,30D,LightGBM,
+2026-02-02,Chhattisgarh|Durg|Durg Mandi,,3646.64,30D,ARIMA Baseline,
+2026-02-09,Chhattisgarh|Durg|Durg Mandi,,3349.5,30D,LightGBM,
+2026-02-09,Chhattisgarh|Durg|Durg Mandi,,3646.64,30D,ARIMA Baseline,
+2026-02-16,Chhattisgarh|Durg|Durg Mandi,,3351.37,30D,LightGBM,
+2026-02-16,Chhattisgarh|Durg|Durg Mandi,,3646.64,30D,ARIMA Baseline,
+2026-02-23,Chhattisgarh|Durg|Durg Mandi,,3341.8,30D,LightGBM,
+2026-02-23,Chhattisgarh|Durg|Durg Mandi,,3646.64,30D,ARIMA Baseline,
+2026-03-02,Chhattisgarh|Durg|Durg Mandi,,3462.08,30D,LightGBM,
+2026-03-02,Chhattisgarh|Durg|Durg Mandi,,3646.64,30D,ARIMA Baseline,
+2026-03-09,Chhattisgarh|Durg|Durg Mandi,,3464.47,30D,LightGBM,
+2026-03-09,Chhattisgarh|Durg|Durg Mandi,,3646.64,30D,ARIMA Baseline,
+2026-03-16,Chhattisgarh|Durg|Durg Mandi,,3467.66,30D,LightGBM,
+2026-03-16,Chhattisgarh|Durg|Durg Mandi,,3646.64,30D,ARIMA Baseline,
+2026-03-23,Chhattisgarh|Durg|Durg Mandi,,3455.09,30D,LightGBM,
+2026-03-23,Chhattisgarh|Durg|Durg Mandi,,3646.64,30D,ARIMA Baseline,
+2026-03-30,Chhattisgarh|Durg|Durg Mandi,,3443.01,30D,LightGBM,
+2026-03-30,Chhattisgarh|Durg|Durg Mandi,,3646.64,30D,ARIMA Baseline,
+2026-04-06,Chhattisgarh|Durg|Durg Mandi,,3448.31,30D,LightGBM,
+2026-04-06,Chhattisgarh|Durg|Durg Mandi,,3646.64,30D,ARIMA Baseline,
+2026-04-13,Chhattisgarh|Durg|Durg Mandi,,3447.73,30D,LightGBM,
+2026-04-13,Chhattisgarh|Durg|Durg Mandi,,3646.64,30D,ARIMA Baseline,
+2026-04-20,Chhattisgarh|Durg|Durg Mandi,,3435.62,30D,LightGBM,
+2026-04-20,Chhattisgarh|Durg|Durg Mandi,,3646.64,30D,ARIMA Baseline,
+2026-04-27,Chhattisgarh|Durg|Durg Mandi,,3442.33,30D,LightGBM,
+2026-04-27,Chhattisgarh|Durg|Durg Mandi,,3646.64,30D,ARIMA Baseline,
+2026-05-04,Chhattisgarh|Durg|Durg Mandi,,3462.04,30D,LightGBM,
+2026-05-04,Chhattisgarh|Durg|Durg Mandi,,3646.64,30D,ARIMA Baseline,
+2026-05-11,Chhattisgarh|Durg|Durg Mandi,,3461.73,30D,LightGBM,
+2026-05-11,Chhattisgarh|Durg|Durg Mandi,,3646.64,30D,ARIMA Baseline,
+2026-05-18,Chhattisgarh|Durg|Durg Mandi,,3462.61,30D,LightGBM,
+2026-05-18,Chhattisgarh|Durg|Durg Mandi,,3646.64,30D,ARIMA Baseline,
+2026-05-25,Chhattisgarh|Durg|Durg Mandi,,3462.55,30D,LightGBM,
+2026-05-25,Chhattisgarh|Durg|Durg Mandi,,3646.64,30D,ARIMA Baseline,
+2026-06-01,Chhattisgarh|Durg|Durg Mandi,,3445.33,30D,LightGBM,
+2026-06-01,Chhattisgarh|Durg|Durg Mandi,,3646.64,30D,ARIMA Baseline,
+2026-06-08,Chhattisgarh|Durg|Durg Mandi,,3445.39,30D,LightGBM,
+2026-06-08,Chhattisgarh|Durg|Durg Mandi,,3646.64,30D,ARIMA Baseline,
+2026-06-15,Chhattisgarh|Durg|Durg Mandi,,3445.57,30D,LightGBM,
+2026-06-15,Chhattisgarh|Durg|Durg Mandi,,3646.64,30D,ARIMA Baseline,
+2026-06-22,Chhattisgarh|Durg|Durg Mandi,,3455.77,30D,LightGBM,
+2026-06-22,Chhattisgarh|Durg|Durg Mandi,,3646.64,30D,ARIMA Baseline,
+2026-06-29,Chhattisgarh|Durg|Durg Mandi,,3454.01,30D,LightGBM,
+2026-06-29,Chhattisgarh|Durg|Durg Mandi,,3646.64,30D,ARIMA Baseline,
+2026-07-06,Chhattisgarh|Durg|Durg Mandi,,3445.51,30D,LightGBM,
+2026-07-06,Chhattisgarh|Durg|Durg Mandi,,3646.64,30D,ARIMA Baseline,
+2026-07-13,Chhattisgarh|Durg|Durg Mandi,,3445.31,30D,LightGBM,
+2026-07-13,Chhattisgarh|Durg|Durg Mandi,,3646.64,30D,ARIMA Baseline,
+2026-07-20,Chhattisgarh|Durg|Durg Mandi,,3443.8,30D,LightGBM,
+2026-07-20,Chhattisgarh|Durg|Durg Mandi,,3646.64,30D,ARIMA Baseline,
+2026-07-27,Chhattisgarh|Durg|Durg Mandi,,3442.31,30D,LightGBM,
+2026-07-27,Chhattisgarh|Durg|Durg Mandi,,3646.64,30D,ARIMA Baseline,
+2026-01-05,Chhattisgarh|Raipur|Raipur Mandi,,3346.69,30D,LightGBM,
+2026-01-05,Chhattisgarh|Raipur|Raipur Mandi,,3646.64,30D,ARIMA Baseline,
+2026-01-12,Chhattisgarh|Raipur|Raipur Mandi,,3345.1,30D,LightGBM,
+2026-01-12,Chhattisgarh|Raipur|Raipur Mandi,,3646.64,30D,ARIMA Baseline,
+2026-01-19,Chhattisgarh|Raipur|Raipur Mandi,,3345.04,30D,LightGBM,
+2026-01-19,Chhattisgarh|Raipur|Raipur Mandi,,3646.64,30D,ARIMA Baseline,
+2026-01-26,Chhattisgarh|Raipur|Raipur Mandi,,3345.68,30D,LightGBM,
+2026-01-26,Chhattisgarh|Raipur|Raipur Mandi,,3646.64,30D,ARIMA Baseline,
+2026-02-02,Chhattisgarh|Raipur|Raipur Mandi,,3345.62,30D,LightGBM,
+2026-02-02,Chhattisgarh|Raipur|Raipur Mandi,,3646.64,30D,ARIMA Baseline,
+2026-02-09,Chhattisgarh|Raipur|Raipur Mandi,,3349.5,30D,LightGBM,
+2026-02-09,Chhattisgarh|Raipur|Raipur Mandi,,3646.64,30D,ARIMA Baseline,
+2026-02-16,Chhattisgarh|Raipur|Raipur Mandi,,3351.37,30D,LightGBM,
+2026-02-16,Chhattisgarh|Raipur|Raipur Mandi,,3646.64,30D,ARIMA Baseline,
+2026-02-23,Chhattisgarh|Raipur|Raipur Mandi,,3341.8,30D,LightGBM,
+2026-02-23,Chhattisgarh|Raipur|Raipur Mandi,,3646.64,30D,ARIMA Baseline,
+2026-03-02,Chhattisgarh|Raipur|Raipur Mandi,,3462.08,30D,LightGBM,
+2026-03-02,Chhattisgarh|Raipur|Raipur Mandi,,3646.64,30D,ARIMA Baseline,
+2026-03-09,Chhattisgarh|Raipur|Raipur Mandi,,3464.47,30D,LightGBM,
+2026-03-09,Chhattisgarh|Raipur|Raipur Mandi,,3646.64,30D,ARIMA Baseline,
+2026-03-16,Chhattisgarh|Raipur|Raipur Mandi,,3467.66,30D,LightGBM,
+2026-03-16,Chhattisgarh|Raipur|Raipur Mandi,,3646.64,30D,ARIMA Baseline,
+2026-03-23,Chhattisgarh|Raipur|Raipur Mandi,,3455.09,30D,LightGBM,
+2026-03-23,Chhattisgarh|Raipur|Raipur Mandi,,3646.64,30D,ARIMA Baseline,
+2026-03-30,Chhattisgarh|Raipur|Raipur Mandi,,3443.01,30D,LightGBM,
+2026-03-30,Chhattisgarh|Raipur|Raipur Mandi,,3646.64,30D,ARIMA Baseline,
+2026-04-06,Chhattisgarh|Raipur|Raipur Mandi,,3448.31,30D,LightGBM,
+2026-04-06,Chhattisgarh|Raipur|Raipur Mandi,,3646.64,30D,ARIMA Baseline,
+2026-04-13,Chhattisgarh|Raipur|Raipur Mandi,,3447.73,30D,LightGBM,
+2026-04-13,Chhattisgarh|Raipur|Raipur Mandi,,3646.64,30D,ARIMA Baseline,
+2026-04-20,Chhattisgarh|Raipur|Raipur Mandi,,3435.62,30D,LightGBM,
+2026-04-20,Chhattisgarh|Raipur|Raipur Mandi,,3646.64,30D,ARIMA Baseline,
+2026-04-27,Chhattisgarh|Raipur|Raipur Mandi,,3442.33,30D,LightGBM,
+2026-04-27,Chhattisgarh|Raipur|Raipur Mandi,,3646.64,30D,ARIMA Baseline,
+2026-05-04,Chhattisgarh|Raipur|Raipur Mandi,,3462.04,30D,LightGBM,
+2026-05-04,Chhattisgarh|Raipur|Raipur Mandi,,3646.64,30D,ARIMA Baseline,
+2026-05-11,Chhattisgarh|Raipur|Raipur Mandi,,3461.73,30D,LightGBM,
+2026-05-11,Chhattisgarh|Raipur|Raipur Mandi,,3646.64,30D,ARIMA Baseline,
+2026-05-18,Chhattisgarh|Raipur|Raipur Mandi,,3462.61,30D,LightGBM,
+2026-05-18,Chhattisgarh|Raipur|Raipur Mandi,,3646.64,30D,ARIMA Baseline,
+2026-05-25,Chhattisgarh|Raipur|Raipur Mandi,,3462.55,30D,LightGBM,
+2026-05-25,Chhattisgarh|Raipur|Raipur Mandi,,3646.64,30D,ARIMA Baseline,
+2026-06-01,Chhattisgarh|Raipur|Raipur Mandi,,3445.33,30D,LightGBM,
+2026-06-01,Chhattisgarh|Raipur|Raipur Mandi,,3646.64,30D,ARIMA Baseline,
+2026-06-08,Chhattisgarh|Raipur|Raipur Mandi,,3445.39,30D,LightGBM,
+2026-06-08,Chhattisgarh|Raipur|Raipur Mandi,,3646.64,30D,ARIMA Baseline,
+2026-06-15,Chhattisgarh|Raipur|Raipur Mandi,,3445.57,30D,LightGBM,
+2026-06-15,Chhattisgarh|Raipur|Raipur Mandi,,3646.64,30D,ARIMA Baseline,
+2026-06-22,Chhattisgarh|Raipur|Raipur Mandi,,3455.77,30D,LightGBM,
+2026-06-22,Chhattisgarh|Raipur|Raipur Mandi,,3646.64,30D,ARIMA Baseline,
+2026-06-29,Chhattisgarh|Raipur|Raipur Mandi,,3454.01,30D,LightGBM,
+2026-06-29,Chhattisgarh|Raipur|Raipur Mandi,,3646.64,30D,ARIMA Baseline,
+2026-07-06,Chhattisgarh|Raipur|Raipur Mandi,,3445.51,30D,LightGBM,
+2026-07-06,Chhattisgarh|Raipur|Raipur Mandi,,3646.64,30D,ARIMA Baseline,
+2026-07-13,Chhattisgarh|Raipur|Raipur Mandi,,3445.31,30D,LightGBM,
+2026-07-13,Chhattisgarh|Raipur|Raipur Mandi,,3646.64,30D,ARIMA Baseline,
+2026-07-20,Chhattisgarh|Raipur|Raipur Mandi,,3443.8,30D,LightGBM,
+2026-07-20,Chhattisgarh|Raipur|Raipur Mandi,,3646.64,30D,ARIMA Baseline,
+2026-07-27,Chhattisgarh|Raipur|Raipur Mandi,,3442.31,30D,LightGBM,
+2026-07-27,Chhattisgarh|Raipur|Raipur Mandi,,3646.64,30D,ARIMA Baseline,
+2026-01-05,Gujarat|Central|Central Mandi,,3346.69,30D,LightGBM,
+2026-01-05,Gujarat|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-01-12,Gujarat|Central|Central Mandi,,3345.1,30D,LightGBM,
+2026-01-12,Gujarat|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-01-19,Gujarat|Central|Central Mandi,,3345.04,30D,LightGBM,
+2026-01-19,Gujarat|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-01-26,Gujarat|Central|Central Mandi,,3345.68,30D,LightGBM,
+2026-01-26,Gujarat|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-02-02,Gujarat|Central|Central Mandi,,3345.62,30D,LightGBM,
+2026-02-02,Gujarat|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-02-09,Gujarat|Central|Central Mandi,,3349.5,30D,LightGBM,
+2026-02-09,Gujarat|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-02-16,Gujarat|Central|Central Mandi,,3351.37,30D,LightGBM,
+2026-02-16,Gujarat|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-02-23,Gujarat|Central|Central Mandi,,3341.8,30D,LightGBM,
+2026-02-23,Gujarat|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-03-02,Gujarat|Central|Central Mandi,,3462.08,30D,LightGBM,
+2026-03-02,Gujarat|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-03-09,Gujarat|Central|Central Mandi,,3464.47,30D,LightGBM,
+2026-03-09,Gujarat|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-03-16,Gujarat|Central|Central Mandi,,3467.66,30D,LightGBM,
+2026-03-16,Gujarat|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-03-23,Gujarat|Central|Central Mandi,,3455.09,30D,LightGBM,
+2026-03-23,Gujarat|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-03-30,Gujarat|Central|Central Mandi,,3443.01,30D,LightGBM,
+2026-03-30,Gujarat|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-04-06,Gujarat|Central|Central Mandi,,3448.31,30D,LightGBM,
+2026-04-06,Gujarat|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-04-13,Gujarat|Central|Central Mandi,,3447.73,30D,LightGBM,
+2026-04-13,Gujarat|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-04-20,Gujarat|Central|Central Mandi,,3435.62,30D,LightGBM,
+2026-04-20,Gujarat|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-04-27,Gujarat|Central|Central Mandi,,3442.33,30D,LightGBM,
+2026-04-27,Gujarat|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-05-04,Gujarat|Central|Central Mandi,,3462.04,30D,LightGBM,
+2026-05-04,Gujarat|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-05-11,Gujarat|Central|Central Mandi,,3461.73,30D,LightGBM,
+2026-05-11,Gujarat|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-05-18,Gujarat|Central|Central Mandi,,3462.61,30D,LightGBM,
+2026-05-18,Gujarat|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-05-25,Gujarat|Central|Central Mandi,,3462.55,30D,LightGBM,
+2026-05-25,Gujarat|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-06-01,Gujarat|Central|Central Mandi,,3445.33,30D,LightGBM,
+2026-06-01,Gujarat|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-06-08,Gujarat|Central|Central Mandi,,3445.39,30D,LightGBM,
+2026-06-08,Gujarat|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-06-15,Gujarat|Central|Central Mandi,,3445.57,30D,LightGBM,
+2026-06-15,Gujarat|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-06-22,Gujarat|Central|Central Mandi,,3455.77,30D,LightGBM,
+2026-06-22,Gujarat|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-06-29,Gujarat|Central|Central Mandi,,3454.01,30D,LightGBM,
+2026-06-29,Gujarat|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-07-06,Gujarat|Central|Central Mandi,,3445.51,30D,LightGBM,
+2026-07-06,Gujarat|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-07-13,Gujarat|Central|Central Mandi,,3445.31,30D,LightGBM,
+2026-07-13,Gujarat|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-07-20,Gujarat|Central|Central Mandi,,3443.8,30D,LightGBM,
+2026-07-20,Gujarat|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-07-27,Gujarat|Central|Central Mandi,,3442.31,30D,LightGBM,
+2026-07-27,Gujarat|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-01-05,Haryana|Central|Central Mandi,,3346.69,30D,LightGBM,
+2026-01-05,Haryana|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-01-12,Haryana|Central|Central Mandi,,3345.1,30D,LightGBM,
+2026-01-12,Haryana|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-01-19,Haryana|Central|Central Mandi,,3345.04,30D,LightGBM,
+2026-01-19,Haryana|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-01-26,Haryana|Central|Central Mandi,,3345.68,30D,LightGBM,
+2026-01-26,Haryana|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-02-02,Haryana|Central|Central Mandi,,3345.62,30D,LightGBM,
+2026-02-02,Haryana|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-02-09,Haryana|Central|Central Mandi,,3349.5,30D,LightGBM,
+2026-02-09,Haryana|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-02-16,Haryana|Central|Central Mandi,,3351.37,30D,LightGBM,
+2026-02-16,Haryana|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-02-23,Haryana|Central|Central Mandi,,3341.8,30D,LightGBM,
+2026-02-23,Haryana|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-03-02,Haryana|Central|Central Mandi,,3462.08,30D,LightGBM,
+2026-03-02,Haryana|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-03-09,Haryana|Central|Central Mandi,,3464.47,30D,LightGBM,
+2026-03-09,Haryana|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-03-16,Haryana|Central|Central Mandi,,3467.66,30D,LightGBM,
+2026-03-16,Haryana|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-03-23,Haryana|Central|Central Mandi,,3455.09,30D,LightGBM,
+2026-03-23,Haryana|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-03-30,Haryana|Central|Central Mandi,,3443.01,30D,LightGBM,
+2026-03-30,Haryana|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-04-06,Haryana|Central|Central Mandi,,3448.31,30D,LightGBM,
+2026-04-06,Haryana|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-04-13,Haryana|Central|Central Mandi,,3447.73,30D,LightGBM,
+2026-04-13,Haryana|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-04-20,Haryana|Central|Central Mandi,,3435.62,30D,LightGBM,
+2026-04-20,Haryana|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-04-27,Haryana|Central|Central Mandi,,3442.33,30D,LightGBM,
+2026-04-27,Haryana|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-05-04,Haryana|Central|Central Mandi,,3462.04,30D,LightGBM,
+2026-05-04,Haryana|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-05-11,Haryana|Central|Central Mandi,,3461.73,30D,LightGBM,
+2026-05-11,Haryana|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-05-18,Haryana|Central|Central Mandi,,3462.61,30D,LightGBM,
+2026-05-18,Haryana|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-05-25,Haryana|Central|Central Mandi,,3462.55,30D,LightGBM,
+2026-05-25,Haryana|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-06-01,Haryana|Central|Central Mandi,,3445.33,30D,LightGBM,
+2026-06-01,Haryana|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-06-08,Haryana|Central|Central Mandi,,3445.39,30D,LightGBM,
+2026-06-08,Haryana|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-06-15,Haryana|Central|Central Mandi,,3445.57,30D,LightGBM,
+2026-06-15,Haryana|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-06-22,Haryana|Central|Central Mandi,,3455.77,30D,LightGBM,
+2026-06-22,Haryana|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-06-29,Haryana|Central|Central Mandi,,3454.01,30D,LightGBM,
+2026-06-29,Haryana|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-07-06,Haryana|Central|Central Mandi,,3445.51,30D,LightGBM,
+2026-07-06,Haryana|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-07-13,Haryana|Central|Central Mandi,,3445.31,30D,LightGBM,
+2026-07-13,Haryana|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-07-20,Haryana|Central|Central Mandi,,3443.8,30D,LightGBM,
+2026-07-20,Haryana|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,
+2026-07-27,Haryana|Central|Central Mandi,,3442.31,30D,LightGBM,
+2026-07-27,Haryana|Central|Central Mandi,,3646.64,30D,ARIMA Baseline,

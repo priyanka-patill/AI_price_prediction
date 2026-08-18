@@ -1,0 +1,407 @@
+ <table border="2px" id="apyreport" class="table table-hover table-bordered text-center">
+<thead>
+
+<tr>
+  <th rowspan="2">S.No.</th>
+  <th rowspan="2">State</th>
+  <th rowspan="2">District</th>
+        <th colspan="3">2021 - 2022</th>
+            <th colspan="3">2022 - 2023</th>
+      </tr>
+<tr>
+      <th>Area( Ha. )</th>
+    <th>Production
+       (Tonnes)       </th>
+    <th>Yield
+ (Ton./Ha.)    </th>
+        <th>Area( Ha. )</th>
+    <th>Production
+       (Tonnes)       </th>
+    <th>Yield
+ (Ton./Ha.)    </th>
+    
+
+</tr>
+</thead>
+<tbody>
+        <tr>
+        <td>1</td>
+        <td>Haryana</td>
+        <td>Ambala</td>
+                    <td>
+              93,944            </td>
+            <td>
+              385,830            </td>
+            <td>
+              4.11            </td>
+                        <td>
+              104,990            </td>
+            <td>
+              390,440            </td>
+            <td>
+              3.72            </td>
+            
+      </tr>
+            <tr>
+        <td>2</td>
+        <td>Haryana</td>
+        <td>Bhiwani</td>
+                    <td>
+              22,290            </td>
+            <td>
+              46,790            </td>
+            <td>
+              2.10            </td>
+                        <td>
+              26,350            </td>
+            <td>
+              73,280            </td>
+            <td>
+              2.78            </td>
+            
+      </tr>
+            <tr>
+        <td>3</td>
+        <td>Haryana</td>
+        <td>Charki dadri</td>
+                    <td>
+              4,879            </td>
+            <td>
+              9,020            </td>
+            <td>
+              1.85            </td>
+                        <td>
+              7,730            </td>
+            <td>
+              18,900            </td>
+            <td>
+              2.45            </td>
+            
+      </tr>
+            <tr>
+        <td>4</td>
+        <td>Haryana</td>
+        <td>Faridabad</td>
+                    <td>
+              14,913            </td>
+            <td>
+              33,080            </td>
+            <td>
+              2.22            </td>
+                        <td>
+              16,260            </td>
+            <td>
+              43,230            </td>
+            <td>
+              2.66            </td>
+            
+      </tr>
+            <tr>
+        <td>5</td>
+        <td>Haryana</td>
+        <td>Fatehabad</td>
+                    <td>
+              129,196            </td>
+            <td>
+              524,150            </td>
+            <td>
+              4.06            </td>
+                        <td>
+              139,930            </td>
+            <td>
+              586,320            </td>
+            <td>
+              4.19            </td>
+            
+      </tr>
+            <tr>
+        <td>6</td>
+        <td>Haryana</td>
+        <td>Gurgaon</td>
+                    <td>
+              4,845            </td>
+            <td>
+              13,460            </td>
+            <td>
+              2.78            </td>
+                        <td>
+              4,610            </td>
+            <td>
+              13,230            </td>
+            <td>
+              2.87            </td>
+            
+      </tr>
+            <tr>
+        <td>7</td>
+        <td>Haryana</td>
+        <td>Hisar</td>
+                    <td>
+              82,952            </td>
+            <td>
+              239,070            </td>
+            <td>
+              2.88            </td>
+                        <td>
+              98,240            </td>
+            <td>
+              304,150            </td>
+            <td>
+              3.10            </td>
+            
+      </tr>
+            <tr>
+        <td>8</td>
+        <td>Haryana</td>
+        <td>Jhajjar</td>
+                    <td>
+              38,668            </td>
+            <td>
+              103,820            </td>
+            <td>
+              2.68            </td>
+                        <td>
+              53,320            </td>
+            <td>
+              148,840            </td>
+            <td>
+              2.79            </td>
+            
+      </tr>
+            <tr>
+        <td>9</td>
+        <td>Haryana</td>
+        <td>Jind</td>
+                    <td>
+              150,691            </td>
+            <td>
+              501,950            </td>
+            <td>
+              3.33            </td>
+                        <td>
+              174,100            </td>
+            <td>
+              573,030            </td>
+            <td>
+              3.29            </td>
+            
+      </tr>
+            <tr>
+        <td>10</td>
+        <td>Haryana</td>
+        <td>Kaithal</td>
+                    <td>
+              176,094            </td>
+            <td>
+              710,190            </td>
+            <td>
+              4.03            </td>
+                        <td>
+              179,300            </td>
+            <td>
+              780,650            </td>
+            <td>
+              4.35            </td>
+            
+      </tr>
+            <tr>
+        <td>11</td>
+        <td>Haryana</td>
+        <td>Karnal</td>
+                    <td>
+              175,794            </td>
+            <td>
+              679,970            </td>
+            <td>
+              3.87            </td>
+                        <td>
+              181,090            </td>
+            <td>
+              718,890            </td>
+            <td>
+              3.97            </td>
+            
+      </tr>
+            <tr>
+        <td>12</td>
+        <td>Haryana</td>
+        <td>Kurukshetra</td>
+                    <td>
+              124,572            </td>
+            <td>
+              593,830            </td>
+            <td>
+              4.77            </td>
+                        <td>
+              130,030            </td>
+            <td>
+              587,710            </td>
+            <td>
+              4.52            </td>
+            
+      </tr>
+            <tr>
+        <td>13</td>
+        <td>Haryana</td>
+        <td>Mewat</td>
+                    <td>
+              8,264            </td>
+            <td>
+              21,020            </td>
+            <td>
+              2.54            </td>
+                        <td>
+              11,590            </td>
+            <td>
+              24,910            </td>
+            <td>
+              2.15            </td>
+            
+      </tr>
+            <tr>
+        <td>14</td>
+        <td>Haryana</td>
+        <td>Palwal</td>
+                    <td>
+              34,230            </td>
+            <td>
+              96,870            </td>
+            <td>
+              2.83            </td>
+                        <td>
+              40,730            </td>
+            <td>
+              108,020            </td>
+            <td>
+              2.65            </td>
+            
+      </tr>
+            <tr>
+        <td>15</td>
+        <td>Haryana</td>
+        <td>Panchkula</td>
+                    <td>
+              13,603            </td>
+            <td>
+              54,580            </td>
+            <td>
+              4.01            </td>
+                        <td>
+              13,270            </td>
+            <td>
+              34,310            </td>
+            <td>
+              2.59            </td>
+            
+      </tr>
+            <tr>
+        <td>16</td>
+        <td>Haryana</td>
+        <td>Panipat</td>
+                    <td>
+              83,318            </td>
+            <td>
+              235,790            </td>
+            <td>
+              2.83            </td>
+                        <td>
+              80,090            </td>
+            <td>
+              245,150            </td>
+            <td>
+              3.06            </td>
+            
+      </tr>
+            <tr>
+        <td>17</td>
+        <td>Haryana</td>
+        <td>Rewari</td>
+                    <td>
+              931            </td>
+            <td>
+              1,840            </td>
+            <td>
+              1.98            </td>
+                        <td>
+              2,070            </td>
+            <td>
+              5,070            </td>
+            <td>
+              2.45            </td>
+            
+      </tr>
+            <tr>
+        <td>18</td>
+        <td>Haryana</td>
+        <td>Rohtak</td>
+                    <td>
+              67,080            </td>
+            <td>
+              191,180            </td>
+            <td>
+              2.85            </td>
+                        <td>
+              78,710            </td>
+            <td>
+              230,340            </td>
+            <td>
+              2.93            </td>
+            
+      </tr>
+            <tr>
+        <td>19</td>
+        <td>Haryana</td>
+        <td>Sirsa</td>
+                    <td>
+              105,541            </td>
+            <td>
+              371,930            </td>
+            <td>
+              3.52            </td>
+                        <td>
+              112,520            </td>
+            <td>
+              394,910            </td>
+            <td>
+              3.51            </td>
+            
+      </tr>
+            <tr>
+        <td>20</td>
+        <td>Haryana</td>
+        <td>Sonipat</td>
+                    <td>
+              114,109            </td>
+            <td>
+              305,360            </td>
+            <td>
+              2.68            </td>
+                        <td>
+              119,720            </td>
+            <td>
+              344,740            </td>
+            <td>
+              2.88            </td>
+            
+      </tr>
+            <tr>
+        <td>21</td>
+        <td>Haryana</td>
+        <td>Yamunanagar</td>
+                    <td>
+              88,625            </td>
+            <td>
+              394,740            </td>
+            <td>
+              4.45            </td>
+                        <td>
+              86,630            </td>
+            <td>
+              295,350            </td>
+            <td>
+              3.41            </td>
+            
+      </tr>
+      
+</tbody>
+</table>

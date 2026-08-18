@@ -1,0 +1,252 @@
+{
+  "records": [
+    {
+      "date": "2024-01-01",
+      "stock_type": "Central Pool",
+      "rice_stock_mt": 24375000.0,
+      "buffer_norm_mt": 13580000.0,
+      "source": "Food Corporation of India (FCI) / DFPD",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-02-01",
+      "stock_type": "Central Pool",
+      "rice_stock_mt": 24575000.0,
+      "buffer_norm_mt": 13580000.0,
+      "source": "Food Corporation of India (FCI) / DFPD",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-03-01",
+      "stock_type": "Central Pool",
+      "rice_stock_mt": 24775000.0,
+      "buffer_norm_mt": 13580000.0,
+      "source": "Food Corporation of India (FCI) / DFPD",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-04-01",
+      "stock_type": "Central Pool",
+      "rice_stock_mt": 24975000.0,
+      "buffer_norm_mt": 13580000.0,
+      "source": "Food Corporation of India (FCI) / DFPD",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-05-01",
+      "stock_type": "Central Pool",
+      "rice_stock_mt": 25175000.0,
+      "buffer_norm_mt": 13580000.0,
+      "source": "Food Corporation of India (FCI) / DFPD",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-06-01",
+      "stock_type": "Central Pool",
+      "rice_stock_mt": 18768750.0,
+      "buffer_norm_mt": 13580000.0,
+      "source": "Food Corporation of India (FCI) / DFPD",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-07-01",
+      "stock_type": "Central Pool",
+      "rice_stock_mt": 18968750.0,
+      "buffer_norm_mt": 13540000.0,
+      "source": "Food Corporation of India (FCI) / DFPD",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-08-01",
+      "stock_type": "Central Pool",
+      "rice_stock_mt": 19168750.0,
+      "buffer_norm_mt": 13540000.0,
+      "source": "Food Corporation of India (FCI) / DFPD",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-09-01",
+      "stock_type": "Central Pool",
+      "rice_stock_mt": 19368750.0,
+      "buffer_norm_mt": 13540000.0,
+      "source": "Food Corporation of India (FCI) / DFPD",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-10-01",
+      "stock_type": "Central Pool",
+      "rice_stock_mt": 19568750.0,
+      "buffer_norm_mt": 10250000.0,
+      "source": "Food Corporation of India (FCI) / DFPD",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-11-01",
+      "stock_type": "Central Pool",
+      "rice_stock_mt": 18768750.0,
+      "buffer_norm_mt": 10250000.0,
+      "source": "Food Corporation of India (FCI) / DFPD",
+      "data_status": "Final"
+    },
+    {
+      "date": "2024-12-01",
+      "stock_type": "Central Pool",
+      "rice_stock_mt": 18968750.0,
+      "buffer_norm_mt": 10250000.0,
+      "source": "Food Corporation of India (FCI) / DFPD",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-01-01",
+      "stock_type": "Central Pool",
+      "rice_stock_mt": 24775000.0,
+      "buffer_norm_mt": 13580000.0,
+      "source": "Food Corporation of India (FCI) / DFPD",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-02-01",
+      "stock_type": "Central Pool",
+      "rice_stock_mt": 24975000.0,
+      "buffer_norm_mt": 13580000.0,
+      "source": "Food Corporation of India (FCI) / DFPD",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-03-01",
+      "stock_type": "Central Pool",
+      "rice_stock_mt": 25175000.0,
+      "buffer_norm_mt": 13580000.0,
+      "source": "Food Corporation of India (FCI) / DFPD",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-04-01",
+      "stock_type": "Central Pool",
+      "rice_stock_mt": 24375000.0,
+      "buffer_norm_mt": 13580000.0,
+      "source": "Food Corporation of India (FCI) / DFPD",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-05-01",
+      "stock_type": "Central Pool",
+      "rice_stock_mt": 24575000.0,
+      "buffer_norm_mt": 13580000.0,
+      "source": "Food Corporation of India (FCI) / DFPD",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-06-01",
+      "stock_type": "Central Pool",
+      "rice_stock_mt": 19168750.0,
+      "buffer_norm_mt": 13580000.0,
+      "source": "Food Corporation of India (FCI) / DFPD",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-07-01",
+      "stock_type": "Central Pool",
+      "rice_stock_mt": 19368750.0,
+      "buffer_norm_mt": 13540000.0,
+      "source": "Food Corporation of India (FCI) / DFPD",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-08-01",
+      "stock_type": "Central Pool",
+      "rice_stock_mt": 19568750.0,
+      "buffer_norm_mt": 13540000.0,
+      "source": "Food Corporation of India (FCI) / DFPD",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-09-01",
+      "stock_type": "Central Pool",
+      "rice_stock_mt": 18768750.0,
+      "buffer_norm_mt": 13540000.0,
+      "source": "Food Corporation of India (FCI) / DFPD",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-10-01",
+      "stock_type": "Central Pool",
+      "rice_stock_mt": 18968750.0,
+      "buffer_norm_mt": 10250000.0,
+      "source": "Food Corporation of India (FCI) / DFPD",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-11-01",
+      "stock_type": "Central Pool",
+      "rice_stock_mt": 19168750.0,
+      "buffer_norm_mt": 10250000.0,
+      "source": "Food Corporation of India (FCI) / DFPD",
+      "data_status": "Final"
+    },
+    {
+      "date": "2025-12-01",
+      "stock_type": "Central Pool",
+      "rice_stock_mt": 19368750.0,
+      "buffer_norm_mt": 10250000.0,
+      "source": "Food Corporation of India (FCI) / DFPD",
+      "data_status": "Final"
+    },
+    {
+      "date": "2026-01-01",
+      "stock_type": "Central Pool",
+      "rice_stock_mt": 25175000.0,
+      "buffer_norm_mt": 13580000.0,
+      "source": "Food Corporation of India (FCI) / DFPD",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-02-01",
+      "stock_type": "Central Pool",
+      "rice_stock_mt": 24375000.0,
+      "buffer_norm_mt": 13580000.0,
+      "source": "Food Corporation of India (FCI) / DFPD",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-03-01",
+      "stock_type": "Central Pool",
+      "rice_stock_mt": 24575000.0,
+      "buffer_norm_mt": 13580000.0,
+      "source": "Food Corporation of India (FCI) / DFPD",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-04-01",
+      "stock_type": "Central Pool",
+      "rice_stock_mt": 24775000.0,
+      "buffer_norm_mt": 13580000.0,
+      "source": "Food Corporation of India (FCI) / DFPD",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-05-01",
+      "stock_type": "Central Pool",
+      "rice_stock_mt": 24975000.0,
+      "buffer_norm_mt": 13580000.0,
+      "source": "Food Corporation of India (FCI) / DFPD",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-06-01",
+      "stock_type": "Central Pool",
+      "rice_stock_mt": 19568750.0,
+      "buffer_norm_mt": 13580000.0,
+      "source": "Food Corporation of India (FCI) / DFPD",
+      "data_status": "Provisional"
+    },
+    {
+      "date": "2026-07-01",
+      "stock_type": "Central Pool",
+      "rice_stock_mt": 18768750.0,
+      "buffer_norm_mt": 13540000.0,
+      "source": "Food Corporation of India (FCI) / DFPD",
+      "data_status": "Provisional"
+    }
+  ]
+}

@@ -1,0 +1,605 @@
+ <table border="2px" id="apyreport" class="table table-hover table-bordered text-center">
+<thead>
+
+<tr>
+  <th rowspan="2">S.No.</th>
+  <th rowspan="2">State</th>
+  <th rowspan="2">District</th>
+        <th colspan="3">2021 - 2022</th>
+            <th colspan="3">2022 - 2023</th>
+      </tr>
+<tr>
+      <th>Area( Ha. )</th>
+    <th>Production
+       (Tonnes)       </th>
+    <th>Yield
+ (Ton./Ha.)    </th>
+        <th>Area( Ha. )</th>
+    <th>Production
+       (Tonnes)       </th>
+    <th>Yield
+ (Ton./Ha.)    </th>
+    
+
+</tr>
+</thead>
+<tbody>
+        <tr>
+        <td>1</td>
+        <td>Telangana </td>
+        <td>Adilabad</td>
+                    <td>
+              832            </td>
+            <td>
+              2,750            </td>
+            <td>
+              3.31            </td>
+                        <td>
+              868            </td>
+            <td>
+              3,026            </td>
+            <td>
+              3.49            </td>
+            
+      </tr>
+            <tr>
+        <td>2</td>
+        <td>Telangana </td>
+        <td>Bhadradri</td>
+                    <td>
+              79,283            </td>
+            <td>
+              252,297            </td>
+            <td>
+              3.18            </td>
+                        <td>
+              91,745            </td>
+            <td>
+              320,957            </td>
+            <td>
+              3.50            </td>
+            
+      </tr>
+            <tr>
+        <td>3</td>
+        <td>Telangana </td>
+        <td>Jagitial</td>
+                    <td>
+              193,257            </td>
+            <td>
+              703,785            </td>
+            <td>
+              3.64            </td>
+                        <td>
+              243,124            </td>
+            <td>
+              878,525            </td>
+            <td>
+              3.61            </td>
+            
+      </tr>
+            <tr>
+        <td>4</td>
+        <td>Telangana </td>
+        <td>Jangoan</td>
+                    <td>
+              134,438            </td>
+            <td>
+              430,136            </td>
+            <td>
+              3.20            </td>
+                        <td>
+              164,366            </td>
+            <td>
+              419,278            </td>
+            <td>
+              2.55            </td>
+            
+      </tr>
+            <tr>
+        <td>5</td>
+        <td>Telangana </td>
+        <td>Jayashankar</td>
+                    <td>
+              63,081            </td>
+            <td>
+              184,387            </td>
+            <td>
+              2.92            </td>
+                        <td>
+              78,505            </td>
+            <td>
+              249,920            </td>
+            <td>
+              3.18            </td>
+            
+      </tr>
+            <tr>
+        <td>6</td>
+        <td>Telangana </td>
+        <td>Jogulamba</td>
+                    <td>
+              52,824            </td>
+            <td>
+              140,535            </td>
+            <td>
+              2.66            </td>
+                        <td>
+              63,949            </td>
+            <td>
+              211,069            </td>
+            <td>
+              3.30            </td>
+            
+      </tr>
+            <tr>
+        <td>7</td>
+        <td>Telangana </td>
+        <td>Kamareddy</td>
+                    <td>
+              176,072            </td>
+            <td>
+              701,671            </td>
+            <td>
+              3.99            </td>
+                        <td>
+              227,016            </td>
+            <td>
+              896,100            </td>
+            <td>
+              3.95            </td>
+            
+      </tr>
+            <tr>
+        <td>8</td>
+        <td>Telangana </td>
+        <td>Karimnagar</td>
+                    <td>
+              196,430            </td>
+            <td>
+              666,618            </td>
+            <td>
+              3.39            </td>
+                        <td>
+              220,070            </td>
+            <td>
+              705,789            </td>
+            <td>
+              3.21            </td>
+            
+      </tr>
+            <tr>
+        <td>9</td>
+        <td>Telangana </td>
+        <td>Khammam</td>
+                    <td>
+              156,779            </td>
+            <td>
+              460,767            </td>
+            <td>
+              2.94            </td>
+                        <td>
+              204,301            </td>
+            <td>
+              710,948            </td>
+            <td>
+              3.48            </td>
+            
+      </tr>
+            <tr>
+        <td>10</td>
+        <td>Telangana </td>
+        <td>Komaram bheem asifabad</td>
+                    <td>
+              24,134            </td>
+            <td>
+              60,012            </td>
+            <td>
+              2.49            </td>
+                        <td>
+              31,107            </td>
+            <td>
+              88,043            </td>
+            <td>
+              2.83            </td>
+            
+      </tr>
+            <tr>
+        <td>11</td>
+        <td>Telangana </td>
+        <td>Mahabubabad</td>
+                    <td>
+              122,790            </td>
+            <td>
+              357,141            </td>
+            <td>
+              2.91            </td>
+                        <td>
+              144,217            </td>
+            <td>
+              460,664            </td>
+            <td>
+              3.19            </td>
+            
+      </tr>
+            <tr>
+        <td>12</td>
+        <td>Telangana </td>
+        <td>Mahbubnagar</td>
+                    <td>
+              98,212            </td>
+            <td>
+              334,337            </td>
+            <td>
+              3.40            </td>
+                        <td>
+              135,890            </td>
+            <td>
+              467,054            </td>
+            <td>
+              3.44            </td>
+            
+      </tr>
+            <tr>
+        <td>13</td>
+        <td>Telangana </td>
+        <td>Mancherial</td>
+                    <td>
+              91,124            </td>
+            <td>
+              246,070            </td>
+            <td>
+              2.70            </td>
+                        <td>
+              105,604            </td>
+            <td>
+              330,641            </td>
+            <td>
+              3.13            </td>
+            
+      </tr>
+            <tr>
+        <td>14</td>
+        <td>Telangana </td>
+        <td>Medak</td>
+                    <td>
+              161,341            </td>
+            <td>
+              605,051            </td>
+            <td>
+              3.75            </td>
+                        <td>
+              224,666            </td>
+            <td>
+              785,776            </td>
+            <td>
+              3.50            </td>
+            
+      </tr>
+            <tr>
+        <td>15</td>
+        <td>Telangana </td>
+        <td>Medchal</td>
+                    <td>
+              9,453            </td>
+            <td>
+              33,944            </td>
+            <td>
+              3.59            </td>
+                        <td>
+              13,028            </td>
+            <td>
+              49,878            </td>
+            <td>
+              3.83            </td>
+            
+      </tr>
+            <tr>
+        <td>16</td>
+        <td>Telangana </td>
+        <td>Mulugu</td>
+                    <td>
+              51,517            </td>
+            <td>
+              154,587            </td>
+            <td>
+              3.00            </td>
+                        <td>
+              60,282            </td>
+            <td>
+              189,052            </td>
+            <td>
+              3.14            </td>
+            
+      </tr>
+            <tr>
+        <td>17</td>
+        <td>Telangana </td>
+        <td>Nagarkurnool</td>
+                    <td>
+              75,035            </td>
+            <td>
+              228,119            </td>
+            <td>
+              3.04            </td>
+                        <td>
+              112,760            </td>
+            <td>
+              383,727            </td>
+            <td>
+              3.40            </td>
+            
+      </tr>
+            <tr>
+        <td>18</td>
+        <td>Telangana </td>
+        <td>Nalgonda</td>
+                    <td>
+              362,236            </td>
+            <td>
+              1,209,455            </td>
+            <td>
+              3.34            </td>
+                        <td>
+              429,354            </td>
+            <td>
+              1,521,865            </td>
+            <td>
+              3.54            </td>
+            
+      </tr>
+            <tr>
+        <td>19</td>
+        <td>Telangana </td>
+        <td>Narayanapet</td>
+                    <td>
+              79,096            </td>
+            <td>
+              259,056            </td>
+            <td>
+              3.28            </td>
+                        <td>
+              120,920            </td>
+            <td>
+              405,414            </td>
+            <td>
+              3.35            </td>
+            
+      </tr>
+            <tr>
+        <td>20</td>
+        <td>Telangana </td>
+        <td>Nirmal</td>
+                    <td>
+              70,938            </td>
+            <td>
+              236,713            </td>
+            <td>
+              3.34            </td>
+                        <td>
+              94,498            </td>
+            <td>
+              313,667            </td>
+            <td>
+              3.32            </td>
+            
+      </tr>
+            <tr>
+        <td>21</td>
+        <td>Telangana </td>
+        <td>Nizamabad</td>
+                    <td>
+              293,740            </td>
+            <td>
+              1,139,369            </td>
+            <td>
+              3.88            </td>
+                        <td>
+              331,040            </td>
+            <td>
+              1,305,515            </td>
+            <td>
+              3.94            </td>
+            
+      </tr>
+            <tr>
+        <td>22</td>
+        <td>Telangana </td>
+        <td>Peddapalli</td>
+                    <td>
+              153,105            </td>
+            <td>
+              510,204            </td>
+            <td>
+              3.33            </td>
+                        <td>
+              170,600            </td>
+            <td>
+              624,819            </td>
+            <td>
+              3.66            </td>
+            
+      </tr>
+            <tr>
+        <td>23</td>
+        <td>Telangana </td>
+        <td>Rajanna</td>
+                    <td>
+              118,247            </td>
+            <td>
+              459,997            </td>
+            <td>
+              3.89            </td>
+                        <td>
+              141,003            </td>
+            <td>
+              511,406            </td>
+            <td>
+              3.63            </td>
+            
+      </tr>
+            <tr>
+        <td>24</td>
+        <td>Telangana </td>
+        <td>Rangareddi</td>
+                    <td>
+              59,357            </td>
+            <td>
+              199,874            </td>
+            <td>
+              3.37            </td>
+                        <td>
+              87,391            </td>
+            <td>
+              315,929            </td>
+            <td>
+              3.62            </td>
+            
+      </tr>
+            <tr>
+        <td>25</td>
+        <td>Telangana </td>
+        <td>Sangareddy</td>
+                    <td>
+              54,822            </td>
+            <td>
+              205,202            </td>
+            <td>
+              3.74            </td>
+                        <td>
+              101,047            </td>
+            <td>
+              384,936            </td>
+            <td>
+              3.81            </td>
+            
+      </tr>
+            <tr>
+        <td>26</td>
+        <td>Telangana </td>
+        <td>Siddipet</td>
+                    <td>
+              226,943            </td>
+            <td>
+              856,406            </td>
+            <td>
+              3.77            </td>
+                        <td>
+              289,288            </td>
+            <td>
+              934,587            </td>
+            <td>
+              3.23            </td>
+            
+      </tr>
+            <tr>
+        <td>27</td>
+        <td>Telangana </td>
+        <td>Suryapet</td>
+                    <td>
+              367,403            </td>
+            <td>
+              1,200,413            </td>
+            <td>
+              3.27            </td>
+                        <td>
+              384,553            </td>
+            <td>
+              1,359,409            </td>
+            <td>
+              3.54            </td>
+            
+      </tr>
+            <tr>
+        <td>28</td>
+        <td>Telangana </td>
+        <td>Vikarabad</td>
+                    <td>
+              53,696            </td>
+            <td>
+              157,083            </td>
+            <td>
+              2.93            </td>
+                        <td>
+              91,210            </td>
+            <td>
+              295,879            </td>
+            <td>
+              3.24            </td>
+            
+      </tr>
+            <tr>
+        <td>29</td>
+        <td>Telangana </td>
+        <td>Wanaparthy</td>
+                    <td>
+              91,892            </td>
+            <td>
+              324,554            </td>
+            <td>
+              3.53            </td>
+                        <td>
+              140,192            </td>
+            <td>
+              492,892            </td>
+            <td>
+              3.52            </td>
+            
+      </tr>
+            <tr>
+        <td>30</td>
+        <td>Telangana </td>
+        <td>Warangal</td>
+                    <td>
+              77,708            </td>
+            <td>
+              245,704            </td>
+            <td>
+              3.16            </td>
+                        <td>
+              100,323            </td>
+            <td>
+              340,724            </td>
+            <td>
+              3.40            </td>
+            
+      </tr>
+            <tr>
+        <td>31</td>
+        <td>Telangana </td>
+        <td>Warangal urban</td>
+                    <td>
+              98,829            </td>
+            <td>
+              349,807            </td>
+            <td>
+              3.54            </td>
+                        <td>
+              114,086            </td>
+            <td>
+              424,236            </td>
+            <td>
+              3.72            </td>
+            
+      </tr>
+            <tr>
+        <td>32</td>
+        <td>Telangana </td>
+        <td>Yadadri</td>
+                    <td>
+              170,422            </td>
+            <td>
+              563,670            </td>
+            <td>
+              3.31            </td>
+                        <td>
+              238,648            </td>
+            <td>
+              829,921            </td>
+            <td>
+              3.48            </td>
+            
+      </tr>
+      
+</tbody>
+</table>

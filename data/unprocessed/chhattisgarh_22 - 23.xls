@@ -1,0 +1,623 @@
+ <table border="2px" id="apyreport" class="table table-hover table-bordered text-center">
+<thead>
+
+<tr>
+  <th rowspan="2">S.No.</th>
+  <th rowspan="2">State</th>
+  <th rowspan="2">District</th>
+        <th colspan="3">2021 - 2022</th>
+            <th colspan="3">2022 - 2023</th>
+      </tr>
+<tr>
+      <th>Area( Ha. )</th>
+    <th>Production
+       (Tonnes)       </th>
+    <th>Yield
+ (Ton./Ha.)    </th>
+        <th>Area( Ha. )</th>
+    <th>Production
+       (Tonnes)       </th>
+    <th>Yield
+ (Ton./Ha.)    </th>
+    
+
+</tr>
+</thead>
+<tbody>
+        <tr>
+        <td>1</td>
+        <td>Chhattisgarh</td>
+        <td>Balod</td>
+                    <td>
+              194,131            </td>
+            <td>
+              585,238            </td>
+            <td>
+              3.01            </td>
+                        <td>
+              193,620            </td>
+            <td>
+              582,628            </td>
+            <td>
+              3.01            </td>
+            
+      </tr>
+            <tr>
+        <td>2</td>
+        <td>Chhattisgarh</td>
+        <td>Baloda bazar</td>
+                    <td>
+              243,319            </td>
+            <td>
+              623,838            </td>
+            <td>
+              2.56            </td>
+                        <td>
+              203,076            </td>
+            <td>
+              547,114            </td>
+            <td>
+              2.69            </td>
+            
+      </tr>
+            <tr>
+        <td>3</td>
+        <td>Chhattisgarh</td>
+        <td>Balrampur</td>
+                    <td>
+              95,488            </td>
+            <td>
+              211,036            </td>
+            <td>
+              2.21            </td>
+                        <td>
+              88,977            </td>
+            <td>
+              224,085            </td>
+            <td>
+              2.52            </td>
+            
+      </tr>
+            <tr>
+        <td>4</td>
+        <td>Chhattisgarh</td>
+        <td>Bastar</td>
+                    <td>
+              127,858            </td>
+            <td>
+              186,190            </td>
+            <td>
+              1.46            </td>
+                        <td>
+              127,553            </td>
+            <td>
+              312,702            </td>
+            <td>
+              2.45            </td>
+            
+      </tr>
+            <tr>
+        <td>5</td>
+        <td>Chhattisgarh</td>
+        <td>Bemetara</td>
+                    <td>
+              211,353            </td>
+            <td>
+              534,138            </td>
+            <td>
+              2.53            </td>
+                        <td>
+              215,159            </td>
+            <td>
+              708,351            </td>
+            <td>
+              3.29            </td>
+            
+      </tr>
+            <tr>
+        <td>6</td>
+        <td>Chhattisgarh</td>
+        <td>Bijapur</td>
+                    <td>
+              78,801            </td>
+            <td>
+              114,929            </td>
+            <td>
+              1.46            </td>
+                        <td>
+              83,166            </td>
+            <td>
+              190,500            </td>
+            <td>
+              2.29            </td>
+            
+      </tr>
+            <tr>
+        <td>7</td>
+        <td>Chhattisgarh</td>
+        <td>Bilaspur</td>
+                    <td>
+              185,740            </td>
+            <td>
+              471,107            </td>
+            <td>
+              2.54            </td>
+                        <td>
+              182,696            </td>
+            <td>
+              619,212            </td>
+            <td>
+              3.39            </td>
+            
+      </tr>
+            <tr>
+        <td>8</td>
+        <td>Chhattisgarh</td>
+        <td>Dantewada</td>
+                    <td>
+              71,200            </td>
+            <td>
+              101,916            </td>
+            <td>
+              1.43            </td>
+                        <td>
+              70,549            </td>
+            <td>
+              140,290            </td>
+            <td>
+              1.99            </td>
+            
+      </tr>
+            <tr>
+        <td>9</td>
+        <td>Chhattisgarh</td>
+        <td>Dhamtari</td>
+                    <td>
+              183,228            </td>
+            <td>
+              503,439            </td>
+            <td>
+              2.75            </td>
+                        <td>
+              183,208            </td>
+            <td>
+              598,203            </td>
+            <td>
+              3.27            </td>
+            
+      </tr>
+            <tr>
+        <td>10</td>
+        <td>Chhattisgarh</td>
+        <td>Durg</td>
+                    <td>
+              142,153            </td>
+            <td>
+              329,279            </td>
+            <td>
+              2.32            </td>
+                        <td>
+              139,432            </td>
+            <td>
+              398,262            </td>
+            <td>
+              2.86            </td>
+            
+      </tr>
+            <tr>
+        <td>11</td>
+        <td>Chhattisgarh</td>
+        <td>Gariyaband</td>
+                    <td>
+              145,319            </td>
+            <td>
+              272,430            </td>
+            <td>
+              1.87            </td>
+                        <td>
+              144,374            </td>
+            <td>
+              375,024            </td>
+            <td>
+              2.60            </td>
+            
+      </tr>
+            <tr>
+        <td>12</td>
+        <td>Chhattisgarh</td>
+        <td>Gaurella-pendra-marwahi</td>
+                    <td>
+              59,047            </td>
+            <td>
+              143,522            </td>
+            <td>
+              2.43            </td>
+                        <td>
+              60,920            </td>
+            <td>
+              223,073            </td>
+            <td>
+              3.66            </td>
+            
+      </tr>
+            <tr>
+        <td>13</td>
+        <td>Chhattisgarh</td>
+        <td>Janjgir-champa</td>
+                    <td>
+              283,850            </td>
+            <td>
+              857,623            </td>
+            <td>
+              3.02            </td>
+                        <td>
+              155,463            </td>
+            <td>
+              493,337            </td>
+            <td>
+              3.17            </td>
+            
+      </tr>
+            <tr>
+        <td>14</td>
+        <td>Chhattisgarh</td>
+        <td>Jashpur</td>
+                    <td>
+              186,144            </td>
+            <td>
+              211,996            </td>
+            <td>
+              1.14            </td>
+                        <td>
+              170,756            </td>
+            <td>
+              287,493            </td>
+            <td>
+              1.68            </td>
+            
+      </tr>
+            <tr>
+        <td>15</td>
+        <td>Chhattisgarh</td>
+        <td>Kabirdham</td>
+                    <td>
+              133,626            </td>
+            <td>
+              171,824            </td>
+            <td>
+              1.29            </td>
+                        <td>
+              133,437            </td>
+            <td>
+              284,508            </td>
+            <td>
+              2.13            </td>
+            
+      </tr>
+            <tr>
+        <td>16</td>
+        <td>Chhattisgarh</td>
+        <td>Kanker</td>
+                    <td>
+              182,160            </td>
+            <td>
+              286,207            </td>
+            <td>
+              1.57            </td>
+                        <td>
+              187,210            </td>
+            <td>
+              529,577            </td>
+            <td>
+              2.83            </td>
+            
+      </tr>
+            <tr>
+        <td>17</td>
+        <td>Chhattisgarh</td>
+        <td>Khairgarh chhuikhadan gandai</td>
+                    <td>
+                          </td>
+            <td>
+                          </td>
+            <td>
+                          </td>
+                        <td>
+              86,164            </td>
+            <td>
+              166,721            </td>
+            <td>
+              1.93            </td>
+            
+      </tr>
+            <tr>
+        <td>18</td>
+        <td>Chhattisgarh</td>
+        <td>Kondagaon</td>
+                    <td>
+              111,686            </td>
+            <td>
+              142,187            </td>
+            <td>
+              1.27            </td>
+                        <td>
+              113,779            </td>
+            <td>
+              242,443            </td>
+            <td>
+              2.13            </td>
+            
+      </tr>
+            <tr>
+        <td>19</td>
+        <td>Chhattisgarh</td>
+        <td>Korba</td>
+                    <td>
+              113,411            </td>
+            <td>
+              150,046            </td>
+            <td>
+              1.32            </td>
+                        <td>
+              114,823            </td>
+            <td>
+              235,542            </td>
+            <td>
+              2.05            </td>
+            
+      </tr>
+            <tr>
+        <td>20</td>
+        <td>Chhattisgarh</td>
+        <td>Korea</td>
+                    <td>
+              75,972            </td>
+            <td>
+              107,610            </td>
+            <td>
+              1.42            </td>
+                        <td>
+              41,495            </td>
+            <td>
+              62,142            </td>
+            <td>
+              1.50            </td>
+            
+      </tr>
+            <tr>
+        <td>21</td>
+        <td>Chhattisgarh</td>
+        <td>Mahasamund</td>
+                    <td>
+              289,110            </td>
+            <td>
+              470,059            </td>
+            <td>
+              1.63            </td>
+                        <td>
+              294,357            </td>
+            <td>
+              626,688            </td>
+            <td>
+              2.13            </td>
+            
+      </tr>
+            <tr>
+        <td>22</td>
+        <td>Chhattisgarh</td>
+        <td>Manendragarh chirimiri bharatpur</td>
+                    <td>
+                          </td>
+            <td>
+                          </td>
+            <td>
+                          </td>
+                        <td>
+              34,551            </td>
+            <td>
+              51,299            </td>
+            <td>
+              1.48            </td>
+            
+      </tr>
+            <tr>
+        <td>23</td>
+        <td>Chhattisgarh</td>
+        <td>Mohla manpur ambagarh chouki</td>
+                    <td>
+                          </td>
+            <td>
+                          </td>
+            <td>
+                          </td>
+                        <td>
+              82,369            </td>
+            <td>
+              155,572            </td>
+            <td>
+              1.89            </td>
+            
+      </tr>
+            <tr>
+        <td>24</td>
+        <td>Chhattisgarh</td>
+        <td>Mungeli</td>
+                    <td>
+              129,501            </td>
+            <td>
+              244,219            </td>
+            <td>
+              1.89            </td>
+                        <td>
+              130,074            </td>
+            <td>
+              301,490            </td>
+            <td>
+              2.32            </td>
+            
+      </tr>
+            <tr>
+        <td>25</td>
+        <td>Chhattisgarh</td>
+        <td>Narayanpur</td>
+                    <td>
+              21,854            </td>
+            <td>
+              26,721            </td>
+            <td>
+              1.22            </td>
+                        <td>
+              22,488            </td>
+            <td>
+              42,932            </td>
+            <td>
+              1.91            </td>
+            
+      </tr>
+            <tr>
+        <td>26</td>
+        <td>Chhattisgarh</td>
+        <td>Raigarh</td>
+                    <td>
+              238,712            </td>
+            <td>
+              393,033            </td>
+            <td>
+              1.65            </td>
+                        <td>
+              164,249            </td>
+            <td>
+              440,678            </td>
+            <td>
+              2.68            </td>
+            
+      </tr>
+            <tr>
+        <td>27</td>
+        <td>Chhattisgarh</td>
+        <td>Raipur</td>
+                    <td>
+              172,678            </td>
+            <td>
+              506,956            </td>
+            <td>
+              2.94            </td>
+                        <td>
+              173,459            </td>
+            <td>
+              604,190            </td>
+            <td>
+              3.48            </td>
+            
+      </tr>
+            <tr>
+        <td>28</td>
+        <td>Chhattisgarh</td>
+        <td>Rajnandgaon</td>
+                    <td>
+              352,622            </td>
+            <td>
+              649,508            </td>
+            <td>
+              1.84            </td>
+                        <td>
+              185,611            </td>
+            <td>
+              358,544            </td>
+            <td>
+              1.93            </td>
+            
+      </tr>
+            <tr>
+        <td>29</td>
+        <td>Chhattisgarh</td>
+        <td>Sakti</td>
+                    <td>
+                          </td>
+            <td>
+                          </td>
+            <td>
+                          </td>
+                        <td>
+              124,017            </td>
+            <td>
+              375,235            </td>
+            <td>
+              3.03            </td>
+            
+      </tr>
+            <tr>
+        <td>30</td>
+        <td>Chhattisgarh</td>
+        <td>Sarangarh bilaigarh</td>
+                    <td>
+                          </td>
+            <td>
+                          </td>
+            <td>
+                          </td>
+                        <td>
+              106,006            </td>
+            <td>
+              264,183            </td>
+            <td>
+              2.49            </td>
+            
+      </tr>
+            <tr>
+        <td>31</td>
+        <td>Chhattisgarh</td>
+        <td>Sukma</td>
+                    <td>
+              88,672            </td>
+            <td>
+              158,427            </td>
+            <td>
+              1.79            </td>
+                        <td>
+              89,813            </td>
+            <td>
+              250,656            </td>
+            <td>
+              2.79            </td>
+            
+      </tr>
+            <tr>
+        <td>32</td>
+        <td>Chhattisgarh</td>
+        <td>Surajpur</td>
+                    <td>
+              115,008            </td>
+            <td>
+              184,742            </td>
+            <td>
+              1.61            </td>
+                        <td>
+              117,241            </td>
+            <td>
+              267,329            </td>
+            <td>
+              2.28            </td>
+            
+      </tr>
+            <tr>
+        <td>33</td>
+        <td>Chhattisgarh</td>
+        <td>Surguja</td>
+                    <td>
+              115,588            </td>
+            <td>
+              187,443            </td>
+            <td>
+              1.62            </td>
+                        <td>
+              115,110            </td>
+            <td>
+              264,479            </td>
+            <td>
+              2.30            </td>
+            
+      </tr>
+      
+</tbody>
+</table>

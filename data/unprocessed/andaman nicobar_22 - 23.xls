@@ -1,0 +1,59 @@
+ <table border="2px" id="apyreport" class="table table-hover table-bordered text-center">
+<thead>
+
+<tr>
+  <th rowspan="2">S.No.</th>
+  <th rowspan="2">State</th>
+  <th rowspan="2">District</th>
+        <th colspan="3">2022 - 2023</th>
+      </tr>
+<tr>
+      <th>Area( Ha. )</th>
+    <th>Production
+       (Tonnes)       </th>
+    <th>Yield
+ (Ton./Ha.)    </th>
+    
+
+</tr>
+</thead>
+<tbody>
+        <tr>
+        <td>1</td>
+        <td>Andaman and Nicobar Islands</td>
+        <td>Nicobars</td>
+                    <td>
+              1            </td>
+            <td>
+              1            </td>
+            <td>
+              1.26            </td>
+            
+      </tr>
+            <tr>
+        <td>2</td>
+        <td>Andaman and Nicobar Islands</td>
+        <td>North and middle andaman</td>
+                    <td>
+              4,915            </td>
+            <td>
+              10,369            </td>
+            <td>
+              2.11            </td>
+            
+      </tr>
+            <tr>
+        <td>3</td>
+        <td>Andaman and Nicobar Islands</td>
+        <td>South andamans</td>
+                    <td>
+              74            </td>
+            <td>
+              153            </td>
+            <td>
+              2.08            </td>
+            
+      </tr>
+      
+</tbody>
+</table>

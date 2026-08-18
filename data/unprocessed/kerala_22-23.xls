@@ -1,0 +1,281 @@
+ <table border="2px" id="apyreport" class="table table-hover table-bordered text-center">
+<thead>
+
+<tr>
+  <th rowspan="2">S.No.</th>
+  <th rowspan="2">State</th>
+  <th rowspan="2">District</th>
+        <th colspan="3">2021 - 2022</th>
+            <th colspan="3">2022 - 2023</th>
+      </tr>
+<tr>
+      <th>Area( Ha. )</th>
+    <th>Production
+       (Tonnes)       </th>
+    <th>Yield
+ (Ton./Ha.)    </th>
+        <th>Area( Ha. )</th>
+    <th>Production
+       (Tonnes)       </th>
+    <th>Yield
+ (Ton./Ha.)    </th>
+    
+
+</tr>
+</thead>
+<tbody>
+        <tr>
+        <td>1</td>
+        <td>Kerala</td>
+        <td>Alappuzha</td>
+                    <td>
+              36,528            </td>
+            <td>
+              93,193            </td>
+            <td>
+              2.55            </td>
+                        <td>
+              38,908            </td>
+            <td>
+              120,161            </td>
+            <td>
+              3.09            </td>
+            
+      </tr>
+            <tr>
+        <td>2</td>
+        <td>Kerala</td>
+        <td>Ernakulam</td>
+                    <td>
+              4,723            </td>
+            <td>
+              10,473            </td>
+            <td>
+              2.22            </td>
+                        <td>
+              4,622            </td>
+            <td>
+              11,349            </td>
+            <td>
+              2.46            </td>
+            
+      </tr>
+            <tr>
+        <td>3</td>
+        <td>Kerala</td>
+        <td>Idukki</td>
+                    <td>
+              488            </td>
+            <td>
+              919            </td>
+            <td>
+              1.88            </td>
+                        <td>
+              362            </td>
+            <td>
+              925            </td>
+            <td>
+              2.55            </td>
+            
+      </tr>
+            <tr>
+        <td>4</td>
+        <td>Kerala</td>
+        <td>Kannur</td>
+                    <td>
+              5,253            </td>
+            <td>
+              11,136            </td>
+            <td>
+              2.12            </td>
+                        <td>
+              3,702            </td>
+            <td>
+              8,523            </td>
+            <td>
+              2.30            </td>
+            
+      </tr>
+            <tr>
+        <td>5</td>
+        <td>Kerala</td>
+        <td>Kasaragod</td>
+                    <td>
+              2,983            </td>
+            <td>
+              6,219            </td>
+            <td>
+              2.08            </td>
+                        <td>
+              2,285            </td>
+            <td>
+              5,137            </td>
+            <td>
+              2.25            </td>
+            
+      </tr>
+            <tr>
+        <td>6</td>
+        <td>Kerala</td>
+        <td>Kollam</td>
+                    <td>
+              1,892            </td>
+            <td>
+              4,228            </td>
+            <td>
+              2.24            </td>
+                        <td>
+              1,794            </td>
+            <td>
+              4,329            </td>
+            <td>
+              2.41            </td>
+            
+      </tr>
+            <tr>
+        <td>7</td>
+        <td>Kerala</td>
+        <td>Kottayam</td>
+                    <td>
+              18,547            </td>
+            <td>
+              50,362            </td>
+            <td>
+              2.72            </td>
+                        <td>
+              17,984            </td>
+            <td>
+              55,711            </td>
+            <td>
+              3.10            </td>
+            
+      </tr>
+            <tr>
+        <td>8</td>
+        <td>Kerala</td>
+        <td>Kozhikode</td>
+                    <td>
+              1,834            </td>
+            <td>
+              2,420            </td>
+            <td>
+              1.32            </td>
+                        <td>
+              1,619            </td>
+            <td>
+              2,271            </td>
+            <td>
+              1.40            </td>
+            
+      </tr>
+            <tr>
+        <td>9</td>
+        <td>Kerala</td>
+        <td>Malappuram</td>
+                    <td>
+              9,813            </td>
+            <td>
+              31,355            </td>
+            <td>
+              3.20            </td>
+                        <td>
+              9,596            </td>
+            <td>
+              33,660            </td>
+            <td>
+              3.51            </td>
+            
+      </tr>
+            <tr>
+        <td>10</td>
+        <td>Kerala</td>
+        <td>Palakkad</td>
+                    <td>
+              76,504            </td>
+            <td>
+              243,385            </td>
+            <td>
+              3.18            </td>
+                        <td>
+              73,401            </td>
+            <td>
+              234,166            </td>
+            <td>
+              3.19            </td>
+            
+      </tr>
+            <tr>
+        <td>11</td>
+        <td>Kerala</td>
+        <td>Pathanamthitta</td>
+                    <td>
+              3,525            </td>
+            <td>
+              8,554            </td>
+            <td>
+              2.43            </td>
+                        <td>
+              3,615            </td>
+            <td>
+              11,958            </td>
+            <td>
+              3.31            </td>
+            
+      </tr>
+            <tr>
+        <td>12</td>
+        <td>Kerala</td>
+        <td>Thiruvananthapuram</td>
+                    <td>
+              1,842            </td>
+            <td>
+              4,442            </td>
+            <td>
+              2.41            </td>
+                        <td>
+              1,716            </td>
+            <td>
+              4,287            </td>
+            <td>
+              2.50            </td>
+            
+      </tr>
+            <tr>
+        <td>13</td>
+        <td>Kerala</td>
+        <td>Thrissur</td>
+                    <td>
+              23,659            </td>
+            <td>
+              72,603            </td>
+            <td>
+              3.07            </td>
+                        <td>
+              22,868            </td>
+            <td>
+              78,408            </td>
+            <td>
+              3.43            </td>
+            
+      </tr>
+            <tr>
+        <td>14</td>
+        <td>Kerala</td>
+        <td>Wayanad</td>
+                    <td>
+              8,144            </td>
+            <td>
+              22,809            </td>
+            <td>
+              2.80            </td>
+                        <td>
+              7,700            </td>
+            <td>
+              21,797            </td>
+            <td>
+              2.83            </td>
+            
+      </tr>
+      
+</tbody>
+</table>

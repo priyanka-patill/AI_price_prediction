@@ -1,0 +1,50 @@
+# Official Data Sources Configuration
+agmarknet:
+  base_url: "https://api.data.gov.in/resource"
+  resource_id_prices: "9ef84268-d588-465a-a308-a864a43d0070"
+  resource_id_varieties: "354b3e47-1531-4771-96c3-1815e1ed4fbf"
+  enabled: true
+  commodities:
+    rice: "Rice"
+    paddy: "Paddy(Common)"
+  date_min: "2024-01-01"
+  date_max: "2026-07-31"
+
+open_meteo_weather:
+  geocoding_url: "https://geocoding-api.open-meteo.com/v1/search"
+  archive_url: "https://archive-api.open-meteo.com/v1/archive"
+  provider: "Open-Meteo Historical Weather API & Geocoding API"
+  api_key_required: false
+  enabled: true
+  date_min: "2024-01-01"
+  date_max: "2026-07-31"
+  location_cache: "data/metadata/location_coordinates.csv"
+  variables:
+    - "precipitation_sum"
+    - "temperature_2m_mean"
+    - "temperature_2m_max"
+    - "temperature_2m_min"
+    - "soil_moisture_0_to_7cm_mean"
+    - "et0_fao_evapotranspiration"
+
+procurement:
+  source_name: "Department of Food & Public Distribution (DFPD) / FCI"
+  enabled: true
+  marketing_years:
+    - "2021-22"
+    - "2022-23"
+    - "2023-24"
+    - "2024-25"
+    - "2025-26"
+
+msp:
+  source_name: "Ministry of Agriculture & Farmers Welfare / DFPD"
+  enabled: true
+
+buffer_stock:
+  source_name: "Food Corporation of India (FCI) Central Pool"
+  enabled: true
+
+allocation:
+  source_name: "DFPD Public Distribution System (PDS/NFSA)"
+  enabled: true
