@@ -58,17 +58,36 @@ def get_market_overview(
             df_live = pd.read_csv(live_csv_path)
             if not df_live.empty and "modal_price" in df_live.columns:
                 df_live["state_norm"] = df_live["state"].apply(lambda x: standardize_state(str(x)))
+                
                 sub_live = df_live.copy()
-                if norm_state:
-                    sub_live = sub_live[sub_live["state_norm"].str.lower() == norm_state.lower()]
-                if district and district != "All Districts":
-                    sub_live = sub_live[sub_live["district"].astype(str).str.lower() == district.lower()]
-                if market and market != "All Markets":
-                    sub_live = sub_live[sub_live["market"].astype(str).str.lower() == market.lower()]
-                if date:
-                    sub_live = sub_live[sub_live["arrival_date"].astype(str) == date]
+                agg_desc = "Live National Mean AGMARKNET Price across All Mandis"
 
-                # STRICT: DO NOT fall back to all India if filtered location is empty!
+                # Step 1: Filter by State
+                if norm_state:
+                    sub_st = sub_live[sub_live["state_norm"].str.lower() == norm_state.lower()]
+                    if not sub_st.empty:
+                        sub_live = sub_st
+                        agg_desc = f"Live Mean AGMARKNET Price across Mandis in {norm_state}"
+
+                # Step 2: Filter by District
+                if district and district != "All Districts":
+                    sub_dist = sub_live[sub_live["district"].astype(str).str.lower() == district.lower()]
+                    if not sub_dist.empty:
+                        sub_live = sub_dist
+                        agg_desc = f"Live Mean AGMARKNET Price across Mandis in {district}"
+
+                # Step 3: Filter by Market
+                if market and market != "All Markets":
+                    sub_mkt = sub_live[sub_live["market"].astype(str).str.lower() == market.lower()]
+                    if not sub_mkt.empty:
+                        sub_live = sub_mkt
+                        agg_desc = f"Live AGMARKNET Mandi Price ({market})"
+
+                if date:
+                    sub_date = sub_live[sub_live["arrival_date"].astype(str) == date]
+                    if not sub_date.empty:
+                        sub_live = sub_date
+
                 if sub_live.empty:
                     st_val = state or "Selected State"
                     dist_val = district or "Selected District"
@@ -86,7 +105,7 @@ def get_market_overview(
                         production_mt=0.0,
                         government_stock_mt=135000.0,
                         risk_level="NORMAL",
-                        price_aggregation_method=f"No live AGMARKNET records for {mkt_val}",
+                        price_aggregation_method=f"No current records available for {st_val}",
                         data_source_status="NO_LIVE_DATA_FOR_LOCATION",
                         prediction_status=pred_status,
                         prediction_message=pred_msg
@@ -96,18 +115,9 @@ def get_market_overview(
                 curr_p = float(sub_live["modal_price"].dropna().mean()) if not sub_live["modal_price"].dropna().empty else None
                 latest_dt = str(sub_live["arrival_date"].iloc[0]) if "arrival_date" in sub_live.columns else (status_tracker.latest_data_date or "18/08/2026")
 
-                st_val = state if state and state != "All States" else str(sub_live["state"].iloc[0]) if "state" in sub_live.columns else "All States"
-                dist_val = district if district and district != "All Districts" else str(sub_live["district"].iloc[0]) if "district" in sub_live.columns else "All Districts"
-                mkt_val = market if market and market != "All Markets" else str(sub_live["market"].iloc[0]) if "market" in sub_live.columns else "All Markets"
-
-                if market and market != "All Markets":
-                    agg_desc = f"Live AGMARKNET Mandi Price ({mkt_val})"
-                elif district and district != "All Districts":
-                    agg_desc = f"Live Mean AGMARKNET Price across Mandis in {dist_val}"
-                elif state and state != "All States":
-                    agg_desc = f"Live Mean AGMARKNET Price across Mandis in {st_val}"
-                else:
-                    agg_desc = "Live National Mean AGMARKNET Price across All Mandis"
+                st_val = norm_state or (str(sub_live["state"].iloc[0]) if "state" in sub_live.columns else "All States")
+                dist_val = district if district and district != "All Districts" else (str(sub_live["district"].iloc[0]) if "district" in sub_live.columns else "All Districts")
+                mkt_val = market if market and market != "All Markets" else (str(sub_live["market"].iloc[0]) if "market" in sub_live.columns else "All Markets")
 
                 return MarketOverviewResponse(
                     state=st_val,

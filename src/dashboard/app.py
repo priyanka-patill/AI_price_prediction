@@ -403,26 +403,42 @@ with col_map:
 
 with col_shap:
     st.markdown("### 4. Why is the Price Changing? (SHAP)")
-    sub_shap = shap_df[shap_df["forecast_horizon"] == f"{selected_horizon}D"].head(6) if not shap_df.empty and "forecast_horizon" in shap_df.columns else pd.DataFrame()
     
-    if not sub_shap.empty and "shap_value_rs" in sub_shap.columns and "feature" in sub_shap.columns:
-        sub_shap = sub_shap.sort_values(by="shap_value_rs")
-        sub_shap["color"] = np.where(sub_shap["shap_value_rs"] >= 0, "Upward Pressure", "Downward Pressure")
+    shap_params = {
+        "state": None if selected_state == "All States" else selected_state,
+        "district": None if selected_dist == "All Districts" else selected_dist,
+        "market": None if selected_market == "All Markets" else selected_market,
+        "horizon": selected_horizon
+    }
+    shap_api_res = fetch_api("/api/explain", params=shap_params)
+    
+    sub_shap = pd.DataFrame()
+    if shap_api_res and shap_api_res.get("features"):
+        sub_shap = pd.DataFrame(shap_api_res["features"])
+    elif not shap_df.empty:
+        sub_shap = shap_df.head(6)
+
+    if not sub_shap.empty:
+        feat_col = "feature" if "feature" in sub_shap.columns else "feature_name"
+        val_col = "shap_value" if "shap_value" in sub_shap.columns else "shap_value_rs"
+        
+        sub_shap = sub_shap.sort_values(by=val_col)
+        sub_shap["color"] = np.where(sub_shap[val_col] >= 0, "Upward Pressure", "Downward Pressure")
         
         fig_shap = px.bar(
             sub_shap,
-            x="shap_value_rs",
-            y="feature",
+            x=val_col,
+            y=feat_col,
             orientation="h",
             color="color",
             color_discrete_map={"Upward Pressure": "#2ca02c", "Downward Pressure": "#d62728"},
-            title=f"Feature Contributions to {selected_horizon}D Model Prediction (₹/Qtl)"
+            title=f"Feature Contributions to {selected_horizon}D Model Prediction ({selected_state})"
         )
         fig_shap.update_layout(template="plotly_dark", height=380, xaxis_title="SHAP Value Contribution (₹/Qtl)")
         st.plotly_chart(fig_shap, use_container_width=True)
         st.caption("⚠️ **Disclaimer**: SHAP values quantify relative feature attribution toward model prediction and should not be interpreted as physical proof of causal impact.")
     else:
-        st.info("SHAP explanations loading.")
+        st.info(f"SHAP feature attributions loading for {selected_state}.")
 
 st.markdown("---")
 
