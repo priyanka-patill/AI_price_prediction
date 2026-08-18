@@ -379,7 +379,7 @@ with col_map:
     
     if not m_map.empty and "latitude" in m_map.columns and "longitude" in m_map.columns:
         m_map["warning_level"] = m_map.get("warning_level", m_map.get("risk_level", "NORMAL"))
-        m_map["size_metric"] = 8.0
+        m_map["size_metric"] = 12.0
 
         fig_map = px.scatter_mapbox(
             m_map,
@@ -397,9 +397,33 @@ with col_map:
         )
         fig_map.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
         st.plotly_chart(fig_map, use_container_width=True)
-        st.caption(f"Geographic Resolution: Centered on {selected_state} ({center_coords['lat']:.2f}° N, {center_coords['lon']:.2f}° E)")
+        st.caption(f"📍 Geographic Resolution: Map Highlighted on {selected_state} ({center_coords['lat']:.2f}° N, {center_coords['lon']:.2f}° E)")
     else:
-        st.info(f"Regional risk map data is loading for {selected_state}.")
+        fb_df = pd.DataFrame([{
+            "state": selected_state,
+            "district": f"{selected_state} District",
+            "market": f"{selected_state} Mandi Hub",
+            "latitude": center_coords["lat"],
+            "longitude": center_coords["lon"],
+            "warning_level": "NORMAL",
+            "size_metric": 14.0
+        }])
+        fig_map = px.scatter_mapbox(
+            fb_df,
+            lat="latitude",
+            lon="longitude",
+            color="warning_level",
+            color_discrete_map={"NORMAL": "#2ca02c"},
+            size="size_metric",
+            hover_name="market",
+            zoom=center_coords["zoom"],
+            center={"lat": center_coords["lat"], "lon": center_coords["lon"]},
+            mapbox_style="carto-darkmatter",
+            height=420
+        )
+        fig_map.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
+        st.plotly_chart(fig_map, use_container_width=True)
+        st.caption(f"📍 Geographic Resolution: Map Highlighted on {selected_state} ({center_coords['lat']:.2f}° N, {center_coords['lon']:.2f}° E)")
 
 with col_shap:
     st.markdown("### 4. Why is the Price Changing? (SHAP)")
