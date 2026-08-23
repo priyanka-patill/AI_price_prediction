@@ -165,6 +165,8 @@ st.sidebar.image("https://img.icons8.com/color/96/wheat.png", width=64)
 st.sidebar.title("Rice Price Intelligence")
 st.sidebar.markdown("---")
 
+selected_commodity = st.sidebar.selectbox("Commodity", ["Rice (White/Parboiled)", "Paddy (Dhan)"], index=0)
+
 ALL_INDIAN_STATES = [
     "Andhra Pradesh", "Assam", "Bihar", "Chhattisgarh", "Gujarat", "Haryana",
     "Himachal Pradesh", "Jharkhand", "Karnataka", "Kerala", "Madhya Pradesh",
