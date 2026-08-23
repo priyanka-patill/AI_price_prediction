@@ -36,78 +36,116 @@ def get_market_overview(
 ):
     live_csv_path = "data/processed/live_market_latest.csv"
     ew_path = "data/processed/early_warning.csv"
-    data_path = "data/processed/feature_engineered_modelling_dataset.parquet"
+    fe_path = "data/processed/feature_engineered_modelling_dataset.parquet"
 
     norm_state = standardize_state(state) if state and state != "All States" else None
+    norm_dist = district.strip() if district and district != "All Districts" else None
+    norm_mkt = market.strip() if market and market != "All Markets" else None
 
-    # Determine live price first
-    is_live_ready = os.path.exists(live_csv_path)
     curr_p = None
-    agg_desc = "Live National Mean AGMARKNET Price across All Mandis"
-    sub_live = pd.DataFrame()
+    agg_desc = "National Mean AGMARKNET Price across All Mandis"
     data_src_status = "FALLBACK"
+    latest_dt = status_tracker.latest_data_date or "19/08/2026"
 
-    if is_live_ready:
+    # Step 1: Attempt strict live data filtering
+    if os.path.exists(live_csv_path):
         try:
             df_live = pd.read_csv(live_csv_path)
             if not df_live.empty and "modal_price" in df_live.columns:
                 df_live["state_norm"] = df_live["state"].apply(lambda x: standardize_state(str(x)))
                 sub_live = df_live.copy()
 
-                # Step 1: Filter by State
                 if norm_state:
-                    sub_st = sub_live[sub_live["state_norm"].str.lower() == norm_state.lower()]
-                    if not sub_st.empty:
-                        sub_live = sub_st
-                        agg_desc = f"Live AGMARKNET Rice Price across {norm_state} Mandis"
-
-                # Step 2: Filter by District
-                if district and district != "All Districts":
-                    sub_dist = sub_live[sub_live["district"].astype(str).str.lower() == district.lower()]
-                    if not sub_dist.empty:
-                        sub_live = sub_dist
-                        agg_desc = f"Live AGMARKNET Rice Price across {district} District Mandis"
-
-                # Step 3: Filter by Market
-                if market and market != "All Markets":
-                    sub_mkt = sub_live[sub_live["market"].astype(str).str.lower() == market.lower()]
-                    if not sub_mkt.empty:
-                        sub_live = sub_mkt
-                        agg_desc = f"Live AGMARKNET Rice Price at {market} Mandi"
+                    sub_live = sub_live[sub_live["state_norm"].str.lower() == norm_state.lower()]
+                if norm_dist and not sub_live.empty:
+                    sub_live = sub_live[sub_live["district"].astype(str).str.lower() == norm_dist.lower()]
+                if norm_mkt and not sub_live.empty:
+                    sub_live = sub_live[sub_live["market"].astype(str).str.lower() == norm_mkt.lower()]
 
                 if not sub_live.empty:
                     sub_live["modal_price"] = pd.to_numeric(sub_live["modal_price"], errors="coerce")
-                    curr_p = float(sub_live["modal_price"].dropna().mean()) if not sub_live["modal_price"].dropna().empty else None
-                    data_src_status = "LIVE"
+                    valid_prices = sub_live["modal_price"].dropna()
+                    if not valid_prices.empty:
+                        curr_p = float(valid_prices.mean())
+                        data_src_status = "LIVE"
+                        if norm_mkt:
+                            agg_desc = f"Live AGMARKNET Rice Price at {norm_mkt} Mandi"
+                        elif norm_dist:
+                            agg_desc = f"Live AGMARKNET Rice Price across {norm_dist} District Mandis"
+                        elif norm_state:
+                            agg_desc = f"Live AGMARKNET Rice Price across {norm_state} Mandis"
+                        else:
+                            agg_desc = "Live National Mean AGMARKNET Price across All Mandis"
 
-                print(f"[MarketOverviewRoute] Filter Request: State='{norm_state}', District='{district}', Market='{market}'")
-                print(f"[MarketOverviewRoute] Live Records Matched: {len(sub_live)} | Computed Price: Rs.{curr_p} | Desc: {agg_desc}")
+                        if "arrival_date" in sub_live.columns and not sub_live["arrival_date"].empty:
+                            latest_dt = str(sub_live["arrival_date"].iloc[0])
         except Exception as e:
             print(f"[MarketOverviewRoute] Notice querying live market dataset: {e}")
 
-    # Fallback to early warning dataset if live price was not found
+    # Step 2: Fallback to Early Warning dataset if live price for this location is unavailable
     if curr_p is None and os.path.exists(ew_path):
         try:
             df_ew = pd.read_csv(ew_path)
-            if "state" in df_ew.columns:
-                df_ew["state_norm"] = df_ew["state"].apply(lambda x: standardize_state(str(x)))
-            sub_ew = df_ew.copy()
-            if norm_state:
-                sub_st = sub_ew[sub_ew["state_norm"].str.lower() == norm_state.lower()]
-                if not sub_st.empty:
-                    sub_ew = sub_st
-            if not sub_ew.empty and "current_price" in sub_ew.columns:
-                curr_p = float(pd.to_numeric(sub_ew["current_price"], errors="coerce").dropna().mean())
-                agg_desc = f"Historical Mean Rice Price for {norm_state or 'All States'}"
-        except Exception:
-            pass
+            if not df_ew.empty and "current_price" in df_ew.columns:
+                if "state" in df_ew.columns:
+                    df_ew["state_norm"] = df_ew["state"].apply(lambda x: standardize_state(str(x)))
+                sub_ew = df_ew.copy()
+                if norm_state:
+                    sub_ew = sub_ew[sub_ew["state_norm"].str.lower() == norm_state.lower()]
+                if norm_dist and not sub_ew.empty:
+                    sub_ew = sub_ew[sub_ew["district"].astype(str).str.lower() == norm_dist.lower()]
+                if norm_mkt and not sub_ew.empty:
+                    sub_ew = sub_ew[sub_ew["market"].astype(str).str.lower() == norm_mkt.lower()]
 
-    # Call ML forecaster with effective current_price for state-specific inference
+                if not sub_ew.empty:
+                    valid_prices = pd.to_numeric(sub_ew["current_price"], errors="coerce").dropna()
+                    if not valid_prices.empty:
+                        curr_p = float(valid_prices.mean())
+                        data_src_status = "HISTORICAL_BASELINE"
+                        if norm_mkt:
+                            agg_desc = f"Historical Mean Rice Price at {norm_mkt} Mandi"
+                        elif norm_dist:
+                            agg_desc = f"Historical Mean Rice Price across {norm_dist} District Mandis"
+                        elif norm_state:
+                            agg_desc = f"Historical Mean Rice Price for {norm_state}"
+                        else:
+                            agg_desc = "Historical National Mean Rice Price across All Mandis"
+
+                        if "date" in sub_ew.columns and not sub_ew["date"].empty:
+                            latest_dt = str(sub_ew["date"].iloc[-1])
+        except Exception as e:
+            print(f"[MarketOverviewRoute] Notice querying early warning dataset: {e}")
+
+    # Step 3: Fallback to Feature Engineered dataset if still None
+    if curr_p is None and os.path.exists(fe_path):
+        try:
+            df_fe = pd.read_parquet(fe_path)
+            if not df_fe.empty and "price_rs_per_qtl" in df_fe.columns:
+                if "state" in df_fe.columns:
+                    df_fe["state_norm"] = df_fe["state"].apply(lambda x: standardize_state(str(x)))
+                sub_fe = df_fe.copy()
+                if norm_state:
+                    sub_fe = sub_fe[sub_fe["state_norm"].str.lower() == norm_state.lower()]
+                if norm_dist and not sub_fe.empty:
+                    sub_fe = sub_fe[sub_fe["district"].astype(str).str.lower() == norm_dist.lower()]
+                if norm_mkt and not sub_fe.empty:
+                    sub_fe = sub_fe[sub_fe["market"].astype(str).str.lower() == norm_mkt.lower()]
+
+                if not sub_fe.empty:
+                    valid_prices = pd.to_numeric(sub_fe["price_rs_per_qtl"], errors="coerce").dropna()
+                    if not valid_prices.empty:
+                        curr_p = float(valid_prices.mean())
+                        data_src_status = "HISTORICAL_BASELINE"
+                        agg_desc = f"Historical Modeling Price for {norm_state or 'All States'}"
+        except Exception as e:
+            print(f"[MarketOverviewRoute] Notice querying feature dataset: {e}")
+
+    # Call ML forecaster with location parameters and location price
     forecaster = LightGBMForecaster()
     lgb_pred_res = forecaster.predict_location_prices(
         state=norm_state,
-        district=district,
-        market=market,
+        district=norm_dist,
+        market=norm_mkt,
         current_price=curr_p
     )
 
@@ -118,10 +156,9 @@ def get_market_overview(
     p15d = lgb_pred_res.get("predicted_price_15d")
     p30d = lgb_pred_res.get("predicted_price_30d")
 
-    st_val = norm_state or (str(sub_live["state"].iloc[0]) if not sub_live.empty and "state" in sub_live.columns else "All States")
-    dist_val = district if district and district != "All Districts" else (str(sub_live["district"].iloc[0]) if not sub_live.empty and "district" in sub_live.columns else "All Districts")
-    mkt_val = market if market and market != "All Markets" else (str(sub_live["market"].iloc[0]) if not sub_live.empty and "market" in sub_live.columns else "All Markets")
-    latest_dt = str(sub_live["arrival_date"].iloc[0]) if not sub_live.empty and "arrival_date" in sub_live.columns else (status_tracker.latest_data_date or "18/08/2026")
+    st_val = norm_state or "All States"
+    dist_val = norm_dist or "All Districts"
+    mkt_val = norm_mkt or "All Markets"
 
     return MarketOverviewResponse(
         state=st_val,
@@ -136,8 +173,8 @@ def get_market_overview(
         production_mt=0.0,
         government_stock_mt=135000.0,
         risk_level="NORMAL",
-        price_aggregation_method=agg_desc if curr_p is not None else f"No current records available for {st_val}",
-        data_source_status=data_src_status if curr_p is not None else "NO_LIVE_DATA_FOR_LOCATION",
+        price_aggregation_method=agg_desc if curr_p is not None else f"No price records available for {st_val}",
+        data_source_status=data_src_status if curr_p is not None else "NO_DATA_FOR_LOCATION",
         prediction_status=pred_status,
         prediction_message=pred_msg
     )
