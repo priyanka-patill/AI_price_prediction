@@ -294,6 +294,48 @@ else:
     )
 
 # -------------------------------------------------------------
+# INTERACTIVE LOCATION FILTERS (MOBILE & DESKTOP COMPATIBLE)
+# -------------------------------------------------------------
+with st.container():
+    st.markdown("#### 📍 Select State & Location Filters")
+    fcol1, fcol2, fcol3, fcol4 = st.columns(4)
+    with fcol1:
+        selected_commodity = st.selectbox("Commodity", ["Rice (White/Parboiled)", "Paddy (Dhan)"], index=0, key="main_commodity_sel")
+    with fcol2:
+        selected_state = st.selectbox("State", ["All States"] + state_list, key="main_state_sel")
+
+    # Dynamic district list based on selected state
+    if selected_state != "All States":
+        d_res = fetch_api("/api/districts", params={"state": selected_state})
+        if d_res:
+            dist_list = d_res
+        else:
+            df_state = df_loc[df_loc["state"].astype(str).str.lower() == selected_state.lower()]
+            dist_list = sorted(df_state["district"].dropna().unique()) if not df_state.empty else []
+    else:
+        dist_list = sorted(df_loc["district"].dropna().unique()) if not df_loc.empty and "district" in df_loc.columns else []
+
+    with fcol3:
+        selected_dist = st.selectbox("District", ["All Districts"] + dist_list, key="main_dist_sel")
+
+    # Dynamic market list based on selected district
+    if selected_state != "All States":
+        m_res = fetch_api("/api/markets", params={"state": selected_state, "district": selected_dist})
+        if m_res:
+            mkt_list = m_res
+        else:
+            df_dist = df_loc[(df_loc["state"].astype(str).str.lower() == selected_state.lower()) & (df_loc["district"].astype(str).str.lower() == selected_dist.lower())] if selected_dist != "All Districts" else df_loc[df_loc["state"].astype(str).str.lower() == selected_state.lower()]
+            mkt_list = sorted(df_dist["market"].dropna().unique()) if not df_dist.empty else []
+    else:
+        mkt_list = sorted(df_loc["market"].dropna().unique()) if not df_loc.empty and "market" in df_loc.columns else []
+
+    with fcol4:
+        selected_market = st.selectbox("Market", ["All Markets"] + mkt_list, key="main_market_sel")
+
+    selected_horizon = st.radio("Forecast Horizon", [7, 15, 30], index=0, format_func=lambda h: f"{h} Days Ahead", horizontal=True, key="main_horizon_sel")
+    st.markdown("---")
+
+# -------------------------------------------------------------
 # SECTION 1: MARKET OVERVIEW KPI CARDS
 # -------------------------------------------------------------
 st.markdown("### 1. Market Overview & Supply Signals")
