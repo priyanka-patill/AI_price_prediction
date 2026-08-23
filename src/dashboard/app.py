@@ -126,7 +126,7 @@ def validate_risk_map_schema(ew_df: pd.DataFrame, coords_df: pd.DataFrame) -> bo
     coords_cols = set(coords_df.columns)
     return {"state", "district"}.issubset(ew_cols) and {"state", "district"}.issubset(coords_cols)
 
-@st.cache_data(ttl=3600)
+@st.cache_data(ttl=60)
 def load_local_fallback():
     ew_path = "data/processed/early_warning.csv"
     fc_path = "data/processed/forecasts.csv"
@@ -179,16 +179,22 @@ if os.path.exists(live_csv_path):
 else:
     df_loc = ew_df.copy()
 
-# Dynamic State Discovery from API with full All-India fallback
+# Guaranteed All-India State Discovery
+discovered_states = set(ALL_INDIAN_STATES)
 states_res = fetch_api("/api/states")
-if states_res:
-    state_list = states_res
-else:
-    discovered_states = set(ALL_INDIAN_STATES)
-    if not df_loc.empty and "state" in df_loc.columns:
-        for s in df_loc["state"].dropna().unique():
-            discovered_states.add(standardize_state(str(s)))
-    state_list = sorted(list(discovered_states))
+if states_res and isinstance(states_res, list):
+    for s in states_res:
+        discovered_states.add(standardize_state(str(s)))
+
+if not df_loc.empty and "state" in df_loc.columns:
+    for s in df_loc["state"].dropna().unique():
+        discovered_states.add(standardize_state(str(s)))
+
+if not ew_df.empty and "state" in ew_df.columns:
+    for s in ew_df["state"].dropna().unique():
+        discovered_states.add(standardize_state(str(s)))
+
+state_list = sorted(list(discovered_states))
 
 if "prev_state" not in st.session_state:
     st.session_state["prev_state"] = "All States"
