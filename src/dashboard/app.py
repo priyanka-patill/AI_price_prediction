@@ -33,6 +33,14 @@ st.set_page_config(
 # Custom Design Styling
 st.markdown("""
 <style>
+    #MainMenu {visibility: hidden; display: none !important;}
+    header {visibility: hidden; display: none !important;}
+    footer {visibility: hidden; display: none !important;}
+    [data-testid="stToolbar"] {visibility: hidden; display: none !important;}
+    [data-testid="stHeader"] {visibility: hidden; display: none !important;}
+    [data-testid="stDecoration"] {visibility: hidden; display: none !important;}
+    .stDeployButton {display: none !important;}
+
     .metric-card {
         background-color: #1e222d;
         border-radius: 8px;
