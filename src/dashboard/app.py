@@ -145,21 +145,30 @@ st.sidebar.image("https://img.icons8.com/color/96/wheat.png", width=64)
 st.sidebar.title("Rice Price Intelligence")
 st.sidebar.markdown("---")
 
-selected_commodity = st.sidebar.selectbox("Commodity", ["Rice (White/Parboiled)", "Paddy (Dhan)"], index=0)
+ALL_INDIAN_STATES = [
+    "Andhra Pradesh", "Assam", "Bihar", "Chhattisgarh", "Gujarat", "Haryana",
+    "Himachal Pradesh", "Jharkhand", "Karnataka", "Kerala", "Madhya Pradesh",
+    "Maharashtra", "Meghalaya", "Odisha", "Punjab", "Rajasthan", "Tamil Nadu",
+    "Telangana", "Tripura", "Uttar Pradesh", "Uttarakhand", "West Bengal"
+]
 
 live_csv_path = "data/processed/live_market_latest.csv"
-if os.path.exists(live_csv_path) and data_status.get("mandi_status") == "LIVE":
+if os.path.exists(live_csv_path):
     df_loc = pd.read_csv(live_csv_path)
     df_loc = normalize_geo_columns(df_loc)
 else:
     df_loc = ew_df.copy()
 
-# Dynamic State Discovery from API
+# Dynamic State Discovery from API with full All-India fallback
 states_res = fetch_api("/api/states")
 if states_res:
     state_list = states_res
 else:
-    state_list = sorted(df_loc["state"].dropna().unique()) if not df_loc.empty and "state" in df_loc.columns else []
+    discovered_states = set(ALL_INDIAN_STATES)
+    if not df_loc.empty and "state" in df_loc.columns:
+        for s in df_loc["state"].dropna().unique():
+            discovered_states.add(standardize_state(str(s)))
+    state_list = sorted(list(discovered_states))
 
 if "prev_state" not in st.session_state:
     st.session_state["prev_state"] = "All States"
