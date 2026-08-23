@@ -15,13 +15,33 @@ import plotly.graph_objects as go
 import streamlit as st
 from src.utils.geo import standardize_state, get_state_center, STATE_COORDINATES
 
-# Configurable Backend Connections (Supports Port 8000 and 8001 automatically)
-DEFAULT_BACKEND_URLS = [
-    os.getenv("BACKEND_URL", "http://localhost:8000"),
-    "http://localhost:8001",
-    "http://127.0.0.1:8000",
-    "http://127.0.0.1:8001"
-]
+def get_backend_urls():
+    urls = []
+    try:
+        if "BACKEND_URL" in st.secrets:
+            urls.append(st.secrets["BACKEND_URL"])
+    except Exception:
+        pass
+    env_url = os.getenv("BACKEND_URL")
+    if env_url:
+        urls.append(env_url)
+    urls.extend([
+        "https://ai-price-prediction-5bqg.onrender.com",
+        "http://localhost:8000",
+        "http://localhost:8001",
+        "http://127.0.0.1:8000"
+    ])
+    seen = set()
+    res = []
+    for u in urls:
+        clean_u = u.rstrip("/") if u else ""
+        if clean_u and clean_u not in seen:
+            seen.add(clean_u)
+            res.append(clean_u)
+    return res
+
+# Configurable Backend Connections
+DEFAULT_BACKEND_URLS = get_backend_urls()
 
 st.set_page_config(
     page_title="AI Price Intelligence & Buffer Stock Decision Support",
@@ -59,10 +79,10 @@ st.markdown("""
 # -------------------------------------------------------------
 def fetch_api(endpoint: str, params: dict = None) -> any:
     """Fetch JSON response from backend with fallback discovery."""
-    for base in DEFAULT_BACKEND_URLS:
+    for base in get_backend_urls():
         try:
             url = f"{base}{endpoint}"
-            resp = requests.get(url, params=params, timeout=4)
+            resp = requests.get(url, params=params, timeout=5)
             if resp.status_code == 200:
                 return resp.json()
         except Exception:
@@ -71,7 +91,7 @@ def fetch_api(endpoint: str, params: dict = None) -> any:
 
 def trigger_realtime_sync(commodity: str = "Rice") -> any:
     """Trigger on-demand API fetch."""
-    for base in DEFAULT_BACKEND_URLS:
+    for base in get_backend_urls():
         try:
             url = f"{base}/api/sync-realtime-data"
             resp = requests.post(url, params={"commodity": commodity}, timeout=15)
