@@ -54,12 +54,24 @@ st.set_page_config(
 st.markdown("""
 <style>
     #MainMenu {visibility: hidden; display: none !important;}
-    header {visibility: hidden; display: none !important;}
     footer {visibility: hidden; display: none !important;}
     [data-testid="stToolbar"] {visibility: hidden; display: none !important;}
-    [data-testid="stHeader"] {visibility: hidden; display: none !important;}
     [data-testid="stDecoration"] {visibility: hidden; display: none !important;}
     .stDeployButton {display: none !important;}
+
+    /* Keep mobile sidebar toggle button (arrow) visible */
+    [data-testid="stHeader"] {
+        background: transparent !important;
+        z-index: 999999 !important;
+    }
+    [data-testid="stSidebarCollapseButton"] {
+        visibility: visible !important;
+        display: flex !important;
+    }
+    button[data-testid="baseButton-header"] {
+        visibility: visible !important;
+        display: flex !important;
+    }
 
     .metric-card {
         background-color: #1e222d;
